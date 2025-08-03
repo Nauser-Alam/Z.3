@@ -1,429 +1,206 @@
 ////////////////////////////////////////////  H  T   M   L  /////////////////////////////////////////////////
 
-const DistributedComputing = [
-  {
-    question: "What is a characteristic feature of a distributed system?",
-    answers: [
-      { text: "Centralized control", correct: false },
-      { text: "Shared memory among processors", correct: false },
-      { text: "Message passing between nodes", correct: true },
-      { text: "No communication among nodes", correct: false },
-    ],
-  },
-  {
-    question: "In distributed computing, each computational entity has:",
-    answers: [
-      { text: "Shared global memory", correct: false },
-      { text: "No memory", correct: false },
-      { text: "Local memory", correct: true },
-      { text: "Unlimited processing power", correct: false },
-    ],
-  },
+const Paper1 = [
   {
     question:
-      "Which of the following is NOT an example of a distributed system?",
+      "Which of the following statements about the National Film Awards is correct?",
     answers: [
-      { text: "ATM network", correct: false },
-      { text: "Internet", correct: false },
-      { text: "Workgroup-based intranet", correct: false },
-      { text: "A single standalone computer", correct: true },
-    ],
-  },
-  {
-    question:
-      "What is the main method of communication between entities in distributed computing?",
-    answers: [
-      { text: "Pointers", correct: false },
-      { text: "Shared variables", correct: false },
-      { text: "Message passing", correct: true },
-      { text: "Remote desktop", correct: false },
-    ],
-  },
-  {
-    question: "What is fault tolerance in distributed systems?",
-    answers: [
-      { text: "The system crashes when one node fails", correct: false },
-      { text: "One node controls all others", correct: false },
-      { text: "System continues working despite node failures", correct: true },
-      { text: "No node failures are allowed", correct: false },
-    ],
-  },
-  {
-    question: "In distributed systems, each node typically has:",
-    answers: [
-      { text: "A complete view of the system", correct: false },
-      { text: "A partial view of the system", correct: true },
-      { text: "No access to resources", correct: false },
-      { text: "Master control over others", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following describes load sharing in distributed computing?",
-    answers: [
-      { text: "One node processes all data", correct: false },
-      { text: "Work is sent to one specific node", correct: false },
-      { text: "Tasks are distributed among multiple nodes", correct: true },
-      { text: "All nodes are idle", correct: false },
-    ],
-  },
-  {
-    question: "Which feature of distributed systems helps in scalability?",
-    answers: [
-      { text: "Central management", correct: false },
-      { text: "Expensive hardware", correct: false },
-      { text: "Easy to add nodes with little time", correct: true },
-      { text: "Fixed node structure", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is an example of a computing-intensive application?",
-    answers: [
-      { text: "Sending an email", correct: false },
-      { text: "Browsing websites", correct: false },
-      { text: "Monte Carlo simulation to compute Pi", correct: true },
-      { text: "Opening a Word document", correct: false },
-    ],
-  },
-  {
-    question:
-      "What kind of application is Facebook’s data processing an example of?",
-    answers: [
-      { text: "Memory-intensive", correct: false },
-      { text: "Graphics-intensive", correct: false },
-      { text: "Data-intensive", correct: true },
-      { text: "Delay-sensitive", correct: false },
-    ],
-  },
-  {
-    question: "What does SPOF stand for in distributed computing?",
-    answers: [
-      { text: "Single Path of Failure", correct: false },
-      { text: "Single Point of Failure", correct: true },
-      { text: "Shared Process of Fault", correct: false },
-      { text: "Secondary Power Of Function", correct: false },
-    ],
-  },
-  {
-    question: "Which computing model came first historically?",
-    answers: [
-      { text: "Grid computing", correct: false },
-      { text: "Distributed computing", correct: false },
-      { text: "Centralized computing", correct: true },
-      { text: "Cloud computing", correct: false },
-    ],
-  },
-  {
-    question: "In centralized computing, computing was done using:",
-    answers: [
-      { text: "Cloud servers", correct: false },
-      { text: "Distributed nodes", correct: false },
-      { text: "A single processor", correct: true },
-      { text: "Multiple personal devices", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is true about distributed computing?",
-    answers: [
-      { text: "All nodes share one global memory", correct: false },
-      { text: "All processing is done on one mainframe", correct: false },
+      { text: "They were initially called National Awards", correct: false },
       {
-        text: "Nodes operate independently and communicate via messages",
+        text: "They started in 1954 for films released in 1953",
         correct: true,
       },
-      { text: "There is no need for inter-node communication", correct: false },
+      { text: "They are administered by CBFC", correct: false },
+      { text: "They have only one section – Feature Films", correct: false },
+    ],
+  },
+  {
+    question: "Who administers the National Film Awards in India?",
+    answers: [
+      { text: "Central Board of Film Certification", correct: false },
+      { text: "Ministry of Culture", correct: false },
+      { text: "Directorate of Film Festivals", correct: true },
+      { text: "National School of Drama", correct: false },
     ],
   },
   {
     question:
-      "Which of the following is NOT a property of distributed computing?",
+      "The Directorate of Film Festivals functions under which ministry?",
     answers: [
-      { text: "Resource sharing", correct: false },
-      { text: "Load balancing", correct: false },
-      { text: "Central memory access", correct: true },
-      { text: "Fault tolerance", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is true about cluster computing?",
-    answers: [
-      { text: "It requires a cloud setup", correct: false },
-      { text: "It is always used in gaming", correct: false },
-      {
-        text: "It connects multiple computers to work together like one",
-        correct: true,
-      },
-      { text: "It is limited to mobile devices only", correct: false },
-    ],
-  },
-  {
-    question: "What is utility computing?",
-    answers: [
-      { text: "Computing provided at public utility offices", correct: false },
-      { text: "Electricity-based computing", correct: false },
-      { text: "Pay-as-you-go computing model", correct: true },
-      { text: "Free computing service", correct: false },
-    ],
-  },
-  {
-    question: "Grid computing is best described as:",
-    answers: [
-      {
-        text: "A virtual supercomputer using loosely connected systems",
-        correct: true,
-      },
-      { text: "Computing only done on mobile devices", correct: false },
-      { text: "A type of spreadsheet computation", correct: false },
-      { text: "Centralized high-speed processing", correct: false },
+      { text: "Ministry of Culture", correct: false },
+      { text: "Ministry of Information and Broadcasting", correct: true },
+      { text: "Ministry of Tourism", correct: false },
+      { text: "Ministry of Education", correct: false },
     ],
   },
   {
     question:
-      "Which of the following is NOT commonly part of a distributed system setup?",
+      "Which of the following is NOT a section of the National Film Awards?",
     answers: [
-      { text: "Workstations", correct: false },
-      { text: "Server systems", correct: false },
-      { text: "Personal Assistance Devices", correct: false },
-      { text: "Floppy drives", correct: true },
+      { text: "Feature Films", correct: false },
+      { text: "Non-Feature Films", correct: false },
+      { text: "Best Writing on Cinema", correct: false },
+      { text: "International Films", correct: true },
     ],
   },
   {
     question:
-      "What makes distributed computing suitable for parallel computing?",
+      "BlueBird satellite, to be launched by ISRO, is developed by which company?",
     answers: [
-      { text: "All tasks are done serially", correct: false },
-      { text: "No inter-node communication", correct: false },
-      { text: "Tasks can be processed concurrently", correct: true },
-      { text: "It cannot handle large-scale computation", correct: false },
-    ],
-  },
-];
-
-//    S  ////////////////////////////////////////////////////////////////
-const GridComputing = [
-  {
-    question: "What is Grid Computing primarily used for?",
-    answers: [
-      { text: "Browsing the web", correct: false },
-      { text: "Gaming applications", correct: false },
-      {
-        text: "Harnessing unused processing cycles across networks",
-        correct: true,
-      },
-      { text: "Designing websites", correct: false },
+      { text: "SpaceX", correct: false },
+      { text: "AST SpaceMobile", correct: true },
+      { text: "OneWeb", correct: false },
+      { text: "Amazon Kuiper", correct: false },
     ],
   },
   {
-    question:
-      "Which company describes Grid Computing as virtualization of distributed computing and data resources?",
-    answers: [
-      { text: "Pcwebopedia", correct: false },
-      { text: "IBM", correct: true },
-      { text: "Sun Microsystems", correct: false },
-      { text: "Intel", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following best represents Grid Computing as per Sun Microsystems?",
-    answers: [
-      { text: "A system for fast internet access", correct: false },
-      {
-        text: "A distributed computing infrastructure with reliable, consistent access to capabilities",
-        correct: true,
-      },
-      { text: "A software development tool", correct: false },
-      { text: "A gaming network", correct: false },
-    ],
-  },
-  {
-    question:
-      "What does the Electrical Power Grid analogy in Grid Computing represent?",
-    answers: [
-      { text: "Electricity is used only at power plants", correct: false },
-      {
-        text: "Resources are accessed without knowing their source or nature",
-        correct: true,
-      },
-      { text: "Users must know the source of electricity", correct: false },
-      { text: "Only renewable sources are used", correct: false },
-    ],
-  },
-  {
-    question: "What do users access in a computing grid environment?",
-    answers: [
-      { text: "Only files and documents", correct: false },
-      {
-        text: "Computing resources such as processors and storage",
-        correct: true,
-      },
-      { text: "Social media platforms", correct: false },
-      { text: "E-commerce services", correct: false },
-    ],
-  },
-  {
-    question: "Grid computing supports sharing of:",
-    answers: [
-      { text: "Only emails", correct: false },
-      { text: "Data, computing power, and applications", correct: true },
-      { text: "Web links", correct: false },
-      { text: "User passwords", correct: false },
-    ],
-  },
-  {
-    question: "What is a virtual organization in grid computing?",
-    answers: [
-      { text: "A local club", correct: false },
-      {
-        text: "A set of people from many institutions working to solve a problem",
-        correct: true,
-      },
-      { text: "A fake online business", correct: false },
-      { text: "A computer virus", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is NOT a reason for using Grid Computing?",
-    answers: [
-      {
-        text: "Scientific and Engineering problems need precise solutions",
-        correct: false,
-      },
-      { text: "Games run faster", correct: true },
-      { text: "Experimental methods are costly", correct: false },
-      { text: "Need for better data visualization", correct: false },
-    ],
-  },
-  {
-    question:
-      "What kind of resources does Grid Computing help utilize efficiently?",
-    answers: [
-      { text: "Unused or underutilized computing resources", correct: true },
-      { text: "Brand new CPUs", correct: false },
-      { text: "Expensive servers only", correct: false },
-      { text: "Cloud-hosted files", correct: false },
-    ],
-  },
-  {
-    question: "Which application is least likely to use Grid Computing?",
+    question: "What is the primary purpose of the BlueBird satellite?",
     answers: [
       { text: "Weather forecasting", correct: false },
-      { text: "Reactor simulations", correct: false },
-      { text: "Music playlist curation", correct: true },
-      { text: "Material characterization", correct: false },
+      { text: "Direct-to-device mobile broadband services", correct: true },
+      { text: "Earth observation", correct: false },
+      { text: "Military surveillance", correct: false },
+    ],
+  },
+  {
+    question: "The Gaganyaan mission aims to achieve which of the following?",
+    answers: [
+      { text: "India's first Moon landing", correct: false },
+      { text: "India's first Mars mission", correct: false },
+      { text: "India's first human spaceflight", correct: true },
+      { text: "India's first reusable launch vehicle", correct: false },
     ],
   },
   {
     question:
-      "Which type of grid provides high throughput and secure access to shared processing power?",
+      "NISAR mission is a collaboration between ISRO and which space agency?",
     answers: [
-      { text: "Computational Grid", correct: true },
-      { text: "Data Grid", correct: false },
-      { text: "Collaboration Grid", correct: false },
-      { text: "Network Grid", correct: false },
+      { text: "NASA", correct: true },
+      { text: "ESA", correct: false },
+      { text: "Roscosmos", correct: false },
+      { text: "JAXA", correct: false },
     ],
   },
   {
-    question: "What does a Data Grid primarily support?",
+    question: "What was the cause of PSLV-C61/EOS-09 mission failure?",
     answers: [
-      { text: "Gaming data sharing", correct: false },
-      { text: "Data storage, discovery, and manipulation", correct: true },
-      { text: "Programming IDEs", correct: false },
-      { text: "Document formatting", correct: false },
+      { text: "Malfunction in the payload", correct: false },
+      { text: "Anomaly in the third stage of the rocket", correct: true },
+      { text: "Failure of ground communication systems", correct: false },
+      { text: "Fuel leakage in the second stage", correct: false },
     ],
   },
   {
-    question: "What is the purpose of a Collaboration Grid?",
+    question: "Which of the following orbits is associated with EOS-09?",
     answers: [
-      { text: "Secure payment systems", correct: false },
+      { text: "Geostationary Orbit", correct: false },
+      { text: "Sun-Synchronous Polar Orbit", correct: true },
+      { text: "Medium Earth Orbit", correct: false },
+      { text: "Highly Elliptical Orbit", correct: false },
+    ],
+  },
+  {
+    question:
+      "The India-Middle East-Europe Economic Corridor (IMEC) was announced during which summit?",
+    answers: [
+      { text: "BRICS Summit 2023", correct: false },
+      { text: "G20 Summit 2023", correct: true },
+      { text: "ASEAN Summit 2023", correct: false },
+      { text: "WTO Ministerial 2023", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following infrastructure components are included in IMEC?",
+    answers: [
       {
-        text: "Supporting remote collaboration for joint projects",
+        text: "Electricity cables, hydrogen pipelines, and high-speed data cables",
         correct: true,
       },
-      { text: "Bluetooth file transfer", correct: false },
-      { text: "Video editing", correct: false },
+      { text: "Only roads and railways", correct: false },
+      { text: "Only sea ports and airports", correct: false },
+      { text: "Nuclear power transmission lines", correct: false },
     ],
   },
   {
-    question:
-      "Which grid type works as a data router between two communication points?",
+    question: "Which of the following countries is NOT a member of IMEC?",
     answers: [
-      { text: "Utility Grid", correct: false },
-      { text: "Computational Grid", correct: false },
-      { text: "Network Grid", correct: true },
-      { text: "Data Grid", correct: false },
+      { text: "India", correct: false },
+      { text: "United States", correct: false },
+      { text: "Saudi Arabia", correct: false },
+      { text: "China", correct: true },
     ],
   },
   {
-    question:
-      "Which grid type offers software and special equipment as services?",
+    question: "Which of the following ports is part of IMEC?",
     answers: [
-      { text: "Utility Grid", correct: true },
-      { text: "Network Grid", correct: false },
-      { text: "Data Grid", correct: false },
-      { text: "Computational Grid", correct: false },
+      { text: "Port of Shanghai", correct: false },
+      { text: "Port of Haifa", correct: true },
+      { text: "Chabahar Port", correct: false },
+      { text: "Hambantota Port", correct: false },
     ],
   },
   {
-    question: "What is the ultimate goal of Utility Grid computing?",
+    question: "Digital sovereignty refers to:",
     answers: [
-      { text: "Speeding up music downloads", correct: false },
+      { text: "Control over political boundaries", correct: false },
       {
-        text: "Running applications and sharing software across devices",
+        text: "Control over digital infrastructure and data policies",
         correct: true,
       },
-      { text: "Installing desktop widgets", correct: false },
-      { text: "Developing mobile apps", correct: false },
-    ],
-  },
-  {
-    question: "How is transparency achieved in grid computing?",
-    answers: [
-      { text: "By hiding passwords", correct: false },
-      {
-        text: "Through seamless interaction with underlying layers",
-        correct: true,
-      },
-      { text: "By encrypting everything", correct: false },
-      { text: "By logging user behavior", correct: false },
-    ],
-  },
-  {
-    question: "What kind of user interaction is expected in Grid Computing?",
-    answers: [
-      { text: "Direct hardware configuration", correct: false },
-      { text: "Knowledge of backend systems", correct: false },
-      { text: "Minimal awareness of backend resources", correct: true },
-      { text: "Frequent maintenance of network cables", correct: false },
+      { text: "Control over oil and gas reserves", correct: false },
+      { text: "Control over land reforms", correct: false },
     ],
   },
   {
     question:
-      "Which of the following is an example of a problem domain suited for Grid Computing?",
+      "Which of the following concessions did India make in its FTA with the UK?",
     answers: [
-      { text: "Blogging", correct: false },
-      { text: "Crystallography and natural disaster modeling", correct: true },
-      { text: "Text messaging", correct: false },
-      { text: "Spreadsheet calculations", correct: false },
+      { text: "Mandatory source code disclosure", correct: false },
+      { text: "Prohibition on demanding source code access", correct: true },
+      { text: "Ban on open government data", correct: false },
+      { text: "Unrestricted data localisation", correct: false },
     ],
   },
   {
     question:
-      "What is one major benefit of using Grid Computing in scientific research?",
+      "Which global initiative on mangrove conservation was launched at COP27?",
     answers: [
-      { text: "Faster cooking", correct: false },
-      { text: "Reduced need for expensive experiments", correct: true },
-      { text: "High internet speed", correct: false },
-      { text: "User entertainment", correct: false },
+      { text: "Mangrove Action Plan", correct: false },
+      { text: "Mangrove Alliance for Climate", correct: true },
+      { text: "Blue Carbon Pact", correct: false },
+      { text: "Global Coastal Initiative", correct: false },
+    ],
+  },
+  {
+    question: "Which state in India has the largest mangrove forest?",
+    answers: [
+      { text: "Odisha", correct: false },
+      { text: "Gujarat", correct: false },
+      { text: "West Bengal", correct: true },
+      { text: "Tamil Nadu", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following is NOT a threat to mangroves?",
+    answers: [
+      { text: "Urbanisation", correct: false },
+      { text: "Shrimp farming", correct: false },
+      { text: "Invasive species", correct: false },
+      { text: "Mangrove afforestation programmes", correct: true },
+    ],
+  },
+  {
+    question:
+      "The legal basis for Special Intensive Revision (SIR) of electoral rolls is provided under which Act?",
+    answers: [
+      { text: "Representation of the People Act, 1950", correct: true },
+      { text: "Representation of the People Act, 1951", correct: false },
+      { text: "Delimitation Act, 2002", correct: false },
+      { text: "Citizenship Act, 1955", correct: false },
     ],
   },
 ];
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-//////////////////////  Cluster and Utility Computing ///////////////
 const Cluster_Utility_Computing = [
   {
     question: "What is Cluster Computing?",
@@ -6717,8 +6494,8 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("ee1").addEventListener("change", function () {
     selectedValue = this.value;
 
-    if (selectedValue === "HTML") {
-      Questions = HTML;
+    if (selectedValue === "Paper1") {
+      Questions = Paper1;
     } else if (selectedValue === "GridComputing") {
       Questions = GridComputing;
     } else if (selectedValue === "DistributedComputing") {
