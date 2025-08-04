@@ -418,335 +418,296 @@ const Cluster_Utility_Computing = [
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-///////////////////////////////////////////////  CLOUD COMPUTING  ///////////////////////////////////////////////////////////////
-const Cloud_Computing = [
+///////////////////////////////////////////////  Weekly Compilation  ///////////////////////////////////////////////////////////////
+const Paper2 = [
   {
-    question: "How does NIST define cloud computing?",
+    question:
+      "Who developed the ULPGM (UAV-Launched Precision Guided Munition)?",
     answers: [
-      {
-        text: "A network infrastructure model for high-speed access",
-        correct: false,
-      },
-      {
-        text: "A model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources",
-        correct: true,
-      },
-      {
-        text: "A protocol for secure data storage",
-        correct: false,
-      },
-      {
-        text: "A type of physical server for enterprise applications",
-        correct: false,
-      },
+      { text: "ISRO", correct: false },
+      { text: "DRDO", correct: true },
+      { text: "HAL", correct: false },
+      { text: "BEML", correct: false },
     ],
   },
   {
     question:
-      "Which of the following is an essential characteristic of cloud computing?",
+      "Which edition of Startup20 was launched in Johannesburg under South Africa’s G20 Presidency?",
     answers: [
-      { text: "Centralized desktop access", correct: false },
-      { text: "On-demand self-service", correct: true },
-      { text: "Manual service provisioning", correct: false },
-      { text: "Single-tenant architecture", correct: false },
+      { text: "First", correct: false },
+      { text: "Second", correct: false },
+      { text: "Third", correct: true },
+      { text: "Fourth", correct: false },
     ],
   },
   {
-    question: "What does broad network access in cloud computing imply?",
+    question: "NavIC is India’s own navigation system covering:",
     answers: [
-      {
-        text: "Limited to high-performance systems only",
-        correct: false,
-      },
-      {
-        text: "Accessible only via desktop computers",
-        correct: false,
-      },
-      {
-        text: "Available over the network through standard mechanisms and accessible by heterogeneous clients",
-        correct: true,
-      },
-      {
-        text: "Restricted to wired connections",
-        correct: false,
-      },
+      { text: "Entire world", correct: false },
+      { text: "Only Indian landmass", correct: false },
+      { text: "India and 1,500 km around its borders", correct: true },
+      { text: "Asia-Pacific region", correct: false },
     ],
   },
   {
-    question: "What is meant by resource pooling in cloud computing?",
+    question: "Which country is testing AI-based Dynamic Targeting satellites?",
     answers: [
-      {
-        text: "Resources are dedicated to a single user only",
-        correct: false,
-      },
-      {
-        text: "Resources are grouped geographically",
-        correct: false,
-      },
-      {
-        text: "Resources are pooled to serve multiple consumers using a multi-tenant model",
-        correct: true,
-      },
-      {
-        text: "Resources are distributed across different data centers",
-        correct: false,
-      },
+      { text: "Russia", correct: false },
+      { text: "USA (NASA)", correct: true },
+      { text: "India (ISRO)", correct: false },
+      { text: "China (CNSA)", correct: false },
+    ],
+  },
+  {
+    question: "Which body governs the Coconut Development Board in India?",
+    answers: [
+      { text: "Ministry of Commerce", correct: false },
+      { text: "Ministry of Agriculture and Farmers Welfare", correct: true },
+      { text: "Ministry of Food Processing Industries", correct: false },
+      { text: "Ministry of Environment", correct: false },
+    ],
+  },
+  {
+    question: "E3 countries in the Iran nuclear talks include:",
+    answers: [
+      { text: "France, Germany, UK", correct: true },
+      { text: "USA, France, Germany", correct: false },
+      { text: "Russia, China, UK", correct: false },
+      { text: "France, UK, USA", correct: false },
     ],
   },
   {
     question:
-      "What does the 'measured service' characteristic of cloud computing mean?",
+      "Which NGO supported the revival of the Chudasidh Adavad sacred grove?",
     answers: [
-      {
-        text: "Fixed cost billing system for all users",
-        correct: false,
-      },
-      {
-        text: "Manual logging of resource usage",
-        correct: false,
-      },
-      {
-        text: "Resource usage is automatically monitored, controlled, and reported",
-        correct: true,
-      },
-      {
-        text: "Service is measured by the amount of users only",
-        correct: false,
-      },
+      { text: "SEWA", correct: false },
+      { text: "KRAPAVIS", correct: true },
+      { text: "Van Suraksha", correct: false },
+      { text: "Tarun Bharat Sangh", correct: false },
     ],
   },
   {
     question:
-      "Which characteristic allows cloud services to scale dynamically?",
+      "Which festival is associated with the Chola dynasty and Shaivism?",
     answers: [
-      { text: "Broad network access", correct: false },
-      { text: "Rapid elasticity", correct: true },
-      { text: "Measured service", correct: false },
-      { text: "Resource pooling", correct: false },
+      { text: "Aadi Thiruvathirai", correct: true },
+      { text: "Pongal", correct: false },
+      { text: "Karthigai Deepam", correct: false },
+      { text: "Navaratri", correct: false },
+    ],
+  },
+  {
+    question: "Divya Deshmukh recently became India’s:",
+    answers: [
+      { text: "First female International Master", correct: false },
+      { text: "First female Grandmaster", correct: false },
+      { text: "First woman to win FIDE Women’s World Cup", correct: true },
+      { text: "First woman to win Candidates Tournament", correct: false },
     ],
   },
   {
     question:
-      "Which of the following is NOT a common characteristic of cloud computing?",
+      "Golden Jackal (Canis aureus) is listed under which Schedule of the Wildlife Protection Act, 1972?",
     answers: [
-      { text: "Homogeneity", correct: false },
-      { text: "Massive scale", correct: false },
-      { text: "Manual provisioning", correct: true },
-      { text: "Service orientation", correct: false },
+      { text: "Schedule II", correct: false },
+      { text: "Schedule I", correct: true },
+      { text: "Schedule III", correct: false },
+      { text: "Schedule IV", correct: false },
     ],
   },
   {
-    question: "What does SaaS stand for?",
+    question: "Which of the following are features of ULPGM-V3?",
     answers: [
-      { text: "Software and Application Access Service", correct: false },
-      { text: "Software as a Service", correct: true },
-      { text: "Storage as a System", correct: false },
-      { text: "Security and Application Service", correct: false },
+      { text: "Passive homing with IIR seeker", correct: true },
+      { text: "Fire-and-forget capability", correct: true },
+      { text: "Liquid propulsion system", correct: false },
+      { text: "Range of 10 km", correct: false },
     ],
   },
   {
-    question: "Which of the following is an example of IaaS?",
+    question: "Which statements about Startup20 are correct?",
     answers: [
-      { text: "Google Sheets", correct: false },
-      { text: "Amazon EC2", correct: true },
-      { text: "Microsoft Office 365", correct: false },
-      { text: "Google Chrome", correct: false },
+      { text: "It was launched during India’s G20 Presidency", correct: true },
+      { text: "It focuses on MSMEs and startups", correct: true },
+      { text: "It is an official G20 engagement group", correct: true },
+      { text: "It started in 2018", correct: false },
     ],
   },
   {
-    question: "What is an example of a private cloud platform?",
+    question: "Which of the following services are provided by NavIC?",
     answers: [
-      { text: "Google Docs", correct: false },
-      { text: "Amazon EC2", correct: false },
-      { text: "Windows Server Hyper-V", correct: true },
-      { text: "Dropbox", correct: false },
+      { text: "Standard Positioning Service (SPS)", correct: true },
+      { text: "Restricted Service (RS)", correct: true },
+      { text: "Satellite Phone Service", correct: false },
+      { text: "Marine Navigation Service", correct: false },
     ],
   },
   {
-    question: "What defines a community cloud?",
+    question: "Dynamic Targeting satellites by NASA use AI for:",
     answers: [
-      { text: "Operated by a single private organization", correct: false },
-      {
-        text: "Shared by several organizations supporting a specific goal",
-        correct: true,
-      },
-      { text: "Accessible by the general public", correct: false },
-      { text: "Limited to government use only", correct: false },
+      { text: "Scanning real-time areas", correct: true },
+      { text: "Filtering cloudy images", correct: true },
+      { text: "Launching rockets autonomously", correct: false },
+      { text: "Repairing other satellites", correct: false },
     ],
   },
   {
-    question: "What is cloud bursting?",
+    question: "Which factors are causing coconut oil price rise?",
     answers: [
-      {
-        text: "A method to terminate cloud services abruptly",
-        correct: false,
-      },
-      {
-        text: "A technique for cleaning cloud storage",
-        correct: false,
-      },
-      {
-        text: "Load balancing between clouds in a hybrid model",
-        correct: true,
-      },
-      {
-        text: "A process of compressing cloud data",
-        correct: false,
-      },
+      { text: "El Niño-induced drought", correct: true },
+      { text: "Use of coconut oil for biodiesel", correct: true },
+      { text: "Increased sugarcane production", correct: false },
+      { text: "Aging plantations", correct: true },
     ],
   },
   {
-    question: "What is the role of hypervisors in virtualization?",
+    question: "Features of the JCPOA include:",
     answers: [
-      {
-        text: "They connect multiple servers together",
-        correct: false,
-      },
-      {
-        text: "They intercept and emulate instructions from virtual machines",
-        correct: true,
-      },
-      {
-        text: "They compress data for cloud storage",
-        correct: false,
-      },
-      {
-        text: "They manage network access",
-        correct: false,
-      },
+      { text: "Limiting Iran’s nuclear program", correct: true },
+      { text: "Sanctions relief for Iran", correct: true },
+      { text: "Automatic sanctions under Snapback mechanism", correct: true },
+      { text: "Signed only by E3 countries", correct: false },
     ],
   },
   {
-    question: "Which of the following is NOT a hypervisor?",
+    question: "Which of the following are sacred groves in India?",
     answers: [
-      { text: "KVM", correct: false },
-      { text: "Xen", correct: false },
-      { text: "VMware", correct: false },
-      { text: "Ubuntu", correct: true },
+      { text: "Chudasidh Adavad", correct: true },
+      { text: "Law Kyntang", correct: true },
+      { text: "Devrai", correct: true },
+      { text: "Kanha", correct: false },
     ],
   },
   {
     question:
-      "Which cloud model provides runtime, development tools, and operating systems?",
+      "Which statements about Kala Utsav – Artists in Residence are correct?",
     answers: [
-      { text: "IaaS", correct: false },
-      { text: "PaaS", correct: true },
-      { text: "SaaS", correct: false },
-      { text: "Hybrid", correct: false },
+      { text: "Started in 2013", correct: true },
+      { text: "Held at Rashtrapati Bhavan", correct: true },
+      { text: "Focuses only on modern art", correct: false },
+      { text: "Promotes folk and tribal art forms", correct: true },
     ],
   },
   {
-    question: "Which of the following is a benefit of using virtual machines?",
+    question: "Maritime Amrit Kaal Vision (MAKV) includes:",
     answers: [
-      { text: "Difficult software testing", correct: false },
-      { text: "Fixed hardware configurations", correct: false },
-      {
-        text: "Run operating systems where hardware is unavailable",
-        correct: true,
-      },
-      { text: "Inflexible deployment", correct: false },
-    ],
-  },
-  {
-    question: "What makes cloud computing cost-effective?",
-    answers: [
-      { text: "Unlimited bandwidth", correct: false },
-      { text: "Pay-as-you-go model and low-cost software", correct: true },
-      { text: "Dedicated IT personnel", correct: false },
-      { text: "High initial investment", correct: false },
-    ],
-  },
-  {
-    question: "Which is a disadvantage of cloud computing?",
-    answers: [
-      { text: "Improved collaboration", correct: false },
-      { text: "High-speed access", correct: false },
-      { text: "Requires constant internet connectivity", correct: true },
-      { text: "Enhanced performance", correct: false },
-    ],
-  },
-  {
-    question: "What is a virtual workspace?",
-    answers: [
-      {
-        text: "A physical setup for remote work",
-        correct: false,
-      },
-      {
-        text: "An abstraction of an execution environment dynamically available to authorized clients",
-        correct: true,
-      },
-      {
-        text: "A user-controlled desktop screen",
-        correct: false,
-      },
-      {
-        text: "An OS running directly on hardware",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What does virtualization in general allow?",
-    answers: [
-      { text: "Increased dependency on hardware", correct: false },
-      { text: "Run multiple VMs on a single physical machine", correct: true },
-      { text: "Only run one OS per machine", correct: false },
-      { text: "Limited software testing", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is NOT an advantage of virtual machines?",
-    answers: [
-      { text: "Easy backup and migration", correct: false },
-      { text: "Run legacy systems", correct: false },
-      { text: "High hardware dependency", correct: true },
-      {
-        text: "Emulate more machines than physically available",
-        correct: false,
-      },
+      { text: "Reducing port turnaround time", correct: true },
+      { text: "Bills of Lading Bill, 2025", correct: true },
+      { text: "Prohibition on FDI in shipping", correct: false },
+      { text: "Creating Maritime Development Fund", correct: true },
     ],
   },
   {
     question:
-      "Which of the following cloud types is accessible to the general public?",
+      "Which statements about International Big Cat Alliance (IBCA) are correct?",
     answers: [
-      { text: "Community cloud", correct: false },
-      { text: "Public cloud", correct: true },
-      { text: "Private cloud", correct: false },
-      { text: "Hybrid cloud", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which platform is used for cloud storage and computing by Amazon?",
-    answers: [
-      { text: "Google Cloud Platform", correct: false },
-      { text: "Amazon EC2 and S3", correct: true },
-      { text: "Microsoft Azure", correct: false },
-      { text: "Dropbox", correct: false },
-    ],
-  },
-  {
-    question: "What are the key concerns in cloud-sourcing?",
-    answers: [
-      { text: "Color themes and UI elements", correct: false },
-      { text: "Low power consumption", correct: false },
+      { text: "Launched by India", correct: true },
+      { text: "Focuses on 7 big cats", correct: true },
       {
-        text: "Performance, reliability, data control, and security",
-        correct: true,
+        text: "Membership restricted to countries with all seven cats",
+        correct: false,
       },
-      { text: "Installation of physical components", correct: false },
+      { text: "Headquarters in India", correct: true },
     ],
   },
   {
     question:
-      "Which cloud deployment model combines two or more types of clouds?",
+      "With reference to the Pralay missile, consider the following statements:\n\n1. It is a surface-to-surface missile using solid fuel.\n2. It follows a quasi-ballistic trajectory.\n3. It was jointly developed with Israel.\n\nWhich of the above statements is/are correct?",
     answers: [
-      { text: "Private cloud", correct: false },
-      { text: "Public cloud", correct: false },
-      { text: "Hybrid cloud", correct: true },
-      { text: "Community cloud", correct: false },
+      { text: "1 and 2 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Chola dynasty’s Kudavolai system, consider the following:\n\n1. It involved random selection of officials by drawing names from a pot.\n2. Candidates had to meet strict eligibility criteria.\n3. Women were allowed to contest.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to NavIC, consider the following statements:\n\n1. It uses only Geostationary satellites.\n2. It provides two types of services – SPS and RS.\n3. It covers India and 1,500 km beyond its borders.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to NISAR satellite, consider the following statements:\n\n1. It is an ISRO-NASA collaboration.\n2. It uses dual-frequency SAR for Earth observation.\n3. It will be launched by PSLV.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India’s Climate Finance Taxonomy, consider the following:\n\n1. It is a framework to define climate-aligned economic activities.\n2. It was released by the Ministry of Finance.\n3. It is a legally binding document.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Glacial Lake Outburst Floods (GLOFs), consider the following:\n\n1. Moraine-dammed lakes are highly susceptible to failure.\n2. ISRO’s Glacial Lake Atlas maps vulnerable lakes.\n3. Earthquakes and avalanches can trigger GLOFs.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: true },
+    ],
+  },
+  {
+    question:
+      "With reference to IBCA, consider the following:\n\n1. It was launched in 2023.\n2. Its model is similar to the International Solar Alliance.\n3. Membership is restricted to Asian countries only.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Environment Protection (Management of Contaminated Sites) Rules, 2025, consider the following:\n\n1. They were notified under the Environment Protection Act, 1986.\n2. Polluters will bear the remediation cost.\n3. There is no provision for criminal liability.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to RBI’s new rule on AIFs, consider the following:\n\n1. Banks can invest up to 10% of an AIF scheme individually.\n2. All regulated entities combined can invest up to 20% in a single AIF scheme.\n3. AIFs are regulated by RBI.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the proposal for recognition of Palestine by France, consider the following:\n\n1. France will become the first G7 country to recognize Palestine.\n2. India recognized Palestine as a state in 1988.\n3. Full UN membership for Palestine requires UNSC approval.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: true },
     ],
   },
 ];
@@ -6496,8 +6457,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (selectedValue === "Paper1") {
       Questions = Paper1;
-    } else if (selectedValue === "GridComputing") {
-      Questions = GridComputing;
+    } else if (selectedValue === "Paper2") {
+      Questions = Paper2;
     } else if (selectedValue === "DistributedComputing") {
       Questions = DistributedComputing;
     } else if (selectedValue === "Cluster_Utility_Computing") {
