@@ -37,6 +37,7 @@ body {
     -webkit-backdrop-filter: blur(10px);
     position: absolute;
     top: 340px;
+    margin-bottom: 100px;
 }
 
 .container h1 {
