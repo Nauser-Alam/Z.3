@@ -714,436 +714,244 @@ const Paper2 = [
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-///////////////////////////////////////////  Evolution of Cloud Computing  ////////////////////////////////////////
-const Evolution_Of_Cloud_Computing = [
+///////////////////////////////////////////  4 August 2025  ////////////////////////////////////////
+const Paper3 = [
   {
     question:
-      "Which of the following is a key business driver for adopting cloud computing?",
+      "Mithun (Bos frontalis), recently in the news, is primarily found in:",
     answers: [
-      { text: "High local IT maintenance costs", correct: true },
-      { text: "Low electricity consumption", correct: false },
-      { text: "Requirement for physical space", correct: false },
-      { text: "Need for internal software licenses", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a benefit for end users using a public cloud?",
-    answers: [
-      { text: "Dedicated physical infrastructure", correct: false },
-      { text: "Separate hardware procurement", correct: false },
-      { text: "High scalability and utilization", correct: true },
-      { text: "Limited availability", correct: false },
-    ],
-  },
-  {
-    question: "Public clouds provide high availability with SLAs around:",
-    answers: [
-      { text: "90%", correct: false },
-      { text: "99%", correct: true },
-      { text: "70%", correct: false },
-      { text: "85%", correct: false },
-    ],
-  },
-  {
-    question: "Why are public clouds cost-effective for software startups?",
-    answers: [
-      { text: "They require large upfront investments", correct: false },
-      { text: "They offer uncertain performance", correct: false },
-      { text: "They allow renting resources instead of buying", correct: true },
-      { text: "They provide static scaling", correct: false },
+      { text: "Western Ghats", correct: false },
+      { text: "Eastern Himalayas", correct: false },
+      { text: "Tropical rainforest regions of Northeast India", correct: true },
+      { text: "Indo-Gangetic plains", correct: false },
     ],
   },
   {
     question:
-      "Which organizations are working towards cloud portability standards?",
+      "Which country recently started producing and plans to deploy the Oreshnik hypersonic missile?",
     answers: [
-      { text: "World Wide Web Consortium", correct: false },
-      { text: "Cloud Computing Interoperability Forum", correct: true },
-      { text: "Internet Engineering Task Force", correct: false },
-      { text: "Cloud Security Alliance", correct: false },
-    ],
-  },
-  {
-    question: "What is a benefit of using a private cloud?",
-    answers: [
-      { text: "It requires separate power costs", correct: false },
-      { text: "Data confidentiality is preserved", correct: true },
-      { text: "It depends on internet speed", correct: false },
-      { text: "It increases hardware dependency", correct: false },
-    ],
-  },
-  {
-    question: "Which is more cost-efficient in private clouds?",
-    answers: [
-      { text: "12 servers with 1 core and 1 GB RAM", correct: false },
-      { text: "1 server with 12 cores and 12 GB RAM", correct: true },
-      { text: "Clustered physical machines", correct: false },
-      { text: "Dedicated individual servers", correct: false },
-    ],
-  },
-  {
-    question: "In the economics of PaaS vs IaaS, which is true for PaaS?",
-    answers: [
-      { text: "Requires continuous server provisioning", correct: false },
-      { text: "Costs nothing unless used", correct: true },
-      { text: "Cannot scale automatically", correct: false },
-      { text: "Manual load balancing needed", correct: false },
-    ],
-  },
-  {
-    question: "Which benefit does PaaS offer to developers?",
-    answers: [
-      { text: "Manual load balancing setup", correct: false },
-      { text: "Separate IDE licenses needed", correct: false },
-      { text: "Web-based development environment", correct: true },
-      { text: "Complex deployment process", correct: false },
-    ],
-  },
-  {
-    question: "How does SaaS reduce software costs for users?",
-    answers: [
-      { text: "By requiring dedicated servers", correct: false },
-      { text: "Through web service subscriptions", correct: true },
-      { text: "Via license-based installations", correct: false },
-      { text: "With manual software setup", correct: false },
-    ],
-  },
-  {
-    question: "Which application is an example of SaaS?",
-    answers: [
-      { text: "Amazon EC2", correct: false },
-      { text: "Google Docs", correct: true },
-      { text: "KVM hypervisor", correct: false },
-      { text: "VMware Workstation", correct: false },
+      { text: "United States", correct: false },
+      { text: "China", correct: false },
+      { text: "Russia", correct: true },
+      { text: "North Korea", correct: false },
     ],
   },
   {
     question:
-      "Which of the following is NOT a typical purpose of cloud computing in organizations?",
+      "INS Satpura, recently in news, belongs to which class of Indian Navy ships?",
     answers: [
-      { text: "Storing large files", correct: false },
-      { text: "Developing and testing software", correct: false },
-      { text: "Buying physical servers", correct: true },
-      { text: "Running e-business sites", correct: false },
+      { text: "Talwar-class", correct: false },
+      { text: "Shivalik-class", correct: true },
+      { text: "Kolkata-class", correct: false },
+      { text: "Delhi-class", correct: false },
     ],
   },
   {
     question:
-      "Which of the following is a common cloud application driving cloud adaptation?",
+      "The Red Panda is considered an indicator species for the health of which ecosystem?",
     answers: [
-      { text: "Mail and messaging", correct: true },
-      { text: "Disk defragmentation", correct: false },
-      { text: "Offline storage backup", correct: false },
-      { text: "Spreadsheet printing", correct: false },
-    ],
-  },
-  {
-    question: "What is a key advantage of private clouds?",
-    answers: [
-      { text: "Requires public infrastructure", correct: false },
-      { text: "Faster to provision virtual machines", correct: true },
-      { text: "More expensive than public cloud", correct: false },
-      { text: "Requires individual licensing", correct: false },
+      { text: "Western Ghats", correct: false },
+      { text: "Eastern Himalayan forests", correct: true },
+      { text: "Sundarbans mangroves", correct: false },
+      { text: "Arid Thar Desert", correct: false },
     ],
   },
   {
     question:
-      "Which cloud model is ideal when usage and transaction volume vary rapidly?",
+      "Which of the following countries is NOT a member of the Indo-Burma Ramsar Regional Initiative (IBRRI)?",
     answers: [
-      { text: "IaaS", correct: false },
-      { text: "Private Cloud", correct: false },
-      { text: "PaaS", correct: true },
-      { text: "Legacy Systems", correct: false },
-    ],
-  },
-  {
-    question: "Which is NOT a benefit of SaaS?",
-    answers: [
-      { text: "No need to buy software instances", correct: false },
-      { text: "Free use of certain services like Google Docs", correct: false },
-      { text: "Dedicated on-premise installations", correct: true },
-      { text: "Web-based CRM systems", correct: false },
-    ],
-  },
-  {
-    question: "Which task is commonly done on cloud by enterprises?",
-    answers: [
-      { text: "Analyzing customer data", correct: true },
-      { text: "Making office furniture", correct: false },
-      { text: "Creating physical backups", correct: false },
-      { text: "Building internal hardware", correct: false },
-    ],
-  },
-  {
-    question: "Why is cloud computing preferred for prototype development?",
-    answers: [
-      { text: "It has no internet dependency", correct: false },
-      { text: "It avoids major investments early on", correct: true },
-      { text: "It uses physical disks", correct: false },
-      { text: "It doesn't offer virtualization", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following best describes PaaS scaling?",
-    answers: [
-      { text: "Manual only", correct: false },
-      { text: "Static", correct: false },
-      { text: "Automatic", correct: true },
-      { text: "Not scalable", correct: false },
+      { text: "Cambodia", correct: false },
+      { text: "Thailand", correct: false },
+      { text: "India", correct: true },
+      { text: "Vietnam", correct: false },
     ],
   },
   {
     question:
-      "Which cloud feature helps during high demand spikes on websites?",
+      "The SEED scheme is primarily targeted at the welfare of which communities?",
     answers: [
-      { text: "Elasticity", correct: true },
-      { text: "Legacy software", correct: false },
-      { text: "Manual resource allocation", correct: false },
-      { text: "Server underutilization", correct: false },
+      { text: "Scheduled Tribes", correct: false },
+      { text: "Denotified, Nomadic, and Semi-Nomadic Tribes", correct: true },
+      { text: "Scheduled Castes", correct: false },
+      { text: "Other Backward Classes", correct: false },
     ],
   },
-];
+  {
+    question:
+      "Which Indian region has recorded the world’s highest bird mortality rate due to wind farms?",
+    answers: [
+      { text: "Western Ghats", correct: false },
+      { text: "Thar Desert", correct: true },
+      { text: "Kutch region", correct: false },
+      { text: "Eastern Coastal Plains", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following best describes a biosimilar?",
+    answers: [
+      { text: "A generic version of a chemical drug", correct: false },
+      { text: "A chemically identical copy of a biologic", correct: false },
+      {
+        text: "A biologic-like drug requiring safety and efficacy testing",
+        correct: true,
+      },
+      { text: "A synthetic hormone", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which Indian festival is associated with honoring the arrival of Mithun (Gayal) on Earth?",
+    answers: [
+      { text: "Losar", correct: false },
+      { text: "Soulung", correct: true },
+      { text: "Chapchar Kut", correct: false },
+      { text: "Wangala", correct: false },
+    ],
+  },
+  {
+    question: "The SE2000 engine, being developed by ISRO, is a:",
+    answers: [
+      { text: "Full cryogenic engine", correct: false },
+      { text: "Solid rocket booster", correct: false },
+      { text: "Semi-cryogenic engine using LOX and kerosene", correct: true },
+      { text: "Hybrid engine using solid and liquid fuel", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following statements about Red Panda are correct?",
+    answers: [
+      {
+        text: "It is classified as Endangered on IUCN Red List",
+        correct: true,
+      },
+      { text: "It is arboreal and mostly herbivorous", correct: true },
+      { text: "It naturally occurs in Western Ghats", correct: false },
+      {
+        text: "It is an indicator species for Himalayan ecosystems",
+        correct: true,
+      },
+    ],
+  },
+  {
+    question: "Which of the following are features of the Oreshnik missile?",
+    answers: [
+      { text: "Hypersonic speed up to Mach 10", correct: true },
+      {
+        text: "Can carry both nuclear and conventional warheads",
+        correct: true,
+      },
+      { text: "Range of about 500 km", correct: false },
+      { text: "Uses MIRV technology", correct: true },
+    ],
+  },
+  {
+    question:
+      "Consider the following cultural practices and their states. Which pairs are correctly matched?",
+    answers: [
+      { text: "Nangarni Spardha – Maharashtra", correct: true },
+      { text: "Kambala – Karnataka", correct: true },
+      { text: "Maramadi – Kerala", correct: true },
+      { text: "Soulung – Mizoram", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following statements about the SEED scheme are correct?",
+    answers: [
+      { text: "Provides free coaching for competitive exams", correct: true },
+      { text: "Offers health insurance and housing support", correct: true },
+      { text: "Targets SC and ST communities exclusively", correct: false },
+      {
+        text: "Launched by Ministry of Social Justice & Empowerment",
+        correct: true,
+      },
+    ],
+  },
+  {
+    question:
+      "Which of the following are true about the semi-cryogenic upgrade of ISRO’s LVM3 rocket?",
+    answers: [
+      { text: "Uses LOX and kerosene as propellants", correct: true },
+      { text: "Will increase payload capacity", correct: true },
+      { text: "Both propellants are cryogenic", correct: false },
+      { text: "Expected to be operational by 2027", correct: true },
+    ],
+  },
+  {
+    question: `With reference to the Indo-Burma Ramsar Regional Initiative (IBRRI), consider the following statements:
 
-///////////////////////////////////////// Cloud Computing Architectiure ////////////////////////////////
-const Cloud_Computing_Architecture = [
-  {
-    question:
-      "What are the major goals of the high-level architectural approach in cloud computing?",
+1. It is a Ramsar Convention initiative for wetland cooperation among five Southeast Asian countries.
+2. India and Bangladesh are members of IBRRI.
+3. The Secretariat is hosted by the IUCN Asia Office in Bangkok.
+4. Its 2025–2030 Strategic Plan aims to reverse wetland loss and promote cross-border cooperation.
+
+Which of the above statements is/are correct?`,
     answers: [
-      {
-        text: "Business goal, Quality attribute, Architectural tactics",
-        correct: true,
-      },
-      {
-        text: "Client-server setup, Load balancing, Backup management",
-        correct: false,
-      },
-      { text: "Cost reduction, Speed, Communication methods", correct: false },
-      { text: "Security, Encryption, Legal concerns", correct: false },
+      { text: "A. 1, 2 and 3 only", correct: false },
+      { text: "B. 3 and 4 only", correct: false },
+      { text: "C. 1, 3 and 4 only", correct: true },
+      { text: "D. 1, 2, 3 and 4", correct: false },
     ],
   },
   {
-    question:
-      "Which of the following is *not* a technical architecture concern in cloud computing?",
+    question: `With reference to Mithun (Bos frontalis), consider the following statements:
+
+1. It is a semi-domesticated bovine species primarily found in Northeast India.
+2. It is classified as Endangered on the IUCN Red List.
+3. It is the state animal of Arunachal Pradesh and Nagaland.
+4. It has been included under the Wildlife Protection Act, 1972.
+
+Which of the above statements is/are correct?`,
     answers: [
-      { text: "Middleware and communication", correct: false },
-      { text: "Geo-location check", correct: true },
-      { text: "Management and security", correct: false },
-      { text: "Structuring cloud services and components", correct: false },
+      { text: "A. 1, 2 and 3 only", correct: false },
+      { text: "B. 1 and 3 only", correct: true },
+      { text: "C. 2, 3 and 4 only", correct: false },
+      { text: "D. 1, 2, 3 and 4", correct: false },
     ],
   },
   {
-    question: "What does XaaS stand for?",
+    question: `With reference to wind energy projects in India, consider the following statements:
+
+1. The Thar Desert is part of the Central Asian Flyway for migratory birds.
+2. Onshore wind energy projects in India require mandatory Environmental Impact Assessments (EIAs).
+3. AVISTEP tool for bird sensitivity mapping is developed by BirdLife International.
+
+Which of the above statements is/are correct?`,
     answers: [
-      { text: "X-ray as a Service", correct: false },
-      { text: "X as a System", correct: false },
-      { text: "X as a Service", correct: true },
-      { text: "Xtra Application as a Software", correct: false },
+      { text: "A. 1 and 2 only", correct: false },
+      { text: "B. 1 and 3 only", correct: true },
+      { text: "C. 2 and 3 only", correct: false },
+      { text: "D. 1, 2 and 3", correct: false },
     ],
   },
   {
-    question: "Which of the following is the essence of cloud computing?",
+    question: `With reference to biosimilars, consider the following statements:
+
+1. They are identical chemical copies of biologic drugs.
+2. They require extensive testing unlike generics.
+3. Relaxing norms for biosimilars can improve affordability without compromising safety.
+
+Which of the above statements is/are correct?`,
     answers: [
-      { text: "Virtual Machines", correct: false },
-      { text: "SaaS", correct: false },
-      { text: "Client-server architecture", correct: false },
-      { text: "XaaS", correct: true },
+      { text: "A. 1 and 2 only", correct: false },
+      { text: "B. 2 and 3 only", correct: true },
+      { text: "C. 1 and 3 only", correct: false },
+      { text: "D. All three", correct: false },
     ],
   },
   {
-    question: "Which is an example of IaaS?",
+    question: `With reference to ISRO’s LVM3 semi-cryogenic upgrade, consider the following statements:
+
+1. The new engine SE2000 uses LOX and kerosene.
+2. Both propellants in the engine are cryogenic.
+3. The upgrade will increase payload capacity and reduce cost.
+
+Which of the above statements is/are correct?`,
     answers: [
-      { text: "Google Docs", correct: false },
-      { text: "Amazon EC2", correct: true },
-      { text: "Salesforce CRM", correct: false },
-      { text: "Gmail", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which service model provides a platform to develop and deploy applications?",
-    answers: [
-      { text: "SaaS", correct: false },
-      { text: "IaaS", correct: false },
-      { text: "PaaS", correct: true },
-      { text: "BPaaS", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the key characteristic of the client in a client-server architecture?",
-    answers: [
-      { text: "It performs load balancing", correct: false },
-      {
-        text: "It is a thin client with low computational power",
-        correct: true,
-      },
-      { text: "It acts as a database server", correct: false },
-      { text: "It manages cloud virtual machines", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which tier in the three-tier architecture handles business logic?",
-    answers: [
-      { text: "Presentation tier", correct: false },
-      { text: "Logical tier", correct: true },
-      { text: "Data tier", correct: false },
-      { text: "Client tier", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is NOT commonly delivered as a service in XaaS?",
-    answers: [
-      { text: "Storage", correct: false },
-      { text: "Firewall", correct: false },
-      { text: "Power supply", correct: true },
-      { text: "Database", correct: false },
-    ],
-  },
-  {
-    question: "Which model theoretically provides infinite scalability?",
-    answers: [
-      { text: "Client-server model", correct: false },
-      { text: "Grid computing", correct: false },
-      { text: "Cloud computing model", correct: true },
-      { text: "Cluster computing", correct: false },
-    ],
-  },
-  {
-    question: "What core technology enables scalability in cloud computing?",
-    answers: [
-      { text: "Containerization", correct: false },
-      { text: "Virtualization", correct: true },
-      { text: "Encryption", correct: false },
-      { text: "Caching", correct: false },
-    ],
-  },
-  {
-    question: "In the classical service model, what is a major disadvantage?",
-    answers: [
-      { text: "Easy replacement of layers", correct: false },
-      { text: "Cost-effective scaling", correct: false },
-      { text: "Manual operations and tight coupling", correct: true },
-      { text: "High cloud integration", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a SaaS application?",
-    answers: [
-      { text: "Amazon EC2", correct: false },
-      { text: "Salesforce CRM", correct: true },
-      { text: "Windows Server", correct: false },
-      { text: "Oracle VM", correct: false },
-    ],
-  },
-  {
-    question: "Which scenario is NOT ideal for SaaS?",
-    answers: [
-      { text: "Applications with short-term need", correct: false },
-      { text: "Real-time processing of data", correct: true },
-      { text: "Web/mobile accessible apps", correct: false },
-      { text: "Email newsletter software", correct: false },
-    ],
-  },
-  {
-    question: "What is a benefit of client-server architecture?",
-    answers: [
-      { text: "Easy infinite scaling", correct: false },
-      { text: "Simple load balancing", correct: true },
-      { text: "Full virtualization", correct: false },
-      { text: "Supports complex service models", correct: false },
-    ],
-  },
-  {
-    question: "What does a Cloud Service Provider (CSP) aim to increase?",
-    answers: [
-      { text: "Manual interventions", correct: false },
-      {
-        text: "Productivity, satisfaction, innovation, and agility",
-        correct: true,
-      },
-      { text: "System dependencies", correct: false },
-      { text: "Data redundancy", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which component belongs to the Deployment Operation Architecture?",
-    answers: [
-      { text: "Middleware", correct: false },
-      { text: "Security mechanisms", correct: false },
-      { text: "Geo-location check", correct: true },
-      { text: "Cloud services structuring", correct: false },
-    ],
-  },
-  {
-    question: "Which is a correct combination that leads to XaaS?",
-    answers: [
-      { text: "Broad network access + VPN", correct: false },
-      { text: "Cloud access + database tuning", correct: false },
-      {
-        text: "Broad access + resource pooling + SOI + service orientation",
-        correct: true,
-      },
-      { text: "Data tier + logical tier + UX layer", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which service is categorized under Security as a Service (SECaaS)?",
-    answers: [
-      { text: "Cloud firewall management", correct: true },
-      { text: "CRM access module", correct: false },
-      { text: "Container orchestration", correct: false },
-      { text: "File sharing", correct: false },
-    ],
-  },
-  {
-    question: "What is Desktop as a Service (DaaS) primarily used for?",
-    answers: [
-      { text: "Providing virtual desktops remotely", correct: true },
-      { text: "Distributing operating systems", correct: false },
-      { text: "Application hosting", correct: false },
-      { text: "File encryption", correct: false },
-    ],
-  },
-  {
-    question: "Which model typically uses thin clients?",
-    answers: [
-      { text: "Grid computing", correct: false },
-      { text: "Client-server architecture", correct: true },
-      { text: "Cloud-native deployment", correct: false },
-      { text: "Legacy model", correct: false },
-    ],
-  },
-  {
-    question: "Which of these best defines PaaS?",
-    answers: [
-      { text: "A complete software on cloud", correct: false },
-      { text: "An environment to build and deploy apps", correct: true },
-      { text: "Virtual hardware machines", correct: false },
-      { text: "Shared CRM tools", correct: false },
-    ],
-  },
-  {
-    question: "Which of these layers is NOT part of the classical model?",
-    answers: [
-      { text: "Application", correct: false },
-      { text: "Middleware", correct: true },
-      { text: "Development Tools", correct: false },
-      { text: "Operating System", correct: false },
-    ],
-  },
-  {
-    question: "What type of systems are deployed in classical IT?",
-    answers: [
-      { text: "Custom build-to-order, vertically stacked", correct: true },
-      { text: "On-demand and scalable", correct: false },
-      { text: "Serverless functions", correct: false },
-      { text: "Cloud-native microservices", correct: false },
+      { text: "A. 1 and 2 only", correct: false },
+      { text: "B. 1 and 3 only", correct: true },
+      { text: "C. 2 and 3 only", correct: false },
+      { text: "D. All three", correct: false },
     ],
   },
 ];
@@ -6459,8 +6267,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper1;
     } else if (selectedValue === "Paper2") {
       Questions = Paper2;
-    } else if (selectedValue === "DistributedComputing") {
-      Questions = DistributedComputing;
+    } else if (selectedValue === "Paper3") {
+      Questions = Paper3;
     } else if (selectedValue === "Cluster_Utility_Computing") {
       Questions = Cluster_Utility_Computing;
     } else if (selectedValue === "Cloud_Computing") {
