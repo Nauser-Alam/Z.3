@@ -956,766 +956,242 @@ Which of the above statements is/are correct?`,
   },
 ];
 
-////////////////////////////////////////////  Architecture and Deploy Modals //////////////////////////////////////
-const Architecture_Deploy_Modals = [
+////////////////////////////////////////////  5 August 2025 //////////////////////////////////////
+const Paper4 = [
+  // ---------- 10 Single Correct Questions ----------
   {
-    question: "Which characteristic best describes IaaS?",
+    question:
+      "Which species was recently reintroduced in the Zeliang Community Reserve, Nagaland?",
+    answers: [
+      { text: "Indian Star Tortoise", correct: false },
+      { text: "Asian Giant Tortoise", correct: true },
+      { text: "Olive Ridley Turtle", correct: false },
+      { text: "Aldabra Tortoise", correct: false },
+    ],
+  },
+  {
+    question:
+      "What is the IUCN status of the Asian Giant Tortoise (Manouria emys)?",
+    answers: [
+      { text: "Vulnerable", correct: false },
+      { text: "Endangered", correct: false },
+      { text: "Critically Endangered", correct: true },
+      { text: "Near Threatened", correct: false },
+    ],
+  },
+  {
+    question:
+      "India’s largest share of edible oil imports is constituted by which oil?",
+    answers: [
+      { text: "Soybean Oil", correct: false },
+      { text: "Sunflower Oil", correct: false },
+      { text: "Palm Oil", correct: true },
+      { text: "Groundnut Oil", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which country has the highest share in global palm oil production?",
+    answers: [
+      { text: "Malaysia", correct: false },
+      { text: "Indonesia", correct: true },
+      { text: "Thailand", correct: false },
+      { text: "India", correct: false },
+    ],
+  },
+  {
+    question:
+      "What is the primary reason for the projected decline in palm oil exports from Indonesia and Malaysia?",
+    answers: [
+      { text: "Low global demand", correct: false },
+      { text: "Aging trees and low replanting rates", correct: true },
+      { text: "Trade sanctions", correct: false },
+      { text: "Ban on palm oil cultivation", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which scheme was launched in India to boost domestic palm oil production?",
+    answers: [
+      { text: "NMEO-OP", correct: true },
+      { text: "PM-KUSUM", correct: false },
+      { text: "RKVY", correct: false },
+      { text: "National Oil Mission", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which branch of the Indian Armed Forces has the highest percentage of women personnel?",
+    answers: [
+      { text: "Indian Army", correct: false },
+      { text: "Indian Navy", correct: false },
+      { text: "Indian Air Force", correct: true },
+      { text: "Indian Coast Guard", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which fighter jet is planned to replace MiG-21 in the Indian Air Force?",
+    answers: [
+      { text: "Rafale", correct: false },
+      { text: "LCA Tejas Mk1A", correct: true },
+      { text: "Jaguar", correct: false },
+      { text: "Su-30MKI", correct: false },
+    ],
+  },
+  {
+    question:
+      "Under the Battery Waste Management Rules, 2022, which principle mandates manufacturers to take responsibility for end-of-life batteries?",
+    answers: [
+      { text: "Polluter Pays Principle", correct: false },
+      { text: "Extended Producer Responsibility (EPR)", correct: true },
+      { text: "Circular Economy Rule", correct: false },
+      { text: "Precautionary Principle", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which mineral is NOT commonly recovered from lithium-ion battery recycling?",
+    answers: [
+      { text: "Cobalt", correct: false },
+      { text: "Nickel", correct: false },
+      { text: "Bauxite", correct: true },
+      { text: "Lithium", correct: false },
+    ],
+  },
+
+  // ---------- 5 Multiple Correct Questions ----------
+  {
+    question:
+      "Which of the following are features of the Asian Giant Tortoise?",
+    answers: [
+      { text: "Builds above-ground nests using leaf litter", correct: true },
+      { text: "Largest tortoise in mainland Asia", correct: true },
+      { text: "Exclusively freshwater habitat", correct: false },
+      { text: "Plays a role in seed dispersal", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following are major uses of palm oil?",
+    answers: [
+      { text: "Cooking oil and processed food", correct: true },
+      { text: "Biodiesel production", correct: true },
+      { text: "Making cement", correct: false },
+      { text: "Cosmetics and cleaning products", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following steps have been taken to enhance women's participation in the Armed Forces?",
     answers: [
       {
-        text: "It provides complete software solutions to users",
-        correct: false,
-      },
-      { text: "Resources are distributed as a service", correct: true },
-      { text: "Only one user can access the hardware", correct: false },
-      { text: "Fixed monthly pricing model", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is an example of a SaaS provider?",
-    answers: [
-      { text: "Amazon EC2", correct: false },
-      { text: "Force.com", correct: false },
-      { text: "Salesforce.com", correct: true },
-      { text: "Heroku", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following allows for dynamic scaling?",
-    answers: [
-      { text: "SaaS", correct: false },
-      { text: "IaaS", correct: true },
-      { text: "DNS", correct: false },
-      { text: "HTTP", correct: false },
-    ],
-  },
-  {
-    question: "What is a key feature of IaaS pricing?",
-    answers: [
-      { text: "Subscription-based model", correct: false },
-      { text: "Flat rate model", correct: false },
-      { text: "Utility pricing model", correct: true },
-      { text: "Lifetime licensing", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a PaaS provider?",
-    answers: [
-      { text: "Google Mail", correct: false },
-      { text: "Joyent", correct: false },
-      { text: "Heroku", correct: true },
-      { text: "SmugMug", correct: false },
-    ],
-  },
-  {
-    question: "Which networking concept is essential to cloud computing?",
-    answers: [
-      { text: "TCP/IP stack only", correct: false },
-      { text: "Virtual Private Networks (VPNs)", correct: true },
-      { text: "Wired Ethernet only", correct: false },
-      { text: "Bluetooth", correct: false },
-    ],
-  },
-  {
-    question: "What is the goal of Network Function Virtualization?",
-    answers: [
-      { text: "To reduce cloud security", correct: false },
-      { text: "To enhance mobile networks", correct: false },
-      {
-        text: "To consolidate network functions on standard IT hardware",
+        text: "Permanent Commission for women in multiple branches",
         correct: true,
       },
-      { text: "To create new types of servers", correct: false },
+      { text: "Women inducted as Agniveers", correct: true },
+      { text: "All submarine postings open to women", correct: false },
+      { text: "Induction through NDA", correct: true },
     ],
   },
   {
     question:
-      "Which tool helps in creating secure communication channels in cloud networks?",
+      "Which of the following fighter aircraft belong to 4th generation?",
     answers: [
-      { text: "Bluetooth", correct: false },
-      { text: "OpenSSH", correct: true },
-      { text: "Wi-Fi Direct", correct: false },
-      { text: "NAT", correct: false },
+      { text: "Rafale", correct: true },
+      { text: "MiG-29", correct: true },
+      { text: "Tejas Mk-1", correct: true },
+      { text: "AMCA", correct: false },
     ],
   },
   {
     question:
-      "Which deployment model is provisioned for open use by the general public?",
+      "Which of the following are objectives of the National Mission on Edible Oils – Oil Palm (NMEO-OP)?",
     answers: [
-      { text: "Private Cloud", correct: false },
-      { text: "Community Cloud", correct: false },
-      { text: "Public Cloud", correct: true },
-      { text: "Hybrid Cloud", correct: false },
+      { text: "Expand oil palm cultivation area", correct: true },
+      { text: "Provide viability price to farmers", correct: true },
+      { text: "Reduce import dependency", correct: true },
+      { text: "Replace all other edible oils with palm oil", correct: false },
+    ],
+  },
+
+  // ---------- 5 UPSC-type Statement Questions ----------
+  {
+    question: `With reference to the Asian Giant Tortoise, consider the following statements:
+
+1. It is listed under Appendix I of CITES.
+2. It is the only tortoise species that builds above-ground nests using leaf litter.
+3. It plays an important role in forest regeneration.
+
+Which of the above statements is/are correct?`,
+    answers: [
+      { text: "A. 1 and 2 only", correct: false },
+      { text: "B. 2 and 3 only", correct: true },
+      { text: "C. 1 and 3 only", correct: false },
+      { text: "D. 1, 2 and 3", correct: false },
     ],
   },
   {
-    question:
-      "Which cloud model may be hosted off-premise but dedicated to a single organization?",
+    question: `With reference to global palm oil trade, consider the following statements:
+
+1. Indonesia and Malaysia account for more than 80% of the world’s palm oil production.
+2. Palm oil is used as a major feedstock for biodiesel in Southeast Asia.
+3. The oil palm tree is native to Southeast Asia.
+
+Which of the above statements is/are correct?`,
     answers: [
-      { text: "Public Cloud", correct: false },
-      { text: "Hybrid Cloud", correct: false },
-      { text: "Private Cloud", correct: true },
-      { text: "Community Cloud", correct: false },
+      { text: "A. 1 and 2 only", correct: true },
+      { text: "B. 2 and 3 only", correct: false },
+      { text: "C. 1 and 3 only", correct: false },
+      { text: "D. 1, 2 and 3", correct: false },
     ],
   },
   {
-    question:
-      "Which of the following is an example of a private cloud provider?",
+    question: `With reference to women in the Indian Armed Forces, consider the following statements:
+
+1. Women have been granted Permanent Commission in all roles across Army, Navy, and Air Force.
+2. The Indian Air Force has the highest percentage of women personnel among the three services.
+3. Women can apply as Agniveers under the same standards as men.
+
+Which of the above statements is/are correct?`,
     answers: [
-      { text: "Amazon EC2", correct: false },
-      { text: "Google Drive", correct: false },
-      { text: "Amazon VPC", correct: true },
-      { text: "XDrive", correct: false },
+      { text: "A. 1 and 2 only", correct: false },
+      { text: "B. 2 and 3 only", correct: true },
+      { text: "C. 1 and 3 only", correct: false },
+      { text: "D. 1, 2 and 3", correct: false },
     ],
   },
   {
-    question: "What is one major risk of the public cloud model?",
+    question: `With reference to Battery Waste Management Rules, 2022, consider the following statements:
+
+1. The rules aim to implement Extended Producer Responsibility for battery recycling.
+2. The EPR floor price ensures economic viability for genuine recyclers.
+3. India currently recycles all its used lithium-ion batteries efficiently.
+
+Which of the above statements is/are correct?`,
     answers: [
-      { text: "Vendor lock-in", correct: false },
-      { text: "Data being stored locally", correct: false },
-      { text: "Risks from multi-tenancy", correct: true },
-      { text: "Insufficient resource availability", correct: false },
+      { text: "A. 1 and 2 only", correct: true },
+      { text: "B. 2 and 3 only", correct: false },
+      { text: "C. 1 and 3 only", correct: false },
+      { text: "D. 1, 2 and 3", correct: false },
     ],
   },
   {
-    question:
-      "Which deployment model combines both private and public cloud features?",
+    question: `With reference to India’s fighter jet modernization plans, consider the following statements:
+
+1. LCA Tejas Mk1A is planned to replace MiG-21 aircraft.
+2. AMCA is India’s first fifth-generation fighter aircraft under development.
+3. Rafale belongs to the fifth-generation fighter category.
+
+Which of the above statements is/are correct?`,
     answers: [
-      { text: "Hybrid Cloud", correct: true },
-      { text: "Community Cloud", correct: false },
-      { text: "Dedicated Cloud", correct: false },
-      { text: "On-prem Cloud", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which cloud provider supports multiple users on the same hardware?",
-    answers: [
-      { text: "Dedicated Cloud", correct: false },
-      { text: "IaaS", correct: true },
-      { text: "PaaS", correct: false },
-      { text: "VPN", correct: false },
-    ],
-  },
-  {
-    question: "What is a common use of a VPN in cloud computing?",
-    answers: [
-      { text: "To manage memory", correct: false },
-      { text: "To enhance disk speed", correct: false },
-      { text: "To securely connect to cloud resources", correct: true },
-      { text: "To compress files", correct: false },
-    ],
-  },
-  {
-    question: "Which tool is used for secure shell access in cloud networks?",
-    answers: [
-      { text: "OpenVPN", correct: false },
-      { text: "SSH Client", correct: false },
-      { text: "OpenSSH", correct: true },
-      { text: "Firewall", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which cloud deployment model is shared among several organizations with a common concern?",
-    answers: [
-      { text: "Hybrid Cloud", correct: false },
-      { text: "Public Cloud", correct: false },
-      { text: "Private Cloud", correct: false },
-      { text: "Community Cloud", correct: true },
-    ],
-  },
-  {
-    question: "Which of the following is an example of IaaS?",
-    answers: [
-      { text: "Appian Anywhere", correct: false },
-      { text: "Amazon EC2", correct: true },
-      { text: "AppEngine", correct: false },
-      { text: "ProcessMaker Live", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is *not* a role of networking in cloud computing?",
-    answers: [
-      { text: "Facilitating virtual topologies", correct: false },
-      { text: "Provisioning compute power", correct: true },
-      { text: "Enabling VPN access", correct: false },
-      { text: "Handling protocol layers", correct: false },
-    ],
-  },
-  {
-    question:
-      "What are the security perimeters in an outsourced private cloud?",
-    answers: [
-      { text: "Only the provider’s perimeter", correct: false },
-      { text: "Only the subscriber’s perimeter", correct: false },
-      { text: "Both provider and subscriber perimeters", correct: true },
-      { text: "There is no defined perimeter", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is true about on-site private cloud?",
-    answers: [
-      { text: "It is managed only by third-party", correct: false },
-      { text: "It requires no IT skills", correct: false },
-      { text: "It resides within the organization’s premises", correct: true },
-      { text: "It does not hide workload location", correct: false },
-    ],
-  },
-  {
-    question: "In public cloud, where can workloads be migrated?",
-    answers: [
-      { text: "Only within the same country", correct: false },
-      { text: "Anywhere based on provider cost optimization", correct: true },
-      { text: "Only between user devices", correct: false },
-      { text: "Only to user premises", correct: false },
-    ],
-  },
-  {
-    question: "Which PaaS provider is developed by Google?",
-    answers: [
-      { text: "Azure", correct: false },
-      { text: "AppEngine", correct: true },
-      { text: "Force.com", correct: false },
-      { text: "Aneka", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which service model provides a platform allowing customers to develop, run, and manage applications?",
-    answers: [
-      { text: "IaaS", correct: false },
-      { text: "PaaS", correct: true },
-      { text: "SaaS", correct: false },
-      { text: "DaaS", correct: false },
-    ],
-  },
-  {
-    question: "What is a benefit of the outsourced private cloud?",
-    answers: [
-      { text: "Limited resources", correct: false },
-      { text: "Subscriber can rent resources in any quantity", correct: true },
-      { text: "No need for security perimeters", correct: false },
-      { text: "No protected communication required", correct: false },
-    ],
-  },
-];
-////////////////////////////// VIRTUALIZATION //////////////////////////////////////////////
-const Virtualization = [
-  {
-    question: "What is a Community Cloud?",
-    answers: [
-      {
-        text: "Cloud infrastructure shared by several organizations with common concerns",
-        correct: true,
-      },
-      {
-        text: "Cloud infrastructure used by a single private organization",
-        correct: false,
-      },
-      {
-        text: "Public cloud hosted by a third party",
-        correct: false,
-      },
-      {
-        text: "A combination of public and private clouds",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which of the following is an example of a Community Cloud?",
-    answers: [
-      { text: "Amazon Web Services", correct: false },
-      { text: "Google Apps for Government", correct: true },
-      { text: "VMware vCloud", correct: false },
-      { text: "Microsoft Azure", correct: false },
-    ],
-  },
-  {
-    question: "What defines a Hybrid Cloud?",
-    answers: [
-      {
-        text: "A mix of two or more distinct cloud infrastructures bound by technology",
-        correct: true,
-      },
-      {
-        text: "A cloud entirely owned by a third party",
-        correct: false,
-      },
-      {
-        text: "A private cloud with government access",
-        correct: false,
-      },
-      {
-        text: "A public cloud restricted to a single tenant",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which cloud platform supports Hybrid Cloud services?",
-    answers: [
-      { text: "Google Cloud", correct: false },
-      { text: "VMware vCloud", correct: true },
-      { text: "Dropbox", correct: false },
-      { text: "iCloud", correct: false },
-    ],
-  },
-  {
-    question: "How are usage fees typically calculated in virtualization?",
-    answers: [
-      { text: "Based on number of users", correct: false },
-      { text: "Based on daily usage time", correct: false },
-      {
-        text: "Per CPU hour, storage GB/hr, bandwidth, and services used",
-        correct: true,
-      },
-      { text: "Per number of VMs created", correct: false },
-    ],
-  },
-  {
-    question: "What does IaaS stand for?",
-    answers: [
-      { text: "Internet as a Service", correct: false },
-      { text: "Infrastructure as a Service", correct: true },
-      { text: "Internal application and storage", correct: false },
-      { text: "Interface and Storage System", correct: false },
-    ],
-  },
-  {
-    question: "Who controls the Guest OS layer in IaaS?",
-    answers: [
-      { text: "Cloud provider", correct: false },
-      { text: "Network admin", correct: false },
-      { text: "Subscriber", correct: true },
-      { text: "System hardware manager", correct: false },
-    ],
-  },
-  {
-    question: "What does the Hypervisor do?",
-    answers: [
-      {
-        text: "Synthesizes Virtual Machines and manages virtual hardware",
-        correct: true,
-      },
-      { text: "Stores data permanently", correct: false },
-      { text: "Hosts web services", correct: false },
-      { text: "Executes guest applications", correct: false },
-    ],
-  },
-  {
-    question: "Which component runs directly on the CPU in virtualization?",
-    answers: [
-      { text: "Cloud Manager", correct: false },
-      { text: "Hypervisor or Virtual Machine Monitor", correct: true },
-      { text: "Guest OS", correct: false },
-      { text: "DOS", correct: false },
-    ],
-  },
-  {
-    question: "Which layer does the subscriber not control in IaaS?",
-    answers: [
-      { text: "Applications", correct: false },
-      { text: "Middleware", correct: false },
-      { text: "Hypervisor", correct: true },
-      { text: "Guest Operating System", correct: false },
-    ],
-  },
-  {
-    question: "What is the top-most control layer in IaaS cloud systems?",
-    answers: [
-      { text: "Cluster Manager", correct: false },
-      { text: "Computer Manager", correct: false },
-      { text: "Cloud Manager", correct: true },
-      { text: "Persistent Local Storage", correct: false },
-    ],
-  },
-  {
-    question: "What does the Cloud Manager handle?",
-    answers: [
-      { text: "Starting and stopping VMs", correct: false },
-      {
-        text: "Authenticating subscribers and top-level resource management",
-        correct: true,
-      },
-      { text: "Cluster operations only", correct: false },
-      { text: "Network switching", correct: false },
-    ],
-  },
-  {
-    question: "Which component holds the subscriber's metadata?",
-    answers: [
-      { text: "Cloud Manager", correct: false },
-      { text: "Virtual Machine", correct: false },
-      { text: "Data Object Storage (DOS)", correct: true },
-      { text: "Computer Manager", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which component is responsible for managing multiple computer systems?",
-    answers: [
-      { text: "Hypervisor", correct: false },
-      { text: "Cluster Manager", correct: true },
-      { text: "Cloud Manager", correct: false },
-      { text: "DOS", correct: false },
-    ],
-  },
-  {
-    question: "What does Persistent Local Storage (PLS) provide?",
-    answers: [
-      { text: "Storage for OS images only", correct: false },
-      { text: "Temporary memory", correct: false },
-      { text: "Persistent disk-like storage to VMs", correct: true },
-      { text: "Storage for the cloud manager", correct: false },
-    ],
-  },
-  {
-    question: "Which component performs VM-level commands like start/stop?",
-    answers: [
-      { text: "DOS", correct: false },
-      { text: "Cluster Manager", correct: false },
-      { text: "Computer Manager", correct: true },
-      { text: "Cloud Subscriber", correct: false },
-    ],
-  },
-  {
-    question: "Which of these is true about virtualization?",
-    answers: [
-      {
-        text: "Allows multiple OS to run on the same hardware simultaneously",
-        correct: true,
-      },
-      { text: "Only supports single-boot configurations", correct: false },
-      { text: "Requires separate hardware for each OS", correct: false },
-      { text: "Supports only Linux-based systems", correct: false },
-    ],
-  },
-  {
-    question: "How is virtualization different from dual-boot?",
-    answers: [
-      { text: "Virtualization supports only Linux OS", correct: false },
-      {
-        text: "Virtualization runs both OSes at the same time",
-        correct: true,
-      },
-      { text: "Dual boot supports concurrent OSes", correct: false },
-      { text: "They are technically the same", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is NOT a goal of virtualization per Popek and Goldberg?",
-    answers: [
-      { text: "Equivalence", correct: false },
-      { text: "Efficiency", correct: false },
-      { text: "Resource control", correct: false },
-      { text: "Data encryption", correct: true },
-    ],
-  },
-  {
-    question:
-      "What must sensitive instructions be for virtualization to succeed?",
-    answers: [
-      {
-        text: "A subset of privileged instructions",
-        correct: true,
-      },
-      {
-        text: "Executed in kernel mode only",
-        correct: false,
-      },
-      {
-        text: "Translated to machine code",
-        correct: false,
-      },
-      {
-        text: "Part of application layer",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is a sensitive instruction?",
-    answers: [
-      {
-        text: "An instruction that modifies or reveals privileged information",
-        correct: true,
-      },
-      { text: "A regular arithmetic operation", correct: false },
-      { text: "An instruction in the guest OS", correct: false },
-      { text: "A networking instruction", correct: false },
-    ],
-  },
-  {
-    question:
-      "What happens when a sensitive instruction is executed in user mode?",
-    answers: [
-      { text: "System shuts down", correct: false },
-      { text: "It traps to the hypervisor", correct: true },
-      { text: "It runs directly", correct: false },
-      { text: "It causes memory corruption", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of the hypervisor in virtualization?",
-    answers: [
-      {
-        text: "To manage and emulate sensitive instructions",
-        correct: true,
-      },
-      { text: "To store VM images", correct: false },
-      { text: "To run application software", correct: false },
-      { text: "To encrypt VM data", correct: false },
-    ],
-  },
-  {
-    question: "What does the guest OS see when running in a VM?",
-    answers: [
-      { text: "Another OS running beside it", correct: false },
-      { text: "A simulation of hardware", correct: true },
-      { text: "Real physical hardware", correct: false },
-      { text: "Only its own application layer", correct: false },
-    ],
-  },
-  {
-    question: "Which layer in virtualization architecture is most privileged?",
-    answers: [
-      { text: "Guest OS", correct: false },
-      { text: "Middleware", correct: false },
-      { text: "Hypervisor", correct: true },
-      { text: "Application layer", correct: false },
+      { text: "A. 1 and 2 only", correct: true },
+      { text: "B. 2 and 3 only", correct: false },
+      { text: "C. 1 and 3 only", correct: false },
+      { text: "D. 1, 2 and 3", correct: false },
     ],
   },
 ];
 
-/////////////////////////  VIRTUALIZATION PART 2  //////////////////////////////////////////
-const Virtualization2 = [
-  {
-    question: "What is a primary characteristic of full virtualization?",
-    answers: [
-      { text: "The guest OS is modified", correct: false },
-      { text: "The guest OS runs directly on the hardware", correct: false },
-      {
-        text: "The entire hardware is emulated including the CPU",
-        correct: true,
-      },
-      {
-        text: "Privileged instructions are executed at Ring 0",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which of the following tools are popular for full virtualization?",
-    answers: [
-      { text: "VMware and Hyper-V", correct: false },
-      { text: "QEMU and Bochs", correct: true },
-      { text: "Docker and Kubernetes", correct: false },
-      { text: "KVM and Xen", correct: false },
-    ],
-  },
-  {
-    question: "What is one major advantage of full virtualization?",
-    answers: [
-      { text: "Faster execution due to lack of emulation", correct: false },
-      { text: "Requires modified guest OS", correct: false },
-      {
-        text: "Provides complete VM portability across hardware",
-        correct: true,
-      },
-      { text: "Hardware access is unrestricted", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which ring does the guest OS operate in under full virtualization?",
-    answers: [
-      { text: "Ring 0", correct: false },
-      { text: "Ring -1", correct: false },
-      { text: "Ring 1 or 3", correct: true },
-      { text: "Ring 2", correct: false },
-    ],
-  },
-  {
-    question: "Why does full virtualization often incur a performance penalty?",
-    answers: [
-      { text: "Because it needs a modified OS", correct: false },
-      {
-        text: "Due to direct execution of privileged instructions",
-        correct: false,
-      },
-      {
-        text: "Because privileged instructions must be trapped and emulated",
-        correct: true,
-      },
-      { text: "Because guest OS runs at Ring 0", correct: false },
-    ],
-  },
-  {
-    question:
-      "What distinguishes para-virtualization from full virtualization?",
-    answers: [
-      { text: "Guest OS is not modified", correct: false },
-      { text: "Emulation is used to run the guest OS", correct: false },
-      {
-        text: "Guest OS is modified and aware of virtualization",
-        correct: true,
-      },
-      { text: "Para-virtualization uses Ring 0 only", correct: false },
-    ],
-  },
-  {
-    question: "How does a para-virtualized OS interact with the VMM?",
-    answers: [
-      { text: "Through direct hardware access", correct: false },
-      { text: "Via dynamic binary translation", correct: false },
-      { text: "Using specialized APIs", correct: true },
-      { text: "Using BIOS instructions", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a drawback of para-virtualization?",
-    answers: [
-      { text: "Inability to isolate VMs", correct: false },
-      { text: "Requires modification of the guest OS", correct: true },
-      { text: "Lack of performance improvements", correct: false },
-      { text: "Hardware incompatibility", correct: false },
-    ],
-  },
-  {
-    question: "What is a common method to implement para-virtualization?",
-    answers: [
-      { text: "Install virtual drivers only", correct: false },
-      { text: "Use BIOS-level translation", correct: false },
-      { text: "Recompile the guest OS kernel with APIs", correct: true },
-      { text: "Apply no changes to the guest OS", correct: false },
-    ],
-  },
-  {
-    question:
-      "What does hardware-assisted virtualization use to improve performance?",
-    answers: [
-      { text: "Network interface emulation", correct: false },
-      { text: "Processor extensions like Intel VT or AMD-V", correct: true },
-      { text: "Device-level para-virtualization", correct: false },
-      { text: "Direct BIOS emulation", correct: false },
-    ],
-  },
-  {
-    question:
-      "In hardware-assisted virtualization, where does the VMM operate?",
-    answers: [
-      { text: "Ring 0", correct: false },
-      { text: "Ring 1", correct: false },
-      { text: "Ring -1 (Virtual-1)", correct: true },
-      { text: "Ring 3", correct: false },
-    ],
-  },
-  {
-    question: "What is a major advantage of hardware-assisted virtualization?",
-    answers: [
-      { text: "Requires a modified guest OS", correct: false },
-      { text: "Can run unmodified operating systems", correct: true },
-      { text: "Does not require hardware support", correct: false },
-      { text: "Is slower than full virtualization", correct: false },
-    ],
-  },
-  {
-    question: "What is one drawback of hardware-assisted virtualization?",
-    answers: [
-      { text: "Cannot run legacy OS", correct: false },
-      { text: "Requires full emulation of hardware", correct: false },
-      {
-        text: "Unmodified OS cannot leverage virtualization features",
-        correct: true,
-      },
-      { text: "Needs para-virtualized API calls", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which design goal of network virtualization emphasizes isolation and privacy?",
-    answers: [
-      { text: "Flexibility", correct: false },
-      { text: "Scalability", correct: false },
-      { text: "Privacy and Isolation", correct: true },
-      { text: "Recursion", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following best defines network virtualization?",
-    answers: [
-      { text: "Virtualizing only the storage components", correct: false },
-      {
-        text: "Using hardware abstraction layers for graphics",
-        correct: false,
-      },
-      {
-        text: "Allowing multiple service providers to run isolated networks on shared infrastructure",
-        correct: true,
-      },
-      { text: "Creating overlays for operating systems", correct: false },
-    ],
-  },
-  {
-    question: "What is recursion in the context of network virtualization?",
-    answers: [
-      { text: "Running repeated security checks on packets", correct: false },
-      {
-        text: "Virtual networks can host other virtual networks",
-        correct: true,
-      },
-      { text: "All devices must use IP", correct: false },
-      { text: "Repeating data packets across multiple routes", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is one reason why virtualization is important in networking?",
-    answers: [
-      { text: "It removes the need for any physical hardware", correct: false },
-      {
-        text: "Internet’s limitations require flexible, expandable testbeds",
-        correct: true,
-      },
-      { text: "It improves wireless signal strength", correct: false },
-      { text: "It guarantees security by default", correct: false },
-    ],
-  },
-  {
-    question: "Which is NOT a core design goal of network virtualization?",
-    answers: [
-      { text: "Experimental and deployment facility", correct: false },
-      { text: "Manageability", correct: false },
-      { text: "Performance tuning only for storage", correct: true },
-      { text: "Programibility", correct: false },
-    ],
-  },
-  {
-    question: "Which layer is typically used in network virtualization?",
-    answers: [
-      { text: "Presentation layer", correct: false },
-      { text: "Application layer", correct: false },
-      { text: "IP or ATM layer", correct: true },
-      { text: "BIOS firmware layer", correct: false },
-    ],
-  },
-  {
-    question: "What is an example of partial para-virtualization?",
-    answers: [
-      { text: "Using full hardware emulation", correct: false },
-      {
-        text: "Installing virtualization-aware drivers for devices like network cards",
-        correct: true,
-      },
-      { text: "Running the guest OS in Ring 0", correct: false },
-      { text: "Using binary translation for OS kernel", correct: false },
-    ],
-  },
-];
 /////////////////////////////////////  XML  ///////////////////////////////////////////
 const XML = [
   {
@@ -6269,8 +5745,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper2;
     } else if (selectedValue === "Paper3") {
       Questions = Paper3;
-    } else if (selectedValue === "Cluster_Utility_Computing") {
-      Questions = Cluster_Utility_Computing;
+    } else if (selectedValue === "Paper4") {
+      Questions = Paper4;
     } else if (selectedValue === "Cloud_Computing") {
       Questions = Cloud_Computing;
     } else if (selectedValue === "Evolution_Of_Cloud_Computing") {
