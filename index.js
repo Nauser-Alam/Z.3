@@ -1192,300 +1192,207 @@ Which of the above statements is/are correct?`,
   },
 ];
 
-/////////////////////////////////////  XML  ///////////////////////////////////////////
-const XML = [
+/////////////////////////////////////  6 August 2025  ///////////////////////////////////////////
+const Paper5 = [
+  // 1–10: Single Correct Type
   {
-    question: "What does XML stand for?",
+    question: "What defines a cloudburst?",
     answers: [
-      { text: "Extended Markup Language", correct: false },
-      { text: "Extra Multi Language", correct: false },
-      { text: "Extensible Markup Language", correct: true },
-      { text: "Exotic Markup Listing", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is true about XML?",
-    answers: [
-      { text: "XML tags are predefined", correct: false },
-      { text: "XML is case-insensitive", correct: false },
-      { text: "XML allows user-defined tags", correct: true },
-      { text: "XML is only used for web development", correct: false },
-    ],
-  },
-  {
-    question: "Which character is used to denote the beginning of an XML tag?",
-    answers: [
-      { text: "/", correct: false },
-      { text: "<", correct: true },
-      { text: ":", correct: false },
-      { text: "&", correct: false },
-    ],
-  },
-  {
-    question: "In XML, every opening tag must have:",
-    answers: [
-      { text: "A corresponding closing tag", correct: true },
-      { text: "An ID attribute", correct: false },
-      { text: "An href value", correct: false },
-      { text: "A namespace declaration", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a correct XML element?",
-    answers: [
-      { text: "<1tag>value</1tag>", correct: false },
-      { text: "<tag>value</tag>", correct: true },
-      { text: "<tag-value>", correct: false },
-      { text: "<tag value>", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is NOT allowed in XML tag names?",
-    answers: [
-      { text: "Underscores", correct: false },
-      { text: "Colons", correct: false },
-      { text: "Numbers", correct: false },
-      { text: "Spaces", correct: true },
-    ],
-  },
-  {
-    question: "Attributes in XML must always:",
-    answers: [
-      { text: "Be enclosed in double quotes", correct: true },
-      { text: "Start with a number", correct: false },
-      { text: "Be lowercase", correct: false },
-      { text: "Have an underscore", correct: false },
-    ],
-  },
-  {
-    question: "Which is a correct example of an XML attribute?",
-    answers: [
-      { text: "<tag attribute=value>", correct: false },
-      { text: "<tag attribute='value'>", correct: true },
-      { text: "<tag(attribute)=value>", correct: false },
-      { text: "<tag attribute:value>", correct: false },
-    ],
-  },
-  {
-    question: "What does a namespace in XML prevent?",
-    answers: [
-      { text: "Excessive file size", correct: false },
-      { text: "Syntax errors", correct: false },
-      { text: "Tag name conflicts", correct: true },
-      { text: "Slow loading", correct: false },
-    ],
-  },
-  {
-    question:
-      'What does the following URI represent in an XML document?\nxmlns:h="http://www.w3.org/TR/html4/"',
-    answers: [
-      { text: "It defines where to fetch HTML4 online", correct: false },
-      { text: "It is a required XML schema", correct: false },
+      { text: "Rainfall over 50 mm per hour", correct: false },
+      { text: "Rainfall over a large plain area", correct: false },
       {
-        text: "It defines a unique namespace for HTML4 elements",
+        text: "More than 100 mm of rain in an hour over a small area",
         correct: true,
       },
-      { text: "It links to an HTML style guide", correct: false },
+      { text: "Hailstorm and heavy rain combined", correct: false },
     ],
   },
   {
-    question: "Which of the following is correct about XML Parsers?",
+    question: "Which region is most prone to cloudbursts in India?",
     answers: [
-      { text: "Validating parser check only syntax", correct: false },
+      { text: "Western Ghats", correct: false },
+      { text: "Himalayan region", correct: true },
+      { text: "Deccan Plateau", correct: false },
+      { text: "Thar Desert", correct: false },
+    ],
+  },
+  {
+    question: "Which among the following is NOT a stage of money laundering?",
+    answers: [
+      { text: "Layering", correct: false },
+      { text: "Placement", correct: false },
+      { text: "Collection", correct: true },
+      { text: "Integration", correct: false },
+    ],
+  },
+  {
+    question: "What does DTAA primarily help in?",
+    answers: [
+      { text: "Double investment by investors", correct: false },
+      { text: "Avoiding tax evasion in one’s home country", correct: true },
+      { text: "Avoiding black money", correct: false },
+      { text: "Discouraging NRIs from investing", correct: false },
+    ],
+  },
+  {
+    question: "What is the role of IRDAI in India?",
+    answers: [
+      { text: "Regulates stock market", correct: false },
+      { text: "Regulates mutual funds", correct: false },
+      { text: "Regulates and promotes the insurance industry", correct: true },
+      { text: "Regulates banking sector", correct: false },
+    ],
+  },
+  {
+    question: "Which type of insurance does IRDAI NOT regulate?",
+    answers: [
+      { text: "Health Insurance", correct: false },
+      { text: "Reinsurance", correct: false },
+      { text: "Travel Insurance", correct: false },
+      { text: "None of the above", correct: true },
+    ],
+  },
+  {
+    question: "AUM stands for?",
+    answers: [
+      { text: "Average Unit Management", correct: false },
+      { text: "Asset Under Management", correct: true },
+      { text: "Amount Utilised Monthly", correct: false },
+      { text: "Annual Unit Measure", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following affects AUM?",
+    answers: [
+      { text: "Only investor redemptions", correct: false },
+      { text: "Only market performance", correct: false },
+      { text: "Market changes, inflows, and redemptions", correct: true },
+      { text: "Government policy only", correct: false },
+    ],
+  },
+  {
+    question: "The IRDA Act was passed in which year?",
+    answers: [
+      { text: "2000", correct: false },
+      { text: "2002", correct: false },
+      { text: "1999", correct: true },
+      { text: "1991", correct: false },
+    ],
+  },
+  {
+    question: "Who has the burden of proof under the PMLA?",
+    answers: [
+      { text: "Government", correct: false },
+      { text: "Investigating Agency", correct: false },
+      { text: "Accused", correct: true },
+      { text: "Court", correct: false },
+    ],
+  },
+
+  // 11–15: Multiple Correct Type
+  {
+    question: "Which of the following are effects of cloudbursts?",
+    answers: [
+      { text: "Flash floods", correct: true },
+      { text: "Landslides", correct: true },
+      { text: "Global warming", correct: false },
+      { text: "Infrastructure damage", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following are true about the IRDAI?",
+    answers: [
+      { text: "It is headquartered in Hyderabad", correct: true },
+      { text: "It regulates mutual funds", correct: false },
+      { text: "It regulates reinsurance companies", correct: true },
       {
-        text: "Validating parser check both syntax and DOD rules",
-        correct: true,
-      },
-      {
-        text: "Non Validating Parser check both syntax and DOD rules",
+        text: "It functions under the Ministry of Home Affairs",
         correct: false,
       },
-      { text: "Non Validating Parser checks for only syntax", correct: true },
     ],
   },
   {
-    question: "Which of these is NOT a valid XML character encoding?",
+    question: "Which of the following best describe the term Laundromat?",
     answers: [
-      { text: "UTF-8", correct: false },
-      { text: "ASCII", correct: false },
-      { text: "UTF-16", correct: false },
-      { text: "PDF", correct: true },
-    ],
-  },
-  {
-    question: "What does character encoding define in an XML file?",
-    answers: [
-      { text: "The language of the content", correct: false },
-      { text: "How characters are represented in bytes", correct: true },
-      { text: "The XML version used", correct: false },
-      { text: "The number of characters in the file", correct: false },
-    ],
-  },
-  {
-    question: "Which encoding is commonly used by web applications and XML?",
-    answers: [
-      { text: "UTF-8", correct: true },
-      { text: "Base64", correct: false },
-      { text: "UTF-2", correct: false },
-      { text: "Hexadecimal", correct: false },
-    ],
-  },
-  {
-    question: "Which character must be escaped in XML?",
-    answers: [
-      { text: "&", correct: true },
-      { text: "@", correct: false },
-      { text: "?", correct: false },
-      { text: "%", correct: false },
-    ],
-  },
-  {
-    question: "Which is the correct way to escape the '<' character in XML?",
-    answers: [
-      { text: "&lt;", correct: true },
-      { text: "&less;", correct: false },
-      { text: "&l;", correct: false },
-      { text: "&left;", correct: false },
-    ],
-  },
-  {
-    question: "Which declaration defines encoding in an XML document?",
-    answers: [
-      { text: "<?xml encoding='UTF-8'?>", correct: true },
-      { text: "<encoding>UTF-8</encoding>", correct: false },
-      { text: "<meta charset='UTF-8'>", correct: false },
-      { text: "<!DOCTYPE encoding='UTF-8'>", correct: false },
+      { text: "A place where clothes are washed", correct: false },
+      { text: "A setup to clean illegal money", correct: true },
+      { text: "A financial structure to hide the money trail", correct: true },
+      { text: "An act passed by Parliament", correct: false },
     ],
   },
   {
     question:
-      "Which of the following best describes a well-formed XML document?",
+      "Which of the following contribute to frequent cloudbursts in the Himalayas?",
     answers: [
-      { text: "It can be opened in a browser", correct: false },
-      {
-        text: "It follows basic syntax rules like properly nested tags",
-        correct: true,
-      },
-      { text: "It uses JavaScript to run", correct: false },
-      { text: "It includes CSS for styling", correct: false },
+      { text: "Steep terrain", correct: true },
+      { text: "Deforestation", correct: true },
+      { text: "Unplanned development", correct: true },
+      { text: "High-speed winds from the east", correct: false },
     ],
   },
   {
-    question: "Which tool is commonly used to validate XML against a schema?",
+    question: "Which of the following are included in India's mutual fund AUM?",
     answers: [
-      { text: "XML Validator", correct: true },
-      { text: "JavaScript", correct: false },
-      { text: "HTML Parser", correct: false },
-      { text: "CSS Checker", correct: false },
+      { text: "Bonds", correct: true },
+      { text: "Gold deposits", correct: false },
+      { text: "Stocks", correct: true },
+      { text: "Cash", correct: true },
     ],
   },
+
+  // 16–20: Statement Type MCQs
   {
-    question: "Which of the following tags is self-closing in XML?",
+    question:
+      "With reference to cloudbursts in the Himalayas, consider the following statements:\n\n1. They usually cover areas exceeding 100 sq. km.\n2. The orographic effect plays a role in triggering cloudbursts.\n3. Human development in fragile zones can worsen the impact.\n\nWhich of the statements given above is/are correct?",
     answers: [
-      { text: "<tag />", correct: true },
-      { text: "<tag></tag>", correct: false },
-      { text: "<tag><tag>", correct: false },
-      { text: "<tag>", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of an XML parser?",
-    answers: [
-      { text: "To compress XML files", correct: false },
-      { text: "To convert XML into JavaScript", correct: false },
-      { text: "To read and validate XML data structure", correct: true },
-      { text: "To style XML using CSS", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a type of XML parser?",
-    answers: [
-      { text: "XHTML", correct: false },
-      { text: "DTD", correct: false },
-      { text: "SAX", correct: true },
-      { text: "HTTP", correct: false },
-    ],
-  },
-  {
-    question: "What does XML messaging typically involve?",
-    answers: [
-      { text: "Sending XML data over a network", correct: true },
-      { text: "Encoding XML files into images", correct: false },
-      { text: "Using XML as a database", correct: false },
-      { text: "Writing HTML in XML format", correct: false },
-    ],
-  },
-  {
-    question: "Which technology is often used to transform XML documents?",
-    answers: [
-      { text: "CSS", correct: false },
-      { text: "XSLT", correct: true },
-      { text: "DTD", correct: false },
-      { text: "JSON", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of DTD (Document Type Definition)?",
-    answers: [
-      { text: "To apply styles to XML data", correct: false },
-      {
-        text: "To define the structure and rules of an XML document",
-        correct: true,
-      },
-      { text: "To encrypt XML messages", correct: false },
-      { text: "To parse HTML documents", correct: false },
-    ],
-  },
-  {
-    question: "Which parse model reads an XML document sequentially?",
-    answers: [
-      { text: "DOM", correct: false },
-      { text: "SAX", correct: true },
-      { text: "DTD", correct: false },
-      { text: "JSON", correct: false },
-    ],
-  },
-  {
-    question: "What does DOM parser do?",
-    answers: [
-      { text: "Parses XML document into an object tree", correct: true },
-      { text: "Reads only the root element", correct: false },
-      { text: "Ignores element attributes", correct: false },
-      { text: "Converts XML to CSV format", correct: false },
-    ],
-  },
-  {
-    question: "Which is an advantage of using SAX over DOM?",
-    answers: [
-      { text: "SAX is faster and uses less memory", correct: true },
-      { text: "SAX allows direct access to elements by ID", correct: false },
-      { text: "SAX stores entire XML in memory", correct: false },
-      { text: "SAX supports styling XML documents", correct: false },
-    ],
-  },
-  {
-    question: "What is SOAP in XML messaging?",
-    answers: [
-      {
-        text: "A protocol used for exchanging structured XML information",
-        correct: true,
-      },
-      { text: "A parser for validating XML", correct: false },
-      { text: "An editor for XML documents", correct: false },
-      { text: "A tool for minifying XML files", correct: false },
+      { text: "A. 1 and 2 only", correct: false },
+      { text: "B. 2 and 3 only", correct: true },
+      { text: "C. 1 and 3 only", correct: false },
+      { text: "D. 1, 2 and 3", correct: false },
     ],
   },
   {
     question:
-      "Which file extension is typically used for XSLT transformations?",
+      "With reference to Money Laundering, consider the following statements:\n\n1. The accused must prove their innocence under PMLA.\n2. FIR is mandatory before action can be taken under PMLA.\n3. DTAA helps track illegal overseas transactions.\n\nWhich of the statements given above is/are correct?",
     answers: [
-      { text: ".xsl", correct: true },
-      { text: ".xmlt", correct: false },
-      { text: ".xhtml", correct: false },
-      { text: ".dtl", correct: false },
+      { text: "A. 1 and 2 only", correct: false },
+      { text: "B. 2 and 3 only", correct: false },
+      { text: "C. 1 and 3 only", correct: true },
+      { text: "D. 1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the IRDAI, consider the following statements:\n\n1. It regulates only life insurance companies.\n2. It was established under an Act of Parliament.\n3. It promotes insurance in rural areas.\n4. It has power to regulate insurance agents.\n\nWhich of the above statements are correct?",
+    answers: [
+      { text: "A. 1, 2 and 3 only", correct: false },
+      { text: "B. 2, 3 and 4 only", correct: true },
+      { text: "C. 1 and 4 only", correct: false },
+      { text: "D. 2 and 3 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "Consider the following statements about AUM (Assets Under Management):\n\n1. It refers to the assets owned by mutual fund companies.\n2. It can increase due to market gains and reinvestments.\n3. It always leads to lower expense ratios.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "A. 1 only", correct: false },
+      { text: "B. 2 only", correct: true },
+      { text: "C. 3 only", correct: false },
+      { text: "D. 1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Philippines and India's recent ties, consider the following statements:\n\n1. The Philippines has purchased the BrahMos missile from India.\n2. Mount Apo is the highest peak of the Philippines located in Luzon.\n3. The Philippines is a democracy and a strategic player in the Indo-Pacific region.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "A. 1 and 2 only", correct: false },
+      { text: "B. 2 and 3 only", correct: false },
+      { text: "C. 1 and 3 only", correct: true },
+      { text: "D. 1, 2 and 3", correct: false },
     ],
   },
 ];
+
 //////////////////////////  WEB SERVICE   //////////////////////////////////////
 const Web_Service = [
   {
@@ -5747,8 +5654,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper3;
     } else if (selectedValue === "Paper4") {
       Questions = Paper4;
-    } else if (selectedValue === "Cloud_Computing") {
-      Questions = Cloud_Computing;
+    } else if (selectedValue === "Paper5") {
+      Questions = Paper5;
     } else if (selectedValue === "Evolution_Of_Cloud_Computing") {
       Questions = Evolution_Of_Cloud_Computing;
     } else if (selectedValue === "Cloud_Computing_Architecture") {
