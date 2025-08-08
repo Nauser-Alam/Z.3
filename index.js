@@ -1393,245 +1393,217 @@ const Paper5 = [
   },
 ];
 
-//////////////////////////  WEB SERVICE   //////////////////////////////////////
-const Web_Service = [
+//////////////////////////  7 August 2025  //////////////////////////////////////
+const Paper6 = [
+  // --- 1 to 10: Single correct answer type ---
   {
-    question: "What is Electronic Data Interchange (EDI)?",
+    question:
+      "Which of the following best explains why cloudbursts occur in the Himalayas?",
     answers: [
-      {
-        text: "A method to visually design user interfaces on the web",
-        correct: false,
-      },
-      {
-        text: "A computer-to-computer exchange of business data in standard formats",
-        correct: true,
-      },
-      {
-        text: "An online platform for customer support",
-        correct: false,
-      },
-      {
-        text: "A digital signature tool used in e-commerce",
-        correct: false,
-      },
+      { text: "High temperature in the plains", correct: false },
+      { text: "Steep slopes pushing moist air upward rapidly", correct: true },
+      { text: "Presence of deserts nearby", correct: false },
+      { text: "Cold ocean currents", correct: false },
     ],
   },
   {
-    question: "Which of the following is NOT an advantage of EDI?",
+    question: "The IUCN status of the Red-eared Slider Turtle is:",
     answers: [
-      { text: "Increased human error", correct: true },
-      { text: "Faster trading cycle", correct: false },
-      { text: "Lower operating costs", correct: false },
-      { text: "Increased productivity", correct: false },
+      { text: "Endangered", correct: false },
+      { text: "Vulnerable", correct: false },
+      { text: "Critically Endangered", correct: false },
+      { text: "Least Concern", correct: true },
     ],
   },
   {
-    question: "Web Services use which of the following for communication?",
+    question: "Biochar is produced through:",
     answers: [
-      { text: "Binary protocols", correct: false },
-      { text: "Text-based communication protocols", correct: true },
-      { text: "FTP only", correct: false },
-      { text: "Bluetooth", correct: false },
+      { text: "Combustion of fossil fuels", correct: false },
+      { text: "Pyrolysis of biomass in absence of oxygen", correct: true },
+      { text: "Chemical fertilizer reaction", correct: false },
+      { text: "Solar heating of manure", correct: false },
     ],
   },
   {
-    question: "Which protocol is mainly used by SOAP for transport?",
+    question: "Which body regulates the insurance sector in India?",
     answers: [
-      { text: "FTP", correct: false },
-      { text: "SMTP", correct: false },
-      { text: "HTTP", correct: true },
-      { text: "POP3", correct: false },
-    ],
-  },
-  {
-    question: "Which characteristic of XML makes it suitable for web services?",
-    answers: [
-      { text: "It is binary based", correct: false },
-      { text: "It defines layout formatting", correct: false },
-      { text: "It separates content from presentation", correct: true },
-      { text: "It provides audio/video encoding", correct: false },
+      { text: "SEBI", correct: false },
+      { text: "RBI", correct: false },
+      { text: "IRDAI", correct: true },
+      { text: "FSSAI", correct: false },
     ],
   },
   {
     question:
-      "Which of the following is used to describe the capabilities of a web service?",
+      "Under which ministry does the Coconut Development Board operate?",
     answers: [
-      { text: "SOAP", correct: false },
-      { text: "WSDL", correct: true },
-      { text: "HTML", correct: false },
-      { text: "FTP", correct: false },
+      { text: "Ministry of Commerce and Industry", correct: false },
+      { text: "Ministry of Agriculture and Farmers Welfare", correct: true },
+      { text: "Ministry of Food Processing", correct: false },
+      { text: "Ministry of Rural Development", correct: false },
     ],
   },
   {
-    question: "What does UDDI stand for?",
+    question: "Which port in India is proposed as a transshipment hub?",
     answers: [
-      {
-        text: "Universal Data Description and Integration",
-        correct: false,
-      },
-      {
-        text: "Universal Description, Discovery and Integration",
-        correct: true,
-      },
-      {
-        text: "Uniform Data Deployment Interface",
-        correct: false,
-      },
-      {
-        text: "Unified Directory for Digital Integration",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which is a required element in a SOAP message?",
-    answers: [
-      { text: "Header", correct: false },
-      { text: "Body", correct: true },
-      { text: "Fault", correct: false },
-      { text: "Metadata", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of the service provider in SOA?",
-    answers: [
-      { text: "Searches for available services", correct: false },
-      { text: "Owns and hosts the service", correct: true },
-      { text: "Requests the service", correct: false },
-      { text: "Publishes client interfaces", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is NOT a SOAP characteristic?",
-    answers: [
-      { text: "Extensibility", correct: false },
-      { text: "Neutrality", correct: false },
-      { text: "Proprietary", correct: true },
-      { text: "Independence", correct: false },
-    ],
-  },
-  {
-    question: "Which format is used by SOAP messages?",
-    answers: [
-      { text: "JSON", correct: false },
-      { text: "Binary", correct: false },
-      { text: "XML", correct: true },
-      { text: "CSV", correct: false },
+      { text: "Chennai", correct: false },
+      { text: "Galathea Bay, Great Nicobar", correct: true },
+      { text: "Haldia", correct: false },
+      { text: "Paradeep", correct: false },
     ],
   },
   {
     question:
-      "Which of the following best describes the WSDL 'binding' element?",
+      "Which of the following missions replaced Sugamya Bharat Abhiyan?",
     answers: [
-      { text: "Defines the endpoint URL", correct: false },
-      { text: "Specifies the communication protocol", correct: true },
-      { text: "Describes the service provider", correct: false },
-      { text: "Lists the programming languages used", correct: false },
+      { text: "Smart Cities Mission", correct: false },
+      { text: "SIPDA", correct: true },
+      { text: "Swachh Bharat Abhiyan", correct: false },
+      { text: "UDAN", correct: false },
     ],
   },
   {
-    question: "What is the function of a service registry in SOA?",
+    question: "What is the purpose of the Green Tug Transition Programme?",
     answers: [
-      { text: "Stores and executes all services", correct: false },
-      { text: "Provides a searchable list of services", correct: true },
-      { text: "Binds the services to the network", correct: false },
-      { text: "Acts as a firewall for services", correct: false },
+      {
+        text: "Replace diesel tugs with electric ones by 2025",
+        correct: false,
+      },
+      { text: "Promote solar-powered ports", correct: false },
+      {
+        text: "Replace conventional tugs with green fuel-based tugs by 2040",
+        correct: true,
+      },
+      { text: "Subsidize electric fishing boats", correct: false },
     ],
   },
   {
     question:
-      "What does the 'publish' operation in Web Service architecture do?",
+      "Which state is NOT among the top three coconut producing states in India?",
     answers: [
-      { text: "Executes a service", correct: false },
-      { text: "Removes a service from registry", correct: false },
-      {
-        text: "Makes the service description available to requestors",
-        correct: true,
-      },
-      { text: "Encrypts service data", correct: false },
+      { text: "Karnataka", correct: false },
+      { text: "Tamil Nadu", correct: false },
+      { text: "Kerala", correct: false },
+      { text: "Maharashtra", correct: true },
     ],
   },
   {
     question:
-      "Which web technology was intended to solve interoperability and firewall traversal?",
+      "Which organ of the UN relates to the Convention on the Rights of Persons with Disabilities?",
     answers: [
-      { text: "FTP", correct: false },
-      { text: "EDI", correct: false },
-      { text: "Web Services", correct: true },
-      { text: "HTML", correct: false },
+      { text: "UNDP", correct: false },
+      { text: "UNESCO", correct: false },
+      { text: "UNCRPD", correct: true },
+      { text: "WHO", correct: false },
+    ],
+  },
+
+  // --- 11 to 15: Multiple correct answer type ---
+  {
+    question: "Which of the following are benefits of biochar?",
+    answers: [
+      { text: "Improves soil health", correct: true },
+      { text: "Releases carbon dioxide", correct: false },
+      { text: "Helps wastewater treatment", correct: true },
+      { text: "Increases fertilizer use", correct: false },
+    ],
+  },
+  {
+    question: "Which by-products are produced during biochar generation?",
+    answers: [
+      { text: "Syngas", correct: true },
+      { text: "Bio-oil", correct: true },
+      { text: "Coal ash", correct: false },
+      { text: "Natural gas", correct: false },
     ],
   },
   {
     question:
-      "Which component helps in debugging Web Services because it is text-based?",
+      "Which of the following statements about the Red-eared Slider Turtle are correct?",
     answers: [
-      { text: "WSDL", correct: false },
-      { text: "SOAP", correct: true },
-      { text: "FTP", correct: false },
-      { text: "CSS", correct: false },
-    ],
-  },
-  {
-    question: "Which is NOT a valid SOAP building block?",
-    answers: [
-      { text: "Envelope", correct: false },
-      { text: "Header", correct: false },
-      { text: "Script", correct: true },
-      { text: "Body", correct: false },
-    ],
-  },
-  {
-    question: "What enables businesses to register and locate web services?",
-    answers: [
-      { text: "WSDL", correct: false },
-      { text: "SOAP", correct: false },
-      { text: "UDDI", correct: true },
-      { text: "HTTP", correct: false },
-    ],
-  },
-  {
-    question: "What does an XML parser do?",
-    answers: [
+      { text: "It is an invasive alien species", correct: true },
+      { text: "It is native to India", correct: false },
       {
-        text: "Executes the content within XML files",
-        correct: false,
-      },
-      {
-        text: "Checks the syntax and validity against schema/DTD",
+        text: "It is commonly found in brackish water habitats",
         correct: true,
       },
-      {
-        text: "Converts XML to HTML",
-        correct: false,
-      },
-      {
-        text: "Creates dynamic websites",
-        correct: false,
-      },
+      { text: "It has a red strip behind the eyes", correct: true },
     ],
   },
   {
-    question: "In SOA, what does the 'bind' operation imply?",
+    question:
+      "Which of the following factors have led to rising coconut oil prices?",
     answers: [
-      {
-        text: "Registering a new service",
-        correct: false,
-      },
-      {
-        text: "Invoking or initiating interaction with a service at runtime",
-        correct: true,
-      },
-      {
-        text: "Parsing XML data",
-        correct: false,
-      },
-      {
-        text: "Translating service data to binary",
-        correct: false,
-      },
+      { text: "Diversion to biofuel", correct: true },
+      { text: "Ban on coconut oil exports from India", correct: false },
+      { text: "Drought in major producing countries", correct: true },
+      { text: "India becoming largest producer", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are features of the Merchant Shipping Bill, 2024?",
+    answers: [
+      { text: "Promotes green shipping", correct: true },
+      { text: "Replaces the Merchant Shipping Act, 1958", correct: true },
+      { text: "Focuses on ship-breaking regulation", correct: false },
+      { text: "Aligns with international conventions", correct: true },
+    ],
+  },
+
+  // --- 16 to 20: UPSC Statement-based questions ---
+  {
+    question:
+      "With reference to Biochar, consider the following statements:\n\n1. It is made through pyrolysis of biomass in the presence of oxygen.\n2. It helps reduce emissions of greenhouse gases such as methane and N₂O.\n3. It has potential use in concrete and wastewater treatment.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "A. 1 and 2 only", correct: false },
+      { text: "B. 2 and 3 only", correct: true },
+      { text: "C. 1 and 3 only", correct: false },
+      { text: "D. 1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Sugamya Bharat Abhiyan, consider the following statements:\n\n1. It aims for accessibility in transport, ICT, and built infrastructure.\n2. It is implemented by the Ministry of Housing and Urban Affairs.\n3. It was launched in 2015.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "A. 1 and 2 only", correct: false },
+      { text: "B. 1 and 3 only", correct: true },
+      { text: "C. 2 and 3 only", correct: false },
+      { text: "D. 1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Coconut Oil in India, consider the following statements:\n\n1. India is the largest coconut producer in the world.\n2. Coconut oil is used in both edible and industrial applications.\n3. The Coconut Development Board is under the Ministry of Agriculture.\n4. Use in biofuel has increased global demand.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "A. 1, 2 and 3 only", correct: false },
+      { text: "B. 2, 3 and 4 only", correct: true },
+      { text: "C. 1 and 4 only", correct: false },
+      { text: "D. 1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Maritime Sector of India, consider the following statements:\n\n1. India is the 16th largest maritime nation.\n2. The Green Tug Transition Programme replaces diesel tugs with green ones.\n3. Merchant Shipping Bill, 2024, aligns India’s laws with global standards.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "A. 1 and 2 only", correct: false },
+      { text: "B. 2 and 3 only", correct: false },
+      { text: "C. 1, 2 and 3", correct: true },
+      { text: "D. 1 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Red-eared Slider Turtles, consider the following statements:\n\n1. It is native to India and commonly found in rivers like Ganga.\n2. It is listed among the world’s top 100 invasive species.\n3. It competes with native species and threatens biodiversity.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "A. 1 and 2 only", correct: false },
+      { text: "B. 2 and 3 only", correct: true },
+      { text: "C. 1 and 3 only", correct: false },
+      { text: "D. 1, 2 and 3", correct: false },
     ],
   },
 ];
+
 /////////////////////////////////  Service level Agreement  //////////////////////////////////////
 const SLA_Economics = [
   {
@@ -5656,8 +5628,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper4;
     } else if (selectedValue === "Paper5") {
       Questions = Paper5;
-    } else if (selectedValue === "Evolution_Of_Cloud_Computing") {
-      Questions = Evolution_Of_Cloud_Computing;
+    } else if (selectedValue === "Paper6") {
+      Questions = Paper6;
     } else if (selectedValue === "Cloud_Computing_Architecture") {
       Questions = Cloud_Computing_Architecture;
     } else if (selectedValue === "Architecture_Deploy_Modals") {
