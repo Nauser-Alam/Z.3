@@ -1604,313 +1604,210 @@ const Paper6 = [
   },
 ];
 
-/////////////////////////////////  Service level Agreement  //////////////////////////////////////
-const SLA_Economics = [
+/////////////////////////////////  8 August 2025  //////////////////////////////////////
+const Paper7 = [
+  // 1–10: Single Correct
   {
-    question: "What is a Service Level Agreement (SLA)?",
+    question:
+      "Which contaminant in groundwater is primarily responsible for 'Blue Baby Syndrome' in infants?",
     answers: [
-      {
-        text: "A legal contract to transfer data between cloud providers",
-        correct: false,
-      },
-      {
-        text: "A formal contract between a Service Provider and a Service Consumer",
-        correct: true,
-      },
-      {
-        text: "An encryption protocol used in web services",
-        correct: false,
-      },
-      {
-        text: "A billing invoice between two cloud providers",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the purpose of an SLA?",
-    answers: [
-      { text: "To monitor cloud marketing strategies", correct: false },
-      {
-        text: "To define a formal basis for performance and availability guarantees",
-        correct: true,
-      },
-      { text: "To evaluate only security parameters", correct: false },
-      { text: "To define UI features of a web app", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is included in the contents of an SLA?",
-    answers: [
-      { text: "Web design tools", correct: false },
-      { text: "Customer satisfaction reviews", correct: false },
-      { text: "Auditing mechanism", correct: true },
-      { text: "Development lifecycle model", correct: false },
-    ],
-  },
-  {
-    question: "What does WS-Agreement provide?",
-    answers: [
-      { text: "A SQL database service", correct: false },
-      {
-        text: "An XML-based protocol for negotiating and managing service agreements",
-        correct: true,
-      },
-      { text: "A cloud storage solution", correct: false },
-      { text: "A client-side encryption tool", correct: false },
-    ],
-  },
-  {
-    question: "What is WSLA?",
-    answers: [
-      {
-        text: "Web Server Load Adapter",
-        correct: false,
-      },
-      {
-        text: "A framework to express and monitor SLAs using XML",
-        correct: true,
-      },
-      {
-        text: "A cloud deployment tool",
-        correct: false,
-      },
-      {
-        text: "A type of cloud database",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What differentiates a Cloud SLA from a Web Service SLA?",
-    answers: [
-      { text: "Use of UDDI directories in cloud SLAs", correct: false },
-      {
-        text: "Cloud SLAs include QoS related to security, trust, and automation",
-        correct: true,
-      },
-      {
-        text: "Web SLAs include infrastructure cost planning",
-        correct: false,
-      },
-      {
-        text: "Cloud SLAs are used only for mobile apps",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which of the following is a negotiable SLA characteristic?",
-    answers: [
-      {
-        text: "It uses a fixed template created by the provider",
-        correct: false,
-      },
-      {
-        text: "It allows negotiation via external agents",
-        correct: true,
-      },
-      {
-        text: "It doesn't require any agreement at runtime",
-        correct: false,
-      },
-      {
-        text: "It is non-conducive for mission-critical systems",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which is an example of a Service Level Objective (SLO)?",
-    answers: [
-      {
-        text: "The service must be visually appealing",
-        correct: false,
-      },
-      {
-        text: "Availability of a service is 99.9%",
-        correct: true,
-      },
-      {
-        text: "The user must agree to terms and conditions",
-        correct: false,
-      },
-      {
-        text: "The UI must respond in blue theme",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Service Level Management involves:",
-    answers: [
-      { text: "Web UI design monitoring", correct: false },
-      {
-        text: "Monitoring and measuring performance based on SLOs",
-        correct: true,
-      },
-      { text: "Only consumer-side operations", correct: false },
-      { text: "Creating new SLA documents daily", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a typical KPI used in SLA?",
-    answers: [
-      { text: "User interface font size", correct: false },
-      { text: "Page scroll behavior", correct: false },
-      { text: "Downtime and uptime", correct: true },
-      { text: "Number of user clicks", correct: false },
-    ],
-  },
-  {
-    question: "How is availability calculated from KPIs?",
-    answers: [
-      { text: "Availability = uptime - downtime", correct: false },
-      { text: "Availability = 1 + (downtime / uptime)", correct: false },
-      { text: "Availability = uptime × downtime", correct: false },
-      { text: "Availability = 1 - (downtime / uptime)", correct: true },
-    ],
-  },
-  {
-    question: "What is a key limitation of SLAs?",
-    answers: [
-      { text: "They ensure perfect uptime", correct: false },
-      { text: "They eliminate need for monitoring", correct: false },
-      { text: "Biasness towards vendors", correct: true },
-      { text: "They provide security auditing", correct: false },
+      { text: "Arsenic", correct: false },
+      { text: "Fluoride", correct: false },
+      { text: "Nitrates", correct: true },
+      { text: "Lead", correct: false },
     ],
   },
   {
     question:
-      "Which SLA requirement ensures user data is protected from unauthorized access?",
+      "Haemophilia A is caused by the deficiency of which clotting factor?",
     answers: [
-      { text: "Transparency", correct: false },
-      { text: "Monitoring", correct: false },
-      { text: "Data Encryption", correct: true },
-      { text: "Auditability", correct: false },
-    ],
-  },
-  {
-    question: "Which SLA requirement ensures old data is properly handled?",
-    answers: [
-      { text: "Data Retention and Deletion", correct: true },
-      { text: "Service Redundancy", correct: false },
-      { text: "Latency Management", correct: false },
-      { text: "Bandwidth Provisioning", correct: false },
-    ],
-  },
-  {
-    question: "Cloud computing supports which pricing model?",
-    answers: [
-      { text: "Fixed annual pricing", correct: false },
-      { text: "Utility pricing or pay-per-use", correct: true },
-      { text: "Free-tier for all services", correct: false },
-      { text: "Hardware-ownership pricing", correct: false },
+      { text: "Factor VIII", correct: true },
+      { text: "Factor IX", correct: false },
+      { text: "Factor V", correct: false },
+      { text: "Fibrinogen", correct: false },
     ],
   },
   {
     question:
-      "Which property defines cloud's ability to be globally available?",
+      "Which Indian state is NOT listed as a major hotspot for groundwater arsenic contamination?",
     answers: [
-      { text: "Multiplexing", correct: false },
-      { text: "Location-independence", correct: true },
-      { text: "Service Composition", correct: false },
-      { text: "Hybrid Integration", correct: false },
+      { text: "Bihar", correct: false },
+      { text: "Assam", correct: false },
+      { text: "Rajasthan", correct: true },
+      { text: "West Bengal", correct: false },
     ],
   },
   {
-    question: "What economic benefit does pooled infrastructure provide?",
+    question: "The term 'Goldilocks Economy' refers to:",
     answers: [
-      { text: "Reduced service performance", correct: false },
-      { text: "Increased operating costs", correct: false },
-      { text: "Economies of scale", correct: true },
-      { text: "Slower demand analysis", correct: false },
-    ],
-  },
-  {
-    question: "What is the coefficient of variation (CV)?",
-    answers: [
-      { text: "Standard deviation of the maximum value", correct: false },
-      { text: "Variance of the absolute values", correct: false },
-      { text: "Ratio of standard deviation to mean", correct: true },
-      { text: "Product of mean and standard deviation", correct: false },
-    ],
-  },
-  {
-    question: "Higher smoothness in demand results in:",
-    answers: [
-      { text: "Higher cost of service", correct: false },
-      { text: "Increased SLA violations", correct: false },
-      { text: "Higher utilization and efficiency", correct: true },
-      { text: "Lower resource reuse", correct: false },
-    ],
-  },
-  {
-    question: "Which is true for off-the-shelf SLA?",
-    answers: [
-      { text: "It is highly negotiable", correct: false },
-      { text: "Used mainly in experimental cloud setups", correct: false },
-      { text: "Provider defines all terms without negotiation", correct: true },
-      { text: "Negotiated through multiple agents", correct: false },
-    ],
-  },
-  {
-    question: "Which layer does not have an expected SLA parameter?",
-    answers: [
-      { text: "SaaS", correct: false },
-      { text: "PaaS", correct: false },
-      { text: "IaaS", correct: false },
-      { text: "BIaaS (Business Intelligence as a Service)", correct: true },
+      { text: "High growth, high inflation", correct: false },
+      { text: "Moderate growth, low inflation", correct: true },
+      { text: "Low growth, deflation", correct: false },
+      { text: "Stagflation", correct: false },
     ],
   },
   {
     question:
-      "Which metric is used to track actual service delivery over time?",
+      "Which body functions under the Ministry of Development of North Eastern Region (DoNER)?",
     answers: [
-      { text: "Theme selection", correct: false },
-      { text: "Packet inbytes and outbytes", correct: true },
-      { text: "Window reload counts", correct: false },
-      { text: "Dropdown navigation speed", correct: false },
+      { text: "North Eastern Council (NEC)", correct: true },
+      { text: "NITI Aayog", correct: false },
+      { text: "Inter-State Council", correct: false },
+      { text: "Zonal Councils", correct: false },
     ],
   },
   {
-    question: "Penalty cost in on-demand services occurs when:",
+    question: "Fluoride levels above the WHO limit primarily cause:",
     answers: [
-      { text: "The resources exceed demand", correct: false },
-      {
-        text: "Resources don't match instantaneous demand",
-        correct: true,
-      },
-      { text: "Customer terminates SLA early", correct: false },
-      { text: "Data transfer is free", correct: false },
+      { text: "Skeletal fluorosis", correct: true },
+      { text: "Kidney damage", correct: false },
+      { text: "Blue Baby Syndrome", correct: false },
+      { text: "Cholera", correct: false },
     ],
   },
   {
     question:
-      "Which of the following is a benefit of on-demand cloud resources?",
+      "Which mineral contaminant in Punjab's Malwa region is linked to kidney toxicity?",
     answers: [
-      { text: "Static allocation", correct: false },
-      { text: "Delayed provisioning", correct: false },
-      {
-        text: "Scalable, elastic resources provisioned without delay",
-        correct: true,
-      },
-      { text: "High upfront hardware cost", correct: false },
+      { text: "Lead", correct: false },
+      { text: "Uranium", correct: true },
+      { text: "Chromium", correct: false },
+      { text: "Fluoride", correct: false },
     ],
   },
   {
-    question: "What does statistical multiplexing allow in cloud?",
+    question: "The NEC was established in which year?",
     answers: [
-      { text: "Predict exact user behavior", correct: false },
-      {
-        text: "Share resources efficiently by aggregating variable demand",
-        correct: true,
-      },
-      { text: "Increase individual costs", correct: false },
-      { text: "Decrease availability", correct: false },
+      { text: "1965", correct: false },
+      { text: "1971", correct: true },
+      { text: "1980", correct: false },
+      { text: "2002", correct: false },
+    ],
+  },
+  {
+    question: "In the Indian context, the CFPI refers to:",
+    answers: [
+      { text: "Consumer Food Price Index", correct: true },
+      { text: "Central Fiscal Price Indicator", correct: false },
+      { text: "Commodity and Fuel Price Index", correct: false },
+      { text: "Consumer Fuel Price Index", correct: false },
+    ],
+  },
+  {
+    question: "Which state was added to the NEC in 2002?",
+    answers: [
+      { text: "Sikkim", correct: true },
+      { text: "Arunachal Pradesh", correct: false },
+      { text: "Nagaland", correct: false },
+      { text: "Tripura", correct: false },
+    ],
+  },
+
+  // 11–15: Multiple Correct
+  {
+    question:
+      "Which of the following are heavy metals known to contaminate groundwater in India?",
+    answers: [
+      { text: "Lead", correct: true },
+      { text: "Mercury", correct: true },
+      { text: "Chromium", correct: true },
+      { text: "Calcium", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are health impacts of arsenic contamination in groundwater?",
+    answers: [
+      { text: "Skin lesions", correct: true },
+      { text: "Liver cancer", correct: true },
+      { text: "Blue Baby Syndrome", correct: false },
+      { text: "Gangrene", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which are the common reasons for underdiagnosis of haemophilia cases in India?",
+    answers: [
+      { text: "Lack of awareness", correct: true },
+      { text: "Limited diagnostic centres", correct: true },
+      { text: "Free availability of clotting factors", correct: false },
+      { text: "Social stigma", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following are objectives of the North Eastern Council?",
+    answers: [
+      { text: "Balanced development of NER", correct: true },
+      { text: "Act as a regional planning body", correct: true },
+      { text: "Adjudicate inter-state disputes", correct: false },
+      { text: "Coordinate between Centre and States", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following are challenges to maintaining a Goldilocks Economy in India?",
+    answers: [
+      { text: "High food inflation", correct: true },
+      { text: "Stagnant real wages", correct: true },
+      { text: "Rising income inequality", correct: true },
+      { text: "Surplus fiscal space", correct: false },
+    ],
+  },
+
+  // 16–20: Statement-based with options A–D
+  {
+    question:
+      "With reference to groundwater contamination in India, consider the following statements:\n\n1. Over-extraction of groundwater can mobilize geogenic contaminants like fluoride and arsenic.\n2. The Water (Prevention and Control of Pollution) Act, 1974 directly covers groundwater protection.\n3. Nitrate contamination is primarily due to industrial effluents.\n4. Pathogens from sewage leaks can cause cholera and hepatitis.\n\nWhich of the statements given above are correct?",
+    answers: [
+      { text: "A. 1 and 4 only", correct: true },
+      { text: "B. 1, 2 and 4 only", correct: false },
+      { text: "C. 2 and 3 only", correct: false },
+      { text: "D. 1, 3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to haemophilia management in India, consider the following statements:\n\n1. Prophylaxis aims to prevent bleeding episodes before they occur.\n2. Most patients in India receive prophylactic treatment.\n3. Factor IX deficiency causes Haemophilia A.\n4. Non-factor therapies can be administered subcutaneously.\n\nWhich of the statements given above are correct?",
+    answers: [
+      { text: "A. 1 and 4 only", correct: true },
+      { text: "B. 1, 2 and 4 only", correct: false },
+      { text: "C. 2, 3 and 4 only", correct: false },
+      { text: "D. 1 and 2 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Goldilocks Economy in India, consider the following statements:\n\n1. It is characterized by moderate GDP growth and low inflation.\n2. Recent data shows CFPI often higher than CPI, affecting low-income households more.\n3. Real wage growth in India has been consistently above 10% since 2020.\n4. High public debt can limit welfare spending.\n\nWhich of the statements given above are correct?",
+    answers: [
+      { text: "A. 1, 2 and 4 only", correct: true },
+      { text: "B. 1, 3 and 4 only", correct: false },
+      { text: "C. 2 and 3 only", correct: false },
+      { text: "D. 1, 2 and 3 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the North Eastern Council (NEC), consider the following statements:\n\n1. It is a constitutional body under Article 263.\n2. It includes Governors and Chief Ministers of member states.\n3. Sikkim became a member in 2002.\n4. The Home Minister of India is an ex-officio member.\n\nWhich of the statements given above are correct?",
+    answers: [
+      { text: "A. 2 and 3 only", correct: true },
+      { text: "B. 1, 2 and 3 only", correct: false },
+      { text: "C. 1 and 4 only", correct: false },
+      { text: "D. 2, 3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to uranium contamination in India’s groundwater, consider the following statements:\n\n1. The WHO safe limit for uranium in drinking water is 30 µg/L.\n2. Uranium contamination has been reported in Punjab, Rajasthan, and Andhra Pradesh.\n3. The primary health impact of uranium is kidney toxicity.\n4. Uranium contamination is primarily caused by sewage infiltration.\n\nWhich of the statements given above are correct?",
+    answers: [
+      { text: "A. 1, 2 and 3 only", correct: true },
+      { text: "B. 1 and 3 only", correct: false },
+      { text: "C. 2, 3 and 4 only", correct: false },
+      { text: "D. 1, 2 and 4 only", correct: false },
     ],
   },
 ];
+
 ///////////////////////////////// Managing Data  //////////////////////////////////////
 const ManagingData = [
   {
@@ -5630,8 +5527,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper5;
     } else if (selectedValue === "Paper6") {
       Questions = Paper6;
-    } else if (selectedValue === "Cloud_Computing_Architecture") {
-      Questions = Cloud_Computing_Architecture;
+    } else if (selectedValue === "Paper7") {
+      Questions = Paper7;
     } else if (selectedValue === "Architecture_Deploy_Modals") {
       Questions = Architecture_Deploy_Modals;
     } else if (selectedValue === "Virtualization") {
