@@ -1808,813 +1808,449 @@ const Paper7 = [
   },
 ];
 
-///////////////////////////////// Managing Data  //////////////////////////////////////
-const ManagingData = [
+///////////////////////////////// 9 August 2025 //////////////////////////////////////
+const Paper8 = [
+  // 1-10: Single correct type
   {
     question:
-      "What is the default data storage and retrieval mechanism since the 1980s?",
+      "Which organization developed the bio-fortified potatoes aimed at increasing iron content?",
     answers: [
-      { text: "Hierarchical databases", correct: false },
-      { text: "Network databases", correct: false },
-      { text: "Relational databases", correct: true },
-      { text: "Column-oriented databases", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which system organizes data similarly to column-oriented databases like Vertica?",
-    answers: [
-      { text: "Dynamo", correct: false },
-      { text: "MapReduce", correct: false },
-      { text: "BigTable", correct: true },
-      { text: "Google File System", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a parallel programming paradigm?",
-    answers: [
-      { text: "SQL", correct: false },
-      { text: "MapReduce", correct: true },
-      { text: "SMP", correct: false },
-      { text: "HDFS", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is an open-source implementation of GFS?",
-    answers: [
-      { text: "SimpleDB", correct: false },
-      { text: "Dynamo", correct: false },
-      { text: "HDFS", correct: true },
-      { text: "BigTable", correct: false },
-    ],
-  },
-  {
-    question: "What type of storage do traditional relational databases use?",
-    answers: [
-      { text: "Column-oriented storage", correct: false },
-      { text: "Object-oriented storage", correct: false },
-      { text: "Row-oriented storage", correct: true },
-      { text: "Distributed object storage", correct: false },
+      { text: "Indian Council of Agricultural Research", correct: false },
+      { text: "International Potato Center (CIP), Peru", correct: true },
+      { text: "Food and Agriculture Organization", correct: false },
+      { text: "International Crops Research Institute", correct: false },
     ],
   },
   {
     question:
-      "Which architecture has each processor with its own memory and disk?",
+      "Which Indian state will host the CIP research centre for bio-fortified potatoes?",
     answers: [
-      { text: "Shared memory", correct: false },
-      { text: "Shared disk", correct: false },
-      { text: "Shared nothing", correct: true },
-      { text: "Cloud-based", correct: false },
+      { text: "Bihar", correct: false },
+      { text: "Uttar Pradesh", correct: true },
+      { text: "Punjab", correct: false },
+      { text: "Haryana", correct: false },
     ],
   },
   {
     question:
-      "Which architecture allows all processors to access shared memory?",
+      "Which Central American country recently allowed indefinite presidential re-election?",
     answers: [
-      { text: "Shared memory", correct: true },
-      { text: "Shared nothing", correct: false },
-      { text: "Shared disk", correct: false },
-      { text: "Distributed file system", correct: false },
+      { text: "Guatemala", correct: false },
+      { text: "Honduras", correct: false },
+      { text: "El Salvador", correct: true },
+      { text: "Costa Rica", correct: false },
     ],
   },
   {
     question:
-      "Which architecture is a hybrid of shared memory and shared nothing?",
+      "The AI-based Agromet Advisory Service is jointly launched by ICRISAT and which Indian organisation?",
     answers: [
-      { text: "Shared memory", correct: false },
-      { text: "Shared disk", correct: true },
-      { text: "Cloud architecture", correct: false },
-      { text: "Centralized", correct: false },
+      { text: "ICAR", correct: true },
+      { text: "ISRO", correct: false },
+      { text: "NABARD", correct: false },
+      { text: "FICCI", correct: false },
     ],
   },
   {
     question:
-      "Which of these databases supports parallel processing for transaction tasks?",
+      "Which biosphere reserve was the pilot site for the Rhisotope Project?",
     answers: [
-      { text: "Netezza", correct: false },
-      { text: "Oracle", correct: true },
-      { text: "SimpleDB", correct: false },
-      { text: "BigTable", correct: false },
+      { text: "Nilgiri Biosphere Reserve", correct: false },
+      { text: "Waterberg Biosphere Reserve", correct: true },
+      { text: "Khangchendzonga Biosphere Reserve", correct: false },
+      { text: "Agasthyamalai Biosphere Reserve", correct: false },
     ],
   },
   {
     question:
-      "Which Google service offers a key-value store built on BigTable?",
+      "The 'Apna Ghar' initiative was launched for the welfare of which group?",
     answers: [
-      { text: "Google File System", correct: false },
-      { text: "Google App Engine's Datastore", correct: true },
-      { text: "Google Cloud Storage", correct: false },
-      { text: "Google Drive", correct: false },
-    ],
-  },
-  {
-    question: "How does the GFS client read a file?",
-    answers: [
-      { text: "Reads metadata from chunk server directly", correct: false },
-      { text: "Sends request to master to get chunk metadata", correct: true },
-      { text: "Reads the file entirely into memory", correct: false },
-      { text: "Uses SimpleDB to retrieve chunk", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of tablets in BigTable?",
-    answers: [
-      { text: "To store configurations", correct: false },
-      {
-        text: "To enable parallel access and management of data",
-        correct: true,
-      },
-      { text: "To handle only metadata", correct: false },
-      { text: "To simulate a relational table", correct: false },
-    ],
-  },
-  {
-    question: "Which type of database is Dynamo best suited for?",
-    answers: [
-      { text: "Scientific simulations", correct: false },
-      { text: "E-commerce web applications", correct: true },
-      { text: "Geographic databases", correct: false },
-      { text: "Time series databases", correct: false },
+      { text: "Migrant labourers", correct: false },
+      { text: "Truck drivers", correct: true },
+      { text: "Construction workers", correct: false },
+      { text: "Fishermen", correct: false },
     ],
   },
   {
     question:
-      "Which technique is used by Dynamo to ensure consistency during concurrent reads/writes?",
+      "Which ministry oversees the Investor Education and Protection Fund Authority (IEPFA)?",
     answers: [
-      { text: "Simple locking", correct: false },
-      { text: "Two-phase commit", correct: false },
-      { text: "Quorum protocol", correct: true },
-      { text: "Sharding", correct: false },
+      { text: "Ministry of Finance", correct: false },
+      { text: "Ministry of Corporate Affairs", correct: true },
+      { text: "Ministry of Commerce", correct: false },
+      { text: "Ministry of Law & Justice", correct: false },
     ],
   },
   {
-    question: "What kind of data model is used in Dynamo?",
+    question: "The Alpine musk deer is classified under which IUCN category?",
     answers: [
-      { text: "Relational", correct: false },
-      { text: "Document-based", correct: false },
-      { text: "<Key, Value> pair", correct: true },
-      { text: "Graph-based", correct: false },
+      { text: "Vulnerable", correct: false },
+      { text: "Endangered", correct: true },
+      { text: "Critically Endangered", correct: false },
+      { text: "Near Threatened", correct: false },
     ],
   },
   {
-    question: "In MapReduce, what happens in the map phase?",
+    question: "The Kopili River is a tributary of which river?",
     answers: [
-      { text: "Reducer processes are scheduled", correct: false },
-      { text: "Key-value pairs are grouped by key", correct: false },
-      {
-        text: "Input data is split and transformed into key-value pairs",
-        correct: true,
-      },
-      { text: "Results are stored in GFS", correct: false },
-    ],
-  },
-  {
-    question: "What does the reducer do in the MapReduce model?",
-    answers: [
-      { text: "Splits data", correct: false },
-      { text: "Transforms files into key-value pairs", correct: false },
-      {
-        text: "Applies a function on grouped key-value results",
-        correct: true,
-      },
-      { text: "Schedules mappers", correct: false },
+      { text: "Ganga", correct: false },
+      { text: "Yamuna", correct: false },
+      { text: "Brahmaputra", correct: true },
+      { text: "Meghna", correct: false },
     ],
   },
   {
     question:
-      "Which layer in RDBMS handles fetching of pages from disk into memory?",
+      "Which Indian government mission supports the AI-based Agromet Advisory Service?",
     answers: [
-      { text: "Query parser", correct: false },
-      { text: "Transaction manager", correct: false },
-      { text: "Disk-space management", correct: true },
-      { text: "Optimizer", correct: false },
+      { text: "Digital India Mission", correct: false },
+      { text: "Monsoon Mission III", correct: true },
+      { text: "National AI Mission", correct: false },
+      { text: "Krishi Unnati Mission", correct: false },
+    ],
+  },
+
+  // 11-15: Multiple correct type
+  {
+    question: "Which of the following are biofortification methods?",
+    answers: [
+      { text: "Traditional breeding", correct: true },
+      { text: "Fertilizer techniques", correct: true },
+      { text: "Genetic engineering", correct: true },
+      { text: "Industrial food fortification after harvest", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are features of the Rhisotope Project?",
+    answers: [
+      { text: "Uses radioactive isotopes in rhino horns", correct: true },
+      { text: "Harms rhinos physically", correct: false },
+      { text: "Makes horns detectable at borders", correct: true },
+      { text: "Reduces black-market demand", correct: true },
     ],
   },
   {
     question:
-      "Which component transforms SQL queries into memory and disk-level operations?",
+      "Which are key tools or platforms in the AI-based Agromet Advisory Service?",
     answers: [
-      { text: "Optimizer", correct: false },
-      { text: "Disk-space manager", correct: false },
-      { text: "Parser", correct: true },
-      { text: "Transaction manager", correct: false },
-    ],
-  },
-  {
-    question: "What is the main purpose of SSTables in BigTable?",
-    answers: [
-      { text: "Store meta-data only", correct: false },
-      {
-        text: "Store column families efficiently for a row range",
-        correct: true,
-      },
-      { text: "Provide row-level isolation", correct: false },
-      { text: "Replace chunk servers", correct: false },
+      { text: "iSAT", correct: true },
+      { text: "AI-powered WhatsApp bots", correct: true },
+      { text: "Blockchain verification", correct: false },
+      { text: "Mobile apps", correct: true },
     ],
   },
   {
     question:
-      "What is the primary function of a Relational Database Management System (RDBMS)?",
+      "Which of the following are major threats to the Alpine musk deer?",
     answers: [
-      { text: "To manage unstructured files on cloud storage", correct: false },
-      { text: "To transform HTML into SQL", correct: false },
-      {
-        text: "To parse and optimize SQL queries for data storage and retrieval",
-        correct: true,
-      },
-      {
-        text: "To replace all hierarchical databases with JSON",
-        correct: false,
-      },
+      { text: "Poaching for musk glands", correct: true },
+      { text: "Habitat loss", correct: true },
+      { text: "Overgrazing by livestock", correct: false },
+      { text: "Air pollution", correct: false },
     ],
   },
   {
-    question:
-      "Which of the following is a column-oriented storage system developed by Google?",
+    question: "Which features are included in the 'Apna Ghar' initiative?",
     answers: [
-      { text: "Google File System", correct: false },
-      { text: "DynamoDB", correct: false },
-      { text: "BigTable", correct: true },
-      { text: "MySQL", correct: false },
+      { text: "Dormitories", correct: true },
+      { text: "Restaurants/Dhabas", correct: true },
+      { text: "Clean toilets", correct: true },
+      { text: "Luxury hotel rooms", correct: false },
+    ],
+  },
+
+  // 16-20: Statement-based type
+  {
+    question: `With reference to bio-fortified potatoes, consider the following statements:
+1. They are developed using harmful genetic modification.
+2. They are aimed at combating iron deficiency.
+3. CIP is setting up a research centre in Uttar Pradesh.
+4. Their yield is lower than traditional varieties.
+Which of the above statements is/are correct?`,
+    answers: [
+      { text: "1 and 4 only", correct: false },
+      { text: "2 and 3 only", correct: true },
+      { text: "1, 2, and 3 only", correct: false },
+      { text: "2, 3, and 4 only", correct: false },
     ],
   },
   {
-    question:
-      "Which architecture does not share memory or disk between servers?",
+    question: `With reference to El Salvador, consider the following statements:
+1. It is the only Central American country without a Caribbean coast.
+2. Its capital is San Salvador.
+3. The Lempa River is its most important river.
+4. It shares borders with Honduras, Guatemala, and Nicaragua.
+Which of the above statements is/are correct?`,
     answers: [
-      { text: "Shared memory", correct: false },
-      { text: "Shared disk", correct: false },
-      { text: "Shared nothing", correct: true },
-      { text: "Hybrid memory", correct: false },
+      { text: "1, 2, and 3 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2, 3, and 4 only", correct: false },
+      { text: "All four statements", correct: false },
     ],
   },
   {
-    question:
-      "Which open-source system implements the concepts of Google File System (GFS)?",
+    question: `With reference to the Kopili River, consider the following statements:
+1. It flows only through Assam.
+2. It is a tributary of the Brahmaputra.
+3. It originates in Meghalaya.
+4. It has been declared as National Waterway-57.
+Which of the above statements is/are correct?`,
     answers: [
-      { text: "BigTable", correct: false },
-      { text: "SimpleDB", correct: false },
-      { text: "Hadoop Distributed File System (HDFS)", correct: true },
-      { text: "Amazon EC2", correct: false },
+      { text: "2, 3, and 4 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "All four statements", correct: false },
     ],
   },
   {
-    question:
-      "Which programming paradigm is central to processing large-scale data in a parallel and fault-tolerant manner?",
+    question: `With reference to the Investor Education and Protection Fund Authority (IEPFA), consider the following statements:
+1. It was established in 2016.
+2. It operates under the Ministry of Finance.
+3. It manages unclaimed dividends and matured deposits.
+4. It runs the Niveshak Didi initiative for financial literacy.
+Which of the above statements is/are correct?`,
     answers: [
-      { text: "Object-Oriented Programming", correct: false },
-      { text: "Functional Programming", correct: false },
-      { text: "MapReduce", correct: true },
-      { text: "Service-Oriented Architecture", correct: false },
+      { text: "1, 3, and 4 only", correct: true },
+      { text: "1, 2, and 3 only", correct: false },
+      { text: "1 and 4 only", correct: false },
+      { text: "All four statements", correct: false },
     ],
   },
   {
-    question: "In BigTable, what uniquely identifies each cell of data?",
+    question: `With reference to industrial accidents in India, consider the following statements:
+1. Most accidents are considered unavoidable Acts of God.
+2. Many occur due to lack of safety approvals and equipment.
+3. SMEs are often involved in major chemical accidents.
+4. South Korea and Singapore have laws holding top executives criminally liable.
+Which of the above statements is/are correct?`,
     answers: [
-      { text: "Row key, column key, and timestamp", correct: true },
-      { text: "Table name and index", correct: false },
-      { text: "Label and primary key", correct: false },
-      { text: "File path and offset", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which system uses a ring-based architecture with MD5 hashing for distributed storage?",
-    answers: [
-      { text: "BigTable", correct: false },
-      { text: "MapReduce", correct: false },
-      { text: "Dynamo", correct: true },
-      { text: "Vertica", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary use of the Reduce phase in the MapReduce model?",
-    answers: [
-      { text: "Sorts input data", correct: false },
-      { text: "Fetches metadata from the master node", correct: false },
-      {
-        text: "Performs aggregation and summarization based on key",
-        correct: true,
-      },
-      { text: "Splits data into tablets for storage", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following best describes the fault-tolerance mechanism in GFS?",
-    answers: [
-      { text: "Redundant HTML caching", correct: false },
-      { text: "Use of a master node for all reads and writes", correct: false },
-      {
-        text: "Multiple replicas and handling failures during read/write operations",
-        correct: true,
-      },
-      { text: "Dynamic creation of database schemas", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a key feature of Dynamo in handling concurrent updates?",
-    answers: [
-      { text: "Immediate deletion of conflicting versions", correct: false },
-      { text: "Single version enforcement", correct: false },
-      {
-        text: "Application-independent conflict resolution with versioning",
-        correct: true,
-      },
-      { text: "Database-wide locking", correct: false },
+      { text: "2, 3, and 4 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "1, 2, and 3 only", correct: false },
+      { text: "All four statements", correct: false },
     ],
   },
 ];
-/////////////////////////////////  OpenStack  //////////////////////////////////////
-const OpenStack = [
+
+/////////////////////////////////  10 August 2025  //////////////////////////////////////
+const Paper9 = [
+  // -------- First 10: Single Correct --------
   {
-    question: "What is OpenStack primarily used for?",
+    question: "Which is the State tree of Tamil Nadu?",
     answers: [
-      { text: "Creating mobile applications", correct: false },
-      {
-        text: "Managing large pools of compute, storage, and networking resources",
-        correct: true,
-      },
-      { text: "Developing machine learning models", correct: false },
-      { text: "Automating hardware manufacturing", correct: false },
+      { text: "Neem", correct: false },
+      { text: "Palmyra", correct: true },
+      { text: "Coconut", correct: false },
+      { text: "Peepal", correct: false },
     ],
   },
   {
     question:
-      "Which interface does OpenStack provide for administrators and users?",
+      "Pathaneer, extracted from Palmyra trees in Tamil Nadu, is primarily used for:",
     answers: [
-      { text: "Command Line Interface only", correct: false },
-      { text: "A mobile app", correct: false },
-      { text: "A web-based dashboard", correct: true },
-      { text: "REST API only", correct: false },
+      { text: "Fermentation into toddy", correct: false },
+      { text: "Sweet products like jaggery and candy", correct: true },
+      { text: "Biofuel production", correct: false },
+      { text: "Animal feed", correct: false },
+    ],
+  },
+  {
+    question: "Which district is famous for Udangudi Panangkarupatti?",
+    answers: [
+      { text: "Thoothukudi", correct: true },
+      { text: "Erode", correct: false },
+      { text: "Kanchipuram", correct: false },
+      { text: "Madurai", correct: false },
     ],
   },
   {
     question:
-      "Which of the following is NOT a capability provided by OpenStack?",
+      "Which unique soil type in Udangudi contributes to the distinct flavor of its palm jaggery?",
     answers: [
-      { text: "Software as a Service (SaaS)", correct: false },
-      { text: "Infrastructure as a Service (IaaS)", correct: false },
-      { text: "Hardware as a Service (HaaS)", correct: true },
-      { text: "Platform as a Service (PaaS)", correct: false },
+      { text: "Alluvial soil", correct: false },
+      { text: "Red sand dune soil", correct: true },
+      { text: "Black cotton soil", correct: false },
+      { text: "Laterite soil", correct: false },
     ],
   },
   {
-    question: "What is the main function of the OpenStack Nova project?",
+    question: "The 'Master of Roster' principle in the High Courts means:",
     answers: [
-      { text: "Provides identity and access management", correct: false },
-      { text: "Manages compute instances lifecycle", correct: true },
-      { text: "Stores object-based files", correct: false },
-      { text: "Monitors cloud services", correct: false },
-    ],
-  },
-  {
-    question: "What does the Neutron service in OpenStack provide?",
-    answers: [
-      { text: "Image storage", correct: false },
-      { text: "Compute instance scheduling", correct: false },
-      { text: "Network-Connectivity-as-a-Service", correct: true },
-      { text: "Block storage", correct: false },
-    ],
-  },
-  {
-    question: "Which OpenStack project handles unstructured object storage?",
-    answers: [
-      { text: "Nova", correct: false },
-      { text: "Glance", correct: false },
-      { text: "Cinder", correct: false },
-      { text: "Swift", correct: true },
-    ],
-  },
-  {
-    question: "Which project provides persistent block storage in OpenStack?",
-    answers: [
-      { text: "Cinder", correct: true },
-      { text: "Swift", correct: false },
-      { text: "Nova", correct: false },
-      { text: "Glance", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of Keystone in OpenStack?",
-    answers: [
-      { text: "Stores VM images", correct: false },
-      { text: "Provides authorization and authentication", correct: true },
-      { text: "Manages compute resources", correct: false },
-      { text: "Schedules VM instances", correct: false },
+      { text: "All judges can choose their cases", correct: false },
+      { text: "The Chief Justice allocates judicial work", correct: true },
+      { text: "The President assigns cases", correct: false },
+      { text: "The Supreme Court assigns cases", correct: false },
     ],
   },
   {
     question:
-      "Which service in OpenStack is responsible for providing a web UI?",
+      "Which UN body created the Intergovernmental Negotiating Committee (INC) on plastic pollution?",
     answers: [
-      { text: "Ceilometer", correct: false },
-      { text: "Keystone", correct: false },
-      { text: "Horizon", correct: true },
-      { text: "Glance", correct: false },
+      { text: "UN General Assembly", correct: false },
+      { text: "United Nations Environment Programme", correct: true },
+      { text: "World Trade Organization", correct: false },
+      { text: "UNESCO", correct: false },
     ],
   },
   {
     question:
-      "Which service is used by Nova during instance provisioning to retrieve VM images?",
+      "Which resolution led to the creation of the INC for a global plastic treaty?",
     answers: [
-      { text: "Keystone", correct: false },
-      { text: "Ceilometer", correct: false },
-      { text: "Glance", correct: true },
-      { text: "Neutron", correct: false },
-    ],
-  },
-  {
-    question: "What kind of storage does Swift provide?",
-    answers: [
-      { text: "Block-level storage", correct: false },
-      { text: "Temporary storage", correct: false },
-      { text: "Object storage", correct: true },
-      { text: "RAM-only storage", correct: false },
-    ],
-  },
-  {
-    question: "What does Ceilometer monitor in an OpenStack environment?",
-    answers: [
-      { text: "System processes", correct: false },
-      { text: "Power consumption", correct: false },
-      { text: "Cloud usage for billing and statistics", correct: true },
-      { text: "User access logs", correct: false },
-    ],
-  },
-  {
-    question: "What kind of API does Swift use to store and retrieve data?",
-    answers: [
-      { text: "GraphQL", correct: false },
-      { text: "RESTful HTTP API", correct: true },
-      { text: "SOAP", correct: false },
-      { text: "gRPC", correct: false },
+      { text: "UNEA Resolution 5/14", correct: true },
+      { text: "Basel Resolution 3/21", correct: false },
+      { text: "CBD COP-15", correct: false },
+      { text: "UNGA Resolution 74/25", correct: false },
     ],
   },
   {
     question:
-      "Which of the following OpenStack services uses a pluggable driver architecture?",
+      "Which country is NOT part of India's like-minded group in INC negotiations?",
     answers: [
-      { text: "Nova", correct: false },
-      { text: "Cinder", correct: true },
-      { text: "Swift", correct: false },
-      { text: "Horizon", correct: false },
+      { text: "Saudi Arabia", correct: false },
+      { text: "Russia", correct: false },
+      { text: "Japan", correct: true },
+      { text: "China", correct: false },
     ],
   },
   {
     question:
-      "In the provisioning flow, who is responsible for filtering and selecting the compute node?",
+      "Which sector reports the highest number of unreported industrial accidents in India?",
     answers: [
-      { text: "Nova API", correct: false },
-      { text: "Neutron", correct: false },
-      { text: "Scheduler", correct: true },
-      { text: "Conductor", correct: false },
-    ],
-  },
-  {
-    question: "Which type of storage persists only until the VM is terminated?",
-    answers: [
-      { text: "Block storage", correct: false },
-      { text: "Object storage", correct: false },
-      { text: "Ephemeral storage", correct: true },
-      { text: "Database storage", correct: false },
-    ],
-  },
-  {
-    question: "Which type of storage is managed by Cinder?",
-    answers: [
-      { text: "Object storage", correct: false },
-      { text: "Block storage", correct: true },
-      { text: "Ephemeral storage", correct: false },
-      { text: "RAM storage", correct: false },
+      { text: "Formal registered factories", correct: false },
+      { text: "Informal/unregistered sector", correct: true },
+      { text: "IT and services sector", correct: false },
+      { text: "Public sector units", correct: false },
     ],
   },
   {
     question:
-      "Which cloud platform offers services to build, test and deploy applications on Google’s infrastructure?",
+      "Which safety measure is often missing in industrial units leading to accidents?",
     answers: [
-      { text: "Amazon Web Services", correct: false },
-      { text: "Microsoft Azure", correct: false },
-      { text: "Google Cloud Platform", correct: true },
-      { text: "IBM Cloud", correct: false },
+      { text: "Fire Safety No-Objection Certificate", correct: true },
+      { text: "Internet facilities", correct: false },
+      { text: "Solar power backup", correct: false },
+      { text: "GPS tracking", correct: false },
     ],
   },
+
+  // -------- Next 5: Multiple Correct --------
   {
-    question: "Which service of GCP helps scale applications globally?",
+    question: "Which of the following are products made from Pathaneer?",
     answers: [
-      { text: "Google Drive", correct: false },
-      { text: "Google Cloud Endpoints", correct: true },
-      { text: "Google Cloud Console", correct: false },
-      { text: "Firebase", correct: false },
-    ],
-  },
-  {
-    question: "What percentage of global electricity is consumed by servers?",
-    answers: [
-      { text: "1.5%", correct: false },
-      { text: "0.5%", correct: true },
-      { text: "5%", correct: false },
-      { text: "10%", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a green computing technique?",
-    answers: [
-      { text: "Installing more servers", correct: false },
-      { text: "Advanced scheduling schemes", correct: true },
-      { text: "Using more disk space", correct: false },
-      { text: "Increasing network traffic", correct: false },
-    ],
-  },
-  {
-    question: "What is the focus of Power-aware Scheduling?",
-    answers: [
-      { text: "Reducing internet usage", correct: false },
-      { text: "Optimizing billing", correct: false },
-      { text: "Reducing power usage during VM scheduling", correct: true },
-      { text: "Improving image quality", correct: false },
+      { text: "Palm jaggery (karupatti)", correct: true },
+      { text: "Palm candy (panangkarkandu)", correct: true },
+      { text: "Coconut oil", correct: false },
+      { text: "Refined white sugar", correct: false },
     ],
   },
   {
     question:
-      "Which type of resource is considered logical in cloud computing?",
+      "Which of the following factors contribute to Udangudi Panangkarupatti's uniqueness?",
     answers: [
-      { text: "Disk", correct: false },
-      { text: "Scientific instrument", correct: false },
-      { text: "Monitoring", correct: true },
-      { text: "Database server", correct: false },
+      { text: "Red sand dune soil", correct: true },
+      { text: "Low groundwater moisture", correct: true },
+      { text: "Use of triple super phosphate", correct: false },
+      { text: "Dry climate", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following are key debates in INC negotiations?",
+    answers: [
+      { text: "Production controls on plastics", correct: true },
+      { text: "Global financing for waste management", correct: true },
+      { text: "Space debris management", correct: false },
+      { text: "Equity for developing countries", correct: true },
     ],
   },
   {
     question:
-      "Which OpenStack component is used to attach IP and configure DNS during VM creation?",
+      "Which of the following are common causes of industrial accidents in India?",
     answers: [
-      { text: "Nova", correct: false },
-      { text: "Cinder", correct: false },
-      { text: "Neutron", correct: true },
-      { text: "Glance", correct: false },
+      { text: "Lack of training for workers", correct: true },
+      { text: "Permit-to-work systems in place", correct: false },
+      { text: "Blocked fire exits", correct: true },
+      { text: "Functional firefighting equipment", correct: false },
     ],
   },
   {
     question:
-      "Which storage is suitable for storing VM images and other files?",
+      "Which of the following are suggested solutions to improve industrial safety?",
     answers: [
-      { text: "Block storage", correct: false },
-      { text: "Ephemeral storage", correct: false },
-      { text: "Object storage", correct: true },
-      { text: "RAM", correct: false },
+      { text: "Corporate manslaughter laws", correct: true },
+      { text: "Weaker safety audits", correct: false },
+      { text: "Digital risk reporting", correct: true },
+      { text: "Whistleblower protection", correct: true },
+    ],
+  },
+
+  // -------- Last 5: Statement-based like IMEC --------
+  {
+    question: `With reference to Palmyra-based products in Tamil Nadu, consider the following statements:\n
+1. Fermentation of Pathaneer into toddy is prohibited in Tamil Nadu.\n
+2. Palm jaggery and palm candy are made without industrial chemicals.\n
+3. Palmyra is the State tree of Tamil Nadu.\n
+Which of the above statements is/are correct?`,
+    answers: [
+      { text: "1, 2, and 3", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
     ],
   },
   {
-    question: "Where does Nova Conductor fetch information about a VM from?",
+    question: `With reference to Udangudi Panangkarupatti, consider the following statements:\n
+1. It is made from the sap of the coconut tree.\n
+2. No chemical additives like triple super phosphate are used in its production.\n
+3. It has received a Geographical Indication (GI) tag.\n
+Which of the above statements is/are correct?`,
     answers: [
-      { text: "From user input", correct: false },
-      { text: "From Neutron", correct: false },
-      { text: "From the database", correct: true },
-      { text: "From Glance", correct: false },
+      { text: "2 and 3 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "All three", correct: false },
     ],
   },
   {
-    question: "Which OpenStack service assigns IP addresses to instances?",
+    question: `With reference to the “Master of Roster” principle, consider the following statements:\n
+1. The Chief Justice of a High Court decides which judge hears which case.\n
+2. The Supreme Court has administrative superintendence over High Courts.\n
+3. It was upheld in Tirupati Balaji Developers v. State of Bihar (2004).\n
+Which of the above statements is/are correct?`,
     answers: [
-      { text: "Horizon", correct: false },
-      { text: "Keystone", correct: false },
-      { text: "Neutron", correct: true },
-      { text: "Cinder", correct: false },
+      { text: "1 and 3 only", correct: true },
+      { text: "1, 2, and 3", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 only", correct: false },
     ],
   },
   {
-    question: "What role does Glance play in OpenStack?",
+    question: `With reference to the Intergovernmental Negotiating Committee (INC) on plastic pollution, consider the following statements:\n
+1. It was created under UNEA Resolution 5/14.\n
+2. Its goal is to create a legally binding treaty covering the lifecycle of plastics.\n
+3. India supports strict production caps on plastics.\n
+Which of the above statements is/are correct?`,
     answers: [
-      { text: "Networking service", correct: false },
-      { text: "Image storage and retrieval", correct: true },
-      { text: "Compute node scheduling", correct: false },
-      { text: "Monitoring", correct: false },
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "All three", correct: false },
     ],
   },
   {
-    question:
-      "Why is power-aware and thermal-aware scheduling important in cloud data centers?",
+    question: `With reference to industrial accidents in India, consider the following statements:\n
+1. Most major chemical accidents occur in large multinational corporations.\n
+2. Lack of fire safety approvals is a common cause of industrial mishaps.\n
+3. India currently has corporate manslaughter laws holding top management criminally liable.\n
+Which of the above statements is/are correct?`,
     answers: [
-      { text: "To reduce user activity", correct: false },
-      { text: "To minimize performance", correct: false },
-      { text: "To reduce energy and temperature", correct: true },
-      { text: "To improve battery life", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the effect of advanced scheduling strategies on data center power usage?",
-    answers: [
-      { text: "Increases power usage", correct: false },
-      { text: "No impact", correct: false },
-      {
-        text: "Reduces power usage with minimal performance impact",
-        correct: true,
-      },
-      { text: "Stops scheduling", correct: false },
+      { text: "2 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "All three", correct: false },
     ],
   },
 ];
-//////////////////////////// Resource Management 2 //////////////////////////////////////
-const ResourceManagement2 = [
-  {
-    question: "Which of the following is an objective of resource management?",
-    answers: [
-      { text: "Increased latency", correct: false },
-      { text: "Reduced overheads", correct: true },
-      { text: "Increased complexity", correct: false },
-      { text: "Higher energy consumption", correct: false },
-    ],
-  },
-  {
-    question: "What is a key performance metric for resource management?",
-    answers: [
-      { text: "Cost effectiveness", correct: false },
-      { text: "Ease of deployment", correct: true },
-      { text: "Protocol design", correct: false },
-      { text: "Cloud storage pricing", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a challenge in resource management related to hardware?",
-    answers: [
-      { text: "Data mining", correct: false },
-      { text: "Sensors/actuators", correct: true },
-      { text: "Application UI design", correct: false },
-      { text: "Customer feedback", correct: false },
-    ],
-  },
-  {
-    question:
-      "What aspect of resource management involves estimating future resource needs?",
-    answers: [
-      { text: "Resource brokering", correct: false },
-      { text: "Resource provisioning", correct: false },
-      { text: "Resource estimation", correct: true },
-      { text: "Resource discovery", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is not a performance metric for resource management?",
-    answers: [
-      { text: "QoS", correct: false },
-      { text: "Delay", correct: false },
-      { text: "Scalability", correct: true },
-      { text: "Control overhead", correct: false },
-    ],
-  },
-  {
-    question: "What does confidentiality in cloud security mean?",
-    answers: [
-      { text: "Allowing free access to data", correct: false },
-      { text: "Keeping data and resources hidden", correct: true },
-      { text: "Improving system latency", correct: false },
-      { text: "Ensuring multiple backups", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of attack involves unauthorized access to information being transmitted?",
-    answers: [
-      { text: "Replay attack", correct: false },
-      { text: "Masquerade attack", correct: false },
-      { text: "Passive attack", correct: true },
-      { text: "Denial of Service", correct: false },
-    ],
-  },
-  {
-    question: "Interception attacks primarily affect which security component?",
-    answers: [
-      { text: "Availability", correct: false },
-      { text: "Authentication", correct: false },
-      { text: "Confidentiality", correct: true },
-      { text: "Integrity", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of these is a class of threat that involves unauthorized data disclosure?",
-    answers: [
-      { text: "Usurpation", correct: false },
-      { text: "Deception", correct: false },
-      { text: "Disclosure", correct: true },
-      { text: "Disruption", correct: false },
-    ],
-  },
-  {
-    question: "What kind of attack does 'fabrication' represent?",
-    answers: [
-      { text: "Attack on integrity", correct: false },
-      { text: "Attack on confidentiality", correct: false },
-      { text: "Attack on authenticity", correct: true },
-      { text: "Attack on availability", correct: false },
-    ],
-  },
-  {
-    question: "Which of these is a type of active attack?",
-    answers: [
-      { text: "Traffic analysis", correct: false },
-      { text: "Replay", correct: true },
-      { text: "Snooping", correct: false },
-      { text: "Release of message contents", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a valid recovery metric in disaster planning?",
-    answers: [
-      { text: "QoS time", correct: false },
-      { text: "Network load", correct: false },
-      { text: "Recovery Point Objective (RPO)", correct: true },
-      { text: "System efficiency ratio", correct: false },
-    ],
-  },
-  {
-    question: "What is the purpose of redundancy in fault tolerance?",
-    answers: [
-      { text: "To reduce latency", correct: false },
-      { text: "To duplicate critical components", correct: true },
-      { text: "To enhance user experience", correct: false },
-      { text: "To backup databases", correct: false },
-    ],
-  },
-  {
-    question: "Which of these best defines 'Usurpation' threat?",
-    answers: [
-      { text: "Unauthorized disclosure of data", correct: false },
-      { text: "Modification or spoofing of resources", correct: true },
-      { text: "Legal misuse of data", correct: false },
-      { text: "Loss of backup", correct: false },
-    ],
-  },
-  {
-    question: "What does the Replay attack involve?",
-    answers: [
-      { text: "Masquerading as a trusted entity", correct: false },
-      {
-        text: "Reusing a captured message for unauthorized access",
-        correct: true,
-      },
-      { text: "Altering the contents of a message", correct: false },
-      { text: "Disabling server access", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which operational issue considers 'Is it cheaper to prevent or recover?'",
-    answers: [
-      { text: "Risk analysis", correct: false },
-      { text: "Cost-benefit analysis", correct: true },
-      { text: "Backup frequency", correct: false },
-      { text: "Fault tolerance", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is not an example of an active attack?",
-    answers: [
-      { text: "Masquerade", correct: false },
-      { text: "Modification", correct: false },
-      { text: "Traffic analysis", correct: true },
-      { text: "Denial of service", correct: false },
-    ],
-  },
-  {
-    question: "Which component ensures 'origin integrity' in cloud security?",
-    answers: [
-      { text: "Availability", correct: false },
-      { text: "Authentication", correct: true },
-      { text: "Data storage", correct: false },
-      { text: "Bandwidth control", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following best describes 'Resource modeling'?",
-    answers: [
-      { text: "Allocating existing resources", correct: false },
-      { text: "Estimating future usage of network", correct: false },
-      {
-        text: "Describing the structure and behavior of resources",
-        correct: true,
-      },
-      { text: "Controlling system APIs", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which threat includes actions like spoofing and denial of service?",
-    answers: [
-      { text: "Disclosure", correct: false },
-      { text: "Deception", correct: false },
-      { text: "Disruption", correct: false },
-      { text: "Usurpation", correct: true },
-    ],
-  },
-];
+
 //////////////////////////////  Cloud Security  //////////////////////////////
 const Cloud_Security = [
   {
@@ -5529,10 +5165,10 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper6;
     } else if (selectedValue === "Paper7") {
       Questions = Paper7;
-    } else if (selectedValue === "Architecture_Deploy_Modals") {
-      Questions = Architecture_Deploy_Modals;
-    } else if (selectedValue === "Virtualization") {
-      Questions = Virtualization;
+    } else if (selectedValue === "Paper8") {
+      Questions = Paper8;
+    } else if (selectedValue === "Paper9") {
+      Questions = Paper9;
     } else if (selectedValue === "Virtualization2") {
       Questions = Virtualization2;
     } else if (selectedValue === "XML") {
