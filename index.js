@@ -2251,482 +2251,201 @@ Which of the above statements is/are correct?`,
   },
 ];
 
-//////////////////////////////  Cloud Security  //////////////////////////////
-const Cloud_Security = [
+//////////////////////////////  11 August 2025  //////////////////////////////
+const Paper10 = [
   {
     question:
-      "What is a key risk introduced by multi-tenancy in cloud computing?",
+      "Which national park is the only natural habitat of the Asiatic lion?",
     answers: [
-      { text: "Overloading a single user’s VM", correct: false },
-      {
-        text: "Side-channel attacks and cross-VM information leakage",
-        correct: true,
-      },
-      { text: "Decreased storage capacity", correct: false },
-      { text: "Slow internet connection", correct: false },
+      { text: "Kaziranga National Park", correct: false },
+      { text: "Gir National Park", correct: true },
+      { text: "Jim Corbett National Park", correct: false },
+      { text: "Kuno National Park", correct: false },
     ],
   },
   {
-    question:
-      "What is the main challenge posed by multi-tenancy in cloud systems?",
+    question: "In which year was the Gir National Park established?",
     answers: [
-      { text: "Limited user interface options", correct: false },
-      { text: "Inability to scale resources", correct: false },
-      {
-        text: "Vulnerable VM isolation and resource sharing risks",
-        correct: true,
-      },
-      { text: "Lack of API integrations", correct: false },
+      { text: "1955", correct: false },
+      { text: "1965", correct: true },
+      { text: "1972", correct: false },
+      { text: "1980", correct: false },
     ],
   },
   {
-    question: "Which cloud service provider was used to test cross-VM attacks?",
+    question: "What is the current IUCN status (2025) of the Asiatic lion?",
     answers: [
-      { text: "Google Cloud Platform", correct: false },
-      { text: "Microsoft Azure", correct: false },
-      { text: "Amazon EC2", correct: true },
-      { text: "IBM Cloud", correct: false },
-    ],
-  },
-  {
-    question: "What are the two primary steps of a cross-VM attack?",
-    answers: [
-      { text: "Scanning and injection", correct: false },
-      { text: "Placement and extraction", correct: true },
-      { text: "Mapping and flooding", correct: false },
-      { text: "Execution and analysis", correct: false },
+      { text: "Endangered", correct: false },
+      { text: "Critically Endangered", correct: false },
+      { text: "Vulnerable", correct: true },
+      { text: "Near Threatened", correct: false },
     ],
   },
   {
     question:
-      "What assumption is made in the threat model regarding cloud providers?",
+      "Headquarters of the International Big Cat Alliance (IBCA) is located in:",
     answers: [
-      { text: "They are considered malicious", correct: false },
-      { text: "They will attempt to subvert users", correct: false },
-      { text: "They are fully trusted", correct: true },
-      { text: "They share user data with attackers", correct: false },
+      { text: "New Delhi, India", correct: true },
+      { text: "Bangkok, Thailand", correct: false },
+      { text: "Nairobi, Kenya", correct: false },
+      { text: "Geneva, Switzerland", correct: false },
     ],
   },
   {
-    question: "What is cloud cartography?",
+    question: "Which country is NOT a formal member of IBCA as of 2025?",
     answers: [
-      { text: "A service that encrypts cloud data", correct: false },
-      {
-        text: "The process of mapping instance locations in the cloud",
-        correct: true,
-      },
-      { text: "A tool for performance monitoring", correct: false },
-      { text: "An API for cloud cost estimation", correct: false },
+      { text: "India", correct: false },
+      { text: "Bhutan", correct: false },
+      { text: "Somalia", correct: false },
+      { text: "Japan", correct: true },
     ],
   },
   {
-    question: "Which probing method originates from outside EC2?",
+    question: "ASEAN was founded in which year?",
     answers: [
-      { text: "Internal probe", correct: false },
-      { text: "Cross probe", correct: false },
-      { text: "External probe", correct: true },
-      { text: "Cloud-native probe", correct: false },
+      { text: "1965", correct: false },
+      { text: "1967", correct: true },
+      { text: "1970", correct: false },
+      { text: "1972", correct: false },
     ],
   },
   {
-    question: "What is the goal of a keystroke timing attack?",
+    question: "Which of the following is the headquarters of ASEAN?",
     answers: [
-      { text: "To block all key inputs", correct: false },
-      {
-        text: "To guess passwords based on inter-keystroke delays",
-        correct: true,
-      },
-      { text: "To detect network interruptions", correct: false },
-      { text: "To break SSL encryption", correct: false },
-    ],
-  },
-  {
-    question: "Which tool is used for discovering IP prefixes in EC2?",
-    answers: [
-      { text: "nmap", correct: false },
-      { text: "WHOIS", correct: true },
-      { text: "Netstat", correct: false },
-      { text: "Traceroute", correct: false },
+      { text: "Hanoi, Vietnam", correct: false },
+      { text: "Jakarta, Indonesia", correct: true },
+      { text: "Kuala Lumpur, Malaysia", correct: false },
+      { text: "Bangkok, Thailand", correct: false },
     ],
   },
   {
     question:
-      "What kind of attack is used to manipulate shared physical resources?",
+      "Under which Act was the Central Pollution Control Board (CPCB) established?",
     answers: [
-      { text: "Brute force password attack", correct: false },
-      { text: "Side-channel attack", correct: true },
-      { text: "Phishing", correct: false },
-      { text: "DDoS", correct: false },
+      { text: "Environment Protection Act, 1986", correct: false },
+      { text: "Water Act, 1974", correct: true },
+      { text: "Air Act, 1981", correct: false },
+      { text: "Wildlife Protection Act, 1972", correct: false },
     ],
   },
   {
-    question: "Which hypervisor is used by Amazon EC2?",
+    question: "Kaleshwaram Lift Irrigation Project is located on which river?",
     answers: [
-      { text: "VMware", correct: false },
-      { text: "Xen", correct: true },
-      { text: "KVM", correct: false },
-      { text: "Hyper-V", correct: false },
-    ],
-  },
-  {
-    question: "What does Risk-based Access Control (RAC) allow?",
-    answers: [
-      { text: "Blocking all unauthorized users", correct: false },
-      {
-        text: "Access even if exact permissions are not present",
-        correct: true,
-      },
-      { text: "Giving access based only on passwords", correct: false },
-      { text: "Encryption of user data at rest", correct: false },
-    ],
-  },
-  {
-    question: "What is a challenge in existing RAC systems?",
-    answers: [
-      { text: "Excessive logging", correct: false },
-      { text: "Quantification of operational need", correct: true },
-      { text: "UI latency", correct: false },
-      { text: "Lack of encryption", correct: false },
-    ],
-  },
-  {
-    question: "What is Inter-Domain Role Mapping (IDRM) used for?",
-    answers: [
-      { text: "Detecting rogue VMs", correct: false },
-      { text: "Mapping requested permissions across domains", correct: true },
-      { text: "Encrypting database entries", correct: false },
-      { text: "Monitoring IP traffic", correct: false },
-    ],
-  },
-  {
-    question: "What type of collaboration is harder to secure in the cloud?",
-    answers: [
-      { text: "Tightly-coupled", correct: false },
-      { text: "Loosely-coupled", correct: true },
-      { text: "Federated", correct: false },
-      { text: "Static", correct: false },
-    ],
-  },
-  {
-    question: "What is the goal of the IDRM-availability variant?",
-    answers: [
-      { text: "Maximize permissions granted", correct: false },
-      { text: "Minimize additional permissions added", correct: true },
-      { text: "Track user sessions", correct: false },
-      { text: "Identify senior roles", correct: false },
-    ],
-  },
-  {
-    question: "Which condition detects inheritance conflict?",
-    answers: [
-      { text: "Conflicting permission present", correct: false },
-      { text: "At least one exit role", correct: true },
-      { text: "Entry and exit role are unrelated", correct: false },
-      { text: "Virtual role exists", correct: false },
-    ],
-  },
-  {
-    question: "What does SoD stand for in conflict detection?",
-    answers: [
-      { text: "Storage on Demand", correct: false },
-      { text: "Segregation of Duties", correct: true },
-      { text: "Software over Data", correct: false },
-      { text: "Standard on Delivery", correct: false },
+      { text: "Krishna", correct: false },
+      { text: "Godavari", correct: true },
+      { text: "Mahanadi", correct: false },
+      { text: "Narmada", correct: false },
     ],
   },
   {
     question:
-      "What happens in case of no exact role match during conflict removal?",
+      "Which wildlife sanctuary acts as an extension habitat for Asiatic lions beyond Gir?",
     answers: [
-      { text: "User is denied access permanently", correct: false },
-      { text: "System crashes", correct: false },
-      { text: "A virtual role is introduced", correct: true },
-      { text: "All permissions are removed", correct: false },
+      { text: "Girnar Wildlife Sanctuary", correct: true },
+      { text: "Sariska Wildlife Sanctuary", correct: false },
+      { text: "Bannerghatta Wildlife Sanctuary", correct: false },
+      { text: "Periyar Wildlife Sanctuary", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are among the 7 big cats under IBCA?",
+    answers: [
+      { text: "Tiger", correct: true },
+      { text: "Jaguar", correct: true },
+      { text: "Cheetah", correct: true },
+      { text: "Lynx", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are current ASEAN members?",
+    answers: [
+      { text: "Cambodia", correct: true },
+      { text: "Laos", correct: true },
+      { text: "India", correct: false },
+      { text: "Myanmar", correct: true },
     ],
   },
   {
     question:
-      "Which of the following is **not** a preventive measure for side-channel attacks?",
+      "Which pollutants are covered under Environment Protection (Management of Contaminated Sites) Rules, 2025?",
     answers: [
-      { text: "Cloud cartography", correct: false },
-      { text: "Co-residence check", correct: false },
-      { text: "Co-location restriction", correct: false },
-      { text: "Brute-force key injection", correct: true },
+      { text: "Chemical spills from factories", correct: true },
+      { text: "Groundwater contamination by hazardous waste", correct: true },
+      { text: "Radioactive waste", correct: false },
+      { text: "Marine oil pollution", correct: false },
+    ],
+  },
+  {
+    question: "Which are key objectives of the International Big Cat Alliance?",
+    answers: [
+      { text: "Stop illegal wildlife trade", correct: true },
+      { text: "Mobilize funds for conservation", correct: true },
+      { text: "Promote fossil fuel exports", correct: false },
+      { text: "Address climate change impact on habitats", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following are barrages under the Kaleshwaram Lift Irrigation Project?",
+    answers: [
+      { text: "Medigadda", correct: true },
+      { text: "Sundilla", correct: true },
+      { text: "Annaram", correct: true },
+      { text: "Tehri", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the International Big Cat Alliance (IBCA), consider the following statements:\n\n1. It is an India-led initiative for conservation of seven big cat species.\n2. Membership is open only to countries having all seven species.\n3. As of 2025, India and 11 other countries are formal members.\n4. It was launched in April 2023 on the 50th anniversary of Project Tiger.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 3, and 4 only", correct: true },
+      { text: "1, 2, and 3 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2, 3, and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to ASEAN, consider the following statements:\n\n1. It was founded in 1967 with the Bangkok Declaration.\n2. Its headquarters is in Jakarta, Indonesia.\n3. India is a founding member of ASEAN.\n4. Decision-making is based on consultation and consensus.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2, and 4 only", correct: true },
+      { text: "1, 2, and 3 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 3, and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Environment Protection (Management of Contaminated Sites) Rules, 2025, consider the following statements:\n\n1. They are notified under the Environment Protection Act, 1986.\n2. Polluters are liable for remediation costs.\n3. Radioactive waste is included under these rules.\n4. Marine oil pollution is covered under these rules.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "1, 2, and 3 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2, 3, and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Kaleshwaram Lift Irrigation Project (KLIP), consider the following statements:\n\n1. It is located at the confluence of the Krishna and Godavari rivers.\n2. It is designed to lift water from the Godavari for irrigation, drinking, and industrial purposes in Telangana.\n3. It has four main barrages including Medigadda and Sundilla.\n4. The project covers parts of 13 districts in Telangana.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "2, 3, and 4 only", correct: true },
+      { text: "1, 2, and 3 only", correct: false },
+      { text: "1 and 4 only", correct: false },
+      { text: "All of the above", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Girnar Wildlife Sanctuary, consider the following statements:\n\n1. It was established in 2008 in Gujarat.\n2. It serves as an extension habitat for Asiatic lions.\n3. It is part of the Gir National Park.\n4. It is home to species such as leopards and chinkara.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2, and 4 only", correct: true },
+      { text: "1, 2, and 3 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "All of the above", correct: false },
     ],
   },
 ];
-//////////////////////////////////  Cloud Marketplace  //////////////////////////////
-const Cloudmarketplace = [
-  {
-    question: "What is the purpose of CloudCmp in a cloud marketplace?",
-    answers: [
-      { text: "To provide storage solutions", correct: false },
-      { text: "To monitor mobile devices", correct: false },
-      { text: "To compare cloud providers based on QoS", correct: true },
-      { text: "To manage user billing", correct: false },
-    ],
-  },
-  {
-    question: "What kind of decision mechanism does the Migration Decider use?",
-    answers: [
-      { text: "Linear regression model", correct: false },
-      { text: "Fuzzy inference engine", correct: true },
-      { text: "Blockchain consensus", correct: false },
-      { text: "Greedy algorithm", correct: false },
-    ],
-  },
-  {
-    question: "In the Migration Decider, what triggers a migration?",
-    answers: [
-      { text: "SLA cost goes above threshold", correct: false },
-      { text: "Degree of SLA Satisfaction < threshold", correct: true },
-      { text: "CPU usage becomes zero", correct: false },
-      { text: "Network latency improves", correct: false },
-    ],
-  },
-  {
-    question:
-      "What distribution is followed by degraded QoS parameters in the IaaS case study?",
-    answers: [
-      { text: "Uniform", correct: false },
-      { text: "Poisson", correct: false },
-      { text: "Exponential", correct: false },
-      { text: "Gaussian", correct: true },
-    ],
-  },
-  {
-    question:
-      "Which approach is compared with the fuzzy broker in SaaS Marketplace?",
-    answers: [
-      { text: "Neural networks", correct: false },
-      { text: "Minimum cost crisp broker", correct: true },
-      { text: "Random broker", correct: false },
-      { text: "Priority-based broker", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is NOT an advantage of Mobile Cloud Computing?",
-    answers: [
-      { text: "Extended battery life", correct: false },
-      { text: "Improved data storage", correct: false },
-      { text: "Limited scalability", correct: true },
-      { text: "Ease of integration", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of the Profiler in MCC?",
-    answers: [
-      { text: "Monitoring application execution", correct: true },
-      { text: "Syncing data with cloud", correct: false },
-      { text: "Selecting service providers", correct: false },
-      { text: "Managing battery usage", correct: false },
-    ],
-  },
-  {
-    question: "What is the main task of the Solver in MCC architecture?",
-    answers: [
-      { text: "Encrypt data for transfer", correct: false },
-      { text: "Choose where parts of app should run", correct: true },
-      { text: "Update app code", correct: false },
-      { text: "Optimize UI layout", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is NOT a key component of MCC?",
-    answers: [
-      { text: "Profiler", correct: false },
-      { text: "Solver", correct: false },
-      { text: "Optimizer", correct: true },
-      { text: "Synchronizer", correct: false },
-    ],
-  },
-  {
-    question: "Which method is used in static partitioning in MCC?",
-    answers: [
-      { text: "Greedy method", correct: false },
-      { text: "Fuzzy logic", correct: false },
-      { text: "ILP solver", correct: true },
-      { text: "Dynamic profiling", correct: false },
-    ],
-  },
-  {
-    question: "Which problem does task partitioning in MCC resemble?",
-    answers: [
-      { text: "Routing problem", correct: false },
-      { text: "Job scheduling problem", correct: true },
-      { text: "Graph coloring problem", correct: false },
-      { text: "Matrix multiplication", correct: false },
-    ],
-  },
-  {
-    question:
-      "What kind of execution environment change is considered in dynamic partitioning?",
-    answers: [
-      { text: "Hardware upgrade", correct: false },
-      { text: "Environmental variation", correct: true },
-      { text: "Static energy profile", correct: false },
-      { text: "Fixed app layout", correct: false },
-    ],
-  },
-  {
-    question: "Which challenge does MCC face due to mobile communication?",
-    answers: [
-      { text: "Overclocking issues", correct: false },
-      { text: "Low bandwidth", correct: true },
-      { text: "High latency desktops", correct: false },
-      { text: "Parallel computing", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is true about offloading in MCC?",
-    answers: [
-      { text: "It always saves energy", correct: false },
-      { text: "It depends on energy and communication cost", correct: true },
-      { text: "It is useful for all kinds of apps", correct: false },
-      { text: "It eliminates network dependency", correct: false },
-    ],
-  },
-  {
-    question: "What is a Cloudlet?",
-    answers: [
-      { text: "Low-resource mobile device", correct: false },
-      {
-        text: "Cluster of high-resource servers close to users",
-        correct: true,
-      },
-      { text: "Virtual machine for backup", correct: false },
-      { text: "Cloud management software", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a mobile cloud computing application?",
-    answers: [
-      { text: "Mobile gaming", correct: true },
-      { text: "Cryptocurrency mining", correct: false },
-      { text: "Firewall management", correct: false },
-      { text: "Database sharding", correct: false },
-    ],
-  },
-  {
-    question: "Which factor affects the decision to offload code to the cloud?",
-    answers: [
-      { text: "Execution history", correct: false },
-      { text: "Network latency and energy trade-off", correct: true },
-      { text: "User preference", correct: false },
-      { text: "App UI theme", correct: false },
-    ],
-  },
-  {
-    question: "What metric is used to evaluate MCC performance?",
-    answers: [
-      { text: "Latency only", correct: false },
-      { text: "Battery only", correct: false },
-      { text: "Execution time and energy consumption", correct: true },
-      { text: "Server load", correct: false },
-    ],
-  },
-  {
-    question: "What does MuSIC in MCC handle?",
-    answers: [
-      { text: "Load balancing", correct: false },
-      { text: "User authentication", correct: false },
-      { text: "Mobility-aware optimal service allocation", correct: true },
-      { text: "Data backup and restore", correct: false },
-    ],
-  },
-  {
-    question: "Which modeling framework is used in MuSIC?",
-    answers: [
-      { text: "Service oriented architecture", correct: false },
-      { text: "Graph neural networks", correct: false },
-      { text: "Location-time workflow", correct: true },
-      { text: "REST API model", correct: false },
-    ],
-  },
-  {
-    question: "What causes latency in mobile-cloud communication in MuSIC?",
-    answers: [
-      { text: "Improper login", correct: false },
-      { text: "User movement away from provisioned cloud", correct: true },
-      { text: "Device overheating", correct: false },
-      { text: "Excessive app permissions", correct: false },
-    ],
-  },
-  {
-    question: "Which is a key benefit of code offloading using Cloudlet?",
-    answers: [
-      { text: "Reduced execution time only", correct: false },
-      { text: "Reduced storage usage", correct: false },
-      { text: "Reduced energy consumption and latency", correct: true },
-      { text: "Faster internet speed", correct: false },
-    ],
-  },
-  {
-    question: "What metric does a fuzzy provider selection mechanism use?",
-    answers: [
-      { text: "CPU time", correct: false },
-      { text: "Trust and competence", correct: true },
-      { text: "User age", correct: false },
-      { text: "Internet provider rating", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which MCC component ensures the app behaves transparently to the user?",
-    answers: [
-      { text: "Solver", correct: false },
-      { text: "Profiler", correct: false },
-      { text: "Synchronizer", correct: true },
-      { text: "Monitor", correct: false },
-    ],
-  },
-  {
-    question: "Which is NOT a key requirement for MCC platforms?",
-    answers: [
-      { text: "Web interface", correct: false },
-      { text: "Simple APIs", correct: false },
-      { text: "Proprietary networking hardware", correct: true },
-      { text: "Internet access to remote apps", correct: false },
-    ],
-  },
-  {
-    question: "What is the classic problem MCC tries to solve?",
-    answers: [
-      { text: "Job Scheduling", correct: true },
-      { text: "Sorting large datasets", correct: false },
-      { text: "Rendering 3D objects", correct: false },
-      { text: "Video compression", correct: false },
-    ],
-  },
-  {
-    question: "What is evaluated in a case study of dynamic parking?",
-    answers: [
-      { text: "City traffic flow", correct: false },
-      { text: "QoS in private parking", correct: false },
-      { text: "Context-aware parking using cloud", correct: true },
-      { text: "Energy usage of electric cars", correct: false },
-    ],
-  },
-  {
-    question: "What enables context-aware parking services?",
-    answers: [
-      { text: "AR navigation", correct: false },
-      { text: "Cloud and wireless sensor networks", correct: true },
-      { text: "Satellite tracking", correct: false },
-      { text: "Offline maps", correct: false },
-    ],
-  },
-  {
-    question: "Which factor affects offloading energy savings?",
-    answers: [
-      { text: "Data type", correct: false },
-      { text: "Distance to server", correct: false },
-      { text: "Ratio D/B compared with C/M", correct: true },
-      { text: "Screen resolution", correct: false },
-    ],
-  },
-];
+
 //////////////////////////////////  Mobile CLoud COmputing and Fog Computing  ////////////////////////////
 const MCC = [
   {
@@ -5169,8 +4888,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper8;
     } else if (selectedValue === "Paper9") {
       Questions = Paper9;
-    } else if (selectedValue === "Virtualization2") {
-      Questions = Virtualization2;
+    } else if (selectedValue === "Paper10") {
+      Questions = Paper10;
     } else if (selectedValue === "XML") {
       Questions = XML;
     } else if (selectedValue === "Web_Service") {
