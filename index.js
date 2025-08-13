@@ -2446,1182 +2446,210 @@ const Paper10 = [
   },
 ];
 
-//////////////////////////////////  Mobile CLoud COmputing and Fog Computing  ////////////////////////////
-const MCC = [
+//////////////////////////////////  12 August 2025  ////////////////////////////
+const Paper11 = [
   {
-    question: "What is the main goal of Mobile Cloud Computing (MCC)?",
+    question: "Rabies is caused by which type of virus?",
     answers: [
-      { text: "Enhance graphics on mobile devices", correct: false },
+      { text: "DNA virus", correct: false },
+      { text: "RNA virus", correct: true },
+      { text: "Retrovirus", correct: false },
+      { text: "Bacteriophage", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which continent is free from rabies cases in humans and animals?",
+    answers: [
+      { text: "Africa", correct: false },
+      { text: "Asia", correct: false },
+      { text: "Antarctica", correct: true },
+      { text: "Europe", correct: false },
+    ],
+  },
+  {
+    question: "The most cost-effective strategy for rabies prevention is:",
+    answers: [
+      { text: "Human vaccination", correct: false },
+      { text: "Quarantine of infected persons", correct: false },
+      { text: "Dog vaccination", correct: true },
+      { text: "Import bans on animals", correct: false },
+    ],
+  },
+  {
+    question:
+      "India’s target year for achieving 20% ethanol blending (E20) in petrol is:",
+    answers: [
+      { text: "2030", correct: false },
+      { text: "2025-26", correct: true },
+      { text: "2027-28", correct: false },
+      { text: "2024-25", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is NOT used as a feedstock for ethanol production in India?",
+    answers: [
+      { text: "C-heavy molasses", correct: false },
+      { text: "Broken rice", correct: false },
+      { text: "Maize", correct: false },
+      { text: "Wheat imported from Russia", correct: true },
+    ],
+  },
+  {
+    question:
+      "Vehicles meeting BS 2 norms (since 2001) in India can safely handle ethanol blending up to:",
+    answers: [
+      { text: "E20", correct: false },
+      { text: "E15", correct: true },
+      { text: "E10", correct: false },
+      { text: "E5", correct: false },
+    ],
+  },
+  {
+    question:
+      "Section 498-A of the IPC, now Section 85 of the BNS, was introduced in:",
+    answers: [
+      { text: "1980", correct: false },
+      { text: "1983", correct: true },
+      { text: "1992", correct: false },
+      { text: "1975", correct: false },
+    ],
+  },
+  {
+    question:
+      "Under Section 498-A, the maximum imprisonment term prescribed is:",
+    answers: [
+      { text: "5 years", correct: false },
+      { text: "3 years", correct: true },
+      { text: "7 years", correct: false },
+      { text: "1 year", correct: false },
+    ],
+  },
+  {
+    question: "The Piprahwa relics are believed to be linked to:",
+    answers: [
+      { text: "Guru Nanak", correct: false },
+      { text: "Lord Buddha", correct: true },
+      { text: "Adi Shankaracharya", correct: false },
+      { text: "Lord Mahavira", correct: false },
+    ],
+  },
+  {
+    question:
+      "Piprahwa, the site of the relics’ excavation, is located in present-day:",
+    answers: [
+      { text: "Bihar", correct: false },
+      { text: "Uttar Pradesh", correct: true },
+      { text: "Madhya Pradesh", correct: false },
+      { text: "Odisha", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are early symptoms of rabies? (Multiple correct)",
+    answers: [
+      { text: "Fever", correct: true },
+      { text: "Pain and tingling at the bite site", correct: true },
+      { text: "Hallucinations", correct: false },
+      { text: "Aggression", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are government-stated benefits of ethanol blending? (Multiple correct)",
+    answers: [
+      { text: "Lower carbon emissions", correct: true },
+      { text: "Reduced crude oil import bill", correct: true },
+      { text: "Complete elimination of air pollution", correct: false },
+      { text: "Increase in fossil fuel dependency", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are cited concerns with ethanol-blended fuel in India? (Multiple correct)",
+    answers: [
+      { text: "Lower vehicle mileage", correct: true },
+      { text: "Corrosion in fuel systems", correct: true },
+      { text: "High ethanol production cost", correct: false },
+      { text: "Compatibility issues with older vehicles", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following were measures taken to repatriate the Piprahwa relics? (Multiple correct)",
+    answers: [
+      { text: "Coordination between ministries", correct: true },
+      { text: "Involvement of private sector", correct: true },
       {
-        text: "Optimize application execution time and energy consumption",
-        correct: true,
+        text: "Auction purchase by the Indian government directly",
+        correct: false,
       },
-      { text: "Increase mobile phone memory capacity", correct: false },
-      { text: "Improve camera quality on mobile devices", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a classic problem in MCC?",
-    answers: [
-      { text: "Machine Learning Optimization", correct: false },
-      { text: "Graph Coloring Problem", correct: false },
-      { text: "Task Partitioning Problem", correct: true },
-      { text: "Deadlock Avoidance Problem", correct: false },
-    ],
-  },
-  {
-    question: "What is the input to the Task Partitioning Problem in MCC?",
-    answers: [
-      { text: "A data flow diagram", correct: false },
-      { text: "A method call graph with energy attributes", correct: true },
-      { text: "An image recognition model", correct: false },
-      { text: "A UML class diagram", correct: false },
+      { text: "UNESCO intervention", correct: false },
     ],
   },
   {
     question:
-      "Which is NOT a constraint typically considered in MCC partitioning?",
+      "Which of the following legal provisions address cruelty against married women? (Multiple correct)",
     answers: [
-      { text: "Battery level", correct: true },
-      { text: "Execution time", correct: false },
-      { text: "Energy consumption", correct: false },
-      { text: "Monetary cost", correct: false },
-    ],
-  },
-  {
-    question: "What is static partitioning in MCC?",
-    answers: [
-      { text: "Partitioning based on user feedback", correct: false },
-      { text: "Partitioning at runtime based on environment", correct: false },
-      { text: "Partitioning methods during application launch", correct: true },
-      { text: "Partitioning using a fixed cloud server", correct: false },
-    ],
-  },
-  {
-    question: "Which technique is used for faster static partitioning?",
-    answers: [
-      { text: "Brute Force", correct: false },
-      { text: "Heuristics", correct: true },
-      { text: "Neural Networks", correct: false },
-      { text: "Greedy Algorithms", correct: false },
+      { text: "Section 498-A of IPC", correct: true },
+      { text: "Section 85 of BNS", correct: true },
+      { text: "Section 375 of IPC", correct: false },
+      { text: "Section 304-B of IPC", correct: true },
     ],
   },
   {
     question:
-      "Which architecture helps reduce latency and battery consumption?",
+      "With reference to Rabies, consider the following statements:\n\n1. It is caused by a DNA virus belonging to the Rhabdoviridae family.\n2. Post-Exposure Prophylaxis (PEP) is nearly 100% effective if administered promptly.\n\nWhich of the statements given above is/are correct?",
     answers: [
-      { text: "Big Data Analytics", correct: false },
-      { text: "Cloud-Only Architecture", correct: false },
-      { text: "Code Offloading", correct: true },
-      { text: "Peer-to-Peer Networking", correct: false },
+      { text: "1 only", correct: false },
+      { text: "2 only", correct: true },
+      { text: "Both 1 and 2", correct: false },
+      { text: "Neither 1 nor 2", correct: false },
     ],
   },
   {
     question:
-      "Which type of network connection typically consumes less energy?",
+      "With reference to ethanol-blended fuel in India, consider the following statements:\n\n1. Broken rice and C-heavy molasses are among the feedstocks used for ethanol production.\n2. Vehicles meeting BS 2 norms can handle E20 blending safely.\n\nWhich of the statements given above is/are correct?",
     answers: [
-      { text: "Broadband wireless", correct: false },
-      { text: "Bluetooth", correct: true },
-      { text: "Satellite Internet", correct: false },
-      { text: "Optical fiber", correct: false },
-    ],
-  },
-  {
-    question: "What does Fog Computing aim to reduce?",
-    answers: [
-      { text: "Device memory usage", correct: false },
-      { text: "Sensor count", correct: false },
-      { text: "Network bandwidth requirement", correct: true },
-      { text: "Number of servers", correct: false },
-    ],
-  },
-  {
-    question: "Which company introduced the term 'Fog Computing'?",
-    answers: [
-      { text: "Amazon", correct: false },
-      { text: "Google", correct: false },
-      { text: "Cisco", correct: true },
-      { text: "IBM", correct: false },
-    ],
-  },
-  {
-    question: "Where does Fog Computing primarily perform data processing?",
-    answers: [
-      { text: "In centralized cloud data centers", correct: false },
-      { text: "On the end-user's device", correct: false },
-      { text: "At the edge of the network", correct: true },
-      { text: "On IoT gateways only", correct: false },
-    ],
-  },
-  {
-    question: "Which of these is a characteristic of cloud computing?",
-    answers: [
-      { text: "Manual resource allocation", correct: false },
-      { text: "Static scalability", correct: false },
-      { text: "User-managed infrastructure", correct: false },
-      { text: "Dynamic scalability", correct: true },
-    ],
-  },
-  {
-    question: "Which of the following is NOT an advantage of Fog Computing?",
-    answers: [
-      { text: "Low latency", correct: false },
-      { text: "Geo-distribution", correct: false },
-      { text: "Centralized processing", correct: true },
-      { text: "Real-time interaction support", correct: false },
+      { text: "1 only", correct: true },
+      { text: "2 only", correct: false },
+      { text: "Both 1 and 2", correct: false },
+      { text: "Neither 1 nor 2", correct: false },
     ],
   },
   {
     question:
-      "Which technology allows lightweight virtualization in Fog Computing?",
+      "With reference to Section 498-A of IPC (now Section 85 of BNS), consider the following statements:\n\n1. It was introduced in 1983.\n2. It prescribes imprisonment up to 5 years.\n\nWhich of the statements given above is/are correct?",
     answers: [
-      { text: "VMware", correct: false },
-      { text: "Hyper-V", correct: false },
-      { text: "Docker Containers", correct: true },
-      { text: "CloudStack", correct: false },
+      { text: "1 only", correct: true },
+      { text: "2 only", correct: false },
+      { text: "Both 1 and 2", correct: false },
+      { text: "Neither 1 nor 2", correct: false },
     ],
   },
   {
     question:
-      "What is a key enabler for controlling network switches in Fog Computing?",
+      "With reference to the Piprahwa relics, consider the following statements:\n\n1. They are linked to Lord Buddha or his early disciples.\n2. They were excavated in present-day Bihar.\n\nWhich of the statements given above is/are correct?",
     answers: [
-      { text: "Load Balancing", correct: false },
-      { text: "Software Defined Networking (SDN)", correct: true },
-      { text: "HTTP Routing", correct: false },
-      { text: "Database Sharding", correct: false },
-    ],
-  },
-  {
-    question: "Which of these is a major security issue in Fog Computing?",
-    answers: [
-      { text: "Strong password enforcement", correct: false },
-      { text: "Man-in-the-Middle attack", correct: true },
-      { text: "File compression", correct: false },
-      { text: "Data replication", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a limitation of cloud-only computing?",
-    answers: [
-      { text: "High speed", correct: false },
-      { text: "Low latency", correct: false },
-      { text: "High capacity requirement", correct: true },
-      { text: "Low storage need", correct: false },
-    ],
-  },
-  {
-    question: "Which application is ideal for Fog Computing deployment?",
-    answers: [
-      { text: "Web hosting", correct: false },
-      { text: "Video streaming", correct: false },
-      { text: "Smart traffic lights", correct: true },
-      { text: "Offline games", correct: false },
+      { text: "1 only", correct: true },
+      { text: "2 only", correct: false },
+      { text: "Both 1 and 2", correct: false },
+      { text: "Neither 1 nor 2", correct: false },
     ],
   },
   {
     question:
-      "Which type of partitioning adapts during execution based on environment?",
+      "With reference to the Supreme Court ruling on Section 498-A, consider the following statements:\n\n1. It mandates a two-month 'cool-off' period before arrest.\n2. The case leading to the ruling originated in the Allahabad High Court.\n3. The ruling has nationwide applicability.\n\nWhich of the statements given above is/are correct?",
     answers: [
-      { text: "Static Partitioning", correct: false },
-      { text: "Random Partitioning", correct: false },
-      { text: "Dynamic or Adaptive Partitioning", correct: true },
-      { text: "Incremental Partitioning", correct: false },
-    ],
-  },
-  {
-    question:
-      "In the Connected Vehicle (CV) context, what role does Fog Computing play?",
-    answers: [
-      { text: "Supports offline navigation", correct: false },
-      { text: "Provides low-latency real-time interactions", correct: true },
-      { text: "Acts as a car battery controller", correct: false },
-      { text: "Disables car-to-car communication", correct: false },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: true },
+      { text: "1 and 3 only", correct: false },
     ],
   },
 ];
-///////////////////////////  Geospatial Information System and Docker  ///////////////////////////
-const GIS_Docker = [
-  {
-    question: "What is a Geographic Information System (GIS)?",
-    answers: [
-      { text: "A tool used only for navigation", correct: false },
-      { text: "A computer system for managing geospatial data", correct: true },
-      { text: "A satellite imaging platform", correct: false },
-      { text: "A hardware tool for topographic mapping", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is NOT a component of a GIS?",
-    answers: [
-      { text: "Computer hardware", correct: false },
-      { text: "Software", correct: false },
-      { text: "Geospatial data", correct: false },
-      { text: "Machine learning model", correct: true },
-    ],
-  },
-  {
-    question: "Which challenge is common in GIS systems?",
-    answers: [
-      { text: "Low volume of data", correct: false },
-      { text: "Computation intensive processes", correct: true },
-      { text: "Simple network structures", correct: false },
-      { text: "Minimal data management", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary reason for heterogeneity in GIS layers?",
-    answers: [
-      { text: "Same software used across departments", correct: false },
-      { text: "Centralized GIS control", correct: false },
-      { text: "Different departments using different tools", correct: true },
-      { text: "Homogeneous encoding of data", correct: false },
-    ],
-  },
-  {
-    question: "Which is NOT a solution to heterogeneity in GIS?",
-    answers: [
-      { text: "Homogeneous data description", correct: false },
-      { text: "Standard data encoding", correct: false },
-      { text: "Private database storage", correct: true },
-      { text: "Standard mechanisms for sharing data", correct: false },
-    ],
-  },
-  {
-    question: "What does Spatial Data Infrastructure (SDI) provide?",
-    answers: [
-      { text: "Graphic design services", correct: false },
-      { text: "Policy formulation and implementation", correct: true },
-      { text: "Local database access", correct: false },
-      { text: "Satellite data storage", correct: false },
-    ],
-  },
-  {
-    question: "Which sector is NOT directly mentioned as a user of SDI?",
-    answers: [
-      { text: "Government", correct: false },
-      { text: "Commercial sector", correct: false },
-      { text: "Education/Academia", correct: false },
-      { text: "Military", correct: true },
-    ],
-  },
-  {
-    question: "Why is there a need for Geospatial Cloud?",
-    answers: [
-      { text: "To store only images", correct: false },
-      { text: "To handle the huge volume of data and metadata", correct: true },
-      { text: "To reduce map resolution", correct: false },
-      { text: "To avoid service orchestration", correct: false },
-    ],
-  },
-  {
-    question: "Who are NOT listed as actors in a Geospatial Cloud?",
-    answers: [
-      { text: "Customers", correct: false },
-      { text: "Security Auditors", correct: false },
-      { text: "Brokers", correct: false },
-      { text: "Frontend Developers", correct: true },
-    ],
-  },
-  {
-    question: "Which is NOT a challenge in geospatial cloud?",
-    answers: [
-      { text: "Need for multi-tenancy", correct: false },
-      { text: "Geographically situated backups", correct: false },
-      { text: "Unreliable data usage", correct: true },
-      { text: "Policy management among tenants", correct: false },
-    ],
-  },
-  {
-    question: "What does data-level interoperability ensure?",
-    answers: [
-      { text: "Trustworthy exchange of services", correct: false },
-      { text: "Ability to consume the data", correct: true },
-      { text: "Security of transmitted data", correct: false },
-      { text: "Data encryption", correct: false },
-    ],
-  },
-  {
-    question: "Which standard body helps implement GIS interoperability?",
-    answers: [
-      { text: "IEEE", correct: false },
-      { text: "W3C", correct: false },
-      { text: "OGC", correct: true },
-      { text: "NIST", correct: false },
-    ],
-  },
-  {
-    question: "What is Docker primarily used for?",
-    answers: [
-      { text: "Managing relational databases", correct: false },
-      { text: "Containerizing applications", correct: true },
-      { text: "Developing GIS software", correct: false },
-      { text: "Hardware virtualization", correct: false },
-    ],
-  },
-  {
-    question: "What does Docker Compose do?",
-    answers: [
-      { text: "Manages host operating system", correct: false },
-      { text: "Defines applications using multiple containers", correct: true },
-      { text: "Acts as a virtual machine", correct: false },
-      { text: "Builds Docker images automatically", correct: false },
-    ],
-  },
-  {
-    question: "What is Docker Hub?",
-    answers: [
-      { text: "Local container builder", correct: false },
-      { text: "Public repository for Docker images", correct: true },
-      { text: "A command-line tool for containers", correct: false },
-      { text: "OS for running Docker", correct: false },
-    ],
-  },
-  {
-    question: "Which platform is Docker NOT officially available for?",
-    answers: [
-      { text: "Linux", correct: false },
-      { text: "Windows", correct: false },
-      { text: "Android", correct: true },
-      { text: "macOS", correct: false },
-    ],
-  },
-  {
-    question: "Which component builds Docker images and runs containers?",
-    answers: [
-      { text: "Docker Engine", correct: true },
-      { text: "Docker Compose", correct: false },
-      { text: "Docker Hub", correct: false },
-      { text: "Docker Desktop", correct: false },
-    ],
-  },
-  {
-    question: "What is a container in Docker?",
-    answers: [
-      { text: "A graphical interface for Docker", correct: false },
-      { text: "A physical environment for running code", correct: false },
-      { text: "An isolated environment for executing apps", correct: true },
-      { text: "A data backup system", correct: false },
-    ],
-  },
-  {
-    question: "Which is true about Docker containers?",
-    answers: [
-      { text: "They run guest operating systems", correct: false },
-      { text: "They are heavier than VMs", correct: false },
-      { text: "They start almost instantly", correct: true },
-      { text: "They require hypervisors", correct: false },
-    ],
-  },
-  {
-    question: "What is a Docker image?",
-    answers: [
-      { text: "A GUI representation of a container", correct: false },
-      {
-        text: "A complete package with everything to run an app",
-        correct: true,
-      },
-      { text: "A virtual machine", correct: false },
-      { text: "A networking tool", correct: false },
-    ],
-  },
-  {
-    question: "How do Docker containers compare with virtual machines?",
-    answers: [
-      { text: "They use more memory", correct: false },
-      { text: "They contain full OS like VMs", correct: false },
-      { text: "They are more lightweight and share the kernel", correct: true },
-      { text: "They need a hypervisor to run", correct: false },
-    ],
-  },
-  {
-    question: "Where does a Docker container run?",
-    answers: [
-      { text: "Inside a virtual machine", correct: false },
-      { text: "As a process on the host OS", correct: true },
-      { text: "On a dedicated cloud server only", correct: false },
-      { text: "Only on Linux systems", correct: false },
-    ],
-  },
-  {
-    question: "Which Docker component is used for image sharing?",
-    answers: [
-      { text: "Docker Compose", correct: false },
-      { text: "Docker CLI", correct: false },
-      { text: "Docker Hub", correct: true },
-      { text: "Docker Engine", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which feature of Docker makes it suitable for Agile development?",
-    answers: [
-      { text: "Heavy OS dependency", correct: false },
-      { text: "Instant scalability and portability", correct: true },
-      { text: "Monolithic architecture", correct: false },
-      { text: "Complex configuration", correct: false },
-    ],
-  },
-  {
-    question:
-      "Who benefits from Docker by avoiding 'works on my machine' issues?",
-    answers: [
-      { text: "End users", correct: false },
-      { text: "Hardware engineers", correct: false },
-      { text: "Developers", correct: true },
-      { text: "Project managers", correct: false },
-    ],
-  },
-  {
-    question: "Which Docker tool allows apps to run in isolation?",
-    answers: [
-      { text: "Docker Hub", correct: false },
-      { text: "Docker Engine", correct: false },
-      { text: "Docker Containers", correct: true },
-      { text: "Docker Volume", correct: false },
-    ],
-  },
-  {
-    question: "What ensures service-level interoperability in GIS?",
-    answers: [
-      { text: "Encryption algorithms", correct: false },
-      { text: "Ability to consume the data", correct: false },
-      { text: "Ability to exchange data", correct: true },
-      { text: "Firewall configurations", correct: false },
-    ],
-  },
-  {
-    question: "What makes containers more efficient than VMs?",
-    answers: [
-      { text: "They include the full OS", correct: false },
-      { text: "They boot slower", correct: false },
-      { text: "They share the host OS kernel", correct: true },
-      { text: "They require more RAM", correct: false },
-    ],
-  },
-  {
-    question: "How do enterprises use Docker?",
-    answers: [
-      { text: "To replace cloud services", correct: false },
-      { text: "To simplify their physical infrastructure", correct: false },
-      {
-        text: "To create agile pipelines and faster deployments",
-        correct: true,
-      },
-      { text: "To host databases only", correct: false },
-    ],
-  },
-];
-//////////////////////////////   Green and Sensor Cloud Computing  ///////////////////////////
-const Green_Sensor_Cloud = [
-  {
-    question: "What is the main goal of Green Cloud computing?",
-    answers: [
-      { text: "To improve network latency", correct: false },
-      {
-        text: "To minimize energy consumption and efficiently utilize infrastructure",
-        correct: true,
-      },
-      { text: "To replace traditional servers", correct: false },
-      { text: "To increase data redundancy", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which component in a typical data center consumes the most energy?",
-    answers: [
-      { text: "Power Distribution", correct: false },
-      { text: "Cooling System", correct: true },
-      { text: "IT Equipment", correct: false },
-      { text: "Networking Equipment", correct: false },
-    ],
-  },
-  {
-    question:
-      "What percentage of data center operational expenses is energy expected to account for in the future?",
-    answers: [
-      { text: "20%", correct: false },
-      { text: "30%", correct: false },
-      { text: "50%", correct: true },
-      { text: "10%", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is a characteristic of a two-tier data center architecture?",
-    answers: [
-      { text: "Includes aggregation layer", correct: false },
-      { text: "Uses full mesh core network", correct: true },
-      { text: "Utilizes 100 GE links", correct: false },
-      { text: "Supports over 10,000 servers", correct: false },
-    ],
-  },
-  {
-    question: "Which architecture is most widely used in modern data centers?",
-    answers: [
-      { text: "Two-tier architecture", correct: false },
-      { text: "Three-tier architecture", correct: true },
-      { text: "Single-layer flat architecture", correct: false },
-      { text: "Decentralized architecture", correct: false },
-    ],
-  },
-  {
-    question: "What is a feature of the three-tier high-speed architecture?",
-    answers: [
-      { text: "Uses 1 GE links only", correct: false },
-      { text: "Lacks load balancing", correct: false },
-      { text: "Utilizes 2-way ECMP and 100 GE standards", correct: true },
-      { text: "Has only access and core layers", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which company builds data centers near the Columbia River for energy efficiency?",
-    answers: [
-      { text: "Netflix", correct: false },
-      { text: "Microsoft", correct: true },
-      { text: "Meta", correct: false },
-      { text: "IBM", correct: false },
-    ],
-  },
-  {
-    question: "What is a Green Broker responsible for?",
-    answers: [
-      { text: "Managing physical sensors", correct: false },
-      {
-        text: "Carbon-aware scheduling and analyzing user requirements",
-        correct: true,
-      },
-      { text: "Provisioning virtual machines only", correct: false },
-      { text: "Providing network access only", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which layer in a Green Broker calculates the cost and carbon footprint of services?",
-    answers: [
-      { text: "First Layer", correct: false },
-      { text: "Second Layer", correct: true },
-      { text: "Third Layer", correct: false },
-      { text: "Aggregation Layer", correct: false },
-    ],
-  },
-  {
-    question: "What is a major challenge of traditional sensor networks?",
-    answers: [
-      { text: "Too many users", correct: false },
-      { text: "Lack of standard sensors", correct: false },
-      {
-        text: "Difficult to scale and share data across different users",
-        correct: true,
-      },
-      { text: "Overpowered storage capacity", correct: false },
-    ],
-  },
-  {
-    question:
-      "Sensor Cloud Computing acts as an interface between which two worlds?",
-    answers: [
-      { text: "Data and Application", correct: false },
-      { text: "Cyber and Physical", correct: true },
-      { text: "Software and Hardware", correct: false },
-      { text: "Client and Server", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is NOT a benefit of Sensor Cloud Computing?",
-    answers: [
-      {
-        text: "Delivers cloud services via sensor-rich devices",
-        correct: false,
-      },
-      { text: "Supports proprietary sensor networks only", correct: true },
-      { text: "Enables large-scale data sharing", correct: false },
-      { text: "Allows cross-disciplinary applications", correct: false },
-    ],
-  },
-  {
-    question:
-      "What does the 'One to Many' virtual sensor configuration represent?",
-    answers: [
-      { text: "Many physical sensors for one virtual sensor", correct: false },
-      {
-        text: "One virtual sensor controlling many physical ones",
-        correct: false,
-      },
-      {
-        text: "One physical sensor shared by multiple virtual sensors",
-        correct: true,
-      },
-      {
-        text: "No relation between physical and virtual sensors",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "In 'One to Many' configuration, how is sensor sampling frequency decided?",
-    answers: [
-      { text: "By physical sensor alone", correct: false },
-      { text: "Fixed at deployment", correct: false },
-      { text: "Dynamically computed based on user demands", correct: true },
-      { text: "Randomly selected", correct: false },
-    ],
-  },
-  {
-    question: "What does 'Many to One' configuration involve?",
-    answers: [
-      {
-        text: "One virtual sensor controls all physical sensors globally",
-        correct: false,
-      },
-      {
-        text: "Many physical sensors aggregate data for one virtual sensor",
-        correct: true,
-      },
-      {
-        text: "Many virtual sensors for many physical sensors",
-        correct: false,
-      },
-      { text: "One sensor shared across networks", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which configuration is a hybrid of other two sensor configurations?",
-    answers: [
-      { text: "One to Many", correct: false },
-      { text: "Many to One", correct: false },
-      { text: "Many to Many", correct: true },
-      { text: "One to One", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the primary communication medium in Sensor Cloud Computing?",
-    answers: [
-      { text: "Bluetooth", correct: false },
-      { text: "Ethernet", correct: false },
-      { text: "Internet", correct: true },
-      { text: "Radio Frequency only", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which challenge is faced in implementing large-scale sensor networks?",
-    answers: [
-      { text: "Overpowered CPUs", correct: false },
-      { text: "Too many sensors", correct: false },
-      { text: "Vendor-specific designs", correct: true },
-      { text: "Unlimited storage", correct: false },
-    ],
-  },
-  {
-    question:
-      "What enables cloud services to be delivered via sensor-rich devices?",
-    answers: [
-      { text: "Low latency servers", correct: false },
-      { text: "Sensor Cloud Infrastructure", correct: true },
-      { text: "Containerization only", correct: false },
-      { text: "Centralized Storage", correct: false },
-    ],
-  },
-  {
-    question:
-      "What aspect of Sensor Cloud Computing allows applications to span across organizations?",
-    answers: [
-      { text: "Local data storage", correct: false },
-      { text: "Cross-disciplinary application support", correct: true },
-      { text: "Single point access", correct: false },
-      { text: "Device locking mechanisms", correct: false },
-    ],
-  },
-];
-//////////////////////////////////  Internet of Things and Resource Management  ////////////////////////////////////
-const IoT = [
-  {
-    question:
-      "Which of the following are the basic building blocks of IoT architecture?",
-    answers: [
-      { text: "Devices, Servers, Routers", correct: false },
-      { text: "Things, Gateway, Network and Cloud", correct: true },
-      { text: "Nodes, Hosts, Clients", correct: false },
-      { text: "Cloud, Applications, OS", correct: false },
-    ],
-  },
-  {
-    question: "What is a key feature of IoT systems?",
-    answers: [
-      {
-        text: "They require deep understanding of infrastructure",
-        correct: false,
-      },
-      { text: "They work only on-premises", correct: false },
-      {
-        text: "They enable services without understanding infrastructure",
-        correct: true,
-      },
-      { text: "They rely solely on cloud servers", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is NOT a challenge in IoT systems?",
-    answers: [
-      { text: "Scale", correct: false },
-      { text: "Security", correct: false },
-      { text: "Design", correct: true },
-      { text: "Speed", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which computing model helps in reducing latency in time-sensitive IoT applications?",
-    answers: [
-      { text: "Cloud computing", correct: false },
-      { text: "Fog and Edge computing", correct: true },
-      { text: "Centralized computing", correct: false },
-      { text: "Local computing", correct: false },
-    ],
-  },
-  {
-    question:
-      "In a cloud-fog environment model, what are the three main layers?",
-    answers: [
-      { text: "Client, Cloud, Network", correct: false },
-      { text: "Edge, Fog, Cloud", correct: true },
-      { text: "End, Central, Cloud", correct: false },
-      { text: "Node, Gateway, Server", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of Fog Server Manager?",
-    answers: [
-      { text: "To manage IoT device batteries", correct: false },
-      {
-        text: "To manage resources and virtual machines in fog environment",
-        correct: true,
-      },
-      { text: "To design application UI", correct: false },
-      { text: "To act as DNS resolver", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which layer handles the computation when the fog layer lacks resources?",
-    answers: [
-      { text: "Client layer", correct: false },
-      { text: "Edge layer", correct: false },
-      { text: "Cloud layer", correct: true },
-      { text: "Middleware layer", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following are infrastructure resources in fog/edge computing?",
-    answers: [
-      { text: "Programming languages and scripts", correct: false },
-      { text: "Storage, network, and computation resources", correct: true },
-      { text: "Mobile apps only", correct: false },
-      { text: "Power cables and switches", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which type of devices are used in fog/edge hardware infrastructure?",
-    answers: [
-      { text: "Supercomputers", correct: false },
-      { text: "Only cloud servers", correct: false },
-      {
-        text: "Small-form-factor devices like WiFi APs and set-top boxes",
-        correct: true,
-      },
-      { text: "Laptops only", correct: false },
-    ],
-  },
-  {
-    question: "Which layer in fog architecture typically runs middleware?",
-    answers: [
-      { text: "Cloud layer", correct: false },
-      { text: "Hardware layer", correct: false },
-      { text: "Fog/Edge computing devices", correct: true },
-      { text: "Client layer", correct: false },
-    ],
-  },
-  {
-    question:
-      "What does the 'placement' task in resource management aim to achieve?",
-    answers: [
-      { text: "Schedule events for user devices", correct: false },
-      {
-        text: "Place computation tasks on suitable fog/edge resources",
-        correct: true,
-      },
-      { text: "Benchmark energy usage", correct: false },
-      { text: "Identify the best wireless protocol", correct: false },
-    ],
-  },
-  {
-    question: "What is a core benefit of load balancing in edge data centers?",
-    answers: [
-      { text: "Reduced device cost", correct: false },
-      { text: "Efficient task distribution", correct: true },
-      { text: "Increased latency", correct: false },
-      { text: "Improved battery charging", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a valid application constraint for service placement?",
-    answers: [
-      { text: "Color format", correct: false },
-      { text: "Temperature tolerance", correct: false },
-      { text: "Locality requirement", correct: true },
-      { text: "Battery voltage", correct: false },
-    ],
-  },
-  {
-    question: "What is offloading in the context of fog/edge computing?",
-    answers: [
-      { text: "Moving fog servers to remote locations", correct: false },
-      { text: "Relocating user data centers to the cloud", correct: false },
-      { text: "Shifting computation from user/cloud to edge", correct: true },
-      { text: "Disabling fog nodes in remote areas", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of these is a correct example of offloading from user device to edge?",
-    answers: [
-      { text: "Sending queries to cloud for AI processing", correct: false },
-      { text: "Using a CDN for video delivery", correct: false },
-      {
-        text: "Using nearby fog nodes to execute mobile app tasks",
-        correct: true,
-      },
-      { text: "Removing local storage completely", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a resource constraint during application placement?",
-    answers: [
-      { text: "Cloud latency", correct: false },
-      { text: "Network congestion", correct: false },
-      { text: "Limited CPU, RAM, or bandwidth on nodes", correct: true },
-      { text: "GPS signal strength", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which approach ensures faster response time in IoT applications?",
-    answers: [
-      { text: "Processing everything in cloud", correct: false },
-      { text: "Storing data on USB drives", correct: false },
-      { text: "Using fog/edge computing close to data source", correct: true },
-      { text: "Compressing images before transmission", correct: false },
-    ],
-  },
-  {
-    question:
-      "In application placement, what does ‘locality requirement’ mean?",
-    answers: [
-      {
-        text: "Application must run on a specific operating system",
-        correct: false,
-      },
-      {
-        text: "Service should be deployed close to its data source",
-        correct: true,
-      },
-      { text: "Only cloud services are allowed", correct: false },
-      { text: "Data should be stored globally", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is the purpose of the benchmarking component in edge computing?",
-    answers: [
-      { text: "To ensure software compatibility", correct: false },
-      { text: "To track user behavior", correct: false },
-      {
-        text: "To measure the performance of hardware and system",
-        correct: true,
-      },
-      { text: "To improve color accuracy", correct: false },
-    ],
-  },
-  {
-    question: "Which of these best defines the cloud-fog-edge framework?",
-    answers: [
-      {
-        text: "A distributed computing model involving edge, fog, and centralized cloud layers",
-        correct: true,
-      },
-      {
-        text: "Only a replacement for traditional cloud computing",
-        correct: false,
-      },
-      { text: "A storage-only model", correct: false },
-      { text: "An IoT sensor layout diagram", correct: false },
-    ],
-  },
-];
-//////////////////////////////   Cloud Federation and VM Migration  ///////////////////////////////////////
-const Cloud_Federation = [
-  {
-    question: "What is Cloud Federation?",
-    answers: [
-      {
-        text: "Deployment of a single cloud to support business operations",
-        correct: false,
-      },
-      {
-        text: "A private cloud setup for enterprise use",
-        correct: false,
-      },
-      {
-        text: "Deployment and management of multiple internal and external cloud services",
-        correct: true,
-      },
-      {
-        text: "Establishment of cloud services for personal users only",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a key motivation for Cloud Federation?",
-    answers: [
-      { text: "To decrease global utility", correct: false },
-      { text: "To minimize interoperability", correct: false },
-      { text: "To maximize resource utilization", correct: true },
-      { text: "To increase power consumption", correct: false },
-    ],
-  },
-  {
-    question: "What is one of the benefits of cloud federation?",
-    answers: [
-      { text: "Reduces global cloud access", correct: false },
-      { text: "Prevents load balancing", correct: false },
-      { text: "Enables high availability and resource sharing", correct: true },
-      { text: "Promotes single-cloud dependency", correct: false },
-    ],
-  },
-  {
-    question: "Cloud Federation is an example of which type of organization?",
-    answers: [
-      { text: "Intra-cloud", correct: false },
-      { text: "Inter-cloud", correct: true },
-      { text: "Mono-cloud", correct: false },
-      { text: "Micro-cloud", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which architecture in cloud federation is considered loosely coupled?",
-    answers: [
-      { text: "Multitier", correct: false },
-      { text: "Tightly coupled", correct: false },
-      { text: "Hybrid / Cloud Bursting", correct: true },
-      { text: "Aggregated", correct: false },
-    ],
-  },
-  {
-    question: "What is the key feature of a tightly coupled federation?",
-    answers: [
-      { text: "Minimal control over remote resources", correct: false },
-      { text: "VM placement decisions not allowed", correct: false },
-      {
-        text: "Advanced features like VM migration and cross-site networking",
-        correct: true,
-      },
-      { text: "Contracts are not required between clouds", correct: false },
-    ],
-  },
-  {
-    question: "Which architecture uses a broker for service deployment?",
-    answers: [
-      { text: "Aggregated", correct: false },
-      { text: "Hybrid", correct: false },
-      { text: "Broker Architecture", correct: true },
-      { text: "Multitier", correct: false },
-    ],
-  },
-  {
-    question:
-      "In which type of federation are contracts established between CSPs?",
-    answers: [
-      { text: "Loosely Coupled Federation", correct: false },
-      { text: "Tightly Coupled Federation", correct: false },
-      { text: "Partially Coupled Federation", correct: true },
-      { text: "Single Cloud System", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which architecture is beneficial for geographically distributed infrastructures?",
-    answers: [
-      { text: "Broker Architecture", correct: false },
-      { text: "Hybrid Cloud", correct: false },
-      { text: "Multitier Architecture", correct: true },
-      { text: "Loosely Coupled Federation", correct: false },
-    ],
-  },
-  {
-    question: "What is VM Migration?",
-    answers: [
-      { text: "Copying files from one VM to another", correct: false },
-      { text: "Upgrading the VM software version", correct: false },
-      { text: "Moving a running VM from one host to another", correct: true },
-      { text: "Deleting old VMs", correct: false },
-    ],
-  },
-  {
-    question: "Which type of VM migration requires shutting down the VM?",
-    answers: [
-      { text: "Live Migration", correct: false },
-      { text: "Cold or Non-Live Migration", correct: true },
-      { text: "Dynamic Migration", correct: false },
-      { text: "Parallel Migration", correct: false },
-    ],
-  },
-  {
-    question: "What is a key advantage of Live VM Migration?",
-    answers: [
-      { text: "VM is permanently stopped", correct: false },
-      { text: "Reduces network bandwidth", correct: false },
-      {
-        text: "VM continues to provide service during migration",
-        correct: true,
-      },
-      { text: "CPU state is never moved", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following are the phases of Pre-Copy live migration?",
-    answers: [
-      { text: "Start, Copy, Finish", correct: false },
-      { text: "Pre-copy, Pre-copy Termination, Stop-and-Copy", correct: true },
-      { text: "Boot, Migrate, Resume", correct: false },
-      { text: "Pause, Transfer, Run", correct: false },
-    ],
-  },
-  {
-    question: "What happens during the Stop-and-Copy phase of VM migration?",
-    answers: [
-      { text: "VM continues running on both hosts", correct: false },
-      { text: "Execution of the VM is suspended at the source", correct: true },
-      { text: "Memory is never copied", correct: false },
-      { text: "VM shuts down permanently", correct: false },
-    ],
-  },
-  {
-    question: "In Post-copy migration, what happens first?",
-    answers: [
-      { text: "All memory is copied", correct: false },
-      { text: "Destination VM is shut down", correct: false },
-      { text: "Source VM is stopped and CPU state is copied", correct: true },
-      { text: "VM memory is copied in multiple rounds", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which live migration approach may result in accessing memory pages on demand?",
-    answers: [
-      { text: "Pre-copy", correct: false },
-      { text: "Cold migration", correct: false },
-      { text: "Post-copy", correct: true },
-      { text: "Serial migration", correct: false },
-    ],
-  },
-  {
-    question:
-      "What is a common goal of both pre-copy and post-copy live migration?",
-    answers: [
-      { text: "Shut down VMs quickly", correct: false },
-      { text: "Avoid dirty memory pages", correct: false },
-      { text: "Minimize downtime during migration", correct: true },
-      { text: "Use maximum transmission bandwidth", correct: false },
-    ],
-  },
-  {
-    question: "Which strategy migrates multiple VMs one after another?",
-    answers: [
-      { text: "Parallel Migration", correct: false },
-      { text: "Hybrid Migration", correct: false },
-      { text: "Serial Migration", correct: true },
-      { text: "Batch Migration", correct: false },
-    ],
-  },
-  {
-    question: "In parallel migration, what happens to transmission bandwidth?",
-    answers: [
-      { text: "Each VM gets the full bandwidth", correct: false },
-      { text: "Bandwidth is divided equally among VMs", correct: true },
-      { text: "Only one VM is migrated", correct: false },
-      { text: "Bandwidth is ignored", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which architecture provides the most advanced control over remote resources?",
-    answers: [
-      { text: "Loosely Coupled", correct: false },
-      { text: "Tightly Coupled", correct: true },
-      { text: "Hybrid", correct: false },
-      { text: "Broker", correct: false },
-    ],
-  },
-  {
-    question: "Which is a feature of aggregated federation architecture?",
-    answers: [
-      { text: "No interoperability", correct: false },
-      { text: "Loosely coupled setup", correct: false },
-      { text: "Partner clouds aggregate their resources", correct: true },
-      { text: "Single-site infrastructure", correct: false },
-    ],
-  },
-  {
-    question: "What is the main role of a broker in federation?",
-    answers: [
-      { text: "Store user data", correct: false },
-      { text: "Deploy virtual resources in the selected cloud", correct: true },
-      { text: "Replace the CSPs", correct: false },
-      { text: "Monitor VM hardware", correct: false },
-    ],
-  },
-  {
-    question: "What ensures memory consistency in iterative pre-copy?",
-    answers: [
-      { text: "Skipping dirty pages", correct: false },
-      { text: "Sending dirty pages again in the next round", correct: true },
-      { text: "Suspending all VMs", correct: false },
-      { text: "Avoiding memory copy", correct: false },
-    ],
-  },
-  {
-    question: "What can cause severe degradation in service quality?",
-    answers: [
-      { text: "Hybrid cloud setup", correct: false },
-      { text: "Live migration", correct: false },
-      { text: "Non-live migration for real-time applications", correct: true },
-      { text: "Cloud federation setup", correct: false },
-    ],
-  },
-  {
-    question:
-      "In which type of migration is the VM memory empty at the beginning on the destination?",
-    answers: [
-      { text: "Cold migration", correct: false },
-      { text: "Pre-copy", correct: false },
-      { text: "Post-copy", correct: true },
-      { text: "Serial migration", correct: false },
-    ],
-  },
-];
+
 ///////////////////////////  Containers, Dockers and Kubernetes  ////////////////////////////////////////
 const Container_Docker_Kubernetes = [
   {
@@ -4890,8 +3918,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper9;
     } else if (selectedValue === "Paper10") {
       Questions = Paper10;
-    } else if (selectedValue === "XML") {
-      Questions = XML;
+    } else if (selectedValue === "Paper11") {
+      Questions = Paper11;
     } else if (selectedValue === "Web_Service") {
       Questions = Web_Service;
     } else if (selectedValue === "SLA_Economics") {
