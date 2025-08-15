@@ -2650,588 +2650,425 @@ const Paper11 = [
   },
 ];
 
-///////////////////////////  Containers, Dockers and Kubernetes  ////////////////////////////////////////
-const Container_Docker_Kubernetes = [
+///////////////////////////  13 August 2025  ////////////////////////////////////////
+const Paper12 = [
   {
-    question: "What is a container in cloud computing?",
+    question:
+      "Which of the following cities will host two of the newly approved semiconductor plants under the India Semiconductor Mission?",
     answers: [
-      {
-        text: "A lightweight virtualization technique that packages application code with dependencies",
-        correct: true,
-      },
-      {
-        text: "A type of database used for storing user data",
-        correct: false,
-      },
-      {
-        text: "A physical server used for deployment",
-        correct: false,
-      },
-      {
-        text: "A tool used to design user interfaces",
-        correct: false,
-      },
+      { text: "Mohali", correct: false },
+      { text: "Bhubaneswar", correct: true },
+      { text: "Dholera", correct: false },
+      { text: "Noida", correct: false },
     ],
   },
   {
     question:
-      "Which open platform is widely used to develop, ship, and run containers?",
+      "Silicon carbide chips are preferred for applications like electric vehicles because they:",
     answers: [
-      { text: "Kubernetes", correct: false },
-      { text: "VirtualBox", correct: false },
-      { text: "Docker", correct: true },
-      { text: "VMware", correct: false },
-    ],
-  },
-  {
-    question: "What is Kubernetes?",
-    answers: [
+      { text: "Are cheaper to produce", correct: false },
+      { text: "Are more flexible", correct: false },
       {
-        text: "An open-source platform for managing containerized applications",
+        text: "Can operate in high-temperature and high-voltage conditions",
         correct: true,
       },
-      {
-        text: "A programming language",
-        correct: false,
-      },
-      {
-        text: "A cloud storage provider",
-        correct: false,
-      },
-      {
-        text: "A virtualization software for desktops",
-        correct: false,
-      },
+      { text: "Require no cooling systems", correct: false },
     ],
   },
   {
-    question: "How do containers virtualize resources?",
+    question: "Operation Flood was launched in 1970 by which organisation?",
     answers: [
-      { text: "At the hardware level", correct: false },
-      { text: "At the kernel module level", correct: false },
-      { text: "At the OS level", correct: true },
-      { text: "Through BIOS virtualization", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is NOT a benefit of using containers?",
-    answers: [
-      { text: "Application isolation", correct: false },
-      { text: "Workload portability", correct: false },
-      { text: "Increased VM overhead", correct: true },
-      { text: "Separation of responsibilities", correct: false },
-    ],
-  },
-  {
-    question: "Which component of Kubernetes hosts the Pods?",
-    answers: [
-      { text: "Control Plane", correct: false },
-      { text: "Worker Nodes", correct: true },
-      { text: "Kubelet", correct: false },
-      { text: "Docker Daemon", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following virtualizes hardware resources?",
-    answers: [
-      { text: "Containers", correct: false },
-      { text: "Virtual Machines", correct: true },
-      { text: "Kubernetes", correct: false },
-      { text: "Dockerfiles", correct: false },
-    ],
-  },
-  {
-    question: "What command is used to run a Docker container from an image?",
-    answers: [
-      { text: "docker commit", correct: false },
-      { text: "docker build", correct: false },
-      { text: "docker run", correct: true },
-      { text: "docker tag", correct: false },
-    ],
-  },
-  {
-    question: "What does the Docker daemon do?",
-    answers: [
-      {
-        text: "Communicates with the Docker client to build and manage containers",
-        correct: true,
-      },
-      {
-        text: "Hosts the Kubernetes dashboard",
-        correct: false,
-      },
-      {
-        text: "Acts as the primary interface for DockerHub",
-        correct: false,
-      },
-      {
-        text: "Stores persistent user data",
-        correct: false,
-      },
+      { text: "National Dairy Development Board", correct: true },
+      { text: "Food Corporation of India", correct: false },
+      { text: "Amul Federation", correct: false },
+      { text: "Ministry of Agriculture", correct: false },
     ],
   },
   {
     question:
-      "Which Kubernetes component manages the cluster and its workload?",
+      "Which missile used in Operation Sindoor is an Indo-Russian supersonic cruise missile?",
     answers: [
-      { text: "Pods", correct: false },
-      { text: "Worker Node", correct: false },
-      { text: "Control Plane", correct: true },
-      { text: "Kube Proxy", correct: false },
+      { text: "Astra Mk-1", correct: false },
+      { text: "SCALP", correct: false },
+      { text: "BrahMos", correct: true },
+      { text: "Rampage", correct: false },
     ],
   },
   {
-    question: "Why are containers considered lightweight?",
+    question: "Low Earth Orbit (LEO) satellites typically have a latency of:",
     answers: [
-      {
-        text: "They do not require an OS per application and share the OS kernel",
-        correct: true,
-      },
-      {
-        text: "They include full virtualized hardware",
-        correct: false,
-      },
-      {
-        text: "They cannot be used in cloud environments",
-        correct: false,
-      },
-      {
-        text: "They require separate hardware",
-        correct: false,
-      },
+      { text: "~600 ms", correct: false },
+      { text: "~20–40 ms", correct: true },
+      { text: "~150 ms", correct: false },
+      { text: "~1 ms", correct: false },
     ],
   },
   {
-    question: "Which of the following is a key benefit of using Docker?",
+    question: "Which state is the top milk producer in India?",
     answers: [
-      { text: "Slower provisioning", correct: false },
-      { text: "Heavy memory usage", correct: false },
-      { text: "Easy and consistent deployments", correct: true },
-      { text: "Dependent on specific OS", correct: false },
-    ],
-  },
-  {
-    question: "What does 'docker build' do?",
-    answers: [
-      { text: "Runs a Docker container", correct: false },
-      { text: "Commits an image", correct: false },
-      { text: "Builds a Docker image from a Dockerfile", correct: true },
-      { text: "Tags a Docker image", correct: false },
-    ],
-  },
-  {
-    question: "What is a Docker image?",
-    answers: [
-      {
-        text: "A static file that contains code, dependencies, and settings to run an app",
-        correct: true,
-      },
-      {
-        text: "A configuration file for Kubernetes",
-        correct: false,
-      },
-      {
-        text: "A script to install Docker",
-        correct: false,
-      },
-      {
-        text: "A backup of a container's log files",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the key difference between VMs and containers?",
-    answers: [
-      {
-        text: "VMs virtualize at the hardware level while containers virtualize at the OS level",
-        correct: true,
-      },
-      {
-        text: "Containers need more memory than VMs",
-        correct: false,
-      },
-      {
-        text: "VMs are OS-independent",
-        correct: false,
-      },
-      {
-        text: "Containers are not portable",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "What is the primary unit of deployment in Kubernetes?",
-    answers: [
-      { text: "Service", correct: false },
-      { text: "Pod", correct: true },
-      { text: "Node", correct: false },
-      { text: "Ingress", correct: false },
+      { text: "Gujarat", correct: false },
+      { text: "Rajasthan", correct: true },
+      { text: "Uttar Pradesh", correct: false },
+      { text: "Madhya Pradesh", correct: false },
     ],
   },
   {
     question:
-      "Which of the following is a key advantage of Docker for software prototyping?",
+      "Which indigenous beyond-visual-range air-to-air missile was used in Operation Sindoor?",
     answers: [
-      { text: "Requires full VMs to be provisioned", correct: false },
-      {
-        text: "Provides quick and isolated sandbox environments",
-        correct: true,
-      },
-      { text: "Only works with Windows", correct: false },
-      { text: "Cannot be used offline", correct: false },
+      { text: "R-37", correct: false },
+      { text: "Astra Mk-1", correct: true },
+      { text: "Crystal Maze", correct: false },
+      { text: "Rampage", correct: false },
     ],
   },
   {
-    question: "Which of the following statements is true about containers?",
+    question: "The Rashtriya Gokul Mission focuses on:",
     answers: [
-      {
-        text: "They require separate operating systems for each application",
-        correct: false,
-      },
-      {
-        text: "They are portable and abstract the app from the underlying system",
-        correct: true,
-      },
-      { text: "They are slower than VMs", correct: false },
-      { text: "They need hardware virtualization support", correct: false },
-    ],
-  },
-  {
-    question: "Why are Docker builds suitable for continuous delivery?",
-    answers: [
-      { text: "They are tied to specific machines", correct: false },
-      { text: "They are easily reproducible and replicable", correct: true },
-      { text: "They are manually deployed", correct: false },
-      { text: "They do not support automation", correct: false },
-    ],
-  },
-  {
-    question: "What is the role of the private Docker registry?",
-    answers: [
-      { text: "It stores container logs", correct: false },
-      {
-        text: "It stores Docker images privately for authorized access",
-        correct: true,
-      },
-      { text: "It provides internet access to containers", correct: false },
-      { text: "It monitors CPU usage", correct: false },
-    ],
-  },
-  {
-    question: "Which of these is an example of container orchestration?",
-    answers: [
-      { text: "Docker Engine", correct: false },
-      { text: "Kubernetes", correct: true },
-      { text: "PostgreSQL", correct: false },
-      { text: "Linux Kernel", correct: false },
-    ],
-  },
-  {
-    question: "What does 'docker commit' do?",
-    answers: [
-      { text: "Pushes the image to Docker Hub", correct: false },
-      { text: "Commits a container's changes to a new image", correct: true },
-      { text: "Runs the container", correct: false },
-      { text: "Builds the image from a Dockerfile", correct: false },
-    ],
-  },
-  {
-    question: "How does Docker help with debugging?",
-    answers: [
-      { text: "It eliminates the need for logs", correct: false },
-      {
-        text: "It provides isolated environments with known properties for easier reproduction",
-        correct: true,
-      },
-      { text: "It runs directly on the host system", correct: false },
-      { text: "It removes all error messages", correct: false },
-    ],
-  },
-  {
-    question: "Which statement about container deployment is correct?",
-    answers: [
-      { text: "It offers no application isolation", correct: false },
-      {
-        text: "Containers share the OS and are portable across platforms",
-        correct: true,
-      },
-      { text: "It uses full hardware virtualization", correct: false },
-      { text: "Containers require physical servers only", correct: false },
-    ],
-  },
-  {
-    question: "Which Docker command assigns a label to an image?",
-    answers: [
-      { text: "docker tag", correct: true },
-      { text: "docker commit", correct: false },
-      { text: "docker run", correct: false },
-      { text: "docker push", correct: false },
-    ],
-  },
-  {
-    question: "Which resource is NOT virtualized by containers?",
-    answers: [
-      { text: "CPU", correct: false },
-      { text: "Memory", correct: false },
-      { text: "Hard disk BIOS", correct: true },
-      { text: "Network", correct: false },
+      { text: "Improving exotic cattle breeds", correct: false },
+      { text: "Improving indigenous cattle breeds", correct: true },
+      { text: "Banning unregulated dairies", correct: false },
+      { text: "Importing high-yield foreign breeds", correct: false },
     ],
   },
   {
     question:
-      "Which of the following does NOT describe traditional deployments?",
+      "Which orbit type provides constant coverage over the same area but suffers from high latency?",
     answers: [
-      {
-        text: "Apps run on physical servers without resource boundaries",
-        correct: false,
-      },
-      { text: "Apps are isolated via VMs", correct: true },
-      { text: "Resource allocation issues arise frequently", correct: false },
-      { text: "No logical isolation between applications", correct: false },
+      { text: "LEO", correct: false },
+      { text: "MEO", correct: false },
+      { text: "GEO", correct: true },
+      { text: "HEO", correct: false },
     ],
   },
   {
-    question: "Which of the following features is provided by Kubernetes?",
+    question:
+      "Which country is currently the largest supplier of semiconductors to India?",
     answers: [
-      { text: "CPU-level virtualization", correct: false },
-      {
-        text: "Declarative configuration and scaling of containers",
-        correct: true,
-      },
-      { text: "Filesystem management for VMs", correct: false },
-      { text: "Dependency management for Node.js", correct: false },
+      { text: "Taiwan", correct: false },
+      { text: "Japan", correct: false },
+      { text: "China", correct: true },
+      { text: "South Korea", correct: false },
     ],
   },
   {
-    question: "What does containerization promote in team environments?",
+    question:
+      "Which of the following are key challenges in India's semiconductor ambitions?",
     answers: [
-      { text: "Increased confusion due to many versions", correct: false },
-      {
-        text: "Separation of responsibilities between devs and ops",
-        correct: true,
-      },
-      { text: "Incompatibility across machines", correct: false },
-      { text: "Manual deployment of all services", correct: false },
+      { text: "Lack of indigenous design and R&D", correct: true },
+      { text: "High investment and long gestation period", correct: true },
+      { text: "Surplus of skilled semiconductor engineers", correct: false },
+      { text: "Dependence on imports for critical components", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following were phases of Operation Flood?",
+    answers: [
+      { text: "Phase I (1970–1980)", correct: true },
+      { text: "Phase II (1981–1985)", correct: true },
+      { text: "Phase III (1985–1996)", correct: true },
+      { text: "Phase IV (2000–2010)", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are civilian uses of satellite internet?",
+    answers: [
+      { text: "Disaster relief communications", correct: true },
+      { text: "Telemedicine", correct: true },
+      { text: "Missile guidance systems", correct: false },
+      { text: "Precision agriculture", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following missiles are of Israeli origin?",
+    answers: [
+      { text: "Rampage", correct: true },
+      { text: "Crystal Maze", correct: true },
+      { text: "SCALP", correct: false },
+      { text: "BrahMos", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which measures can help strengthen India's semiconductor ecosystem?",
+    answers: [
+      { text: "Increase R&D funding", correct: true },
+      { text: "Develop skilled workforce", correct: true },
+      { text: "Rely exclusively on Chinese suppliers", correct: false },
+      { text: "Build semiconductor clusters", correct: true },
+    ],
+  },
+
+  {
+    question: `With reference to the India Semiconductor Mission (ISM), consider the following statements:\n
+1. It aims to make India self-reliant in semiconductor manufacturing.\n
+2. Only silicon-based semiconductor manufacturing units are eligible for incentives.\n
+Which of the statements given above is/are correct?`,
+    answers: [
+      { text: "1 only", correct: true },
+      { text: "2 only", correct: false },
+      { text: "Both 1 and 2", correct: false },
+      { text: "Neither 1 nor 2", correct: false },
+    ],
+  },
+  {
+    question: `With reference to Operation Flood, consider the following statements:\n
+1. It was implemented by the National Dairy Development Board.\n
+2. Phase II linked 18 milksheds to major cities.\n
+3. It was funded initially through sale of donated milk powder and butter oil from the EU.\n
+Which of the statements given above is/are correct?`,
+    answers: [
+      { text: "1 and 3 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 2 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question: `With reference to India's recent missile capabilities, consider the following statements:\n
+1. BrahMos is an Indo-Russian supersonic cruise missile.\n
+2. Astra Mk-1 is an indigenous beyond-visual-range air-to-air missile.\n
+3. SCALP is a hypersonic ballistic missile.\n
+4. R-37 is a very long-range air-to-air missile.\n
+Which of the statements given above are correct?`,
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question: `With reference to satellite internet technology, consider the following statements:\n
+1. LEO satellites generally have lower latency than GEO satellites.\n
+2. A single GEO satellite can cover almost one-third of Earth’s surface.\n
+3. Satellite internet can have both civilian and military uses.\n
+Which of the statements given above are correct?`,
+    answers: [
+      { text: "1 only", correct: false },
+      { text: "2 only", correct: false },
+      { text: "3 only", correct: false },
+      { text: "1, 2 and 3", correct: true },
+    ],
+  },
+  {
+    question: `With reference to the Rashtriya Gokul Mission, consider the following statements:\n
+1. It focuses on development and conservation of indigenous bovine breeds.\n
+2. It aims to improve milk productivity using scientific methods.\n
+3. It primarily targets large commercial dairy corporations.\n
+Which of the statements given above is/are correct?`,
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
     ],
   },
 ];
-//////////////////////////////  Docker, Dew and Serverless Computing   //////////////////////////////
-const Docker_Dew_Serverless = [
+
+//////////////////////////////  14 August 2025   //////////////////////////////
+const Paper13 = [
   {
     question:
-      "What is the main purpose of using Docker for MySQL and PHPMyAdmin?",
+      "Under the Forest Rights Act (FRA), 2006, which body is the primary authority for initiating claims over forest land?",
+    answers: [
+      { text: "State Forest Department", correct: false },
+      { text: "District Collector", correct: false },
+      { text: "Gram Sabha", correct: true },
+      { text: "Ministry of Tribal Affairs", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is India’s highest peacetime gallantry award?",
+    answers: [
+      { text: "Kirti Chakra", correct: false },
+      { text: "Param Vir Chakra", correct: false },
+      { text: "Ashoka Chakra", correct: true },
+      { text: "Shaurya Chakra", correct: false },
+    ],
+  },
+  {
+    question:
+      "PixxelSpace India-led consortium is associated with which type of satellite project?",
+    answers: [
+      { text: "Navigation satellites", correct: false },
+      { text: "Earth Observation satellites", correct: true },
+      { text: "Communication satellites", correct: false },
+      { text: "Weather satellites only", correct: false },
+    ],
+  },
+  {
+    question:
+      "In the Gallantry Awards system, the 'Vir Chakra' is awarded during:",
+    answers: [
+      { text: "Wartime", correct: true },
+      { text: "Peacetime", correct: false },
+      { text: "Only for civilians", correct: false },
+      { text: "Sports achievements", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which ministry is the nodal agency for implementing the Forest Rights Act (FRA), 2006?",
     answers: [
       {
-        text: "To install them separately on a standalone machine",
+        text: "Ministry of Environment, Forest and Climate Change",
         correct: false,
       },
-      {
-        text: "To provide a lightweight, portable environment for running services",
-        correct: true,
-      },
-      { text: "To reduce the need for PHP programming", correct: false },
-      { text: "To replace MySQL with PostgreSQL", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is NOT a benefit of containerization?",
-    answers: [
-      { text: "Workload portability", correct: false },
-      { text: "Heavy use of hardware resources", correct: true },
-      { text: "Application isolation", correct: false },
-      { text: "Separation of responsibility", correct: false },
-    ],
-  },
-  {
-    question: "How are containers different from virtual machines (VMs)?",
-    answers: [
-      {
-        text: "Containers virtualize hardware, while VMs virtualize the OS",
-        correct: false,
-      },
-      { text: "Containers run on separate operating systems", correct: false },
-      {
-        text: "Containers virtualize at the OS level and are more lightweight",
-        correct: true,
-      },
-      { text: "Containers require more memory than VMs", correct: false },
-    ],
-  },
-  {
-    question: "What is Dew Computing primarily designed to reduce?",
-    answers: [
-      { text: "Dependency on user interaction", correct: false },
-      { text: "Dependency on continuous internet connection", correct: true },
-      { text: "Storage requirements on cloud", correct: false },
-      { text: "Complexity of cloud APIs", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is a typical example of Dew Computing?",
-    answers: [
-      { text: "YouTube", correct: false },
-      { text: "Dropbox", correct: true },
-      { text: "Facebook", correct: false },
-      { text: "Amazon Web Services", correct: false },
-    ],
-  },
-  {
-    question: "What does Dew Computing prioritize in its architecture?",
-    answers: [
-      { text: "Centralized server processing", correct: false },
-      { text: "Virtual machine usage", correct: false },
-      {
-        text: "User-centric, flexible, and personalized-supported applications",
-        correct: true,
-      },
-      { text: "Heavy reliance on cloud connectivity", correct: false },
+      { text: "Ministry of Panchayati Raj", correct: false },
+      { text: "Ministry of Tribal Affairs", correct: true },
+      { text: "Ministry of Rural Development", correct: false },
     ],
   },
   {
     question:
-      "Which of the following best represents the order in the IoT-fog-cloud continuum?",
+      "The Democratic Republic of Congo (DRC) is the world's largest producer of which critical mineral?",
     answers: [
-      { text: "Cloud → Dew → Fog", correct: false },
-      { text: "Fog → Dew → Cloud", correct: false },
-      { text: "Dew → Fog → Cloud", correct: true },
-      { text: "Cloud → Fog → Dew", correct: false },
+      { text: "Lithium", correct: false },
+      { text: "Cobalt", correct: true },
+      { text: "Nickel", correct: false },
+      { text: "Rare Earth Elements", correct: false },
     ],
   },
   {
     question:
-      "Which dew computing application area stores a partial copy of the web on a local device?",
+      "Under FRA, the maximum forest land that can be granted to an individual for cultivation is:",
     answers: [
-      { text: "Storage in Dew (SiD)", correct: false },
-      { text: "Web in Dew (WiD)", correct: true },
-      { text: "Platform in Dew (PiD)", correct: false },
-      { text: "Infrastructure as Dew (IaD)", correct: false },
+      { text: "2 hectares", correct: false },
+      { text: "4 hectares", correct: true },
+      { text: "5 hectares", correct: false },
+      { text: "10 hectares", correct: false },
     ],
   },
   {
     question:
-      "Which feature of dew computing ensures service availability without internet?",
+      "Which African countries have recently banned the export of unprocessed lithium?",
     answers: [
-      { text: "Cloud sync", correct: false },
-      { text: "Independence", correct: true },
-      { text: "Peer-to-peer networking", correct: false },
-      { text: "Server replication", correct: false },
+      { text: "Zimbabwe and Namibia", correct: true },
+      { text: "DRC and Botswana", correct: false },
+      { text: "Namibia and Zambia", correct: false },
+      { text: "Zimbabwe and South Africa", correct: false },
     ],
   },
   {
-    question: "Which of the following is a challenge in Dew Computing?",
+    question: "The Shaurya Chakra is awarded for acts of gallantry:",
     answers: [
-      { text: "Ease of data synchronization", correct: false },
-      { text: "Database security", correct: true },
-      { text: "Lower cost of implementation", correct: false },
-      { text: "Simple architecture", correct: false },
-    ],
-  },
-  {
-    question: "What is the main idea behind serverless computing?",
-    answers: [
-      { text: "Running applications without any backend", correct: false },
-      { text: "Using physical servers instead of VMs", correct: false },
-      {
-        text: "Writing and deploying code without managing infrastructure",
-        correct: true,
-      },
-      { text: "Avoiding cloud providers altogether", correct: false },
+      { text: "Only in the face of the enemy", correct: false },
+      { text: "Not in the face of the enemy", correct: true },
+      { text: "Only to military personnel", correct: false },
+      { text: "For sports bravery", correct: false },
     ],
   },
   {
     question:
-      "Which of these is NOT a characteristic of Function-as-a-Service (FaaS)?",
+      "The current parental annual income limit for eligibility under SC/ST/OBC/DNT scholarships is:",
     answers: [
-      { text: "Functions run constantly in the background", correct: true },
-      { text: "Functions are triggered by events", correct: false },
-      { text: "Functions run in isolated environments", correct: false },
-      { text: "Functions scale automatically based on demand", correct: false },
+      { text: "₹1.5 lakh", correct: false },
+      { text: "₹2 lakh", correct: false },
+      { text: "₹2.5 lakh", correct: true },
+      { text: "₹3 lakh", correct: false },
     ],
   },
   {
     question:
-      "In which model do developers outsource backend logic to external services?",
+      "Which of the following are recognised as Minor Forest Produce (MFP) under FRA, 2006?",
     answers: [
-      { text: "Infrastructure-as-a-Service (IaaS)", correct: false },
-      { text: "Backend-as-a-Service (BaaS)", correct: true },
-      { text: "Software-as-a-Service (SaaS)", correct: false },
-      { text: "Function-as-a-Service (FaaS)", correct: false },
+      { text: "Bamboo", correct: true },
+      { text: "Honey", correct: true },
+      { text: "Lac", correct: true },
+      { text: "Teak timber", correct: false },
     ],
   },
   {
-    question: "Which of these is an example of BaaS?",
+    question: "Applications of Earth Observation (EO) satellites include:",
     answers: [
-      { text: "GitHub Actions", correct: false },
-      { text: "Google Firebase", correct: true },
-      { text: "Amazon Lambda", correct: false },
-      { text: "Dropbox", correct: false },
+      { text: "Climate change monitoring", correct: true },
+      { text: "Disaster management", correct: true },
+      { text: "Urban planning", correct: true },
+      { text: "Space tourism", correct: false },
     ],
   },
   {
-    question: "What major challenge is associated with serverless computing?",
+    question: "Challenges in implementing the Forest Rights Act (FRA) include:",
     answers: [
-      { text: "Function-level scaling", correct: false },
-      {
-        text: "Asynchronous calls and inter-function communication",
-        correct: true,
-      },
-      { text: "Simple function deployment", correct: false },
-      { text: "Automated scaling", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which architecture is best described by 'event-driven, cloud-hosted, and micro-function oriented'?",
-    answers: [
-      { text: "Server-based architecture", correct: false },
-      { text: "Platform-as-a-Service", correct: false },
-      { text: "Function-as-a-Service", correct: true },
-      { text: "Container orchestration", correct: false },
+      { text: "Delayed processing of claims", correct: true },
+      { text: "Lack of documentary evidence", correct: true },
+      { text: "Conflicts with wildlife laws", correct: true },
+      { text: "No involvement of Gram Sabha", correct: false },
     ],
   },
   {
     question:
-      "Which dew computing model syncs development tools and data to the cloud?",
+      "Recent resistance to Chinese mining dominance in Africa includes:",
     answers: [
-      { text: "Platform in Dew (PiD)", correct: true },
-      { text: "Storage in Dew (SiD)", correct: false },
-      { text: "Infrastructure in Dew (IaD)", correct: false },
-      { text: "Database in Dew (DBiD)", correct: false },
+      { text: "Renegotiation of mining contracts", correct: true },
+      { text: "Bans on export of raw minerals", correct: true },
+      { text: "Increased tax exemptions to Chinese firms", correct: false },
+      { text: "Protests against environmental damage", correct: true },
+    ],
+  },
+  {
+    question: "Peacetime gallantry awards in India include:",
+    answers: [
+      { text: "Ashoka Chakra", correct: true },
+      { text: "Kirti Chakra", correct: true },
+      { text: "Shaurya Chakra", correct: true },
+      { text: "Vir Chakra", correct: false },
     ],
   },
   {
     question:
-      "Which container-based tool provides a GUI to manage MySQL databases?",
+      "With reference to the Forest Rights Act (FRA), 2006, consider the following statements:\n\n1. It recognises both individual and community rights of forest dwellers.\n2. Gram Sabha is the primary authority to initiate claims.\n3. Bamboo is excluded from the definition of Minor Forest Produce.\n4. FRA provides protection from eviction before rights are recognised.\n\nWhich of the above statements is/are correct?",
     answers: [
-      { text: "Apache Server", correct: false },
-      { text: "PostgreSQL", correct: false },
-      { text: "PHPMyAdmin", correct: true },
-      { text: "Docker Compose", correct: false },
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1, 3 and 4 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
     ],
   },
   {
     question:
-      "Which term describes the ability of dew computing to sync local and cloud data?",
+      "With reference to India's first private EO satellite constellation, consider the following statements:\n\n1. It is being developed under a PPP model facilitated by IN-SPACe.\n2. PixxelSpace India is the lead partner.\n3. The project will completely eliminate the need for foreign EO data.\n4. It will provide Analysis Ready Data and Value-Added Services for multiple sectors.\n\nWhich of the above statements is/are correct?",
     answers: [
-      { text: "Replication", correct: false },
-      { text: "Isolation", correct: false },
-      { text: "Collaboration", correct: true },
-      { text: "Redundancy", correct: false },
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1, 3 and 4 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
     ],
   },
   {
     question:
-      "Which dew computing model supports services without a permanent cloud connection?",
+      "With reference to recent mining developments in Africa, consider the following statements:\n\n1. DRC accounts for around 80% of the world's cobalt production.\n2. Zimbabwe and Namibia have banned the export of unprocessed lithium.\n3. The Sicomines deal involved mining rights in exchange for infrastructure.\n4. These policy measures have reduced environmental protests.\n\nWhich of the above statements is/are correct?",
     answers: [
-      { text: "Fog computing", correct: false },
-      { text: "Cloud computing", correct: false },
-      { text: "Dew computing", correct: true },
-      { text: "Edge computing", correct: false },
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Gallantry Awards in India, consider the following statements:\n\n1. Ashoka Chakra Class I, II, and III were renamed as Ashoka Chakra, Kirti Chakra, and Shaurya Chakra respectively in 1967.\n2. All gallantry awards were instituted in 1950.\n3. Civilians are eligible for certain peacetime awards.\n4. Param Vir Chakra is the highest wartime award.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 3 and 4 only", correct: true },
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to SC/ST/OBC/DNT scholarships, consider the following statements:\n\n1. The current parental annual income limit is ₹2.5 lakh.\n2. These scholarships are funded under a 60:40 Centre-State ratio for all states.\n3. For SC students, pre-matric scholarships can be given from Class I to X in certain cases.\n4. Parliamentary Committees have recommended lowering the income ceiling.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
     ],
   },
 ];
+
 ///////////////////////////////  Serverless Computnig ///////////////////////////////
 const Serverless_Computing = [
   {
@@ -3920,10 +3757,10 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper10;
     } else if (selectedValue === "Paper11") {
       Questions = Paper11;
-    } else if (selectedValue === "Web_Service") {
-      Questions = Web_Service;
-    } else if (selectedValue === "SLA_Economics") {
-      Questions = SLA_Economics;
+    } else if (selectedValue === "Paper12") {
+      Questions = Paper12;
+    } else if (selectedValue === "Paper13") {
+      Questions = Paper13;
     } else if (selectedValue === "ManagingData") {
       Questions = ManagingData;
     } else if (selectedValue === "OpenStack") {
