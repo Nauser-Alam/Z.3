@@ -3069,242 +3069,229 @@ const Paper13 = [
   },
 ];
 
-///////////////////////////////  Serverless Computnig ///////////////////////////////
-const Serverless_Computing = [
+///////////////////////////////  15 August 2025 ///////////////////////////////
+const Paper14 = [
   {
-    question: "What is AWS Lambda?",
+    question:
+      "Water hyacinth (Eichhornia crassipes), an invasive species in India, was originally introduced during which period?",
     answers: [
-      {
-        text: "A server-based application management tool",
-        correct: false,
-      },
-      {
-        text: "An event-driven serverless computing platform by Amazon",
-        correct: true,
-      },
-      {
-        text: "A database engine used in AWS",
-        correct: false,
-      },
-      {
-        text: "A virtual server for background tasks",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which of the following is true about AWS Lambda?",
-    answers: [
-      {
-        text: "You need to manage infrastructure manually",
-        correct: false,
-      },
-      {
-        text: "You pay for the server uptime regardless of usage",
-        correct: false,
-      },
-      {
-        text: "It runs code in response to AWS service events",
-        correct: true,
-      },
-      {
-        text: "It can only be triggered by manual inputs",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which language is NOT supported by AWS Lambda?",
-    answers: [
-      { text: "Java", correct: false },
-      { text: "Go", correct: false },
-      { text: "Swift", correct: true },
-      { text: "C#", correct: false },
-    ],
-  },
-  {
-    question: "Which AWS service can trigger an AWS Lambda function?",
-    answers: [
-      { text: "Amazon S3", correct: true },
-      { text: "Amazon Kindle", correct: false },
-      { text: "Amazon Prime", correct: false },
-      { text: "Amazon Fire", correct: false },
-    ],
-  },
-  {
-    question: "What is a Lambda Layer in AWS Lambda?",
-    answers: [
-      {
-        text: "A security layer for API protection",
-        correct: false,
-      },
-      {
-        text: "A feature to handle HTTP requests",
-        correct: false,
-      },
-      {
-        text: "A distribution mechanism for libraries and dependencies",
-        correct: true,
-      },
-      {
-        text: "A separate virtual server for logging",
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: "Which AWS service allows custom logging in Lambda?",
-    answers: [
-      { text: "Log stream", correct: true },
-      { text: "Log writer", correct: false },
-      { text: "StreamLog", correct: false },
-      { text: "AWS Logger", correct: false },
-    ],
-  },
-  {
-    question: "Which cloud provider offers Cloud Functions?",
-    answers: [
-      { text: "Amazon", correct: false },
-      { text: "Google Cloud", correct: true },
-      { text: "Microsoft", correct: false },
-      { text: "Oracle", correct: false },
+      { text: "Portuguese period", correct: false },
+      { text: "British colonial period", correct: true },
+      { text: "Post-independence era", correct: false },
+      { text: "Mughal period", correct: false },
     ],
   },
   {
     question:
-      "What is the primary trigger mechanism for Google Cloud Functions?",
+      "Which Indian lake, a Ramsar site, is most affected by water hyacinth invasion?",
     answers: [
-      { text: "Command Line Interface", correct: false },
-      { text: "Google Play Events", correct: false },
-      { text: "Cloud Infrastructure Events", correct: true },
-      { text: "Google Maps", correct: false },
+      { text: "Chilika Lake", correct: false },
+      { text: "Vembanad Lake", correct: true },
+      { text: "Loktak Lake", correct: false },
+      { text: "Sambhar Lake", correct: false },
     ],
   },
   {
     question:
-      "Which of these is NOT an event provider for Google Cloud Functions?",
+      "Which Indian state first enacted a Freedom of Religion Act (anti-conversion law)?",
     answers: [
-      { text: "Cloud Pub/Sub", correct: false },
-      { text: "Firebase", correct: false },
-      { text: "Google Compute Engine", correct: false },
-      { text: "Amazon S3", correct: true },
+      { text: "Madhya Pradesh", correct: false },
+      { text: "Odisha", correct: true },
+      { text: "Uttar Pradesh", correct: false },
+      { text: "Arunachal Pradesh", correct: false },
     ],
   },
   {
-    question: "What best describes a 'Trigger' in Google Cloud Functions?",
+    question:
+      "Which Article of the Indian Constitution guarantees freedom of conscience and the right to profess, practice, and propagate religion?",
     answers: [
-      { text: "The programming language used in the function", correct: false },
+      { text: "Article 19", correct: false },
+      { text: "Article 21", correct: false },
+      { text: "Article 25", correct: true },
+      { text: "Article 30", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Supreme Court ruling in Rev. Stainislaus vs. State of Madhya Pradesh (1977) held that:",
+    answers: [
       {
-        text: "An event and its associated data causing function execution",
-        correct: true,
-      },
-      {
-        text: "The error message returned from a failed function",
+        text: "Right to propagate includes right to convert others",
         correct: false,
       },
-      { text: "A signal to start a Google Virtual Machine", correct: false },
-    ],
-  },
-  {
-    question: "Which model does Google Cloud Functions follow?",
-    answers: [
-      { text: "Stateful execution", correct: false },
-      { text: "Persistent instance hosting", correct: false },
-      { text: "Stateless execution", correct: true },
-      { text: "Synchronous only functions", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is a key characteristic of Google Cloud Functions?",
-    answers: [
-      { text: "Supports running containers directly", correct: false },
       {
-        text: "Executes code in a fully managed environment",
+        text: "Anti-conversion laws of states are unconstitutional",
+        correct: false,
+      },
+      {
+        text: "Propagating religion does not include converting others by force or fraud",
         correct: true,
       },
-      { text: "Requires manual server provisioning", correct: false },
-      { text: "Can run on on-premises infrastructure", correct: false },
+      { text: "Marriage conversions are always valid", correct: false },
+    ],
+  },
+  {
+    question: "A cloudburst is defined as rainfall exceeding:",
+    answers: [
+      { text: "50 mm per hour in 10 sq km", correct: false },
+      { text: "100 mm per hour in 20–30 sq km", correct: true },
+      { text: "150 mm per hour in 100 sq km", correct: false },
+      { text: "200 mm per hour in 50 sq km", correct: false },
     ],
   },
   {
     question:
-      "Azure Functions use which configuration file to manage settings?",
+      "Special Intensive Revision (SIR) of electoral rolls is conducted under which law?",
     answers: [
-      { text: "settings.json", correct: false },
-      { text: "function.config", correct: false },
-      { text: "function.json", correct: true },
-      { text: "azure.conf", correct: false },
+      { text: "Representation of the People Act, 1950", correct: true },
+      { text: "Representation of the People Act, 1951", correct: false },
+      { text: "Citizenship Act, 1955", correct: false },
+      { text: "Election Symbols Order, 1968", correct: false },
     ],
   },
   {
-    question: "Which is NOT a language supported by Azure Functions?",
+    question:
+      "Which Article of the Constitution empowers the Election Commission of India with plenary powers over elections?",
     answers: [
-      { text: "PowerShell", correct: false },
-      { text: "JavaScript", correct: false },
-      { text: "Ruby", correct: true },
-      { text: "Python", correct: false },
+      { text: "Article 21", correct: false },
+      { text: "Article 324", correct: true },
+      { text: "Article 326", correct: false },
+      { text: "Article 14", correct: false },
     ],
   },
   {
-    question: "What are the pricing models available in Azure Functions?",
+    question:
+      "Currently, the parental income ceiling for SC/ST/OBC/DNT pre-matric and post-matric scholarships is:",
     answers: [
-      { text: "Subscription only", correct: false },
+      { text: "₹1.5 lakh", correct: false },
+      { text: "₹2.5 lakh", correct: true },
+      { text: "₹3.5 lakh", correct: false },
+      { text: "₹4.5 lakh", correct: false },
+    ],
+  },
+  {
+    question:
+      "For SC students, pre-matric scholarships can begin from Class I if:",
+    answers: [
+      { text: "They belong to Below Poverty Line families", correct: false },
       {
-        text: "Consumption, Premium, and App Service plans",
+        text: "Parents are engaged in unclean or hazardous occupations",
         correct: true,
       },
-      { text: "Hourly Billing only", correct: false },
-      { text: "Trial mode and Enterprise mode", correct: false },
+      { text: "They live in Scheduled Areas only", correct: false },
+      { text: "They belong to notified minority communities", correct: false },
     ],
   },
   {
-    question: "Which is NOT a use case of Azure Functions?",
+    question: "Water hyacinth causes which of the following problems?",
     answers: [
-      { text: "Building serverless APIs", correct: false },
-      { text: "Streaming IoT data", correct: false },
-      { text: "Operating system virtualization", correct: true },
-      { text: "Big data and machine learning pipelines", correct: false },
+      { text: "Blocks irrigation channels", correct: true },
+      { text: "Reduces oxygen in water bodies", correct: true },
+      { text: "Releases methane when decomposed", correct: true },
+      { text: "Improves biodiversity", correct: false },
     ],
   },
   {
-    question: "What is the main advantage of Azure Functions?",
+    question: "Features of state anti-conversion laws generally include:",
     answers: [
-      { text: "Manual server configuration", correct: false },
-      { text: "Complete control over networking stack", correct: false },
-      { text: "Focus on logic; rest is managed by Azure", correct: true },
-      { text: "Provision dedicated VMs", correct: false },
+      { text: "Ban on conversion by force or allurement", correct: true },
+      {
+        text: "Extra punishment if victim is SC/ST, woman, or minor",
+        correct: true,
+      },
+      {
+        text: "Prior permission or intimation to District Magistrate",
+        correct: true,
+      },
+      { text: "Complete ban on voluntary conversion", correct: false },
     ],
   },
   {
-    question: "What type of tasks is AWS Lambda best suited for?",
+    question: "Cloudbursts are associated with:",
     answers: [
-      { text: "Long-running batch jobs", correct: false },
-      { text: "Front-end development", correct: false },
-      { text: "Event-based background tasks", correct: true },
-      { text: "Virtual machine deployment", correct: false },
+      { text: "Steep slopes of Himalayas", correct: true },
+      { text: "Orographic lifting of moist air", correct: true },
+      { text: "Areas exceeding 100 sq km", correct: false },
+      { text: "Climate change increasing intensity", correct: true },
+    ],
+  },
+  {
+    question: "Criticism of Special Intensive Revision (SIR) includes:",
+    answers: [
+      { text: "Shift of burden of proof to citizens", correct: true },
+      {
+        text: "Risk of exclusion of poor without birth certificates",
+        correct: true,
+      },
+      { text: "Arbitrary cut-off year (2003)", correct: true },
+      { text: "No scope for judicial oversight", correct: false },
     ],
   },
   {
     question:
-      "Which of the following services can directly invoke a Google Cloud Function?",
+      "Recommendations of Parliamentary Committees on SC/ST/OBC/DNT scholarships include:",
     answers: [
-      { text: "Cloud Storage", correct: true },
-      { text: "Google Maps", correct: false },
-      { text: "Google Chrome", correct: false },
-      { text: "Amazon RDS", correct: false },
+      { text: "Doubling the income limit", correct: true },
+      { text: "Starting pre-matric scholarships from Class V", correct: true },
+      {
+        text: "Reducing coverage of hazardous occupation families",
+        correct: false,
+      },
+      { text: "Raising limit for top-class scholarships", correct: true },
     ],
   },
   {
-    question: "Which cloud platform offers serverless computing?",
+    question:
+      "With reference to water hyacinth invasion, consider the following statements:\n\n1. It was introduced during Portuguese rule in India.\n2. It crowds out native aquatic plants and reduces biodiversity.\n3. Its decomposition releases methane, a greenhouse gas more harmful than CO₂.\n4. It has no economic use in India.\n\nWhich of the above statements is/are correct?",
     answers: [
-      { text: "Amazon AWS", correct: false },
-      { text: "Microsoft Azure", correct: false },
-      { text: "Google Cloud", correct: false },
-      { text: "All of the above", correct: true },
+      { text: "2 and 3 only", correct: true },
+      { text: "1, 2 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to anti-conversion laws in India, consider the following statements:\n\n1. Odisha was the first state to enact a Freedom of Religion Act in 1967.\n2. Article 25 protects the right to propagate but not to forcibly convert others.\n3. Supreme Court in Rev. Stainislaus (1977) upheld state anti-conversion laws.\n4. Article 30 provides minorities the right to propagate religion.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1, 2 and 4 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to cloudbursts, consider the following statements:\n\n1. They are defined as rainfall exceeding 100 mm per hour over a small area of 20–30 sq km.\n2. The Himalayas are particularly prone due to steep slopes and orographic uplift.\n3. They occur mostly during winter months of November–December.\n4. NDMP 2019 suggests risk mapping and safer infrastructure to reduce impact.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Special Intensive Revision (SIR) of electoral rolls, consider the following statements:\n\n1. It is conducted under the Representation of the People Act, 1950.\n2. The ECI derives its power from Article 324 of the Constitution.\n3. Bihar last conducted an SIR in 2003.\n4. It always requires Supreme Court approval before being conducted.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "1 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to SC/ST/OBC/DNT scholarships, consider the following statements:\n\n1. The current income ceiling is ₹2.5 lakh annually.\n2. Funding is shared between Centre and States in a 60:40 ratio, except NE states where it is 90:10.\n3. Parliamentary Committees have recommended lowering the income ceiling.\n4. For SCs, pre-matric scholarships can begin from Class I if parents are engaged in hazardous occupations.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1, 3 and 4 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
     ],
   },
 ];
+
 //////////////////////////////  Sustainable Cloud Computing and 5G Network  /////////////////////////////////
 const Sustainable_Cloud_Computing_and_5G = [
   {
@@ -3761,8 +3748,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper12;
     } else if (selectedValue === "Paper13") {
       Questions = Paper13;
-    } else if (selectedValue === "ManagingData") {
-      Questions = ManagingData;
+    } else if (selectedValue === "Paper14") {
+      Questions = Paper14;
     } else if (selectedValue === "OpenStack") {
       Questions = OpenStack;
     } else if (selectedValue === "ResourceManagement2") {
