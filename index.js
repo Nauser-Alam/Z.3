@@ -3292,407 +3292,404 @@ const Paper14 = [
   },
 ];
 
-//////////////////////////////  Sustainable Cloud Computing and 5G Network  /////////////////////////////////
-const Sustainable_Cloud_Computing_and_5G = [
+//////////////////////////////  16 August 2025  /////////////////////////////////
+const Paper15 = [
   {
-    question: "What is the primary focus of sustainable cloud computing?",
+    question:
+      "The S-400 Triumf air defense system has been developed by which country?",
     answers: [
-      { text: "Maximizing profit of cloud service providers", correct: false },
-      { text: "Minimizing data transfer times", correct: false },
+      { text: "USA", correct: false },
+      { text: "Russia", correct: true },
+      { text: "Israel", correct: false },
+      { text: "India", correct: false },
+    ],
+  },
+  {
+    question: "Which is the only active diamond mine in India?",
+    answers: [
+      { text: "Golconda Mines", correct: false },
+      { text: "Majhgawan, Panna", correct: true },
+      { text: "Argyle Mines", correct: false },
+      { text: "Jwaneng Mine", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which Article of the Indian Constitution provides for the creation of the GST Council?",
+    answers: [
+      { text: "Article 370", correct: false },
+      { text: "Article 279A", correct: true },
+      { text: "Article 110", correct: false },
+      { text: "Article 323B", correct: false },
+    ],
+  },
+  {
+    question: "Which country is the largest producer of diamonds by volume?",
+    answers: [
+      { text: "South Africa", correct: false },
+      { text: "Russia", correct: true },
+      { text: "Australia", correct: false },
+      { text: "Canada", correct: false },
+    ],
+  },
+  {
+    question:
+      "The GST was introduced in India through which Constitutional Amendment?",
+    answers: [
+      { text: "97th Amendment", correct: false },
+      { text: "101st Amendment", correct: true },
+      { text: "73rd Amendment", correct: false },
+      { text: "108th Amendment", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Kimberley Process (2003) is associated with which commodity?",
+    answers: [
+      { text: "Oil", correct: false },
+      { text: "Diamonds", correct: true },
+      { text: "Gold", correct: false },
+      { text: "Uranium", correct: false },
+    ],
+  },
+  {
+    question: "Which radar is part of the S-400 Triumf system?",
+    answers: [
+      { text: "Phalcon Radar", correct: false },
+      { text: "91N6E Big Bird Acquisition Radar", correct: true },
+      { text: "Swordfish Radar", correct: false },
+      { text: "Green Pine Radar", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which Indian city is known as the world’s largest diamond cutting and polishing hub?",
+    answers: [
+      { text: "Mumbai", correct: false },
+      { text: "Hyderabad", correct: false },
+      { text: "Surat", correct: true },
+      { text: "Jaipur", correct: false },
+    ],
+  },
+  {
+    question: "The GST Appellate Tribunal is generally headed by:",
+    answers: [
+      { text: "Union Finance Minister", correct: false },
       {
-        text: "Minimizing energy consumption and carbon footprints",
+        text: "Former Supreme Court Judge or CJ of a High Court",
         correct: true,
       },
-      { text: "Improving user interface design", correct: false },
-    ],
-  },
-  {
-    question: "Which cloud layer includes Software as a Service (SaaS)?",
-    answers: [
-      { text: "Cooling Manager", correct: false },
-      { text: "Cloud Architecture", correct: true },
-      { text: "Virtualization Layer", correct: false },
-      { text: "Application Model", correct: false },
+      { text: "Comptroller and Auditor General", correct: false },
+      { text: "Governor of RBI", correct: false },
     ],
   },
   {
     question:
-      "Which of the following contributes the most to energy consumption in a cloud datacenter?",
+      "Which state had the highest Total Fertility Rate (TFR) as per SRS 2021?",
     answers: [
-      { text: "Storage", correct: false },
-      { text: "Network", correct: false },
-      { text: "Processor", correct: true },
-      { text: "Cooling", correct: false },
+      { text: "West Bengal", correct: false },
+      { text: "Delhi", correct: false },
+      { text: "Bihar", correct: true },
+      { text: "Kerala", correct: false },
+    ],
+  },
+
+  {
+    question: "Which of the following are components of the S-400 system?",
+    answers: [
+      { text: "Command and Control Centre", correct: true },
+      { text: "Radar Systems", correct: true },
+      { text: "Nuclear Submarines", correct: false },
+      { text: "Missile Launch Vehicles", correct: true },
     ],
   },
   {
     question:
-      "Thermal-aware scheduling aims to minimize which of the following?",
+      "Which of the following countries are leading producers of diamonds?",
     answers: [
-      { text: "Data loss", correct: false },
-      { text: "Heat transfer efficiency", correct: false },
-      { text: "Hotspots and thermal gradients", correct: true },
-      { text: "Service pricing", correct: false },
+      { text: "Russia", correct: true },
+      { text: "Botswana", correct: true },
+      { text: "Australia", correct: true },
+      { text: "Nepal", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following types of GST are levied in India?",
+    answers: [
+      { text: "Central GST (CGST)", correct: true },
+      { text: "State GST (SGST)", correct: true },
+      { text: "Integrated GST (IGST)", correct: true },
+      { text: "Federal GST (FGST)", correct: false },
     ],
   },
   {
     question:
-      "What is a key challenge of using renewable energy in cloud datacenters?",
+      "Which of the following are challenges of the S-400 deal for India?",
     answers: [
-      { text: "Low bandwidth", correct: false },
-      { text: "Unpredictability and high capital cost", correct: true },
-      { text: "Low user demand", correct: false },
-      { text: "Slow migration techniques", correct: false },
+      { text: "High operational cost", correct: true },
+      { text: "Integration issues with indigenous systems", correct: true },
+      { text: "Dependency on Russia", correct: true },
+      { text: "Lack of multi-target capability", correct: false },
     ],
   },
   {
     question:
-      "Which of the following is NOT a goal of reliability in cloud services?",
+      "Which of the following measures can help address demographic challenges in India?",
     answers: [
-      { text: "Secure VM migration", correct: false },
-      { text: "Maximizing service delay", correct: true },
-      { text: "Point-to-point encrypted communication", correct: false },
-      { text: "Reducing SLA violations", correct: false },
+      { text: "Conducting Census on time", correct: true },
+      { text: "Providing incentives for small families", correct: true },
+      { text: "Alienating border communities", correct: false },
+      {
+        text: "Improving health, education, and women empowerment",
+        correct: true,
+      },
     ],
   },
   {
     question:
-      "What is the expected energy consumption of Cloud Data Centers by 2030?",
+      "With reference to the S-400 Triumf system, consider the following statements:\n\n1. It can engage up to 80 targets simultaneously.\n2. Its radar has a detection range of 600 km.\n3. It includes four types of missiles for layered defense.\n4. It is manufactured under the Make in India initiative.\n\nWhich of the above statements is/are correct?",
     answers: [
-      { text: "500 TWh", correct: false },
-      { text: "1200 TWh", correct: false },
-      { text: "8000 TWh", correct: true },
-      { text: "10000 TWh", correct: false },
-    ],
-  },
-  {
-    question: "What does DVFS stand for in cloud computing?",
-    answers: [
-      { text: "Data Visualization and Frequency Scaling", correct: false },
-      { text: "Dynamic Voltage and Frequency Scaling", correct: true },
-      { text: "Distributed Virtual File System", correct: false },
-      { text: "Digital Voltage Fallback Simulation", correct: false },
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1, 2 and 4 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
     ],
   },
   {
     question:
-      "Which technology enables workload migration across geographically distributed datacenters?",
+      "With reference to Diamonds, consider the following statements:\n\n1. Diamonds are pure carbon arranged in a crystalline lattice.\n2. India is currently one of the world’s largest producers of raw diamonds.\n3. Jwaneng mine in Botswana is the richest by value.\n4. India’s Surat is the world’s largest hub for diamond cutting and polishing.\n\nWhich of the above statements is/are correct?",
     answers: [
-      { text: "Heat mapping", correct: false },
-      { text: "Data compression", correct: false },
-      { text: "Virtual Machine (VM) technology", correct: true },
-      { text: "Packet switching", correct: false },
+      { text: "1, 3 and 4 only", correct: true },
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
     ],
   },
   {
     question:
-      "Which scheduling mechanism in thermal-aware scheduling is based on prediction?",
+      "With reference to GST in India, consider the following statements:\n\n1. It replaced multiple indirect taxes like VAT and Service Tax.\n2. The GST Council is chaired by the Union Finance Minister.\n3. GST is divided into 0%, 5%, 12%, 18% and 28% slabs.\n4. GST was introduced through the 97th Amendment to the Constitution.\n\nWhich of the above statements is/are correct?",
     answers: [
-      { text: "Proactive", correct: true },
-      { text: "Reactive", correct: false },
-      { text: "Hybrid", correct: false },
-      { text: "Dynamic", correct: false },
-    ],
-  },
-  {
-    question: "What does PUE stand for in cloud datacenters?",
-    answers: [
-      { text: "Power Utilization Efficiency", correct: false },
-      { text: "Power Usage Effectiveness", correct: true },
-      { text: "Performance Under Energy", correct: false },
-      { text: "Power Unit Efficiency", correct: false },
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1 and 4 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
     ],
   },
   {
     question:
-      "What is one implication of frequently turning servers on and off?",
+      "With reference to Demographic Challenges in India, consider the following statements:\n\n1. India’s TFR as per SRS 2021 is around 2.0.\n2. Bihar has the lowest fertility rate in India.\n3. Kerala and Tamil Nadu are facing ageing population concerns.\n4. Census 2027 will provide updated demographic data.\n\nWhich of the above statements is/are correct?",
     answers: [
-      { text: "Improved processing speed", correct: false },
-      { text: "Increased reliability", correct: false },
-      { text: "Decreased reliability of server components", correct: true },
-      { text: "Better energy saving", correct: false },
+      { text: "1, 3 and 4 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
     ],
   },
   {
     question:
-      "Which model focuses on analyzing and merging applications to improve resource utilization?",
+      "With reference to GST Appellate Tribunal, consider the following statements:\n\n1. It is the forum of second appeal in GST laws.\n2. It will ensure uniform redressal of GST disputes across India.\n3. It can only be headed by the Union Finance Minister.\n4. Appeals against State GST Authority orders lie before this tribunal.\n\nWhich of the above statements is/are correct?",
     answers: [
-      { text: "Cooling Manager", correct: false },
-      { text: "Application Model", correct: false },
-      { text: "Capacity Planning", correct: true },
-      { text: "Reliability Manager", correct: false },
-    ],
-  },
-  {
-    question:
-      "Waste heat in cloud datacenters can be reused through which technique?",
-    answers: [
-      { text: "Air cooling", correct: false },
-      { text: "Liquid nitrogen cooling", correct: false },
-      { text: "Vapor-absorption based cooling", correct: true },
-      { text: "Electro-thermal recycling", correct: false },
-    ],
-  },
-  {
-    question: "Which generation introduced mobile broadband?",
-    answers: [
-      { text: "1G", correct: false },
-      { text: "2G", correct: false },
-      { text: "3G", correct: false },
-      { text: "4G LTE", correct: true },
-    ],
-  },
-  {
-    question: "What does eMBB stand for in the context of 5G?",
-    answers: [
-      { text: "Enhanced Multimedia Broadcasting", correct: false },
-      { text: "Enhanced Mobile Broadband", correct: true },
-      { text: "Efficient Mobile Bitrate Balancing", correct: false },
-      { text: "Embedded Mobile Buffer Bandwidth", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which 5G feature is targeted for applications like autonomous vehicles and telehealth?",
-    answers: [
-      { text: "mMTC", correct: false },
-      { text: "URLLC", correct: true },
-      { text: "eMBB", correct: false },
-      { text: "LTE-A", correct: false },
-    ],
-  },
-  {
-    question: "What is the main benefit of edge computing in 5G networks?",
-    answers: [
-      { text: "Increased cost", correct: false },
-      { text: "Higher latency", correct: false },
-      { text: "Bringing cloud capabilities closer to users", correct: true },
-      { text: "Reducing mobile data", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following applications benefits most from edge computing in 5G?",
-    answers: [
-      { text: "Cloud backup", correct: false },
-      { text: "Augmented Reality", correct: true },
-      { text: "Simple text messaging", correct: false },
-      { text: "Spreadsheet editing", correct: false },
-    ],
-  },
-  {
-    question:
-      "Which of the following is NOT an application of edge computing in 5G?",
-    answers: [
-      { text: "Emergency response systems", correct: false },
-      { text: "Smart cities", correct: false },
-      { text: "Manual fax machines", correct: true },
-      { text: "Factories of the future", correct: false },
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
     ],
   },
 ];
-///////////////////////////////  Cyber Physical System  //////////////////////////////////////
-const Cyber_Physical_Systems = [
+
+///////////////////////////////  17 August 2025 //////////////////////////////////////
+const Paper16 = [
   {
-    question: "What does a Cyber-Physical System (CPS) primarily involve?",
+    question: "Which bacterium has the ability to degrade PET plastic?",
     answers: [
-      {
-        text: "Integration of electrical and chemical processes",
-        correct: false,
-      },
-      {
-        text: "Integration of computation with physical processes",
-        correct: true,
-      },
-      { text: "Purely software-based systems", correct: false },
-      { text: "Only mechanical systems with sensors", correct: false },
+      { text: "Escherichia coli", correct: false },
+      { text: "Ideonella sakaiensis", correct: true },
+      { text: "Clostridium botulinum", correct: false },
+      { text: "Bacillus anthracis", correct: false },
     ],
   },
   {
-    question: "Who coined the term 'Cyber-Physical Systems'?",
+    question: "In which country was Ideonella sakaiensis discovered?",
     answers: [
-      { text: "Mark Zuckerberg", correct: false },
-      { text: "Elon Musk", correct: false },
-      { text: "Helen Gill", correct: true },
-      { text: "Tim Berners-Lee", correct: false },
+      { text: "China", correct: false },
+      { text: "India", correct: false },
+      { text: "Japan", correct: true },
+      { text: "South Korea", correct: false },
     ],
   },
   {
-    question: "In CPS, feedback loops are used for:",
+    question: "The Gaur (Bos gaurus) belongs to which IUCN category?",
     answers: [
-      { text: "Separating cyber and physical domains", correct: false },
-      { text: "Monitoring temperature only", correct: false },
-      {
-        text: "Physical processes affecting computations and vice versa",
-        correct: true,
-      },
-      { text: "Uploading data to the cloud", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following is NOT a typical application of CPS?",
-    answers: [
-      { text: "Medical monitoring systems", correct: false },
-      { text: "Autonomous automobile systems", correct: false },
-      { text: "Text message broadcasting", correct: true },
-      { text: "Smart grid", correct: false },
-    ],
-  },
-  {
-    question: "CPS combines engineering models from which disciplines?",
-    answers: [
-      { text: "Only mechanical and civil engineering", correct: false },
-      { text: "Only computer science", correct: false },
-      { text: "All engineering fields with computer science", correct: true },
-      { text: "Only biomedical engineering", correct: false },
-    ],
-  },
-  {
-    question: "Which one of these is a feature of CPS?",
-    answers: [
-      { text: "Operates only on a fixed scale", correct: false },
-      { text: "Exhibits multiple behavioral modalities", correct: true },
-      { text: "Does not depend on context", correct: false },
-      { text: "Only functions in isolation", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following does CPS architecture *not* involve?",
-    answers: [
-      { text: "Cybernetics", correct: false },
-      { text: "Mechatronics", correct: false },
-      { text: "Design and process science", correct: false },
-      { text: "Purely traditional mechanics", correct: true },
-    ],
-  },
-  {
-    question: "What role does cloud computing play in CPS?",
-    answers: [
-      { text: "Acts as a standalone computing model", correct: false },
-      {
-        text: "Provides a flexible platform for realizing CPS goals",
-        correct: true,
-      },
-      { text: "Disables interaction between components", correct: false },
-      { text: "Limits scalability", correct: false },
-    ],
-  },
-  {
-    question: "What does CPCC stand for?",
-    answers: [
-      { text: "Cyber Physical Core Control", correct: false },
-      { text: "Cyber Physical Cloud Computing", correct: true },
-      { text: "Central Power Control Circuit", correct: false },
-      { text: "Cloud Performance Computing Center", correct: false },
-    ],
-  },
-  {
-    question: "Which is NOT a benefit of CPCC?",
-    answers: [
-      { text: "Modular composition", correct: false },
-      { text: "Efficient use of resources", correct: false },
-      { text: "Increased latency", correct: true },
-      { text: "Rapid development", correct: false },
-    ],
-  },
-  {
-    question: "Which of the following best defines Spatial Data?",
-    answers: [
-      { text: "Text-based data stored in databases", correct: false },
-      {
-        text: "Data with a geographical or location-based context",
-        correct: true,
-      },
-      { text: "Financial transactional data", correct: false },
-      { text: "Audio-visual data from sensors", correct: false },
-    ],
-  },
-  {
-    question: "Which of these is a feature of Spatial Cloud Computing?",
-    answers: [
-      { text: "Does not support spatiotemporal data", correct: false },
-      { text: "Supports shared resource pooling", correct: true },
-      { text: "Provides only static data analytics", correct: false },
-      { text: "Works only on private clouds", correct: false },
+      { text: "Endangered", correct: false },
+      { text: "Vulnerable", correct: true },
+      { text: "Critically Endangered", correct: false },
+      { text: "Near Threatened", correct: false },
     ],
   },
   {
     question:
-      "Which service helps with indexing trajectory data in Traj-Cloud?",
+      "Which Indian state’s Palamau Tiger Reserve was recently in news for Gaur decline?",
     answers: [
-      { text: "Trajectory Map-Matching Service", correct: false },
-      { text: "Trajectory Indexing Service", correct: true },
-      { text: "Trajectory Recovery Service", correct: false },
-      { text: "Trajectory Visualization Module", correct: false },
+      { text: "Chhattisgarh", correct: false },
+      { text: "Jharkhand", correct: true },
+      { text: "Odisha", correct: false },
+      { text: "Madhya Pradesh", correct: false },
+    ],
+  },
+  {
+    question: "The Kodali Karuppur Silk Sari originated in which state?",
+    answers: [
+      { text: "Andhra Pradesh", correct: false },
+      { text: "Kerala", correct: false },
+      { text: "Tamil Nadu", correct: true },
+      { text: "Maharashtra", correct: false },
+    ],
+  },
+  {
+    question: "Which ruler patronised the Kodali Karuppur Silk Sari tradition?",
+    answers: [
+      { text: "Tipu Sultan", correct: false },
+      { text: "Serfoji Raja Bhonsle of Thanjavur", correct: true },
+      { text: "Krishnadevaraya", correct: false },
+      { text: "Raja Raja Chola", correct: false },
+    ],
+  },
+  {
+    question: "The Smooth-coated Otter belongs to which genus?",
+    answers: [
+      { text: "Lutra", correct: false },
+      { text: "Lutrogale", correct: true },
+      { text: "Mustela", correct: false },
+      { text: "Panthera", correct: false },
+    ],
+  },
+  {
+    question: "What is the IUCN status of Smooth-coated Otter?",
+    answers: [
+      { text: "Critically Endangered", correct: false },
+      { text: "Vulnerable", correct: true },
+      { text: "Endangered", correct: false },
+      { text: "Least Concern", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following best describes PET plastic?",
+    answers: [
+      { text: "Polyethylene terephthalate", correct: true },
+      { text: "Polyvinyl chloride", correct: false },
+      { text: "Polystyrene", correct: false },
+      { text: "Polypropylene", correct: false },
     ],
   },
   {
     question:
-      "Which component is used for trajectory query service in Traj-Cloud?",
+      "Which of the following is the largest wild cattle species in the world?",
     answers: [
-      { text: "Cloud Storage", correct: false },
-      { text: "Google Compute Engine and Cloud SQL", correct: true },
-      { text: "Firebase Database", correct: false },
-      { text: "Google Drive API", correct: false },
+      { text: "African Buffalo", correct: false },
+      { text: "Gaur (Indian Bison)", correct: true },
+      { text: "Yak", correct: false },
+      { text: "Wild Ox", correct: false },
+    ],
+  },
+
+  // ---------- Multiple Correct (Q11–Q15) ----------
+  {
+    question:
+      "Which of the following statements are correct about Ideonella sakaiensis?",
+    answers: [
+      { text: "It is Gram-negative", correct: true },
+      { text: "It is spore-forming", correct: false },
+      { text: "It has monotrichous flagellum", correct: true },
+      { text: "It was found in PET-contaminated soil", correct: true },
     ],
   },
   {
-    question: "In mobility trace analysis, what is the main challenge?",
+    question: "Which of the following are threats to Gaur populations?",
     answers: [
-      { text: "Data collection from roads", correct: false },
-      { text: "Providing location-aware services", correct: true },
-      { text: "Maintaining database backups", correct: false },
-      { text: "Extracting audio files", correct: false },
-    ],
-  },
-  {
-    question: "Which simulator is used to test fog models in IoHT?",
-    answers: [
-      { text: "FogSim++", correct: false },
-      { text: "FogTest", correct: false },
-      { text: "iFogSim", correct: true },
-      { text: "EdgeSim", correct: false },
-    ],
-  },
-  {
-    question: "What is the primary purpose of Fog-Edge Computing in IoHT?",
-    answers: [
-      { text: "Increase cloud load", correct: false },
-      { text: "Reduce latency and network usage", correct: true },
-      { text: "Add more servers to cloud", correct: false },
-      { text: "Improve display quality of health devices", correct: false },
-    ],
-  },
-  {
-    question: "Which GCP component is used for map-matching in Traj-Cloud?",
-    answers: [
-      { text: "Cloud SQL", correct: false },
-      { text: "Firebase", correct: false },
-      { text: "Google Compute Engine", correct: true },
-      { text: "Cloud Functions", correct: false },
+      { text: "Habitat loss due to deforestation", correct: true },
+      { text: "Diseases from domestic cattle", correct: true },
+      { text: "Marine pollution", correct: false },
+      { text: "Human disturbance and hunting", correct: true },
     ],
   },
   {
     question:
-      "What is the key aspect of intelligent transportation systems (ITS)?",
+      "Which of the following are features of Kodali Karuppur Silk Sari?",
     answers: [
-      { text: "Installing more GPS devices", correct: false },
-      { text: "Efficient mobility analytics", correct: true },
-      { text: "Monitoring road cameras", correct: false },
-      { text: "Using drones", correct: false },
+      { text: "Hand painting", correct: true },
+      { text: "Block printing", correct: true },
+      { text: "Brocade weaving", correct: true },
+      { text: "Machine embroidery", correct: false },
+    ],
+  },
+  {
+    question: "Which habitats are preferred by Smooth-coated Otters?",
+    answers: [
+      { text: "Mangrove forests", correct: true },
+      { text: "Freshwater wetlands", correct: true },
+      { text: "Peat swamp forests", correct: true },
+      { text: "Dry desert scrublands", correct: false },
+    ],
+  },
+  {
+    question: "Which conservation statuses correctly apply?",
+    answers: [
+      { text: "Gaur – Schedule I, WPA 1972", correct: true },
+      { text: "Gaur – CITES Appendix I", correct: true },
+      { text: "Smooth-coated Otter – IUCN Vulnerable", correct: true },
+      { text: "Kodali Karuppur Silk Sari – GI Tag protected", correct: false },
+    ],
+  },
+
+  // ---------- Statement-based (Q16–Q20) ----------
+  {
+    question:
+      "With reference to Ideonella sakaiensis, consider the following statements:\n\n1. It is a Gram-positive, spore-forming bacterium found in marine sediments.\n2. It degrades PET plastic into environmentally safe compounds.\n3. Its natural habitat includes moist, oxygen-rich soil with plastic waste.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
     ],
   },
   {
     question:
-      "Which of the following describes Dew Computing in the context of IoHT?",
+      "With reference to the Gaur (Indian Bison), consider the following statements:\n\n1. It is the largest wild cattle species and prey for tigers.\n2. It is listed as Vulnerable under IUCN Red List and Schedule I under WPA 1972.\n3. Its natural habitat is restricted to dry scrub forests of the Thar Desert.\n4. It is susceptible to diseases from domestic cattle.\n\nWhich of the above statements are correct?",
     answers: [
-      { text: "A cooling technology for cloud servers", correct: false },
-      { text: "Computing on water-purification systems", correct: false },
-      {
-        text: "Computing at a very localized level like wearables",
-        correct: true,
-      },
-      { text: "Backup servers for cloud outages", correct: false },
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Kodali Karuppur Silk Sari, consider the following statements:\n\n1. It originated in Tamil Nadu and was patronised by Maratha rulers of Thanjavur.\n2. It currently enjoys protection under the GI Tag.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 only", correct: true },
+      { text: "2 only", correct: false },
+      { text: "Both 1 and 2", correct: false },
+      { text: "Neither 1 nor 2", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Smooth-coated Otter, consider the following statements:\n\n1. It is the largest otter species in Southeast Asia.\n2. A small population of it survives in Iraq.\n3. It is listed as Endangered in IUCN Red List.\n\nWhich of the above statements are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to PET plastic, consider the following statements:\n\n1. It is made by condensation polymerization of ethylene glycol and terephthalic acid.\n2. It is lightweight, transparent, and strong.\n3. It is used in bottles, containers, and clothing fibers.\n4. It is a thermosetting plastic.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1 and 4 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
     ],
   },
 ];
@@ -3750,10 +3747,10 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper13;
     } else if (selectedValue === "Paper14") {
       Questions = Paper14;
-    } else if (selectedValue === "OpenStack") {
-      Questions = OpenStack;
-    } else if (selectedValue === "ResourceManagement2") {
-      Questions = ResourceManagement2;
+    } else if (selectedValue === "Paper15") {
+      Questions = Paper15;
+    } else if (selectedValue === "Paper16") {
+      Questions = Paper16;
     } else if (selectedValue === "Cloud_Security") {
       Questions = Cloud_Security;
     } else if (selectedValue === "Cloudmarketplace") {
