@@ -3693,6 +3693,209 @@ const Paper16 = [
     ],
   },
 ];
+////////////////////////////// 18 August 2025  ////////////////////////////////
+const Paper17 = [
+  // ---------- Single Correct (10) ----------
+  {
+    question: "Which is the highest mountain peak in Namibia?",
+    answers: [
+      { text: "Mount Kilimanjaro", correct: false },
+      { text: "Mount Cameroon", correct: false },
+      { text: "Brandberg (Mount Brand)", correct: true },
+      { text: "Drakensberg", correct: false },
+    ],
+  },
+  {
+    question: "The Namib Desert is significant because:",
+    answers: [
+      { text: "It is the youngest desert in Africa", correct: false },
+      { text: "It is one of the oldest deserts in the world", correct: true },
+      { text: "It is located entirely within South Africa", correct: false },
+      { text: "It is the wettest desert in the world", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which river forms the boundary between Namibia and South Africa?",
+    answers: [
+      { text: "Okavango River", correct: false },
+      { text: "Orange River", correct: true },
+      { text: "Kunene River", correct: false },
+      { text: "Zambezi River", correct: false },
+    ],
+  },
+  {
+    question:
+      "Namibia recently became the first African country to adopt which Indian digital platform?",
+    answers: [
+      { text: "Aadhaar", correct: false },
+      { text: "UPI", correct: true },
+      { text: "BHIM App", correct: false },
+      { text: "DigiLocker", correct: false },
+    ],
+  },
+  {
+    question: "Which desert extends into Namibia, Botswana, and South Africa?",
+    answers: [
+      { text: "Sahara Desert", correct: false },
+      { text: "Kalahari Desert", correct: true },
+      { text: "Gobi Desert", correct: false },
+      { text: "Atacama Desert", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following minerals is Namibia a top global producer of?",
+    answers: [
+      { text: "Platinum", correct: false },
+      { text: "Uranium", correct: true },
+      { text: "Lithium", correct: false },
+      { text: "Cobalt", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which Indian leader led the UN peacekeeping operations during Namibia’s independence?",
+    answers: [
+      { text: "Gen. Kodandera Cariappa", correct: false },
+      { text: "Lt. Gen. Diwan Prem Chand", correct: true },
+      { text: "Gen. S. F. Rodrigues", correct: false },
+      { text: "Gen. V. K. Singh", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which national park in Assam is the only habitat of feral horses in India?",
+    answers: [
+      { text: "Kaziranga National Park", correct: false },
+      { text: "Dibru-Saikhowa National Park", correct: true },
+      { text: "Manas National Park", correct: false },
+      { text: "Orang National Park", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which invasive plant species is threatening the grasslands of Dibru-Saikhowa National Park?",
+    answers: [
+      { text: "Chromolaena odorata", correct: true },
+      { text: "Prosopis juliflora", correct: false },
+      { text: "Lantana camara", correct: false },
+      { text: "Opuntia", correct: false },
+    ],
+  },
+  {
+    question:
+      "Honour killings in India are currently dealt with under which legal framework?",
+    answers: [
+      { text: "Special Marriage Act", correct: false },
+      { text: "Indian Penal Code provisions on murder", correct: true },
+      { text: "A dedicated Honour Killing Act", correct: false },
+      { text: "Dowry Prohibition Act", correct: false },
+    ],
+  },
+
+  // ---------- Multiple Correct (5) ----------
+  {
+    question: "Which rivers form part of Namibia’s perennial river system?",
+    answers: [
+      { text: "Zambezi", correct: true },
+      { text: "Orange", correct: true },
+      { text: "Thames", correct: false },
+      { text: "Kunene", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following MoUs were signed between India and Namibia in 2025?",
+    answers: [
+      { text: "Health cooperation", correct: true },
+      { text: "Entrepreneurship development", correct: true },
+      { text: "Space exploration", correct: false },
+      { text: "Maritime security", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which initiatives highlight India’s innovation ecosystem for patents?",
+    answers: [
+      { text: "Atal Innovation Mission", correct: true },
+      { text: "KAPILA", correct: true },
+      { text: "National Food Security Mission", correct: false },
+      { text: "Digital India Initiative", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which invasive species are altering Dibru-Saikhowa’s grasslands?",
+    answers: [
+      { text: "Chromolaena odorata", correct: true },
+      { text: "Mikania micrantha", correct: true },
+      { text: "Parthenium hysterophorus", correct: true },
+      { text: "Prosopis cineraria", correct: false },
+    ],
+  },
+  {
+    question: "Supreme Court rulings on honour killings include:",
+    answers: [
+      { text: "Lata Singh vs State of UP (2006)", correct: true },
+      { text: "Shakti Vahini Case (2018)", correct: true },
+      { text: "Kesavananda Bharati vs State of Kerala (1973)", correct: false },
+      { text: "Arumugam Servai vs State of Tamil Nadu (2011)", correct: true },
+    ],
+  },
+
+  // ---------- Statement Based (5) ----------
+  {
+    question:
+      "With reference to India’s engagement with Namibia, consider the following statements:\n\n1. Namibia became the first African country to adopt India’s UPI.\n2. India hosted SWAPO’s first diplomatic office in New Delhi.\n3. In July 2025, India signed a uranium supply agreement with Namibia.\n4. Namibia joined the Global Biofuel Alliance and CDRI.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India’s patent landscape, consider the following statements:\n\n1. Indian-origin filings surpassed foreign filings in 2023.\n2. Educational institutions are now the largest contributors of patents.\n3. Average patent approval time has reduced to 2–3 years.\n4. India’s R&D spending is higher than China’s.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Honour Killings in India, consider the following statements:\n\n1. Honour killing is explicitly defined under the Indian Penal Code.\n2. Khap Panchayats have been known to enforce punishments for inter-caste marriages.\n3. The Supreme Court in Shakti Vahini case (2018) directed protection measures for couples at risk.\n4. The Prohibition of Unlawful Assembly Bill, 2011 became law to curb honour killings.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "2 and 3 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "1, 2 and 4 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Dibru-Saikhowa National Park (DSNP), consider the following statements:\n\n1. It is located in Eastern Assam and bounded by the Brahmaputra and Dibru rivers.\n2. It is the only habitat of feral horses in India.\n3. It is dominated by alpine forests.\n4. Grasslands in DSNP have been declining due to invasive species and flooding.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Namibia’s geographical and economic features, consider the following statements:\n\n1. The Tropic of Capricorn passes through Namibia.\n2. Namibia is bordered by the Indian Ocean to the east.\n3. Namibia’s natural resources include diamonds, uranium, and copper.\n4. Namibia shares its southern border with South Africa.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 3 and 4 only", correct: true },
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -3751,8 +3954,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper15;
     } else if (selectedValue === "Paper16") {
       Questions = Paper16;
-    } else if (selectedValue === "Cloud_Security") {
-      Questions = Cloud_Security;
+    } else if (selectedValue === "Paper17") {
+      Questions = Paper17;
     } else if (selectedValue === "Cloudmarketplace") {
       Questions = Cloudmarketplace;
     } else if (selectedValue === "MCC") {
