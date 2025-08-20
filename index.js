@@ -3896,6 +3896,202 @@ const Paper17 = [
     ],
   },
 ];
+//////////////////////////  19 August 2025  //////////////////////////
+const Paper18 = [
+  {
+    question: "The SWAYAM Portal was launched in 2017 by which Ministry?",
+    answers: [
+      { text: "Ministry of Science and Technology", correct: false },
+      { text: "Ministry of Education", correct: true },
+      { text: "Ministry of Skill Development", correct: false },
+      { text: "Ministry of Electronics and IT", correct: false },
+    ],
+  },
+  {
+    question:
+      "Ambergris, recently in news, is primarily associated with which marine species?",
+    answers: [
+      { text: "Blue Whale", correct: false },
+      { text: "Sperm Whale", correct: true },
+      { text: "Fin Whale", correct: false },
+      { text: "Humpback Whale", correct: false },
+    ],
+  },
+  {
+    question:
+      "Halman Apricot, recently exported for the first time, is a specialty of which region?",
+    answers: [
+      { text: "Kashmir Valley", correct: false },
+      { text: "Ladakh", correct: true },
+      { text: "Himachal Pradesh", correct: false },
+      { text: "Uttarakhand", correct: false },
+    ],
+  },
+  {
+    question: "Which Indian state is the largest producer of almonds?",
+    answers: [
+      { text: "Himachal Pradesh", correct: false },
+      { text: "Jammu & Kashmir", correct: true },
+      { text: "Uttarakhand", correct: false },
+      { text: "Arunachal Pradesh", correct: false },
+    ],
+  },
+  {
+    question:
+      "Mt. Elbrus, the highest peak in Europe, is located in which country?",
+    answers: [
+      { text: "Italy", correct: false },
+      { text: "Russia", correct: true },
+      { text: "France", correct: false },
+      { text: "Turkey", correct: false },
+    ],
+  },
+  {
+    question: "Jellyfish belong to which phylum?",
+    answers: [
+      { text: "Echinodermata", correct: false },
+      { text: "Cnidaria", correct: true },
+      { text: "Mollusca", correct: false },
+      { text: "Arthropoda", correct: false },
+    ],
+  },
+  {
+    question:
+      "India’s sovereign rating was recently upgraded by S&P from BBB- to:",
+    answers: [
+      { text: "A", correct: false },
+      { text: "BBB", correct: true },
+      { text: "BB", correct: false },
+      { text: "BBB+", correct: false },
+    ],
+  },
+  {
+    question:
+      "India’s first Sustainable Aviation Fuel (SAF) plant is being set up by IOC at:",
+    answers: [
+      { text: "Mathura", correct: false },
+      { text: "Panipat", correct: true },
+      { text: "Paradip", correct: false },
+      { text: "Haldia", correct: false },
+    ],
+  },
+  {
+    question: "Ejiao, banned in Africa, is a gelatin derived from:",
+    answers: [
+      { text: "Camel bones", correct: false },
+      { text: "Donkey skin", correct: true },
+      { text: "Rhino horn", correct: false },
+      { text: "Elephant tusk", correct: false },
+    ],
+  },
+  {
+    question:
+      "The 'One Nation One Ration Card' scheme is primarily associated with:",
+    answers: [
+      { text: "PDS portability across India", correct: true },
+      { text: "Single GST return filing", correct: false },
+      { text: "Single voter ID across states", correct: false },
+      { text: "Single banking account portability", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are features of the SWAYAM Portal?",
+    answers: [
+      { text: "Video lectures", correct: true },
+      { text: "Downloadable material", correct: true },
+      { text: "AI-based doubt solving only in English", correct: false },
+      { text: "Self-assessment quizzes", correct: true },
+    ],
+  },
+  {
+    question: "Which are correct uses of Ambergris?",
+    answers: [
+      { text: "Perfume industry", correct: true },
+      { text: "Traditional medicine", correct: true },
+      { text: "Fertilizer manufacturing", correct: false },
+      { text: "Culinary spice (historical)", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following are challenges in exporting Halman Apricots?",
+    answers: [
+      { text: "Short shelf life", correct: true },
+      { text: "Transport issues from Ladakh", correct: true },
+      { text: "No nutritional value", correct: false },
+      { text: "Lack of branding & GI tag", correct: true },
+    ],
+  },
+  {
+    question: "Which are causes of jellyfish blooms?",
+    answers: [
+      { text: "Global warming", correct: true },
+      { text: "Overfishing", correct: true },
+      { text: "Marine pollution", correct: true },
+      { text: "High salinity tolerance", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are advantages of Sustainable Aviation Fuel (SAF)?",
+    answers: [
+      { text: "Can be used in existing aircraft engines", correct: true },
+      { text: "Reduces GHG emissions significantly", correct: true },
+      { text: "Costs less than ATF", correct: false },
+      { text: "Helps in energy security", correct: true },
+    ],
+  },
+  {
+    question:
+      "With reference to Ambergris, consider the following statements:\n1. It is produced in the digestive system of sperm whales.\n2. It is banned under India’s Wildlife Protection Act, 1972.\n3. It is referred to as 'floating gold'.\n4. It is commonly used as livestock feed in India.\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1, 2 and 4 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Halman Apricot, consider the following statements:\n1. It is cultivated mainly in Ladakh.\n2. It has high Vitamin C and E content.\n3. It has been promoted under the ODOP scheme.\n4. It has a very long shelf life without cold storage.\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1, 2 and 4 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Mt. Elbrus, consider the following statements:\n1. It is located in the Caucasus Mountains of Russia.\n2. It is one of the Seven Summits.\n3. It is an inactive volcano.\n4. It has frequent eruptions in the 20th century.\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1 and 4 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India’s recent S&P sovereign rating upgrade, consider the following statements:\n1. India’s rating was upgraded from BBB- to BBB.\n2. This was India’s first upgrade in nearly 20 years.\n3. BBB is the highest investment grade rating.\n4. Further upgrades need fiscal deficit reduction below 6% of GDP.\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India’s first Sustainable Aviation Fuel (SAF) plant, consider the following statements:\n1. It is being set up by Indian Oil Corporation at Panipat.\n2. Used Cooking Oil is one of its feedstocks.\n3. SAF can be blended with conventional jet fuel up to 50%.\n4. It has already achieved 10% blending in domestic flights in 2025.\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1, 2 and 4 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -3956,8 +4152,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper16;
     } else if (selectedValue === "Paper17") {
       Questions = Paper17;
-    } else if (selectedValue === "Cloudmarketplace") {
-      Questions = Cloudmarketplace;
+    } else if (selectedValue === "Paper18") {
+      Questions = Paper18;
     } else if (selectedValue === "MCC") {
       Questions = MCC;
     } else if (selectedValue === "GIS_Docker") {
