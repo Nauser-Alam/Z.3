@@ -4092,6 +4092,405 @@ const Paper18 = [
     ],
   },
 ];
+/////////////////////////// 20 August 2025 /////////////////////////
+const Paper19 = [
+  {
+    question:
+      "Which of the following regions in India is NOT a habitat of the Saltwater Crocodile?",
+    answers: [
+      { text: "Sundarbans (West Bengal)", correct: false },
+      { text: "Bhitarkanika National Park (Odisha)", correct: false },
+      { text: "Andaman & Nicobar Islands", correct: false },
+      { text: "Pulicat Lake (Tamil Nadu)", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following animals is listed in Schedule I of the Wildlife Protection Act, 1972?",
+    answers: [
+      { text: "Gharial", correct: true },
+      { text: "Nilgai", correct: false },
+      { text: "Chinkara", correct: false },
+      { text: "Blackbuck", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which river sanctuary is the best place to see gharials in their natural habitat?",
+    answers: [
+      { text: "Bhitarkanika", correct: false },
+      { text: "Chambal River", correct: true },
+      { text: "Pulicat Lake", correct: false },
+      { text: "Deepor Beel", correct: false },
+    ],
+  },
+  {
+    question:
+      "Primary Amoebic Meningoencephalitis (PAM) is caused by which organism?",
+    answers: [
+      { text: "Acanthamoeba", correct: false },
+      { text: "Naegleria fowleri", correct: true },
+      { text: "Plasmodium vivax", correct: false },
+      { text: "Entamoeba histolytica", correct: false },
+    ],
+  },
+  {
+    question: "The infection of PAM primarily spreads through:",
+    answers: [
+      { text: "Drinking contaminated water", correct: false },
+      { text: "Entry through the nose while swimming", correct: true },
+      { text: "Mosquito bite", correct: false },
+      { text: "Consumption of raw fish", correct: false },
+    ],
+  },
+  {
+    question:
+      "As per FY 2024–25, what is the private sector share in India’s total defence production?",
+    answers: [
+      { text: "14%", correct: false },
+      { text: "19%", correct: false },
+      { text: "22.56%", correct: true },
+      { text: "30%", correct: false },
+    ],
+  },
+  {
+    question: "Section 152 of Bharatiya Nyaya Sanhita primarily deals with:",
+    answers: [
+      { text: "Crimes against women", correct: false },
+      { text: "Reframed Sedition law", correct: true },
+      { text: "Digital frauds", correct: false },
+      { text: "Economic offences", correct: false },
+    ],
+  },
+  {
+    question:
+      "Who is popularly known as the 'Father of the Indian Green Revolution'?",
+    answers: [
+      { text: "Dr. Norman Borlaug", correct: false },
+      { text: "Dr. M. S. Swaminathan", correct: true },
+      { text: "Verghese Kurien", correct: false },
+      { text: "C. Subramaniam", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which high-yielding variety of rice was developed under Dr. M. S. Swaminathan’s guidance?",
+    answers: [
+      { text: "Sonora 64", correct: false },
+      { text: "Pusa Basmati", correct: true },
+      { text: "IR-8", correct: false },
+      { text: "Sharbati Sonora", correct: false },
+    ],
+  },
+  {
+    question: "Which award was Dr. M. S. Swaminathan the first to receive?",
+    answers: [
+      { text: "Padma Vibhushan", correct: false },
+      { text: "World Food Prize", correct: true },
+      { text: "Ramon Magsaysay Award", correct: false },
+      { text: "UNESCO Gandhi Prize", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are native crocodile species of India?",
+    answers: [
+      { text: "Saltwater Crocodile", correct: true },
+      { text: "Mugger Crocodile", correct: true },
+      { text: "American Crocodile", correct: false },
+      { text: "Gharial", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following diseases are caused by amoeba species?",
+    answers: [
+      { text: "Primary Amoebic Meningoencephalitis (PAM)", correct: true },
+      { text: "Granulomatous Amoebic Encephalitis (GAE)", correct: true },
+      { text: "Kala-azar", correct: false },
+      { text: "Dysentery (Entamoeba histolytica)", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following were contributions of Dr. M. S. Swaminathan?",
+    answers: [
+      { text: "Introduction of semi-dwarf wheat varieties", correct: true },
+      { text: "Recommendation of MSP = cost + 50% margin", correct: true },
+      { text: "Development of Operation Flood", correct: false },
+      { text: "Advocacy of Evergreen Revolution", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following statements about India’s defence sector are correct?",
+    answers: [
+      {
+        text: "Private sector participation started after 2016–17",
+        correct: true,
+      },
+      { text: "Private sector share exceeded 25% in 2024–25", correct: false },
+      { text: "DPSUs still dominate the majority share", correct: true },
+      {
+        text: "India’s defence production more than tripled in a decade",
+        correct: true,
+      },
+    ],
+  },
+  {
+    question:
+      "Which of the following awards were conferred on Dr. M. S. Swaminathan?",
+    answers: [
+      { text: "Ramon Magsaysay Award", correct: true },
+      { text: "World Food Prize", correct: true },
+      { text: "Bharat Ratna", correct: false },
+      { text: "Padma Vibhushan", correct: true },
+    ],
+  },
+  {
+    question:
+      "With reference to the Saltwater Crocodile (Crocodylus porosus), consider the following statements:\n1. It is the largest living reptile species.\n2. It can travel long distances over oceans.\n3. It is listed as Least Concern on the IUCN Red List.\n4. In India, it is confined only to Sundarbans.\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1, 2 and 4 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Primary Amoebic Meningoencephalitis (PAM), consider the following statements:\n1. It is caused by Naegleria fowleri.\n2. Infection occurs by drinking contaminated water.\n3. The disease is highly fatal with >95% mortality.\nWhich of the statements given above are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: true },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India’s defence production, consider the following statements:\n1. FY 2024–25 saw India’s highest-ever defence production value.\n2. Private sector share in defence production has remained below 25% since 2016–17.\n3. Defence Public Sector Undertakings (DPSUs) contribute more than half of production.\nWhich of the above statements are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: true },
+      { text: "1 and 3 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Section 152 of Bharatiya Nyaya Sanhita (BNS), consider the following statements:\n1. It replaces IPC Section 124A dealing with sedition.\n2. It uses terms like secession and rebellion instead of disaffection.\n3. It is cognisable and non-bailable.\nWhich of the statements given above are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: true },
+      { text: "1 and 3 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the contributions of Dr. M. S. Swaminathan, consider the following statements:\n1. He introduced semi-dwarf wheat and rice varieties in India.\n2. He recommended MSP should be cost + 50% margin.\n3. He developed Operation Flood and White Revolution.\n4. He advocated for an Evergreen Revolution.\nWhich of the above statements are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+    ],
+  },
+];
+///////////////////////// 21 August 2025 /////////////////////////
+const Paper20 = [
+  {
+    question: "Agni-V missile is classified as:",
+    answers: [
+      { text: "Short-Range Ballistic Missile (SRBM)", correct: false },
+      { text: "Intermediate-Range Ballistic Missile (IRBM)", correct: false },
+      { text: "Intercontinental Ballistic Missile (ICBM)", correct: true },
+      { text: "Cruise Missile", correct: false },
+    ],
+  },
+  {
+    question: "The Agni-Prime missile is unique because it:",
+    answers: [
+      { text: "Uses liquid fuel stages", correct: false },
+      { text: "Can target moving ships", correct: true },
+      { text: "Has a range above 10,000 km", correct: false },
+      { text: "Is nuclear-submarine launched", correct: false },
+    ],
+  },
+  {
+    question: "Pulikkali or Tiger Dance is associated with which Indian state?",
+    answers: [
+      { text: "Karnataka", correct: false },
+      { text: "Tamil Nadu", correct: false },
+      { text: "Kerala", correct: true },
+      { text: "Andhra Pradesh", correct: false },
+    ],
+  },
+  {
+    question: "The Vallamkali event, often linked with Onam, refers to:",
+    answers: [
+      { text: "A classical dance", correct: false },
+      { text: "A snake boat race", correct: true },
+      { text: "A puppet show", correct: false },
+      { text: "A harvest ritual", correct: false },
+    ],
+  },
+  {
+    question: "The International Solar Alliance (ISA) was launched in:",
+    answers: [
+      { text: "2005 at COP11 in Montreal", correct: false },
+      { text: "2015 at COP21 in Paris", correct: true },
+      { text: "2018 at COP24 in Katowice", correct: false },
+      { text: "2020 at COP26 in Glasgow", correct: false },
+    ],
+  },
+  {
+    question:
+      "Headquarters of the International Solar Alliance (ISA) is located in:",
+    answers: [
+      { text: "New Delhi", correct: false },
+      { text: "Paris", correct: false },
+      { text: "Gurugram", correct: true },
+      { text: "Geneva", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which treaty led to the establishment of the International Criminal Court (ICC)?",
+    answers: [
+      { text: "Geneva Convention", correct: false },
+      { text: "Rome Statute", correct: true },
+      { text: "Vienna Convention", correct: false },
+      { text: "Hague Protocol", correct: false },
+    ],
+  },
+  {
+    question: "The ICC is headquartered at:",
+    answers: [
+      { text: "New York", correct: false },
+      { text: "The Hague", correct: true },
+      { text: "Brussels", correct: false },
+      { text: "Vienna", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is NOT covered under the jurisdiction of the ICC?",
+    answers: [
+      { text: "War crimes", correct: false },
+      { text: "Genocide", correct: false },
+      { text: "Crimes against humanity", correct: false },
+      { text: "Maritime piracy", correct: true },
+    ],
+  },
+  {
+    question: "Which festival is associated with the legend of King Mahabali?",
+    answers: [
+      { text: "Pongal", correct: false },
+      { text: "Onam", correct: true },
+      { text: "Bihu", correct: false },
+      { text: "Makar Sankranti", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following Agni missiles are two-stage, solid-fuelled systems?",
+    answers: [
+      { text: "Agni-II", correct: true },
+      { text: "Agni-III", correct: true },
+      { text: "Agni-IV", correct: true },
+      { text: "Agni-I", correct: false },
+    ],
+  },
+  {
+    question: "Pulikkali folk performance involves:",
+    answers: [
+      { text: "Body painting with tiger stripes", correct: true },
+      { text: "Accompaniment with percussion instruments", correct: true },
+      { text: "Graceful women-only dances", correct: false },
+      { text: "Origin during British colonial period", correct: false },
+    ],
+  },
+  {
+    question: "Objectives of the International Solar Alliance include:",
+    answers: [
+      { text: "Deployment of 1000 GW solar capacity", correct: true },
+      { text: "Mobilization of USD 1 trillion investment", correct: true },
+      { text: "Reduction of 1000 million tonnes CO2 annually", correct: true },
+      { text: "Promotion of nuclear energy", correct: false },
+    ],
+  },
+  {
+    question: "Which countries are NOT members of ICC?",
+    answers: [
+      { text: "India", correct: true },
+      { text: "United States", correct: true },
+      { text: "Russia", correct: true },
+      { text: "France", correct: false },
+    ],
+  },
+  {
+    question: "Key initiatives under ISA include:",
+    answers: [
+      { text: "One Sun, One World, One Grid (OSOWOG)", correct: true },
+      { text: "Solar Fellowship Programme", correct: true },
+      {
+        text: "Solar Technology Application Resource Centre (STAR C)",
+        correct: true,
+      },
+      { text: "Blue Dot Network", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Agni-V missile, consider the following statements:\n\n1. It is a three-stage, solid-fuel ICBM.\n2. Its range is about 5,000–5,500 km.\n3. It follows a low-altitude cruise trajectory.\n4. It is capable of carrying nuclear warheads.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "All four", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Onam festival, consider the following statements:\n\n1. It marks the beginning of the Malayalam month of Chingam.\n2. Vallamkali is a snake boat race associated with Onam.\n3. It is celebrated in memory of King Mahabali.\n4. Pulikkali is performed by women groups only.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "All four", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the International Solar Alliance (ISA), consider the following statements:\n\n1. It was jointly launched by India and France at COP21 in 2015.\n2. Its headquarters is at Gurugram, India.\n3. Membership is open only to tropical countries.\n4. OSOWOG aims to connect regional solar grids.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "All four", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the International Criminal Court (ICC), consider the following statements:\n\n1. It was established by the Rome Statute in 2002.\n2. It prosecutes individuals, not states.\n3. India, China and USA are members of ICC.\n4. UN Security Council can refer cases to ICC.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "All four", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Ballistic vs Cruise missiles, consider the following statements:\n\n1. Ballistic missiles are rocket-propelled and follow a parabolic trajectory.\n2. Cruise missiles are usually jet-powered and terrain hugging.\n3. Agni-V is an intercontinental ballistic missile.\n4. BrahMos is a medium-range supersonic cruise missile.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2, 3 and 4", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2 and 4 only", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -4154,10 +4553,10 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper17;
     } else if (selectedValue === "Paper18") {
       Questions = Paper18;
-    } else if (selectedValue === "MCC") {
-      Questions = MCC;
-    } else if (selectedValue === "GIS_Docker") {
-      Questions = GIS_Docker;
+    } else if (selectedValue === "Paper19") {
+      Questions = Paper19;
+    } else if (selectedValue === "Paper20") {
+      Questions = Paper20;
     } else if (selectedValue === "Green_Sensor_Cloud") {
       Questions = Green_Sensor_Cloud;
     } else if (selectedValue === "Cloud_Federation") {
