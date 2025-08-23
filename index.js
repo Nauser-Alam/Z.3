@@ -4491,6 +4491,222 @@ const Paper20 = [
     ],
   },
 ];
+//////////////////////////////  22 August 2025 /////////////////////////
+const Paper21 = [
+  {
+    question:
+      "The Lion-Tailed Macaque (Macaca silenus) is endemic to which region?",
+    answers: [
+      { text: "Eastern Himalayas", correct: false },
+      { text: "Western Ghats", correct: true },
+      { text: "Andaman & Nicobar Islands", correct: false },
+      { text: "Aravalli Hills", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following best describes the conservation status of Lion-Tailed Macaque?",
+    answers: [
+      { text: "Vulnerable (IUCN)", correct: false },
+      { text: "Endangered (IUCN) and Schedule I WPA, 1972", correct: true },
+      { text: "Critically Endangered (IUCN)", correct: false },
+      { text: "Near Threatened (IUCN)", correct: false },
+    ],
+  },
+  {
+    question:
+      "Dal Lake, often called the 'Jewel in the crown of Kashmir', is located in:",
+    answers: [
+      { text: "Leh", correct: false },
+      { text: "Gulmarg", correct: false },
+      { text: "Srinagar", correct: true },
+      { text: "Pulwama", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following features is unique to Dal Lake?",
+    answers: [
+      { text: "Floating gardens known as Raad", correct: true },
+      { text: "Presence of mangroves", correct: false },
+      { text: "Black-necked cranes breeding", correct: false },
+      { text: "Hot water springs", correct: false },
+    ],
+  },
+  {
+    question: "Khelo India programme was launched in which year?",
+    answers: [
+      { text: "2014", correct: false },
+      { text: "2017", correct: true },
+      { text: "2018", correct: false },
+      { text: "2019", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which article of the Constitution allows one person to be appointed as Governor for two or more states?",
+    answers: [
+      { text: "Article 153", correct: true },
+      { text: "Article 161", correct: false },
+      { text: "Article 356", correct: false },
+      { text: "Article 164", correct: false },
+    ],
+  },
+  {
+    question:
+      "The National Organ and Tissue Transplant Organisation (NOTTO) works under which Ministry?",
+    answers: [
+      { text: "Ministry of Social Justice", correct: false },
+      { text: "Ministry of Health and Family Welfare", correct: true },
+      { text: "Ministry of AYUSH", correct: false },
+      { text: "Ministry of Home Affairs", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which constitutional Article provides the Governor with the power to grant pardons and reprieves?",
+    answers: [
+      { text: "Article 153", correct: false },
+      { text: "Article 161", correct: true },
+      { text: "Article 200", correct: false },
+      { text: "Article 356", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which organization in India maintains the National Registry of Organ and Tissue Donation?",
+    answers: [
+      { text: "Indian Council of Medical Research", correct: false },
+      {
+        text: "National Organ and Tissue Transplant Organisation (NOTTO)",
+        correct: true,
+      },
+      { text: "National Health Mission", correct: false },
+      { text: "Medical Council of India", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following Mughal gardens is located around Dal Lake?",
+    answers: [
+      { text: "Rock Garden", correct: false },
+      { text: "Shalimar Bagh", correct: true },
+      { text: "Lodhi Garden", correct: false },
+      { text: "Mughal Sarai", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are threats to the Lion-Tailed Macaque?",
+    answers: [
+      { text: "Habitat loss due to deforestation", correct: true },
+      { text: "Inbreeding due to fragmented populations", correct: true },
+      { text: "Illegal international trade", correct: true },
+      { text: "Volcanic eruptions", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are features of the Khelo India programme?",
+    answers: [
+      {
+        text: "Financial assistance of ₹5 lakh per annum for 8 years to athletes",
+        correct: true,
+      },
+      {
+        text: "Promotion of indigenous sports like Kalaripayattu and Mallakhamb",
+        correct: true,
+      },
+      { text: "Exclusively for Olympic sports only", correct: false },
+      { text: "Organizing Youth, University and Winter Games", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following statements regarding the Governor are correct?",
+    answers: [
+      { text: "Appointed by the President of India", correct: true },
+      {
+        text: "Holds office during the pleasure of the President",
+        correct: true,
+      },
+      {
+        text: "Cannot reserve bills for President’s consideration",
+        correct: false,
+      },
+      {
+        text: "Can act with discretion in certain cases like hung assembly",
+        correct: true,
+      },
+    ],
+  },
+  {
+    question: "Which of the following functions are performed by NOTTO?",
+    answers: [
+      { text: "Maintains National Registry of Organ Donation", correct: true },
+      { text: "Acts as apex body for organ allocation", correct: true },
+      { text: "Promotes awareness about organ donation", correct: true },
+      { text: "Issues Aadhaar cards", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are concerns related to Dal Lake?",
+    answers: [
+      { text: "Encroachment", correct: true },
+      { text: "Invasive weeds", correct: true },
+      { text: "Volcanic ash deposition", correct: false },
+      { text: "Unregulated tourism", correct: true },
+    ],
+  },
+  {
+    question:
+      "With reference to the Lion-Tailed Macaque, consider the following statements:\n\n1. It is found in the Western Ghats only.\n2. It is listed under Schedule I of the Wildlife Protection Act, 1972.\n3. It is strictly nocturnal.\n4. It plays a role in seed dispersal.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1, 3 and 4 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Dal Lake, consider the following statements:\n\n1. It is the largest lake in Jammu & Kashmir.\n2. It is famous for floating gardens locally called Raad.\n3. It completely dries up in summers.\n4. It is divided into basins like Gagribal and Bod Dal.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Khelo India initiative, consider the following statements:\n\n1. It was launched in 2017 to promote grassroots sports.\n2. It includes Youth Games, University Games, and Winter Games.\n3. Only Olympic sports are allowed under its competitions.\n4. The scheme also provides scholarships to young athletes.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the powers of the Governor, consider the following statements:\n\n1. The Governor has a fixed tenure of 5 years and cannot be removed earlier.\n2. The Governor can reserve bills for the consideration of the President.\n3. One person can serve as Governor of two states simultaneously.\n4. The Governor always acts independently without aid and advice of the Council of Ministers.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "2 and 3 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the National Organ and Tissue Transplant Organisation (NOTTO), consider the following statements:\n\n1. It was created under the Transplantation of Human Organs and Tissues (Amendment) Act, 2011.\n2. It functions under the Ministry of Health and Family Welfare.\n3. It manages organ allocation through its National Human Organ Network.\n4. It issues organ donor cards through Aadhaar.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -4557,8 +4773,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper19;
     } else if (selectedValue === "Paper20") {
       Questions = Paper20;
-    } else if (selectedValue === "Green_Sensor_Cloud") {
-      Questions = Green_Sensor_Cloud;
+    } else if (selectedValue === "Paper21") {
+      Questions = Paper21;
     } else if (selectedValue === "Cloud_Federation") {
       Questions = Cloud_Federation;
     } else if (selectedValue === "Container_Docker_Kubernetes") {
