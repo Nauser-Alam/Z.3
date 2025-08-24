@@ -4707,6 +4707,210 @@ const Paper21 = [
     ],
   },
 ];
+////////////////////////  23 August 2025  ///////////////////////
+const Paper22 = [
+  // -------- First 10: Single Correct --------
+  {
+    question:
+      "Which of the following states accounts for the largest share of India’s jute production?",
+    answers: [
+      { text: "Assam", correct: false },
+      { text: "West Bengal", correct: true },
+      { text: "Bihar", correct: false },
+      { text: "Odisha", correct: false },
+    ],
+  },
+  {
+    question: "Jute is commonly known as:",
+    answers: [
+      { text: "White fibre", correct: false },
+      { text: "Golden fibre", correct: true },
+      { text: "Silver fibre", correct: false },
+      { text: "Eco fibre", correct: false },
+    ],
+  },
+  {
+    question:
+      "The headquarters of Jute Corporation of India (JCI) is located in:",
+    answers: [
+      { text: "New Delhi", correct: false },
+      { text: "Patna", correct: false },
+      { text: "Kolkata", correct: true },
+      { text: "Guwahati", correct: false },
+    ],
+  },
+  {
+    question: "Lipulekh Pass connects Uttarakhand with which region?",
+    answers: [
+      { text: "Nepal", correct: false },
+      { text: "Bhutan", correct: false },
+      { text: "Tibet Autonomous Region of China", correct: true },
+      { text: "Ladakh", correct: false },
+    ],
+  },
+  {
+    question: "Which pilgrimage is associated with Lipulekh Pass?",
+    answers: [
+      { text: "Amarnath Yatra", correct: false },
+      { text: "Kailash Mansarovar Yatra", correct: true },
+      { text: "Char Dham Yatra", correct: false },
+      { text: "Vaishno Devi Yatra", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Shanghai Cooperation Organisation (SCO) was formally established in:",
+    answers: [
+      { text: "1996", correct: false },
+      { text: "2001", correct: true },
+      { text: "2005", correct: false },
+      { text: "2010", correct: false },
+    ],
+  },
+  {
+    question:
+      "The headquarters of the Regional Anti-Terrorist Structure (RATS) of the SCO is located in:",
+    answers: [
+      { text: "Moscow", correct: false },
+      { text: "Beijing", correct: false },
+      { text: "Tashkent", correct: true },
+      { text: "Astana", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is the southernmost point of India, located in Great Nicobar?",
+    answers: [
+      { text: "Campbell Bay", correct: false },
+      { text: "Indira Point", correct: true },
+      { text: "Port Blair", correct: false },
+      { text: "Car Nicobar", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which tribe, classified as a PVTG, lives in Great Nicobar Island?",
+    answers: [
+      { text: "Onge", correct: false },
+      { text: "Jarawa", correct: false },
+      { text: "Shompen", correct: true },
+      { text: "Sentinelese", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Supreme Court’s 2025 stray dog order was stayed because it contradicted:",
+    answers: [
+      { text: "Prevention of Cruelty to Animals Act", correct: false },
+      { text: "Animal Birth Control (ABC) Rules, 2023", correct: true },
+      { text: "Wildlife Protection Act, 1972", correct: false },
+      { text: "Indian Penal Code provisions", correct: false },
+    ],
+  },
+
+  // -------- Next 5: Multiple Correct --------
+  {
+    question:
+      "Which of the following are required conditions for jute cultivation?",
+    answers: [
+      { text: "High rainfall (150–250 cm)", correct: true },
+      { text: "Well-drained alluvial soil", correct: true },
+      { text: "Cold climate with frost", correct: false },
+      { text: "Warm temperatures (25–35°C)", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following are functions of the Jute Corporation of India?",
+    answers: [
+      { text: "Implementing MSP for jute", correct: true },
+      { text: "Promoting sustainable jute practices", correct: true },
+      { text: "Issuing fertilizer subsidies", correct: false },
+      { text: "Procurement and marketing of raw jute", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following Himalayan passes are used for trade with Tibet/China?",
+    answers: [
+      { text: "Lipulekh Pass", correct: true },
+      { text: "Shipki La", correct: true },
+      { text: "Rohtang Pass", correct: false },
+      { text: "Nathu La", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following are correct about SCO membership?",
+    answers: [
+      { text: "India and Pakistan joined in 2017", correct: true },
+      { text: "Iran became a member in 2023", correct: true },
+      { text: "Belarus joined as 10th member in 2024", correct: true },
+      { text: "Japan is a founding member", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are concerns about the Great Nicobar Island project?",
+    answers: [
+      { text: "Threat to Leatherback turtle habitat", correct: true },
+      { text: "Risk to Shompen tribe livelihood", correct: true },
+      { text: "Earthquake-prone seismic zone", correct: true },
+      { text: "Proximity to Gulf of Aden", correct: false },
+    ],
+  },
+
+  // -------- Last 5: Statement-based --------
+  {
+    question:
+      "With reference to Jute cultivation in India, consider the following statements:\n\n1. India is the largest producer of raw jute in the world.\n2. Bangladesh accounts for the largest share of global jute exports.\n3. Jute is primarily grown in West Bengal, Assam, and Bihar.\n4. Jute requires cold and dry climate for its growth.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1, 3 and 4 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Lipulekh Pass, consider the following statements:\n\n1. It is located in Uttarakhand.\n2. It lies near the trijunction of India–Nepal–China.\n3. It is a route for Kailash Mansarovar Yatra.\n4. It was reopened for trade in 2025.\n\nWhich of the statements given above are correct?",
+    answers: [
+      { text: "1, 2, 3 and 4", correct: true },
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Shanghai Cooperation Organisation (SCO), consider the following statements:\n\n1. SCO originated from the Shanghai Five in 1996.\n2. Its Regional Anti-Terrorist Structure (RATS) is headquartered in Moscow.\n3. India and Pakistan became members in 2017.\n4. Belarus became the 10th full member in 2024.\n\nWhich of the statements given above are correct?",
+    answers: [
+      { text: "1, 3 and 4 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Great Nicobar Island project, consider the following statements:\n\n1. The project includes an International Container Terminal and a Greenfield Airport.\n2. Galathea Bay is an important nesting site for the Leatherback turtle.\n3. The Shompen tribe of Great Nicobar is classified as PVTG.\n4. Great Nicobar lies north of the Ten Degree Channel.\n\nWhich of the statements given above are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1, 2 and 4 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Supreme Court’s 2025 stray dog judgment, consider the following statements:\n\n1. The Court initially directed all stray dogs in Delhi to be confined in shelters.\n2. The order was criticized for being unscientific and unconstitutional.\n3. It contradicted India’s policy of Animal Birth Control (ABC).\n4. Later, the Court stayed its earlier order.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2, 3 and 4", correct: true },
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 4 only", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -4775,8 +4979,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper20;
     } else if (selectedValue === "Paper21") {
       Questions = Paper21;
-    } else if (selectedValue === "Cloud_Federation") {
-      Questions = Cloud_Federation;
+    } else if (selectedValue === "Paper22") {
+      Questions = Paper22;
     } else if (selectedValue === "Container_Docker_Kubernetes") {
       Questions = Container_Docker_Kubernetes;
     } else if (selectedValue === "Docker_Dew_Serverless") {
