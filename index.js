@@ -4911,6 +4911,203 @@ const Paper22 = [
     ],
   },
 ];
+////////////////////////////  24 August 2025 /////////////////////////
+const Paper23 = [
+  {
+    question: "INS Aridhaman belongs to which class of submarines?",
+    answers: [
+      { text: "Kilo-class", correct: false },
+      { text: "Arihant-class", correct: true },
+      { text: "Scorpene-class", correct: false },
+      { text: "Shishumar-class", correct: false },
+    ],
+  },
+  {
+    question: "What is the primary role of SSBN submarines like INS Arihant?",
+    answers: [
+      { text: "Anti-submarine warfare", correct: false },
+      { text: "Ballistic missile deterrence", correct: true },
+      { text: "Surface combat support", correct: false },
+      { text: "Mine-laying", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which sonar system on INS Aridhaman combines multiple sonar functions?",
+    answers: [
+      { text: "USHUS", correct: false },
+      { text: "Panchendriya", correct: true },
+      { text: "Arihant-Nav", correct: false },
+      { text: "DRDO Aqua", correct: false },
+    ],
+  },
+  {
+    question: "India’s indigenous SSN project was approved by:",
+    answers: [
+      { text: "Union Cabinet", correct: false },
+      { text: "Cabinet Committee on Security", correct: true },
+      { text: "NITI Aayog", correct: false },
+      { text: "Ministry of Defence alone", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following missiles has the longest range among India’s K-series?",
+    answers: [
+      { text: "K-3", correct: false },
+      { text: "K-4", correct: false },
+      { text: "K-5", correct: false },
+      { text: "K-6", correct: true },
+    ],
+  },
+  {
+    question:
+      "The K-6 submarine-launched ballistic missile is being developed by:",
+    answers: [
+      { text: "ISRO", correct: false },
+      { text: "DRDO", correct: true },
+      { text: "HAL", correct: false },
+      { text: "BEL", correct: false },
+    ],
+  },
+  {
+    question: "Which navigation system is India’s indigenous GPS alternative?",
+    answers: [
+      { text: "BeiDou", correct: false },
+      { text: "Galileo", correct: false },
+      { text: "NavIC", correct: true },
+      { text: "GLONASS", correct: false },
+    ],
+  },
+  {
+    question:
+      "NavIC provides coverage over India and up to how many kilometers beyond its borders?",
+    answers: [
+      { text: "500 km", correct: false },
+      { text: "1000 km", correct: false },
+      { text: "1500 km", correct: true },
+      { text: "3000 km", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which projection was designed for sailors to chart straight-line courses?",
+    answers: [
+      { text: "Equal Earth Projection", correct: false },
+      { text: "Gall-Peters Projection", correct: false },
+      { text: "Mercator Projection", correct: true },
+      { text: "Orthographic Projection", correct: false },
+    ],
+  },
+  {
+    question: "Which organisation has endorsed the 'Correct the Map' campaign?",
+    answers: [
+      { text: "United Nations", correct: false },
+      { text: "African Union", correct: true },
+      { text: "World Bank", correct: false },
+      { text: "European Union", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are Arihant-class submarines?",
+    answers: [
+      { text: "INS Arihant", correct: true },
+      { text: "INS Arighaat", correct: true },
+      { text: "INS Chakra", correct: false },
+      { text: "INS Aridhaman", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following are correct about SSNs (Nuclear Attack Submarines)?",
+    answers: [
+      { text: "They are nuclear-powered", correct: true },
+      { text: "They carry nuclear ballistic missiles", correct: false },
+      {
+        text: "They are mainly used for hunting enemy ships/submarines",
+        correct: true,
+      },
+      { text: "They form part of India’s nuclear triad", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are features of K-6 missile?",
+    answers: [
+      { text: "Hypersonic speed (~Mach 7.5)", correct: true },
+      { text: "Range of 8,000 km", correct: true },
+      { text: "MIRV capability", correct: true },
+      { text: "Air-to-air missile system", correct: false },
+    ],
+  },
+  {
+    question: "Which orbits are used in NavIC?",
+    answers: [
+      { text: "Geostationary Orbit (GEO)", correct: true },
+      { text: "Geosynchronous Orbit (GSO)", correct: true },
+      { text: "Polar Orbit", correct: false },
+      { text: "Molniya Orbit", correct: false },
+    ],
+  },
+  {
+    question: "Which are alternatives to the Mercator projection?",
+    answers: [
+      { text: "Equal Earth Projection", correct: true },
+      { text: "Gall-Peters Projection", correct: true },
+      { text: "Orthographic Projection", correct: true },
+      { text: "Equirectangular Projection", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to INS Aridhaman, consider the following statements:\n\n1. It is India’s first nuclear-powered submarine.\n2. It is part of the Arihant-class SSBNs.\n3. It can carry K-4 nuclear missiles.\n4. It is under construction at Mazagon Dock Shipbuilders, Mumbai.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "2 and 3 only", correct: true },
+      { text: "1 and 4 only", correct: false },
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to SSNs (Nuclear Attack Submarines), consider the following statements:\n\n1. They are part of India’s nuclear triad.\n2. They are designed mainly for tactical warfare.\n3. India has leased SSNs from Russia in the past.\n4. The first indigenous SSN is expected by 2036–37.\n\nWhich of the statements given above are correct?",
+    answers: [
+      { text: "2, 3 and 4 only", correct: true },
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the K-6 missile, consider the following statements:\n\n1. It is being developed by DRDO.\n2. It has a range of about 8,000 km.\n3. It is designed for the S-5 class SSBNs.\n4. It uses cryogenic liquid fuel.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1 and 4 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to NavIC, consider the following statements:\n\n1. It is India’s regional navigation satellite system.\n2. It provides coverage up to 1500 km beyond India’s borders.\n3. It currently has only 4 satellites providing full real-time navigation data.\n4. It is designed to provide global coverage.\n\nWhich of the statements given above are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1 and 4 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Mercator Projection, consider the following statements:\n\n1. It accurately preserves the relative area of landmasses.\n2. It was designed for navigation by sailors.\n3. It exaggerates the size of regions near the poles.\n4. The African Union has endorsed replacing it with alternatives like Equal Earth Projection.\n\nWhich of the statements given above are correct?",
+    answers: [
+      { text: "2, 3 and 4 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -4981,8 +5178,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper21;
     } else if (selectedValue === "Paper22") {
       Questions = Paper22;
-    } else if (selectedValue === "Container_Docker_Kubernetes") {
-      Questions = Container_Docker_Kubernetes;
+    } else if (selectedValue === "Paper23") {
+      Questions = Paper23;
     } else if (selectedValue === "Docker_Dew_Serverless") {
       Questions = Docker_Dew_Serverless;
     } else if (selectedValue === "Serverless_Computing") {
