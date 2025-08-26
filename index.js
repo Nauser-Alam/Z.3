@@ -5108,6 +5108,204 @@ const Paper23 = [
     ],
   },
 ];
+////////////////////////////  25 August 2025 /////////////////////////
+const Paper24 = [
+  {
+    question: "Shipki La Pass is located in which Indian state?",
+    answers: [
+      { text: "Sikkim", correct: false },
+      { text: "Himachal Pradesh", correct: true },
+      { text: "Arunachal Pradesh", correct: false },
+      { text: "Uttarakhand", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which two regions were historically connected through Shipki La Pass?",
+    answers: [
+      { text: "Ladakh and Xinjiang", correct: false },
+      { text: "Bushahr (India) and Guge (Tibet)", correct: true },
+      { text: "Nepal and Tibet", correct: false },
+      { text: "Sikkim and Bhutan", correct: false },
+    ],
+  },
+  {
+    question:
+      "The International Big Cat Alliance (IBCA) was launched in which year?",
+    answers: [
+      { text: "2010", correct: false },
+      { text: "2015", correct: false },
+      { text: "2019", correct: false },
+      { text: "2023", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following is NOT among the seven big cats under IBCA?",
+    answers: [
+      { text: "Tiger", correct: false },
+      { text: "Lion", correct: false },
+      { text: "Jaguar", correct: false },
+      { text: "Caracal", correct: true },
+    ],
+  },
+  {
+    question:
+      "The headquarters of International Big Cat Alliance (IBCA) is located in:",
+    answers: [
+      { text: "Geneva", correct: false },
+      { text: "Nairobi", correct: false },
+      { text: "New Delhi", correct: true },
+      { text: "Paris", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which DRDO system integrates QRSAM, VSHORADS, and Directed Energy Weapons?",
+    answers: [
+      { text: "Agni-V", correct: false },
+      { text: "Prithvi Defence System", correct: false },
+      { text: "Integrated Air Defence Weapon System (IADWS)", correct: true },
+      { text: "Akash Missile System", correct: false },
+    ],
+  },
+  {
+    question: "The Gaganyaan Mission will use which launch vehicle?",
+    answers: [
+      { text: "PSLV", correct: false },
+      { text: "Human-rated LVM3", correct: true },
+      { text: "GSLV Mk II", correct: false },
+      { text: "SSLV", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which decoy system is used on Rafale jets of the Indian Air Force?",
+    answers: [
+      { text: "BriteCloud", correct: false },
+      { text: "Nulka", correct: false },
+      { text: "X-Guard Fibre-Optic Towed Decoy", correct: true },
+      { text: "Prithvi Defence Decoy", correct: false },
+    ],
+  },
+  {
+    question: "The 130th Constitutional Amendment Bill is related to:",
+    answers: [
+      { text: "Right to Education", correct: false },
+      { text: "Disqualification of Ministers upon detention", correct: true },
+      { text: "Introduction of GST", correct: false },
+      { text: "Reservation for Women", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which state’s tourism is expected to benefit from reopening Shipki La Pass?",
+    answers: [
+      { text: "Arunachal Pradesh", correct: false },
+      { text: "Himachal Pradesh", correct: true },
+      { text: "Sikkim", correct: false },
+      { text: "Jammu & Kashmir", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following were historically traded via Shipki La?",
+    answers: [
+      { text: "Wool from Tibet", correct: true },
+      { text: "Grains from India", correct: true },
+      { text: "Crude oil", correct: false },
+      { text: "Precious stones like turquoise", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following are objectives of IBCA?",
+    answers: [
+      { text: "Stop illegal wildlife trade", correct: true },
+      { text: "Promote nuclear disarmament", correct: false },
+      { text: "Protect big cat habitats", correct: true },
+      { text: "Address climate change impacts", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following are part of DRDO’s Integrated Air Defence Weapon System?",
+    answers: [
+      { text: "QRSAM", correct: true },
+      { text: "VSHORADS", correct: true },
+      { text: "Directed Energy Weapon", correct: true },
+      { text: "BrahMos Missile", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are key technologies required for Gaganyaan?",
+    answers: [
+      { text: "Crew Module", correct: true },
+      { text: "Service Module", correct: true },
+      { text: "Crew Escape System", correct: true },
+      { text: "Cryogenic Upper Stage only", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are examples of deception systems in warfare?",
+    answers: [
+      { text: "X-Guard", correct: true },
+      { text: "BriteCloud", correct: true },
+      { text: "Nulka", correct: true },
+      { text: "INS Vikrant", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Shipki La Pass, consider the following statements:\n\n1. It is located in Himachal Pradesh on the India-China border.\n2. It historically connected Bushahr in India with Guge in Tibet.\n3. It is currently open for both tourism and cross-border trade.\n4. Wool from Tibet and grains from India were exchanged via this pass.\n\nWhich of the above statements are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the International Big Cat Alliance (IBCA), consider the following statements:\n\n1. It was launched in 2023 on the 50th anniversary of Project Tiger.\n2. Only range countries with big cats can join.\n3. Its headquarters is located in India.\n4. India is home to 5 of the 7 big cats.\n\nWhich of the above statements are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "1, 3 and 4 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to DRDO’s Integrated Air Defence Weapon System (IADWS), consider the following statements:\n\n1. It integrates QRSAM, VSHORADS, and Directed Energy Weapons.\n2. It is controlled by a Centralised Command and Control Centre.\n3. It was jointly developed with Israel.\n4. It aims to protect critical facilities from aerial threats.\n\nWhich of the above statements are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India’s Gaganyaan Mission, consider the following statements:\n\n1. It aims to send a three-member crew to Low Earth Orbit for three days.\n2. It will use a human-rated version of the LVM3 rocket.\n3. The Orbital Module consists of a Crew Module and a Service Module.\n4. Vyommitra is the name of the humanoid used in unmanned missions.\n\nWhich of the above statements are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to deception systems in modern warfare, consider the following statements:\n\n1. The X-Guard decoy system is used on Rafale aircraft.\n2. BriteCloud is indigenously developed in India.\n3. The Nulka system is a naval decoy developed by Australia and the U.S.\n4. India has sought land-based decoys for T-90 tanks.\n\nWhich of the above statements are correct?",
+    answers: [
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 3 and 4 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -5180,8 +5378,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper22;
     } else if (selectedValue === "Paper23") {
       Questions = Paper23;
-    } else if (selectedValue === "Docker_Dew_Serverless") {
-      Questions = Docker_Dew_Serverless;
+    } else if (selectedValue === "Paper24") {
+      Questions = Paper24;
     } else if (selectedValue === "Serverless_Computing") {
       Questions = Serverless_Computing;
     } else if (selectedValue === "Sustainable_Cloud_Computing_and_5G") {
