@@ -5306,6 +5306,214 @@ const Paper24 = [
     ],
   },
 ];
+///////////////////////  26 August 2025 /////////////////////////
+const Paper25 = [
+  {
+    question:
+      "Which of the following ecosystems are known as Blue Carbon Ecosystems?",
+    answers: [
+      { text: "Mangroves, Salt Marshes, Seagrass Meadows", correct: true },
+      { text: "Tropical Rainforests", correct: false },
+      { text: "Coral Reefs", correct: false },
+      { text: "Desert Shrubs", correct: false },
+    ],
+  },
+  {
+    question:
+      "Blue carbon ecosystems cover about 2% of ocean area but absorb approximately how much of the ocean’s total carbon?",
+    answers: [
+      { text: "10%", correct: false },
+      { text: "25%", correct: false },
+      { text: "50%", correct: true },
+      { text: "75%", correct: false },
+    ],
+  },
+  {
+    question: "Huntington’s Disease is caused due to mutation in which gene?",
+    answers: [
+      { text: "HTT gene", correct: true },
+      { text: "BRCA1 gene", correct: false },
+      { text: "TP53 gene", correct: false },
+      { text: "APOE gene", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following best describes 'Blue Carbon'?",
+    answers: [
+      { text: "Carbon stored in terrestrial forests", correct: false },
+      { text: "Carbon stored in petroleum and natural gas", correct: false },
+      {
+        text: "Carbon stored in coastal ecosystems like mangroves and seagrasses",
+        correct: true,
+      },
+      { text: "Carbon released from burning coal", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which statutory body was established under the Tobacco Board Act, 1975?",
+    answers: [
+      { text: "Tea Board", correct: false },
+      { text: "Rubber Board", correct: false },
+      { text: "Coffee Board", correct: false },
+      { text: "Tobacco Board", correct: true },
+    ],
+  },
+  {
+    question: "World No Tobacco Day is observed on:",
+    answers: [
+      { text: "1st May", correct: false },
+      { text: "31st May", correct: true },
+      { text: "1st June", correct: false },
+      { text: "15th August", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which Indian organization is implementing wastewater surveillance in multiple cities?",
+    answers: [
+      { text: "NITI Aayog", correct: false },
+      { text: "Indian Council of Medical Research (ICMR)", correct: true },
+      { text: "Central Pollution Control Board", correct: false },
+      { text: "National Centre for Disease Control", correct: false },
+    ],
+  },
+  {
+    question: "The CEREBO device developed by ICMR is primarily used for:",
+    answers: [
+      { text: "Treatment of brain injury", correct: false },
+      { text: "Diagnosis of traumatic brain injury", correct: true },
+      { text: "Gene therapy for rare diseases", correct: false },
+      { text: "Detecting Alzheimer's disease", correct: false },
+    ],
+  },
+  {
+    question: "The Indian Navy’s Project 17A pertains to:",
+    answers: [
+      { text: "Nuclear submarines", correct: false },
+      { text: "Aircraft carriers", correct: false },
+      { text: "Stealth guided-missile frigates", correct: true },
+      { text: "Coastal patrol vessels", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which shipbuilder constructed the guided-missile frigate INS Himgiri?",
+    answers: [
+      { text: "Mazagon Dock Shipbuilders Ltd. (MDL)", correct: false },
+      { text: "Garden Reach Shipbuilders & Engineers (GRSE)", correct: true },
+      { text: "Hindustan Shipyard", correct: false },
+      { text: "Cochin Shipyard Ltd.", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are considered methods of Carbon Capture and Sequestration (CCS)?",
+    answers: [
+      {
+        text: "Spreading finely ground basalt rock on farmlands",
+        correct: true,
+      },
+      { text: "Increasing alkalinity of oceans by adding lime", correct: true },
+      { text: "Injecting captured CO2 into abandoned mines", correct: true },
+      { text: "Planting only eucalyptus trees", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are effects of tobacco use as highlighted in recent reports?",
+    answers: [
+      { text: "Increased cancer risk", correct: true },
+      { text: "Economic burden on GDP", correct: true },
+      { text: "Improved soil fertility", correct: false },
+      {
+        text: "Non-communicable diseases like heart and lung diseases",
+        correct: true,
+      },
+    ],
+  },
+  {
+    question: "Which are examples of tertiary wastewater treatment methods?",
+    answers: [
+      { text: "Reverse Osmosis (RO)", correct: true },
+      { text: "Ion-exchange method", correct: true },
+      { text: "Activated sludge process", correct: false },
+      { text: "Chemical oxidation", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which features are associated with the Nilgiri-class frigates under Project 17A?",
+    answers: [
+      { text: "Stealth technology", correct: true },
+      { text: "Supersonic BrahMos missiles", correct: true },
+      { text: "Nuclear propulsion", correct: false },
+      { text: "Modular construction techniques", correct: true },
+    ],
+  },
+  {
+    question: "Which statements are correct about Huntington’s Disease?",
+    answers: [
+      { text: "It is progressive and incurable", correct: true },
+      { text: "It is caused by HTT gene mutation", correct: true },
+      {
+        text: "Both parents must carry the gene for inheritance",
+        correct: false,
+      },
+      { text: "It affects both motor and cognitive functions", correct: true },
+    ],
+  },
+  {
+    question:
+      "With reference to Blue Carbon Ecosystems, consider the following statements:\n\n1. They include mangroves, salt marshes, and seagrass meadows.\n2. They cover nearly 20% of ocean area.\n3. They absorb around 50% of carbon captured by oceans.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 3 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Tobacco control in India, consider the following statements:\n\n1. The COTPA Act, 2003, directly provides taxation provisions for tobacco products.\n2. India mandates pictorial health warnings on 85% of tobacco packaging.\n3. The PECA Act, 2019, bans e-cigarettes in India.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Wastewater-Based Epidemiology (WBE), consider the following statements:\n\n1. It can detect pathogens from both symptomatic and asymptomatic individuals.\n2. It provides infection trend data often before clinical cases are reported.\n3. It is being expanded by ICMR across 50 cities in India.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: true },
+    ],
+  },
+  {
+    question:
+      "With reference to the CEREBO device, consider the following statements:\n\n1. It uses near-infrared spectroscopy and machine learning.\n2. It is radiation-free and safe for pregnant women.\n3. It is used for treatment of traumatic brain injury.\n4. It was developed with collaboration of AIIMS Bhopal and NIMHANS.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Project 17A frigates, consider the following statements:\n\n1. They are capable of multi-dimensional warfare (air, surface, sub-surface).\n2. They are the first Indian naval project to use modular construction.\n3. All ships under Project 17A are being built only at Mazagon Dock Shipbuilders Ltd.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "1 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -5380,8 +5588,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper23;
     } else if (selectedValue === "Paper24") {
       Questions = Paper24;
-    } else if (selectedValue === "Serverless_Computing") {
-      Questions = Serverless_Computing;
+    } else if (selectedValue === "Paper25") {
+      Questions = Paper25;
     } else if (selectedValue === "Sustainable_Cloud_Computing_and_5G") {
       Questions = Sustainable_Cloud_Computing_and_5G;
     } else if (selectedValue === "Cyber_Physical_Systems") {
