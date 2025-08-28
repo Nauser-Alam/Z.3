@@ -5514,6 +5514,212 @@ const Paper25 = [
     ],
   },
 ];
+///////////////////////////// 27 August 2025  /////////////////////////
+const Paper26 = [
+  {
+    question:
+      "Which state is associated with the Kuttiyadi Coconut, recently proposed for a GI tag?",
+    answers: [
+      { text: "Kerala", correct: true },
+      { text: "Karnataka", correct: false },
+      { text: "Tamil Nadu", correct: false },
+      { text: "Andhra Pradesh", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Geographical Indications of Goods (Registration and Protection) Act, 1999 was enacted to comply with which international agreement?",
+    answers: [
+      { text: "ILO Convention", correct: false },
+      { text: "WTO-TRIPS Agreement", correct: true },
+      { text: "UNCTAD Charter", correct: false },
+      { text: "IMF Articles of Agreement", correct: false },
+    ],
+  },
+  {
+    question: "Which organization administers GI tags in India?",
+    answers: [
+      { text: "NITI Aayog", correct: false },
+      { text: "DPIIT under Ministry of Commerce", correct: true },
+      { text: "APEDA", correct: false },
+      { text: "Ministry of Agriculture", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following states is the largest producer of coconuts in India?",
+    answers: [
+      { text: "Kerala", correct: false },
+      { text: "Karnataka", correct: true },
+      { text: "Tamil Nadu", correct: false },
+      { text: "Andhra Pradesh", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which statutory body promotes coconut farming and industry in India?",
+    answers: [
+      { text: "National Horticulture Board", correct: false },
+      { text: "Coconut Development Board", correct: true },
+      {
+        text: "Agricultural and Processed Food Export Development Authority",
+        correct: false,
+      },
+      { text: "ICAR", correct: false },
+    ],
+  },
+  {
+    question:
+      "Salwa Judum, declared unconstitutional in 2011, was primarily associated with which state?",
+    answers: [
+      { text: "Jharkhand", correct: false },
+      { text: "Odisha", correct: false },
+      { text: "Chhattisgarh", correct: true },
+      { text: "Bihar", correct: false },
+    ],
+  },
+  {
+    question: "The 'SAMADHAN Doctrine' is associated with:",
+    answers: [
+      { text: "Counter-terrorism operations in J&K", correct: false },
+      { text: "Countering Left Wing Extremism", correct: true },
+      { text: "Blue Economy Policy", correct: false },
+      { text: "Doubling Farmer Income", correct: false },
+    ],
+  },
+  {
+    question: "The LCA Tejas aircraft is primarily manufactured by:",
+    answers: [
+      { text: "ISRO", correct: false },
+      { text: "HAL", correct: true },
+      { text: "BHEL", correct: false },
+      { text: "Bharat Dynamics Limited", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is India’s indigenous 5th generation stealth fighter project?",
+    answers: [
+      { text: "LCA Tejas Mk-1A", correct: false },
+      { text: "Advanced Medium Combat Aircraft (AMCA)", correct: true },
+      { text: "MiG-29 Upgrade", correct: false },
+      { text: "Sukhoi Su-30MKI", correct: false },
+    ],
+  },
+  {
+    question:
+      "India recently suspended 11% import duty on which raw material till September 2025?",
+    answers: [
+      { text: "Jute", correct: false },
+      { text: "Cotton", correct: true },
+      { text: "Sugarcane", correct: false },
+      { text: "Rubber", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are top coconut producing states in India?",
+    answers: [
+      { text: "Karnataka", correct: true },
+      { text: "Kerala", correct: true },
+      { text: "Tamil Nadu", correct: true },
+      { text: "Punjab", correct: false },
+    ],
+  },
+  {
+    question:
+      "Consider the following features of LCA Tejas: Which are correct?",
+    answers: [
+      {
+        text: "It is the lightest supersonic fighter in its class",
+        correct: true,
+      },
+      { text: "It has air-to-air refueling capability", correct: true },
+      { text: "It is powered by an indigenous jet engine", correct: false },
+      { text: "It has a maximum speed of Mach 1.8", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following minerals make the DRC geopolitically significant?",
+    answers: [
+      { text: "Cobalt", correct: true },
+      { text: "Coltan", correct: true },
+      { text: "Lithium", correct: false },
+      { text: "Copper", correct: true },
+    ],
+  },
+  {
+    question:
+      "Consider the following about Cotton in India. Which are correct?",
+    answers: [
+      { text: "India is the largest cotton producer by area", correct: true },
+      { text: "Nearly two-thirds of India’s cotton is rainfed", correct: true },
+      { text: "Gujarat is the largest producing state", correct: true },
+      { text: "Cotton is not grown in Southern India", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following were reasons behind rising coconut oil prices in India?",
+    answers: [
+      { text: "Drought in Philippines and Indonesia", correct: true },
+      { text: "Diversion to biodiesel production", correct: true },
+      { text: "Export restrictions from Indonesia", correct: true },
+      { text: "Excess domestic production", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Salwa Judum verdict (2011), consider the following statements:\n\n1. It was a state-supported vigilante movement in Chhattisgarh.\n2. The Supreme Court upheld its continuation.\n3. Recruitment of tribal youth as SPOs was held unconstitutional.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "1 and 3 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "All three", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Left Wing Extremism (LWE) in India, consider the following statements:\n\n1. It originated in Naxalbari, West Bengal in 1967.\n2. SAMADHAN doctrine is a strategy to counter it.\n3. The Bastariya Battalion recruits only tribal youth of Odisha.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the LCA Tejas, consider the following statements:\n\n1. It was developed by ADA under DRDO.\n2. It is powered by GE F404 engines.\n3. Tejas Mk-1A has AESA radar and BVR missile capability.\n4. It is India’s first 5th generation stealth fighter.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+      { text: "All four", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to cotton cultivation in India, consider the following statements:\n\n1. India grows all four major species of cotton.\n2. The recently launched Mission for Cotton Productivity is under the Ministry of Textiles.\n3. Bt cotton was first introduced in India in 2002.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: true },
+      { text: "1 and 3 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Democratic Republic of Congo (DRC), consider the following statements:\n\n1. It is the largest producer of cobalt in the world.\n2. Coltan from the DRC is widely used in electronics.\n3. China has significant control over its mining sector.\n4. The DRC is part of the Congo Basin.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: true },
+      { text: "1 and 4 only", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -5590,8 +5796,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper24;
     } else if (selectedValue === "Paper25") {
       Questions = Paper25;
-    } else if (selectedValue === "Sustainable_Cloud_Computing_and_5G") {
-      Questions = Sustainable_Cloud_Computing_and_5G;
+    } else if (selectedValue === "Paper26") {
+      Questions = Paper26;
     } else if (selectedValue === "Cyber_Physical_Systems") {
       Questions = Cyber_Physical_Systems;
     } else if (selectedValue === "Signal_and_System") {
