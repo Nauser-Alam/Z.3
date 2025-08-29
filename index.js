@@ -5720,6 +5720,207 @@ const Paper26 = [
     ],
   },
 ];
+/////////////////////////  28 August 2025 /////////////////////////
+const Paper27 = [
+  {
+    question:
+      "Which country accounts for nearly 70% of the world’s cobalt production?",
+    answers: [
+      { text: "Kazakhstan", correct: false },
+      { text: "Argentina", correct: false },
+      { text: "The Democratic Republic of Congo", correct: true },
+      { text: "Botswana", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following minerals from DRC is widely used in smartphones and laptops?",
+    answers: [
+      { text: "Coltan (Tantalum & Niobium)", correct: true },
+      { text: "Lithium", correct: false },
+      { text: "Bauxite", correct: false },
+      { text: "Graphite", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Belt and Road Initiative (BRI) has enabled which country to dominate DRC’s mining sector?",
+    answers: [
+      { text: "USA", correct: false },
+      { text: "France", correct: false },
+      { text: "China", correct: true },
+      { text: "India", correct: false },
+    ],
+  },
+  {
+    question:
+      "Pradhan Mantri Jan Dhan Yojana (PMJDY) was launched in which year?",
+    answers: [
+      { text: "2012", correct: false },
+      { text: "2014", correct: true },
+      { text: "2016", correct: false },
+      { text: "2018", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following organizations implements the Honey Mission?",
+    answers: [
+      { text: "ICAR", correct: false },
+      { text: "Khadi and Village Industries Commission (KVIC)", correct: true },
+      { text: "NABARD", correct: false },
+      { text: "Ministry of Agriculture", correct: false },
+    ],
+  },
+  {
+    question: "The New World Screwworm is scientifically known as:",
+    answers: [
+      { text: "Anopheles stephensi", correct: false },
+      { text: "Cochliomyia hominivorax", correct: true },
+      { text: "Glossina morsitans", correct: false },
+      { text: "Culex quinquefasciatus", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which technique eradicated New World Screwworm in the U.S. during the 1960s?",
+    answers: [
+      { text: "Gene Editing", correct: false },
+      { text: "Sterile Insect Technique (SIT)", correct: true },
+      { text: "Chemical Fumigation", correct: false },
+      { text: "Biopesticides", correct: false },
+    ],
+  },
+  {
+    question: "Which state is among the top honey-producing states in India?",
+    answers: [
+      { text: "Uttar Pradesh", correct: true },
+      { text: "Punjab", correct: false },
+      { text: "Kerala", correct: false },
+      { text: "Maharashtra", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following was a major achievement of PMJDY?",
+    answers: [
+      { text: "Only 40% account ownership", correct: false },
+      {
+        text: "Direct Benefit Transfers (DBT) to beneficiaries",
+        correct: true,
+      },
+      { text: "Providing only agricultural loans", correct: false },
+      { text: "Exclusive scheme for women only", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which armed group is NOT associated with instability in the DRC?",
+    answers: [
+      { text: "M23", correct: false },
+      { text: "Allied Democratic Forces (ADF)", correct: false },
+      { text: "Mai-Mai militias", correct: false },
+      { text: "Taliban", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following are major exports/minerals of the DRC?",
+    answers: [
+      { text: "Cobalt", correct: true },
+      { text: "Gold", correct: true },
+      { text: "Diamonds", correct: true },
+      { text: "Rice", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are objectives of PMJDY?",
+    answers: [
+      { text: "Universal banking access", correct: true },
+      { text: "Financial literacy promotion", correct: true },
+      { text: "Providing free ration", correct: false },
+      { text: "Insurance and pension facilities", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following statements about Honey Mission are correct?",
+    answers: [
+      { text: "Launched in 2017", correct: true },
+      { text: "Implemented by Ministry of MSME through KVIC", correct: true },
+      { text: "Focused only on urban entrepreneurship", correct: false },
+      { text: "Supports beekeeping training", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which countries have been accused of exploiting DRC’s mineral wealth?",
+    answers: [
+      { text: "Rwanda", correct: true },
+      { text: "Uganda", correct: true },
+      { text: "Burundi", correct: true },
+      { text: "Japan", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following contributed to the re-emergence of New World Screwworm?",
+    answers: [
+      { text: "Movement of infected cattle across borders", correct: true },
+      { text: "Reduced effectiveness of sterile strains", correct: true },
+      { text: "Improved veterinary surveillance", correct: false },
+      { text: "Weak border monitoring", correct: true },
+    ],
+  },
+  {
+    question:
+      "With reference to PMJDY, consider the following statements:\n\n1. It was launched in 2014.\n2. Over half the accounts are held by women.\n3. It provides only credit facilities, not insurance.\n4. It helped in quick money transfer during COVID-19.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "All four", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Democratic Republic of Congo (DRC), consider the following statements:\n\n1. It is the world’s largest cobalt producer.\n2. China has invested heavily in its mining sector.\n3. DRC is not part of the Congo Basin.\n4. Rebel groups often profit from illegal mining.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "All four", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Honey Mission, consider the following statements:\n\n1. It was launched by the Ministry of Agriculture.\n2. It aims at enhancing rural incomes through beekeeping.\n3. India is among the top 10 exporters of honey.\n4. It provides skill training for beekeepers.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "2, 3 and 4 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+      { text: "3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to New World Screwworm, consider the following statements:\n\n1. It is a parasitic fly that lays eggs in wounds of warm-blooded animals.\n2. It was eradicated from the U.S. using the Sterile Insect Technique.\n3. Recent outbreaks have been reported in Central America.\n4. It spreads primarily through contaminated water.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1 and 4 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "All four", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to financial inclusion in India, consider the following statements:\n\n1. PMJDY has helped India achieve near-universal banking access.\n2. The World Bank has recognized PMJDY as a model program.\n3. Financial literacy remains a challenge under PMJDY.\n4. Only urban households were covered under the scheme.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1 and 4 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "All four", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -5798,8 +5999,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper25;
     } else if (selectedValue === "Paper26") {
       Questions = Paper26;
-    } else if (selectedValue === "Cyber_Physical_Systems") {
-      Questions = Cyber_Physical_Systems;
+    } else if (selectedValue === "Paper27") {
+      Questions = Paper27;
     } else if (selectedValue === "Signal_and_System") {
       Questions = Signal_and - System;
     } else if (selectedValue === "Digital_ELectronics") {
