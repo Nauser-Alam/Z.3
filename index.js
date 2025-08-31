@@ -5921,6 +5921,425 @@ const Paper27 = [
     ],
   },
 ];
+////////////////////////// 29 August 2025 /////////////////////////
+const Paper28 = [
+  {
+    question:
+      "India’s second spaceport is being developed at Kulasekarapattinam in Tamil Nadu. Its main purpose is:",
+    answers: [
+      { text: "Launching heavy communication satellites", correct: false },
+      { text: "Launching small satellites using SSLV", correct: true },
+      { text: "Testing nuclear-capable missiles", correct: false },
+      { text: "Space tourism programs", correct: false },
+    ],
+  },
+  {
+    question:
+      "From Kulasekarapattinam, rockets can launch directly southward. This advantage avoids:",
+    answers: [
+      { text: "Crossing Sri Lanka airspace", correct: true },
+      { text: "Crossing Bay of Bengal", correct: false },
+      { text: "Crossing Arabian Sea", correct: false },
+      { text: "Crossing Himalayas", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Small Satellite Launch Vehicle (SSLV) developed by ISRO can carry satellites up to:",
+    answers: [
+      { text: "200 kg into Low Earth Orbit", correct: false },
+      { text: "500 kg into Low Earth Orbit", correct: true },
+      { text: "2,000 kg into Geostationary Orbit", correct: false },
+      { text: "10,000 kg into Medium Earth Orbit", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Tungabhadra River is a major tributary of which Indian river?",
+    answers: [
+      { text: "Krishna", correct: true },
+      { text: "Godavari", correct: false },
+      { text: "Cauvery", correct: false },
+      { text: "Mahanadi", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Pranhita River, the largest tributary of the Godavari, is formed by the confluence of:",
+    answers: [
+      { text: "Gandak and Ghaghara", correct: false },
+      { text: "Wardha and Wainganga", correct: true },
+      { text: "Bhima and Tungabhadra", correct: false },
+      { text: "Musi and Manjira", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Index of Industrial Production (IIP) in India is compiled and released by:",
+    answers: [
+      { text: "Reserve Bank of India", correct: false },
+      { text: "National Statistical Office under MoSPI", correct: true },
+      { text: "NITI Aayog", correct: false },
+      { text: "Finance Commission", correct: false },
+    ],
+  },
+  {
+    question:
+      "The current base year for calculating the Index of Industrial Production (IIP) is:",
+    answers: [
+      { text: "2004-05", correct: false },
+      { text: "2011-12", correct: true },
+      { text: "2017-18", correct: false },
+      { text: "2022-23", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which river is popularly known as the ‘Dakshin Ganga’ due to its cultural and religious significance?",
+    answers: [
+      { text: "Krishna", correct: false },
+      { text: "Godavari", correct: true },
+      { text: "Cauvery", correct: false },
+      { text: "Narmada", correct: false },
+    ],
+  },
+  {
+    question: "India’s demographic dividend refers to:",
+    answers: [
+      {
+        text: "Economic growth potential due to a large working-age population",
+        correct: true,
+      },
+      {
+        text: "Increase in agricultural output due to fertile soil",
+        correct: false,
+      },
+      { text: "Migration-led population growth", correct: false },
+      { text: "Decline in dependency ratio due to ageing", correct: false },
+    ],
+  },
+  {
+    question: "The Tehri Hydropower Complex is located on which river?",
+    answers: [
+      { text: "Alaknanda", correct: false },
+      { text: "Bhagirathi", correct: true },
+      { text: "Mandakini", correct: false },
+      { text: "Dhauliganga", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are tributaries of the Brahmaputra River?",
+    answers: [
+      { text: "Dibang", correct: true },
+      { text: "Kameng", correct: true },
+      { text: "Lohit", correct: true },
+      { text: "Ghaghara", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following statements correctly describe the features of SSLV?",
+    answers: [
+      { text: "Low cost and quick turnaround time", correct: true },
+      { text: "Designed for small satellites (<500 kg)", correct: true },
+      { text: "Primarily used for geostationary satellites", correct: false },
+      { text: "Requires minimal infrastructure", correct: true },
+    ],
+  },
+  {
+    question: "Which are the major tributaries of the Krishna River?",
+    answers: [
+      { text: "Tungabhadra", correct: true },
+      { text: "Bhima", correct: true },
+      { text: "Pranhita", correct: false },
+      { text: "Musi", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following are responsibilities of the Ministry of Statistics and Programme Implementation (MoSPI)?",
+    answers: [
+      { text: "Compiling CPI and IIP", correct: true },
+      { text: "Monitoring MPLADS", correct: true },
+      { text: "Supervising RBI monetary policy", correct: false },
+      { text: "Implementing the Twenty Point Programme", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following are considered limitations of the Index of Industrial Production (IIP)?",
+    answers: [
+      { text: "It excludes the services sector", correct: true },
+      {
+        text: "It does not reflect the entire economic picture",
+        correct: true,
+      },
+      { text: "It measures only monetary value of output", correct: false },
+      { text: "It is released every five years", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Small Satellite Launch Vehicle (SSLV), consider the following statements:\n\n1. SSLV can carry up to 500 kg into Low Earth Orbit.\n2. It requires minimal launch infrastructure compared to PSLV and GSLV.\n3. SSLV is primarily designed to place satellites into geostationary orbit.\n4. SSLV offers quick and on-demand launches.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Godavari River system, consider the following statements:\n\n1. It originates from Trimbakeshwar in Maharashtra.\n2. Pranhita is its largest tributary.\n3. The Kumbh Mela is celebrated on its banks at Nashik.\n4. The Godavari directly feeds Kolleru Lake.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India’s demographic dividend, consider the following statements:\n\n1. It refers to economic potential when the working-age population is larger than dependents.\n2. In India, more than 60% of the population is below 35 years of age.\n3. Without skills and jobs, demographic dividend may become a liability.\n4. India’s median age is higher than that of Europe and USA.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Index of Industrial Production (IIP), consider the following statements:\n\n1. It is a quantum index measured in physical terms.\n2. It is compiled monthly by the NSO under MoSPI.\n3. The base year is 2011-12, soon to be revised to 2022-23.\n4. It covers mining, manufacturing, electricity, and services.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to MoSPI (Ministry of Statistics and Programme Implementation), consider the following statements:\n\n1. It compiles GDP, CPI, and IIP data.\n2. The National Statistical Commission (NSC) is a constitutional body under MoSPI.\n3. It monitors MPLADS and the Twenty Point Programme.\n4. It supervises national surveys like HCES and ASSSE.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 3 and 4 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 2 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+];
+//////////////////////// 30 August 2025 /////////////////////////
+const Paper29 = [
+  {
+    question:
+      "Which of the following correctly defines Foreign Direct Investment (FDI) in India?",
+    answers: [
+      {
+        text: "Investment by an Indian resident in Indian companies",
+        correct: false,
+      },
+      {
+        text: "Investment by a foreign resident owning ≥10% in a listed Indian company",
+        correct: true,
+      },
+      { text: "Short-term portfolio investment by FIIs", correct: false },
+      { text: "Government grants to Indian firms", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following sectors are prohibited for FDI in India?",
+    answers: [
+      { text: "Lottery and Gambling", correct: true },
+      { text: "Telecom and Airports", correct: false },
+      { text: "Oil & Gas exploration", correct: false },
+      { text: "Coal mining", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which global financial institution publishes the Global Financial Stability Report?",
+    answers: [
+      { text: "World Bank", correct: false },
+      { text: "International Monetary Fund", correct: true },
+      { text: "OECD", correct: false },
+      { text: "European Central Bank", correct: false },
+    ],
+  },
+  {
+    question:
+      "Where is the headquarters of the International Monetary Fund (IMF) located?",
+    answers: [
+      { text: "New York", correct: false },
+      { text: "Geneva", correct: false },
+      { text: "Washington D.C.", correct: true },
+      { text: "Paris", correct: false },
+    ],
+  },
+  {
+    question:
+      "The rediscovery of Crocothemis erythraea dragonfly in India was confirmed in:",
+    answers: [
+      { text: "Eastern Himalayas", correct: false },
+      { text: "Southern Western Ghats", correct: true },
+      { text: "Sundarbans", correct: false },
+      { text: "Nilgiris", correct: false },
+    ],
+  },
+  {
+    question: "Dragonflies are considered bioindicators because:",
+    answers: [
+      { text: "They feed on crops", correct: false },
+      {
+        text: "Their larvae require clean freshwater ecosystems",
+        correct: true,
+      },
+      { text: "They survive only in deserts", correct: false },
+      { text: "They live only in saltwater ecosystems", correct: false },
+    ],
+  },
+  {
+    question: "Which country initiated the Joint Crediting Mechanism (JCM)?",
+    answers: [
+      { text: "India", correct: false },
+      { text: "Japan", correct: true },
+      { text: "Germany", correct: false },
+      { text: "United States", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which article of the Paris Agreement allows bilateral carbon trading between countries?",
+    answers: [
+      { text: "Article 4", correct: false },
+      { text: "Article 6.2", correct: true },
+      { text: "Article 7", correct: false },
+      { text: "Article 12", correct: false },
+    ],
+  },
+  {
+    question: "India’s current crude oil import dependence is approximately:",
+    answers: [
+      { text: "45%", correct: false },
+      { text: "65%", correct: false },
+      { text: "85%", correct: true },
+      { text: "100%", correct: false },
+    ],
+  },
+  {
+    question: "The SATAT scheme of the Government of India is related to:",
+    answers: [
+      { text: "Solar rooftop expansion", correct: false },
+      { text: "Compressed Biogas production", correct: true },
+      { text: "Wind energy development", correct: false },
+      { text: "Nuclear energy generation", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are reports published by the IMF?",
+    answers: [
+      { text: "World Economic Outlook (WEO)", correct: true },
+      { text: "Global Financial Stability Report (GFSR)", correct: true },
+      { text: "Fiscal Monitor", correct: true },
+      { text: "Human Development Report", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which organisms are considered bioindicators of environmental quality?",
+    answers: [
+      { text: "Lichens (air quality)", correct: true },
+      { text: "Frogs & Amphibians (water quality)", correct: true },
+      { text: "Earthworms (soil fertility)", correct: true },
+      { text: "Cows (greenhouse gases)", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are India’s updated NDC commitments under the Paris Agreement?",
+    answers: [
+      { text: "Reduce emission intensity by 45% by 2030", correct: true },
+      { text: "50% of power capacity from non-fossil sources", correct: true },
+      {
+        text: "Create carbon sink of 2.5–3 billion tonnes CO₂ eq.",
+        correct: true,
+      },
+      { text: "100% renewable energy by 2030", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which are the five pillars of India’s Energy Sovereignty strategy?",
+    answers: [
+      { text: "Coal gasification", correct: true },
+      { text: "Biofuels", correct: true },
+      { text: "Nuclear energy", correct: true },
+      { text: "Green Hydrogen", correct: true },
+      { text: "Pumped Hydro storage", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following are reasons for falling Net FDI in India?",
+    answers: [
+      { text: "Rising outward FDI by Indian companies", correct: true },
+      { text: "Liberalised ODI rules", correct: true },
+      { text: "Repatriation by foreign firms", correct: true },
+      { text: "Excessive government borrowing", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Foreign Direct Investment (FDI) in India, consider the following statements:\n\n1. Investment under the Automatic Route requires prior government approval.\n2. Agriculture, coal mining, and airports are sectors where 100% FDI is allowed under the Automatic Route.\n3. Net FDI equals Gross FDI minus outward investment and repatriation.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "2 and 3 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+      { text: "3 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the International Monetary Fund (IMF), consider the following statements:\n\n1. India is a founding member of the IMF.\n2. IMF publishes the World Economic Outlook and Fiscal Monitor reports.\n3. The IMF was established in 1944 at Bretton Woods and began operations in 1947.\n4. The headquarters of IMF is located in New York.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1 and 4 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the rediscovery of Crocothemis erythraea in India, consider the following statements:\n\n1. It belongs to the order Odonata.\n2. It was earlier misidentified as Crocothemis servilia.\n3. It colonised southern India during the Pleistocene Ice Age.\n4. It is found only in desert regions of Rajasthan.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the India–Japan Joint Crediting Mechanism (JCM), consider the following statements:\n\n1. It allows Japan to claim carbon credits for emission reductions achieved in India.\n2. It is linked to Article 6.2 of the Paris Agreement on bilateral carbon trading.\n3. The National Designated Authority (NDA) is the nodal agency in India for approving projects.\n4. JCM projects will not contribute to India’s NDC targets.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India’s Energy Sovereignty strategy, consider the following statements:\n\n1. India imports around 85% of its crude oil and over 50% of its natural gas.\n2. Green Hydrogen target is 5 million metric tonnes per year by 2030.\n3. The SATAT scheme relates to nuclear energy expansion.\n4. Pumped Hydro storage is considered a backbone for renewable-heavy power grids.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -6001,10 +6420,10 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper26;
     } else if (selectedValue === "Paper27") {
       Questions = Paper27;
-    } else if (selectedValue === "Signal_and_System") {
-      Questions = Signal_and - System;
-    } else if (selectedValue === "Digital_ELectronics") {
-      Questions = Digital_Electronics;
+    } else if (selectedValue === "Paper28") {
+      Questions = Paper28;
+    } else if (selectedValue === "Paper29") {
+      Questions = Paper29;
     } else if (selectedValue === "Microprocessor_and_Microcontroller") {
       Questions = Microprocessor_and_Microcontroller;
     } else if (selectedValue === "Arduino") {
