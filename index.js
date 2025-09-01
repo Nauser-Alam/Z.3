@@ -6340,6 +6340,207 @@ const Paper29 = [
     ],
   },
 ];
+/////////////////////  //// 31 August 2025 /////////////////////////
+const Paper30 = [
+  {
+    question:
+      "The Burmese python, recently in news, is listed as which category in the IUCN Red List?",
+    answers: [
+      { text: "Endangered", correct: false },
+      { text: "Vulnerable", correct: true },
+      { text: "Critically Endangered", correct: false },
+      { text: "Least Concern", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which US state is facing ecological issues due to invasive Burmese pythons?",
+    answers: [
+      { text: "Texas", correct: false },
+      { text: "California", correct: false },
+      { text: "Florida", correct: true },
+      { text: "Arizona", correct: false },
+    ],
+  },
+  {
+    question: "Glanders disease primarily affects which group of animals?",
+    answers: [
+      { text: "Cattle", correct: false },
+      { text: "Equines (horses, mules, donkeys)", correct: true },
+      { text: "Sheep and goats", correct: false },
+      { text: "Poultry", correct: false },
+    ],
+  },
+  {
+    question: "Which bacterium causes Glanders?",
+    answers: [
+      { text: "Bacillus anthracis", correct: false },
+      { text: "Burkholderia mallei", correct: true },
+      { text: "Clostridium tetani", correct: false },
+      { text: "Mycobacterium bovis", correct: false },
+    ],
+  },
+  {
+    question:
+      "Exercise Bright Star is hosted by which country along with the USA?",
+    answers: [
+      { text: "Qatar", correct: false },
+      { text: "Egypt", correct: true },
+      { text: "Saudi Arabia", correct: false },
+      { text: "Oman", correct: false },
+    ],
+  },
+  {
+    question: "The NARI 2025 Index on Women’s Safety was released by:",
+    answers: [
+      { text: "Ministry of Women & Child Development", correct: false },
+      { text: "National Commission for Women (NCW)", correct: true },
+      { text: "NITI Aayog", correct: false },
+      { text: "Ministry of Home Affairs", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which Indian city ranked among the safest in the NARI 2025 Index?",
+    answers: [
+      { text: "Delhi", correct: false },
+      { text: "Mumbai", correct: true },
+      { text: "Patna", correct: false },
+      { text: "Jaipur", correct: false },
+    ],
+  },
+  {
+    question: "The Matsya Shakti Project is implemented by which institution?",
+    answers: [
+      {
+        text: "ICAR–Central Marine Fisheries Research Institute (CMFRI)",
+        correct: true,
+      },
+      { text: "National Fisheries Development Board", correct: false },
+      { text: "Ministry of Jal Shakti", correct: false },
+      { text: "NITI Aayog", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Export Promotion Mission (2025–31) is being led by which department?",
+    answers: [
+      { text: "Department of Economic Affairs", correct: false },
+      { text: "Department of Commerce", correct: true },
+      { text: "Department of Expenditure", correct: false },
+      { text: "Department of MSME", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is a sub-scheme under the Export Promotion Mission?",
+    answers: [
+      { text: "Niryat Protsahan", correct: true },
+      { text: "Krishi Udaan", correct: false },
+      { text: "PM Krishi Sampada", correct: false },
+      { text: "RAMP Scheme", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are natural habitats of Burmese python?",
+    answers: [
+      { text: "Grasslands", correct: true },
+      { text: "Rainforests", correct: true },
+      { text: "Mangrove forests", correct: true },
+      { text: "Arctic tundra", correct: false },
+    ],
+  },
+  {
+    question: "Consider the following about Glanders disease:",
+    answers: [
+      { text: "It is zoonotic (can affect humans).", correct: true },
+      { text: "It is caused by a virus.", correct: false },
+      { text: "It is notifiable under Indian law.", correct: true },
+      {
+        text: "Treatment of infected animals is the preferred approach.",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "Which of the following are features of Exercise Bright Star?",
+    answers: [
+      { text: "Live firing exercises", correct: true },
+      { text: "Command Post Exercises", correct: true },
+      { text: "Expert exchanges on cyber & space", correct: true },
+      { text: "Only bilateral format with India and Egypt", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following cities were ranked safest under NARI 2025?",
+    answers: [
+      { text: "Kohima", correct: true },
+      { text: "Visakhapatnam", correct: true },
+      { text: "Patna", correct: false },
+      { text: "Bhubaneswar", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following are components of the PM VIKAS scheme?",
+    answers: [
+      { text: "Seekho aur Kamao", correct: true },
+      { text: "USTTAD", correct: true },
+      { text: "Nai Roshni", correct: true },
+      { text: "Make in India", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Burmese python, consider the following statements:\n\n1. It is a non-venomous snake that kills its prey by constriction.\n2. It is native to South and Southeast Asia but invasive in Florida, USA.\n3. It is listed as Endangered in the IUCN Red List.\n4. It can remain underwater for up to 30 minutes.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Glanders disease, consider the following statements:\n\n1. It is caused by Burkholderia mallei bacterium.\n2. It is a WOAH-listed disease and must be reported internationally.\n3. India has declared it notifiable under the PCICDA Act, 2009.\n4. Vaccination is the most effective eradication strategy.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1 and 4 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Exercise Bright Star, consider the following statements:\n\n1. It is a biennial multilateral military exercise hosted by Egypt and the USA.\n2. India participated in it for the first time in 2023.\n3. The exercise focuses only on naval drills.\n4. It strengthens India’s defence diplomacy in the Middle East.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the NARI 2025 Index, consider the following statements:\n\n1. It was released by the National Commission for Women (NCW).\n2. It surveyed women in 31 Indian cities.\n3. Delhi ranked among the safest cities in the Index.\n4. The national safety score was 65%.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Export Promotion Mission (EPM), consider the following statements:\n\n1. It was announced in the Union Budget 2025–26.\n2. It will be implemented for 10 years.\n3. It has two sub-schemes: Niryat Protsahan and Niryat Disha.\n4. It is jointly driven by the Ministries of Commerce, MSME, and Finance.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 3 and 4 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -6424,8 +6625,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper28;
     } else if (selectedValue === "Paper29") {
       Questions = Paper29;
-    } else if (selectedValue === "Microprocessor_and_Microcontroller") {
-      Questions = Microprocessor_and_Microcontroller;
+    } else if (selectedValue === "Paper30") {
+      Questions = Paper30;
     } else if (selectedValue === "Arduino") {
       Questions = Arduino;
     } else if (selectedValue === "Sensors") {
