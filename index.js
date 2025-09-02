@@ -6541,6 +6541,207 @@ const Paper30 = [
     ],
   },
 ];
+//////////////////////////// 1 September 2025 /////////////////////////////
+const Paper31 = [
+  {
+    question:
+      "Indian Rosewood (Dalbergia latifolia) is commonly referred to as:",
+    answers: [
+      { text: "Ivory of the Forests", correct: true },
+      { text: "Green Gold", correct: false },
+      { text: "Timber of Kings", correct: false },
+      { text: "Living Fossil", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which Indian state has the lowest density of Rosewood according to the 2019–2025 IWST study?",
+    answers: [
+      { text: "Kerala", correct: false },
+      { text: "Karnataka", correct: false },
+      { text: "Tamil Nadu", correct: true },
+      { text: "Andhra Pradesh", correct: false },
+    ],
+  },
+  {
+    question:
+      "Dalbergia latifolia (Malabar Rosewood) is listed as which category in the IUCN Red List?",
+    answers: [
+      { text: "Least Concern", correct: false },
+      { text: "Endangered", correct: false },
+      { text: "Critically Endangered", correct: false },
+      { text: "Vulnerable", correct: true },
+    ],
+  },
+  {
+    question: "Rosewood trade is regulated under which CITES Appendix?",
+    answers: [
+      { text: "Appendix I", correct: false },
+      { text: "Appendix II", correct: true },
+      { text: "Appendix III", correct: false },
+      { text: "Not listed", correct: false },
+    ],
+  },
+  {
+    question:
+      "Red Sanders (Pterocarpus santalinus) is primarily found in which region?",
+    answers: [
+      { text: "Himalayan foothills", correct: false },
+      { text: "Rayalaseema region of Andhra Pradesh", correct: true },
+      { text: "Western Ghats of Kerala", correct: false },
+      { text: "Thar Desert of Rajasthan", correct: false },
+    ],
+  },
+  {
+    question: "Which NGO from India won the Ramon Magsaysay Award 2025?",
+    answers: [
+      { text: "Teach for India", correct: false },
+      { text: "Pratham", correct: false },
+      { text: "Educate Girls", correct: true },
+      { text: "Akshaya Patra", correct: false },
+    ],
+  },
+  {
+    question: "The Ramon Magsaysay Award is often referred to as:",
+    answers: [
+      { text: "Asia’s Nobel Prize", correct: true },
+      { text: "Asia’s Booker Prize", correct: false },
+      { text: "Asia’s Oscar", correct: false },
+      { text: "Asia’s Pulitzer", correct: false },
+    ],
+  },
+  {
+    question: "Which year did the CITES treaty come into force?",
+    answers: [
+      { text: "1963", correct: false },
+      { text: "1971", correct: false },
+      { text: "1975", correct: true },
+      { text: "1982", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which award was given to ISRO in 2014 for its peaceful use of space technology?",
+    answers: [
+      {
+        text: "Indira Gandhi Prize for Peace, Disarmament and Development",
+        correct: true,
+      },
+      { text: "Gandhi Peace Prize", correct: false },
+      { text: "Ramon Magsaysay Award", correct: false },
+      {
+        text: "Jawaharlal Nehru Prize for International Understanding",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "Killer Whales (Orcas) belong to which family?",
+    answers: [
+      { text: "Balaenidae", correct: false },
+      { text: "Delphinidae", correct: true },
+      { text: "Physeteridae", correct: false },
+      { text: "Eschrichtiidae", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are nitrogen-fixing plants?",
+    answers: [
+      { text: "Alfalfa", correct: true },
+      { text: "Chickpea", correct: true },
+      { text: "Clover", correct: true },
+      { text: "Spinach", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are Indian recipients of the Ramon Magsaysay Award?",
+    answers: [
+      { text: "Vinoba Bhave", correct: true },
+      { text: "Aruna Roy", correct: true },
+      { text: "Arvind Kejriwal", correct: true },
+      { text: "Abdul Kalam", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are ecological roles of Rosewood trees?",
+    answers: [
+      { text: "Carbon sequestration", correct: true },
+      { text: "Soil nitrogen fixation", correct: true },
+      { text: "Support as keystone species", correct: true },
+      { text: "Glacial formation", correct: false },
+    ],
+  },
+  {
+    question: "Major threats to Red Sanders include:",
+    answers: [
+      { text: "Illegal smuggling", correct: true },
+      { text: "Overexploitation", correct: true },
+      { text: "Habitat loss", correct: true },
+      { text: "Glacial melting", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are features of the Pradhan Mantri Viksit Bharat Rozgar Yojana (PMVBRY)?",
+    answers: [
+      { text: "Direct Benefit Transfer to workers", correct: true },
+      { text: "Incentives for first-time employees", correct: true },
+      { text: "Focus on manufacturing sector", correct: true },
+      { text: "Implemented in 1995", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Rosewood (Dalbergia species), consider the following statements:\n\n1. Dalbergia latifolia is listed as Vulnerable on the IUCN Red List.\n2. Rosewood is included in CITES Appendix II.\n3. Dalbergia sissoo is classified as Endangered.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Red Sanders, consider the following statements:\n\n1. It is endemic to South India.\n2. It is found in tropical rainforests.\n3. It is listed in CITES Appendix II.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "1 and 3 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Killer Whales (Orcas), consider the following statements:\n\n1. Orcas belong to the dolphin family.\n2. They live in matrilineal pods.\n3. They are listed as Endangered on the IUCN Red List.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Ramon Magsaysay Award, consider the following statements:\n\n1. It was instituted in 1958 in memory of a Philippine President.\n2. It is awarded annually in Manila, Philippines.\n3. Only individuals, not organisations, are eligible.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India’s federal design, consider the following statements:\n\n1. Article 1 of the Constitution describes India as a ‘Union of States’.\n2. Parliament can convert a State into a Union Territory permanently under Article 3.\n3. Federalism is a part of the Basic Structure Doctrine.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "1 and 3 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -6627,8 +6828,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper29;
     } else if (selectedValue === "Paper30") {
       Questions = Paper30;
-    } else if (selectedValue === "Arduino") {
-      Questions = Arduino;
+    } else if (selectedValue === "Paper31") {
+      Questions = Paper31;
     } else if (selectedValue === "Sensors") {
       Questions = Sensors;
     } else if (selectedValue === "VLSI") {
