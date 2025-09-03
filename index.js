@@ -6742,6 +6742,199 @@ const Paper31 = [
     ],
   },
 ];
+///////////////////////////// 2 September 2025 /////////////////////////////
+const Paper32 = [
+  {
+    question: "Which country recently joined SCO as a full member in 2025?",
+    answers: [
+      { text: "Iran", correct: false },
+      { text: "Belarus", correct: true },
+      { text: "Laos", correct: false },
+      { text: "Afghanistan", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Regional Anti-Terrorist Structure (RATS) of the SCO is headquartered in:",
+    answers: [
+      { text: "Beijing", correct: false },
+      { text: "Tashkent", correct: true },
+      { text: "Moscow", correct: false },
+      { text: "New Delhi", correct: false },
+    ],
+  },
+  {
+    question:
+      "India opposes the Belt and Road Initiative (BRI) primarily because:",
+    answers: [
+      { text: "It excludes India", correct: false },
+      { text: "It promotes U.S. dominance", correct: false },
+      { text: "It passes through Pakistan-occupied Kashmir", correct: true },
+      { text: "It violates WTO rules", correct: false },
+    ],
+  },
+  {
+    question: "E20 fuel refers to:",
+    answers: [
+      { text: "20% ethanol mixed with diesel", correct: false },
+      { text: "20% ethanol mixed with petrol", correct: true },
+      { text: "20% methanol blended fuel", correct: false },
+      { text: "20% hydrogen fuel mix", correct: false },
+    ],
+  },
+  {
+    question: "The Adi Vaani app was launched by:",
+    answers: [
+      { text: "Ministry of Home Affairs", correct: false },
+      { text: "Ministry of Tribal Affairs", correct: true },
+      { text: "NITI Aayog", correct: false },
+      { text: "Ministry of Culture", correct: false },
+    ],
+  },
+  {
+    question: "Which tribal language is written in the Ol Chiki script?",
+    answers: [
+      { text: "Santali", correct: true },
+      { text: "Gondi", correct: false },
+      { text: "Bhili", correct: false },
+      { text: "Kui", correct: false },
+    ],
+  },
+  {
+    question: "The 2014 Pramati case judgment dealt with:",
+    answers: [
+      { text: "Right to Free Speech", correct: false },
+      { text: "Applicability of RTE to minority schools", correct: true },
+      { text: "Reservation in promotions", correct: false },
+      { text: "Right to Internet Access", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which constitutional article gives minorities the right to establish and administer educational institutions?",
+    answers: [
+      { text: "Article 21A", correct: false },
+      { text: "Article 29", correct: false },
+      { text: "Article 30(1)", correct: true },
+      { text: "Article 350B", correct: false },
+    ],
+  },
+  {
+    question: "CEREBO, a brain diagnostic tool, works on which technology?",
+    answers: [
+      { text: "X-ray Imaging", correct: false },
+      { text: "Near-Infrared Spectroscopy", correct: true },
+      { text: "Ultrasound", correct: false },
+      { text: "Gamma Rays", correct: false },
+    ],
+  },
+  {
+    question: "Which organisation collaborated in the development of CEREBO?",
+    answers: [
+      { text: "DRDO", correct: false },
+      { text: "ICMR", correct: true },
+      { text: "BARC", correct: false },
+      { text: "ISRO", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are full members of the SCO in 2025?",
+    answers: [
+      { text: "India", correct: true },
+      { text: "Russia", correct: true },
+      { text: "Belarus", correct: true },
+      { text: "Laos", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are advantages of Ethanol Blending in petrol?",
+    answers: [
+      { text: "Reduces crude oil imports", correct: true },
+      { text: "Lowers carbon emissions", correct: true },
+      { text: "Increases mileage of old vehicles", correct: false },
+      { text: "Supports sugarcane farmers’ income", correct: true },
+    ],
+  },
+  {
+    question: "Which languages were included in Phase-1 of Adi Vaani App?",
+    answers: [
+      { text: "Gondi", correct: true },
+      { text: "Mundari", correct: true },
+      { text: "Santali", correct: true },
+      { text: "Konkani", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are recognised minority communities under the National Commission for Minorities Act, 1992?",
+    answers: [
+      { text: "Muslims", correct: true },
+      { text: "Jains", correct: true },
+      { text: "Sikhs", correct: true },
+      { text: "Anglo-Indians", correct: false },
+    ],
+  },
+  {
+    question: "Which institutions collaborated in developing CEREBO?",
+    answers: [
+      { text: "AIIMS Bhopal", correct: true },
+      { text: "NIMHANS Bengaluru", correct: true },
+      { text: "ICMR", correct: true },
+      { text: "IIT Bombay", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Shanghai Cooperation Organisation (SCO), consider the following statements:\n\n1. It was founded in 2001 out of the Shanghai Five grouping.\n2. Its Regional Anti-Terrorist Structure (RATS) is based in Moscow.\n3. India opposes the Belt and Road Initiative due to the China–Pakistan Economic Corridor.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 3 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to E20 petrol, consider the following statements:\n\n1. It refers to 20% ethanol blended with petrol.\n2. It reduces India’s crude import dependence.\n3. It increases fuel efficiency in all vehicles.\n4. Supreme Court recently refused to interfere with its rollout.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Adi Vaani App, consider the following statements:\n\n1. It was launched by the Ministry of Tribal Affairs.\n2. It aims to translate tribal languages into Hindi and English.\n3. It supports the objectives of NEP 2020 and UNESCO’s Decade of Indigenous Languages.\n4. It was initially launched with only two languages.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1 and 4 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Minority Educational Institutions in India, consider the following statements:\n\n1. Article 30(1) grants minorities the right to establish and administer educational institutions.\n2. The Pramati case (2014) exempted minority schools from RTE obligations.\n3. Minority status is determined at the national level only.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to CEREBO, consider the following statements:\n\n1. It is a portable diagnostic device for Traumatic Brain Injuries (TBIs).\n2. It uses Near-Infrared Spectroscopy and Machine Learning.\n3. It can detect intracranial bleeding and edema within a minute.\n4. It requires advanced infrastructure like MRI to function.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -6830,8 +7023,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper30;
     } else if (selectedValue === "Paper31") {
       Questions = Paper31;
-    } else if (selectedValue === "Sensors") {
-      Questions = Sensors;
+    } else if (selectedValue === "Paper32") {
+      Questions = Paper32;
     } else if (selectedValue === "VLSI") {
       Questions = VLSI;
     } else if (selectedValue === "Power_Electronics") {
