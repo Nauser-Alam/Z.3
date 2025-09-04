@@ -6935,6 +6935,206 @@ const Paper32 = [
     ],
   },
 ];
+////////////////////////////// 3 September 2025 /////////////////////////////
+const Paper33 = [
+  {
+    question:
+      "Which city hosted the Semicon India 2025 conference where PM Modi highlighted India’s semiconductor mission?",
+    answers: [
+      { text: "Bengaluru", correct: false },
+      { text: "New Delhi", correct: true },
+      { text: "Hyderabad", correct: false },
+      { text: "Chennai", correct: false },
+    ],
+  },
+  {
+    question: "The India Semiconductor Mission (ISM) was launched in:",
+    answers: [
+      { text: "2019", correct: false },
+      { text: "2021", correct: true },
+      { text: "2023", correct: false },
+      { text: "2025", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which microchip was recently launched as India’s first indigenously designed 32-bit processor?",
+    answers: [
+      { text: "Vikram-16", correct: false },
+      { text: "Vikram-32", correct: true },
+      { text: "BrahMos-32", correct: false },
+      { text: "Agni-32", correct: false },
+    ],
+  },
+  {
+    question: "The Vikram-32 chip is primarily designed for:",
+    answers: [
+      { text: "Smartphones", correct: false },
+      { text: "Space launch vehicle avionics", correct: true },
+      { text: "Quantum computers", correct: false },
+      { text: "Electric vehicles", correct: false },
+    ],
+  },
+  {
+    question: "Exercise Maitree-XIV was conducted between India and:",
+    answers: [
+      { text: "Singapore", correct: false },
+      { text: "Thailand", correct: true },
+      { text: "Indonesia", correct: false },
+      { text: "Malaysia", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Indian Navy’s First Training Squadron recently made a port call at:",
+    answers: [
+      { text: "Male, Maldives", correct: false },
+      { text: "Port Victoria, Seychelles", correct: true },
+      { text: "Colombo, Sri Lanka", correct: false },
+      { text: "Port Louis, Mauritius", correct: false },
+    ],
+  },
+  {
+    question: "COP-30 of the UNFCCC will be hosted in 2025 at:",
+    answers: [
+      { text: "Rio de Janeiro", correct: false },
+      { text: "Belem, Brazil", correct: true },
+      { text: "Paris, France", correct: false },
+      { text: "Nairobi, Kenya", correct: false },
+    ],
+  },
+  {
+    question: "The Fortaleza Declaration (2014) was associated with:",
+    answers: [
+      { text: "ASEAN", correct: false },
+      { text: "BRICS", correct: true },
+      { text: "OECD", correct: false },
+      { text: "WTO", correct: false },
+    ],
+  },
+  {
+    question:
+      "As of August 2025, how many women judges are serving in the Supreme Court of India?",
+    answers: [
+      { text: "Three", correct: false },
+      { text: "One", correct: true },
+      { text: "Five", correct: false },
+      { text: "Zero", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which blood disorder is now recognized under RPWD Act, 2016 but excluded from 4% reservation benefits?",
+    answers: [
+      { text: "Hemophilia", correct: false },
+      { text: "Sickle Cell Disease", correct: true },
+      { text: "Thalassemia Minor", correct: false },
+      { text: "Leukemia", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are challenges for India’s semiconductor industry?",
+    answers: [
+      { text: "High capital cost of fabs", correct: true },
+      { text: "Lack of skilled workforce", correct: true },
+      { text: "Supply chain gaps", correct: true },
+      { text: "Excess monsoon rains", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which institutions collaborated in the development of Vikram-32 chip?",
+    answers: [
+      { text: "Vikram Sarabhai Space Centre (VSSC)", correct: true },
+      { text: "Semiconductor Laboratory (SCL), Chandigarh", correct: true },
+      { text: "DRDO", correct: false },
+      { text: "ISRO’s Satish Dhawan Space Centre", correct: false },
+    ],
+  },
+  {
+    question: "Exercise Maitree-XIV focused on which of the following?",
+    answers: [
+      { text: "Counter-terrorism operations", correct: true },
+      { text: "Company-level drills in semi-urban terrain", correct: true },
+      { text: "UN Chapter VII peace operations", correct: true },
+      { text: "Naval amphibious landings", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are part of India–Seychelles defense cooperation?",
+    answers: [
+      { text: "Exercise Lamitye", correct: true },
+      { text: "Anti-piracy patrols", correct: true },
+      { text: "Surveillance aircraft support", correct: true },
+      { text: "Quad Maritime Patrols", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are provisions of the Rights of Persons with Disabilities (RPWD) Act, 2016?",
+    answers: [
+      {
+        text: "Expansion of recognized disabilities from 7 to 21",
+        correct: true,
+      },
+      { text: "Benchmark disability fixed at 40% impairment", correct: true },
+      { text: "Reservation quota of 4% in government jobs", correct: true },
+      { text: "Free land allocation for NGOs", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the India Semiconductor Mission (ISM), consider the following statements:\n\n1. It was launched in 2021 under the Ministry of Electronics and IT.\n2. It provides up to 50% subsidy for semiconductor fabs.\n3. Its objective is to reduce dependency on imported crude oil.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Vikram-32 chip, consider the following statements:\n\n1. It is designed for avionics systems in ISRO launch vehicles.\n2. It is India’s first indigenous microprocessor for space applications.\n3. It was fabricated at the Semiconductor Laboratory (SCL), Chandigarh.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1 and 3 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Exercise Maitree-XIV, consider the following statements:\n\n1. It is a bilateral exercise between India and Thailand.\n2. The 2025 edition was conducted in Meghalaya, India.\n3. It focused on counter-terrorist operations under UN Chapter VII.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to COP-30, consider the following statements:\n\n1. It will be held in Belem, Brazil in November 2025.\n2. Its focus is on implementation rather than new negotiations.\n3. COP-30 marks the mid-point between Paris Agreement and 2050 net-zero targets.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to women representation in the Supreme Court, consider the following statements:\n\n1. Since 1950, only 11 women have been judges of the Supreme Court.\n2. Justice B.V. Nagarathna is the only sitting woman judge as of 2025.\n3. Collegium process formally considers gender as a criterion.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -7025,8 +7225,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper31;
     } else if (selectedValue === "Paper32") {
       Questions = Paper32;
-    } else if (selectedValue === "VLSI") {
-      Questions = VLSI;
+    } else if (selectedValue === "Paper33") {
+      Questions = Paper33;
     } else if (selectedValue === "Power_Electronics") {
       Questions = Power_Electronics;
     } else if (selectedValue === "Control_System") {
