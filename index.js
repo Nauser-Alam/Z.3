@@ -7135,6 +7135,207 @@ const Paper33 = [
     ],
   },
 ];
+/////////////////////////////// 4 September 2025 /////////////////////////////
+const Paper34 = [
+  {
+    question:
+      "CEREBO, an indigenously developed diagnostic tool, works on which technology?",
+    answers: [
+      { text: "Ultrasound", correct: false },
+      { text: "Near-Infrared Spectroscopy", correct: true },
+      { text: "X-ray Imaging", correct: false },
+      { text: "Gamma rays", correct: false },
+    ],
+  },
+  {
+    question: "Which institutions collaborated to develop CEREBO?",
+    answers: [
+      {
+        text: "ICMR, AIIMS Bhopal, NIMHANS Bengaluru, Bioscan Research",
+        correct: true,
+      },
+      { text: "DRDO and ISRO", correct: false },
+      { text: "BARC and IISc", correct: false },
+      { text: "NITI Aayog and WHO", correct: false },
+    ],
+  },
+  {
+    question:
+      "The majority of Traumatic Brain Injuries (TBIs) in India are caused by:",
+    answers: [
+      { text: "Falls", correct: false },
+      { text: "Road traffic accidents", correct: true },
+      { text: "Sports injuries", correct: false },
+      { text: "Domestic violence", correct: false },
+    ],
+  },
+  {
+    question:
+      "Sickle Cell Disease (SCD) was recently recognized under which Act?",
+    answers: [
+      { text: "Epidemic Diseases Act, 1897", correct: false },
+      { text: "National Health Mission Act", correct: false },
+      { text: "RPWD Act, 2016", correct: true },
+      { text: "Public Health Act, 1955", correct: false },
+    ],
+  },
+  {
+    question: "India’s first Vulture Conservation Portal was launched in:",
+    answers: [
+      { text: "Rajasthan", correct: false },
+      { text: "Assam", correct: true },
+      { text: "Madhya Pradesh", correct: false },
+      { text: "Gujarat", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which drug is primarily responsible for the decline of vulture populations in India?",
+    answers: [
+      { text: "Ibuprofen", correct: false },
+      { text: "Diclofenac", correct: true },
+      { text: "Aspirin", correct: false },
+      { text: "Meloxicam", correct: false },
+    ],
+  },
+  {
+    question: "Ramadevarabetta Vulture Sanctuary is located in:",
+    answers: [
+      { text: "Maharashtra", correct: false },
+      { text: "Rajasthan", correct: false },
+      { text: "Karnataka", correct: true },
+      { text: "Uttar Pradesh", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which new GST slab was introduced in 2025 for sin and luxury goods?",
+    answers: [
+      { text: "28%", correct: false },
+      { text: "35%", correct: false },
+      { text: "40%", correct: true },
+      { text: "50%", correct: false },
+    ],
+  },
+  {
+    question: "The Majorana 1 quantum chip has been developed by:",
+    answers: [
+      { text: "Amazon Web Services", correct: false },
+      { text: "Google", correct: false },
+      { text: "Microsoft", correct: true },
+      { text: "IBM", correct: false },
+    ],
+  },
+  {
+    question:
+      "Exercise Bright Star 2025, in which India participated, was hosted by:",
+    answers: [
+      { text: "Greece", correct: false },
+      { text: "Egypt", correct: true },
+      { text: "Saudi Arabia", correct: false },
+      { text: "Italy", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are Critically Endangered vulture species in India?",
+    answers: [
+      { text: "White-rumped vulture", correct: true },
+      { text: "Slender-billed vulture", correct: true },
+      { text: "Red-headed vulture", correct: true },
+      { text: "Indian long-billed vulture", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following goods fall under the 0% GST category after the 2025 reforms?",
+    answers: [
+      { text: "Life-saving medicines", correct: true },
+      { text: "Individual health insurance", correct: true },
+      { text: "Luxury cars", correct: false },
+      { text: "Rotis and paneer", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following are features of Majorana 1 quantum chip?",
+    answers: [
+      { text: "Built on a topological core", correct: true },
+      { text: "Uses Majorana fermions", correct: true },
+      { text: "Jointly developed by Google and Microsoft", correct: false },
+      { text: "Creates stable qubits resistant to noise", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following countries participated in Exercise Bright Star 2025?",
+    answers: [
+      { text: "India", correct: true },
+      { text: "Egypt", correct: true },
+      { text: "USA", correct: true },
+      { text: "Qatar", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which Articles of the Indian Constitution relate to reservations and equality?",
+    answers: [
+      { text: "Article 14", correct: true },
+      { text: "Article 15", correct: true },
+      { text: "Article 16", correct: true },
+      { text: "Article 32", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to CEREBO, consider the following statements:\n\n1. It is a portable, radiation-free diagnostic device for TBIs.\n2. It can be used by paramedics and unskilled personnel.\n3. It requires MRI infrastructure to function.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Sickle Cell Disease (SCD), consider the following statements:\n\n1. It has been recognized under the RPWD Act, 2016.\n2. SCD patients are included in the 4% reservation quota.\n3. SCD disproportionately affects Adivasi and Dalit communities.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 3 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India’s Vulture Conservation efforts, consider the following statements:\n\n1. Diclofenac was banned for veterinary use in 2006.\n2. Ramadevarabetta in Karnataka is India’s first vulture sanctuary.\n3. All Indian vultures are listed as Critically Endangered by IUCN.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to GST reform of 2025, consider the following statements:\n\n1. It introduced two main slabs of 5% and 18%, plus a 40% slab for luxury and sin goods.\n2. Cement moved from 28% to 18% GST.\n3. Health and life insurance policies were moved to 0% GST.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Reservation in India, consider the following statements:\n\n1. The 50% cap on reservations was introduced in Indra Sawhney judgment (1992).\n2. The 2022 Janhit Abhiyan case upheld the 10% EWS quota.\n3. The creamy layer principle currently applies to OBCs, SCs, and STs equally.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -7227,8 +7428,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper32;
     } else if (selectedValue === "Paper33") {
       Questions = Paper33;
-    } else if (selectedValue === "Power_Electronics") {
-      Questions = Power_Electronics;
+    } else if (selectedValue === "Paper34") {
+      Questions = Paper34;
     } else if (selectedValue === "Control_System") {
       Questions = Control_System;
     } else if (selectedValue === "Circuit_Thoery") {
