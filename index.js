@@ -7336,6 +7336,205 @@ const Paper34 = [
     ],
   },
 ];
+//////////////////////////////// 5 September 2025 /////////////////////////////
+const Paper35 = [
+  {
+    question:
+      "What was India’s Total Fertility Rate (TFR) in 2023 as per SRS data?",
+    answers: [
+      { text: "2.3", correct: false },
+      { text: "2.1", correct: false },
+      { text: "1.9", correct: true },
+      { text: "1.7", correct: false },
+    ],
+  },
+  {
+    question: "Which Indian state had the highest TFR in 2023?",
+    answers: [
+      { text: "Uttar Pradesh", correct: false },
+      { text: "Bihar", correct: true },
+      { text: "Madhya Pradesh", correct: false },
+      { text: "Rajasthan", correct: false },
+    ],
+  },
+  {
+    question: "Which Indian state recorded the lowest TFR in 2023?",
+    answers: [
+      { text: "Kerala", correct: false },
+      { text: "Tamil Nadu", correct: false },
+      { text: "Delhi", correct: true },
+      { text: "Goa", correct: false },
+    ],
+  },
+  {
+    question: "Replacement level fertility corresponds to a TFR of:",
+    answers: [
+      { text: "2.1", correct: true },
+      { text: "2.5", correct: false },
+      { text: "1.9", correct: false },
+      { text: "3.0", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which state has the highest share of elderly population (60+) in India?",
+    answers: [
+      { text: "Tamil Nadu", correct: false },
+      { text: "Kerala", correct: true },
+      { text: "Punjab", correct: false },
+      { text: "Maharashtra", correct: false },
+    ],
+  },
+  {
+    question: "The Sample Registration System (SRS) is conducted by:",
+    answers: [
+      { text: "NITI Aayog", correct: false },
+      { text: "Registrar General of India", correct: true },
+      { text: "National Statistical Office", correct: false },
+      { text: "Planning Commission", correct: false },
+    ],
+  },
+  {
+    question: "Which institution topped the NIRF 2025 overall rankings?",
+    answers: [
+      { text: "IISc Bengaluru", correct: false },
+      { text: "IIT Madras", correct: true },
+      { text: "IIT Delhi", correct: false },
+      { text: "IIT Bombay", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which parameter in NIRF carries 10% weight and has been criticized for bias?",
+    answers: [
+      { text: "Teaching, Learning & Resources", correct: false },
+      { text: "Research & Professional Practice", correct: false },
+      { text: "Perception (Peer perception)", correct: true },
+      { text: "Graduation Outcomes", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which strait connects the Indian Ocean with the South China Sea?",
+    answers: [
+      { text: "Strait of Hormuz", correct: false },
+      { text: "Strait of Malacca", correct: true },
+      { text: "Sunda Strait", correct: false },
+      { text: "Bab-el-Mandeb", correct: false },
+    ],
+  },
+  {
+    question: "Which body decides GST rate cuts in India?",
+    answers: [
+      { text: "Finance Commission", correct: false },
+      { text: "GST Council", correct: true },
+      { text: "NITI Aayog", correct: false },
+      { text: "Parliament Standing Committee on Finance", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following states are still above replacement level fertility (TFR > 2.1) in 2023?",
+    answers: [
+      { text: "Bihar", correct: true },
+      { text: "Uttar Pradesh", correct: true },
+      { text: "Madhya Pradesh", correct: true },
+      { text: "Kerala", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following institutions topped their categories in NIRF 2025?",
+    answers: [
+      { text: "IIM Ahmedabad – Management", correct: true },
+      { text: "IISc Bengaluru – University & Research", correct: true },
+      { text: "AIIMS Delhi – Medicine", correct: true },
+      { text: "JNU – Law", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following areas saw India–Singapore cooperation in 2025?",
+    answers: [
+      { text: "Green energy exports", correct: true },
+      { text: "Submarine rescue", correct: true },
+      { text: "Civil nuclear energy", correct: true },
+      { text: "Space exploration", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are concerns associated with India’s demographic changes?",
+    answers: [
+      { text: "Ageing population", correct: true },
+      { text: "Regional imbalance", correct: true },
+      { text: "Risk of demographic trap", correct: true },
+      { text: "Falling literacy rates", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are GST 2.0 improvement suggestions?",
+    answers: [
+      {
+        text: "Revive National Anti-Profiteering Authority (NAA)",
+        correct: true,
+      },
+      { text: "Add more GST slabs", correct: false },
+      { text: "Simplify paperwork", correct: true },
+      { text: "Include cess on common goods", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India’s fertility trends, consider the following statements:\n\n1. India’s TFR in 2023 was below replacement level.\n2. Bihar and Uttar Pradesh remain above replacement level.\n3. Delhi recorded the lowest TFR at 1.2.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to elderly population in India, consider the following statements:\n\n1. The share of elderly (60+) is now 9.7%.\n2. Kerala has the highest elderly share in India.\n3. Assam has one of the lowest elderly shares.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to NIRF, consider the following statements:\n\n1. It was launched in 2015 by the Ministry of Education.\n2. Peer perception carries 25% weight.\n3. In 2025, IIT Madras topped the overall category for the 7th time.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 3 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India–Singapore cooperation on Malacca Straits, consider the following statements:\n\n1. The Strait of Malacca is one of the busiest shipping lanes in the world.\n2. Around 80% of China’s crude imports pass through it.\n3. India’s Andaman & Nicobar Command is strategically located near it.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to GST reforms of 2025, consider the following statements:\n\n1. The GST Council introduced major rate cuts to boost demand.\n2. A new 40% slab was applied to luxury motorcycles and expensive apparel.\n3. The estimated annual revenue loss is about ₹48,000 crore.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -7430,8 +7629,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper33;
     } else if (selectedValue === "Paper34") {
       Questions = Paper34;
-    } else if (selectedValue === "Control_System") {
-      Questions = Control_System;
+    } else if (selectedValue === "Paper35") {
+      Questions = Paper35;
     } else if (selectedValue === "Circuit_Thoery") {
       Questions = Circuit_Thoery;
     } else if (selectedValue === "Angular") {
