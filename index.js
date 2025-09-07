@@ -7535,6 +7535,208 @@ const Paper35 = [
     ],
   },
 ];
+//////////////////////////////  6 September 2025 /////////////////////////////
+const Paper36 = [
+  {
+    question:
+      "The Technology Perspective and Capability Roadmap (TPCR-2025) is a blueprint for:",
+    answers: [
+      { text: "India’s healthcare sector", correct: false },
+      { text: "India’s defence preparedness", correct: true },
+      { text: "India’s space exploration", correct: false },
+      { text: "India’s climate action", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which concept under India’s nuclear doctrine is emphasized in TPCR-2025?",
+    answers: [
+      { text: "First strike capability", correct: false },
+      { text: "Credible minimum deterrence", correct: true },
+      { text: "No use of drones", correct: false },
+      { text: "Second-strike elimination", correct: false },
+    ],
+  },
+  {
+    question: "Loitering munitions, mentioned in TPCR-2025, are also known as:",
+    answers: [
+      { text: "Smart grenades", correct: false },
+      { text: "Suicide drones", correct: true },
+      { text: "Cruise missiles", correct: false },
+      { text: "Ballistic shells", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Gaza Strip shares borders with which country to the southwest?",
+    answers: [
+      { text: "Israel", correct: false },
+      { text: "Egypt", correct: true },
+      { text: "Lebanon", correct: false },
+      { text: "Jordan", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which year did Israel withdraw its troops and settlements from Gaza?",
+    answers: [
+      { text: "1967", correct: false },
+      { text: "2005", correct: true },
+      { text: "1973", correct: false },
+      { text: "2011", correct: false },
+    ],
+  },
+  {
+    question:
+      "France announced recognition of Palestine in which international forum in 2025?",
+    answers: [
+      { text: "G20 Summit", correct: false },
+      { text: "UN General Assembly", correct: true },
+      { text: "Paris Peace Forum", correct: false },
+      { text: "OECD Council", correct: false },
+    ],
+  },
+  {
+    question: "Which organisation developed the CEREBO brain diagnostic tool?",
+    answers: [
+      { text: "ISRO", correct: false },
+      { text: "ICMR-led consortium", correct: true },
+      { text: "WHO", correct: false },
+      { text: "UNICEF", correct: false },
+    ],
+  },
+  {
+    question:
+      "The majority of Traumatic Brain Injuries (TBIs) in India are caused by:",
+    answers: [
+      { text: "Sports injuries", correct: false },
+      { text: "Road traffic accidents", correct: true },
+      { text: "Industrial accidents", correct: false },
+      { text: "Domestic violence", correct: false },
+    ],
+  },
+  {
+    question: "Sickle Cell Disease is recognized under which Act?",
+    answers: [
+      { text: "Disaster Management Act, 2005", correct: false },
+      { text: "RPWD Act, 2016", correct: true },
+      { text: "Epidemic Diseases Act, 1897", correct: false },
+      { text: "Public Health Act, 1955", correct: false },
+    ],
+  },
+  {
+    question:
+      "India’s foreign policy principle of not aligning exclusively with any bloc is called:",
+    answers: [
+      { text: "Strategic autonomy", correct: true },
+      { text: "De-hyphenation", correct: false },
+      { text: "Collective security", correct: false },
+      { text: "Nuclear neutrality", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are proposed counter-drone measures under TPCR-2025?",
+    answers: [
+      { text: "Adaptive jamming systems", correct: true },
+      { text: "Electronic denial bubbles", correct: true },
+      { text: "Drone swarms", correct: false },
+      { text: "Laser cannons", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are main border crossings of the Gaza Strip?",
+    answers: [
+      { text: "Karem Abu Salem (Kerem Shalom)", correct: true },
+      { text: "Erez Crossing", correct: true },
+      { text: "Rafah Crossing", correct: true },
+      { text: "Allenby Bridge Crossing", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are features of the CEREBO device?",
+    answers: [
+      { text: "Portable and hand-held", correct: true },
+      { text: "Uses Near-Infrared Spectroscopy", correct: true },
+      { text: "Requires MRI infrastructure", correct: false },
+      { text: "Radiation-free", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following are criticisms of Sickle Cell inclusion under RPWD Act, 2016?",
+    answers: [
+      { text: "Excluded from 4% reservation quota", correct: true },
+      {
+        text: "Certification depends on variable medical scoring",
+        correct: true,
+      },
+      { text: "Recognition limited to urban patients only", correct: false },
+      { text: "Invisible disability overlooked", correct: true },
+    ],
+  },
+  {
+    question:
+      "India balances its foreign policy through which of the following?",
+    answers: [
+      { text: "BRICS", correct: true },
+      { text: "SCO", correct: true },
+      { text: "Quad", correct: true },
+      { text: "NATO", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to TPCR-2025, consider the following statements:\n\n1. It emphasizes survivability systems for nuclear deterrence.\n2. It includes long-range stealth drones with a range up to 1,500 km.\n3. It excludes any role for electronic warfare.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Gaza Strip, consider the following statements:\n\n1. It is bordered by Israel, Egypt, and the Mediterranean Sea.\n2. It is one of the most densely populated areas in the world.\n3. Israel fully withdrew its military presence from Gaza in 2005.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to France’s recognition of Palestine, consider the following statements:\n\n1. France became the first G7 country to recognize Palestine at the UNGA in 2025.\n2. France called for a ceasefire in Gaza and humanitarian aid.\n3. India has consistently opposed Palestine’s statehood at the UN.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to CEREBO, consider the following statements:\n\n1. It can detect intracranial bleeding and edema within a minute.\n2. It is cost-effective and usable by paramedics.\n3. It was developed by ISRO for astronauts.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India’s foreign policy in 2025, consider the following statements:\n\n1. India maintains strategic autonomy in its engagements.\n2. India participates in both Quad and SCO groupings.\n3. India has stopped importing Russian crude oil due to U.S. pressure.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -7631,8 +7833,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper34;
     } else if (selectedValue === "Paper35") {
       Questions = Paper35;
-    } else if (selectedValue === "Circuit_Thoery") {
-      Questions = Circuit_Thoery;
+    } else if (selectedValue === "Paper36") {
+      Questions = Paper36;
     } else if (selectedValue === "Angular") {
       Questions = Angular;
     } else if (selectedValue === "MaterialUI") {
