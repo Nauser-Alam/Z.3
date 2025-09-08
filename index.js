@@ -7737,6 +7737,212 @@ const Paper36 = [
     ],
   },
 ];
+//////////////////////////////  7 September 2025 /////////////////////////////
+const Paper37 = [
+  {
+    question:
+      "Which of the following tribes is primarily associated with the Bodoland Territorial Region (BTR) of Assam?",
+    answers: [
+      { text: "Apatani", correct: false },
+      { text: "Bodo", correct: true },
+      { text: "Munda", correct: false },
+      { text: "Santhal", correct: false },
+    ],
+  },
+  {
+    question: "The Bodo language belongs to which language family?",
+    answers: [
+      { text: "Indo-Aryan", correct: false },
+      { text: "Dravidian", correct: false },
+      { text: "Tibeto-Burman", correct: true },
+      { text: "Austro-Asiatic", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Bodoland Territorial Council (BTC) is administered under which constitutional provision?",
+    answers: [
+      { text: "Fifth Schedule", correct: false },
+      { text: "Sixth Schedule", correct: true },
+      { text: "Seventh Schedule", correct: false },
+      { text: "Article 370", correct: false },
+    ],
+  },
+  {
+    question: "The Bodo Peace Accord of 2020 primarily aimed at:",
+    answers: [
+      {
+        text: "Resolving the border dispute with Arunachal Pradesh",
+        correct: false,
+      },
+      {
+        text: "Ending insurgency and ensuring development in BTR",
+        correct: true,
+      },
+      { text: "Providing Scheduled Caste status to Bodos", correct: false },
+      { text: "Merging BTR with Meghalaya", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following states does NOT fall under the Sixth Schedule of the Constitution?",
+    answers: [
+      { text: "Assam", correct: false },
+      { text: "Mizoram", correct: false },
+      { text: "Tripura", correct: false },
+      { text: "Nagaland", correct: true },
+    ],
+  },
+  {
+    question: "A Geographical Indication (GI) tag provides:",
+    answers: [
+      { text: "Exclusive patents for 20 years", correct: false },
+      {
+        text: "Legal protection and recognition of origin-based products",
+        correct: true,
+      },
+      { text: "Tax exemptions for agricultural products", correct: false },
+      { text: "Free export subsidies", correct: false },
+    ],
+  },
+  {
+    question: "The Apatani tribe is primarily found in:",
+    answers: [
+      { text: "Ziro Valley, Arunachal Pradesh", correct: true },
+      { text: "Bodoland, Assam", correct: false },
+      { text: "Chotanagpur Plateau, Jharkhand", correct: false },
+      { text: "Meghalaya Plateau", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following festivals is celebrated by the Apatani tribe to pray for agricultural prosperity?",
+    answers: [
+      { text: "Losar", correct: false },
+      { text: "Dree", correct: true },
+      { text: "Wangala", correct: false },
+      { text: "Hornbill", correct: false },
+    ],
+  },
+  {
+    question:
+      "According to recent studies, Earth’s safe carbon storage capacity is approximately:",
+    answers: [
+      { text: "11,800 billion tonnes", correct: false },
+      { text: "1,460 billion tonnes", correct: true },
+      { text: "500 billion tonnes", correct: false },
+      { text: "20,000 billion tonnes", correct: false },
+    ],
+  },
+  {
+    question: "Katchatheevu Island is located in:",
+    answers: [
+      { text: "Andaman Sea", correct: false },
+      { text: "Bay of Bengal", correct: false },
+      { text: "Palk Strait", correct: true },
+      { text: "Arabian Sea", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are provisions of the Bodo Peace Accord (2020)?",
+    answers: [
+      { text: "Political recognition of Bodos", correct: true },
+      { text: "Development package for BTR", correct: true },
+      { text: "Granting statehood to BTR", correct: false },
+      { text: "Rehabilitation of militants", correct: true },
+    ],
+  },
+  {
+    question: "Which of the following are GI-tagged items from Bodoland?",
+    answers: [
+      { text: "Aronai textile", correct: true },
+      { text: "Dokhona", correct: true },
+      { text: "Kanchipuram Silk", correct: false },
+      { text: "Siphung (flute)", correct: true },
+    ],
+  },
+  {
+    question:
+      "Autonomous District Councils (ADCs) under Sixth Schedule enjoy which of the following powers?",
+    answers: [
+      { text: "Legislative powers over land and forests", correct: true },
+      { text: "Judicial powers through customary laws", correct: true },
+      { text: "Appointment of Governors", correct: false },
+      { text: "Collection of certain taxes", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following are major festivals of the Apatani tribe?",
+    answers: [
+      { text: "Dree", correct: true },
+      { text: "Myoko", correct: true },
+      { text: "Murung", correct: true },
+      { text: "Saga Dawa", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following challenges are associated with Katchatheevu dispute?",
+    answers: [
+      { text: "Arrests of Indian fishermen", correct: true },
+      { text: "Marine biodiversity loss", correct: true },
+      { text: "Border fencing disputes with Bangladesh", correct: false },
+      { text: "Legal challenges in Supreme Court", correct: true },
+    ],
+  },
+  {
+    question:
+      "With reference to the Sixth Schedule of the Indian Constitution, consider the following statements:\n\n1. It provides for Autonomous District Councils in certain tribal areas of Assam, Meghalaya, Tripura, and Mizoram.\n2. These councils have powers to legislate on land, forest, water, and agriculture.\n3. Unlike Panchayati Raj, they also exercise judicial powers.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1 only", correct: false },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: true },
+    ],
+  },
+  {
+    question:
+      "With reference to the Apatani tribe, consider the following statements:\n\n1. They practise integrated rice–fish farming in terraced fields.\n2. Their festivals include Dree and Myoko.\n3. They worship the river goddess Siang as their supreme deity.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Geological Carbon Storage (GCS), consider the following statements:\n\n1. It refers to capturing CO₂ and injecting it into deep rock formations.\n2. Recent studies suggest Earth can store only about 1,460 billion tonnes of CO₂ safely.\n3. India has one of the highest global storage capacities.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Katchatheevu Island, consider the following statements:\n\n1. It is located in the Palk Strait and was ceded to Sri Lanka in 1974.\n2. Tamil Nadu fishermen traditionally use the waters around it.\n3. The island has a historical St. Anthony’s Shrine.\n4. It is permanently inhabited by Catholic fishermen.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to GI tags in Bodoland, consider the following statements:\n\n1. Over 20 items from Bodoland have received GI tags between 2023–24.\n2. GI villages are being planned to provide training and direct market linkages.\n3. Only Bodo community products are eligible for GI tags.\n4. Gandhi Hindustani Sahitya Sabha assisted in documentation workshops.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -7835,8 +8041,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper35;
     } else if (selectedValue === "Paper36") {
       Questions = Paper36;
-    } else if (selectedValue === "Angular") {
-      Questions = Angular;
+    } else if (selectedValue === "Paper37") {
+      Questions = Paper37;
     } else if (selectedValue === "MaterialUI") {
       Questions = MaterialUI;
     } else if (selectedValue === "PHP") {
