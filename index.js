@@ -7943,6 +7943,398 @@ const Paper37 = [
     ],
   },
 ];
+/////////////////////////////  8 September 2025 /////////////////////////////
+const Paper38 = [
+  {
+    question: "A 'Blood Moon' occurs during which celestial event?",
+    answers: [
+      { text: "Solar Eclipse", correct: false },
+      { text: "Total Lunar Eclipse", correct: true },
+      { text: "Partial Lunar Eclipse", correct: false },
+      { text: "Equinox", correct: false },
+    ],
+  },
+  {
+    question: "The red colour during a Blood Moon is mainly due to:",
+    answers: [
+      { text: "Volcanic activity on the Moon", correct: false },
+      { text: "Sunspot cycles", correct: false },
+      { text: "Rayleigh Scattering of sunlight", correct: true },
+      { text: "Auroral activity", correct: false },
+    ],
+  },
+  {
+    question: "Rayleigh Scattering explains why:",
+    answers: [
+      { text: "The ocean appears blue", correct: false },
+      { text: "The sky looks blue during daytime", correct: true },
+      { text: "Stars twinkle at night", correct: false },
+      { text: "The Milky Way glows", correct: false },
+    ],
+  },
+  {
+    question: "India’s diesel exports to Europe surged in 2025 mainly due to:",
+    answers: [
+      { text: "EU stockpiling before Russian fuel ban", correct: true },
+      { text: "India reducing domestic consumption", correct: false },
+      { text: "Decline in U.S. exports", correct: false },
+      { text: "India’s crude oil discoveries", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which Indian company supplied 100% of diesel exports to Europe in August 2025?",
+    answers: [
+      { text: "ONGC", correct: false },
+      { text: "Indian Oil Corporation", correct: false },
+      { text: "Reliance Industries", correct: true },
+      { text: "BPCL", correct: false },
+    ],
+  },
+  {
+    question: "India’s largest pulse-producing state is:",
+    answers: [
+      { text: "Maharashtra", correct: false },
+      { text: "Madhya Pradesh", correct: true },
+      { text: "Rajasthan", correct: false },
+      { text: "Uttar Pradesh", correct: false },
+    ],
+  },
+  {
+    question:
+      "According to NITI Aayog’s roadmap, India aims to achieve self-sufficiency in pulses by:",
+    answers: [
+      { text: "2030", correct: false },
+      { text: "2040", correct: false },
+      { text: "2047", correct: true },
+      { text: "2050", correct: false },
+    ],
+  },
+  {
+    question: "The Self-Respect Movement was founded by:",
+    answers: [
+      { text: "B.R. Ambedkar", correct: false },
+      { text: "E.V. Ramasamy Periyar", correct: true },
+      { text: "Jyotiba Phule", correct: false },
+      { text: "C. Rajagopalachari", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following practices was introduced under the Self-Respect Movement?",
+    answers: [
+      { text: "Self-Respect Marriages", correct: true },
+      { text: "Dowry prohibition", correct: false },
+      { text: "Compulsory priesthood", correct: false },
+      { text: "Temple entry movements", correct: false },
+    ],
+  },
+  {
+    question: "The 1929 Self-Respect Conference was held at:",
+    answers: [
+      { text: "Madurai", correct: false },
+      { text: "Chengalpattu", correct: true },
+      { text: "Chennai", correct: false },
+      { text: "Salem", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are results of Rayleigh Scattering?",
+    answers: [
+      { text: "Blue sky during daytime", correct: true },
+      { text: "Red-orange Sun at sunset", correct: true },
+      { text: "Green flash at horizon", correct: false },
+      { text: "Red colour of Blood Moon", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following are major drivers of India’s diesel exports to Europe in 2025?",
+    answers: [
+      { text: "EU refinery shutdowns", correct: true },
+      { text: "Discounted Russian crude refined in India", correct: true },
+      { text: "Decline in Chinese exports", correct: false },
+      { text: "West Asian refinery maintenance", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which states together contribute more than 55% of India’s pulse production?",
+    answers: [
+      { text: "Madhya Pradesh", correct: true },
+      { text: "Maharashtra", correct: true },
+      { text: "Rajasthan", correct: true },
+      { text: "Tamil Nadu", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following reforms were associated with the Self-Respect Movement?",
+    answers: [
+      { text: "Opposition to Brahminical dominance", correct: true },
+      { text: "Abolition of Devadasi system", correct: true },
+      { text: "Support for widow remarriage", correct: true },
+      { text: "Promotion of temple rituals", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following challenges affect India’s pulse production?",
+    answers: [
+      { text: "High dependence on rainfall", correct: true },
+      { text: "Low adoption of improved seeds", correct: true },
+      { text: "Excessive government subsidies", correct: false },
+      { text: "Farmers preferring rice and wheat due to MSP", correct: true },
+    ],
+  },
+  {
+    question:
+      "With reference to the phenomenon of Blood Moon, consider the following statements:\n\n1. It occurs when the Moon passes completely into Earth’s umbra.\n2. The reddish colour is due to scattering of shorter wavelengths of light.\n3. Atmospheric conditions such as dust and volcanic eruptions can affect the shade of red.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "1 and 3 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India–Europe energy dynamics, consider the following statements:\n\n1. India’s refined petroleum exports to Europe exceeded $18 billion in 2024.\n2. Reliance Industries exported the entire diesel supply to Europe in August 2025.\n3. EU’s 2026 ban prohibits fuels refined from Russian crude even if processed in third countries.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: true },
+    ],
+  },
+  {
+    question:
+      "With reference to pulse production in India, consider the following statements:\n\n1. Rabi pulses account for more than 60% of total output.\n2. Gram (chana) is the single largest pulse crop.\n3. Green gram contributes nearly half of India’s total pulse production.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Self-Respect Movement, consider the following statements:\n\n1. It was founded in Tamil Nadu by Periyar in 1925.\n2. It promoted self-respect marriages without priests.\n3. It opposed caste hierarchy and Brahminical dominance.\n4. It primarily focused on temple reforms and ritual strengthening.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to NITI Aayog’s roadmap for self-sufficiency in pulses, consider the following statements:\n\n1. It targets production of 45.79 million tonnes by 2047.\n2. The plan emphasises region-specific clusters and FPO-led seed villages.\n3. Pulses are considered eco-friendly due to nitrogen fixation and low water needs.\n4. The mission excludes crops like pigeonpea and lentil.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+];
+/////////////////////////// ///  9 September 2025 /////////////////////////////
+const Paper39 = [
+  {
+    question: "Pulikkali, or Tiger Dance, is traditionally performed during:",
+    answers: [
+      { text: "Vishu festival", correct: false },
+      { text: "Onam festival", correct: true },
+      { text: "Pongal festival", correct: false },
+      { text: "Navratri festival", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Pulikkali dance form was introduced by which ruler of Cochin?",
+    answers: [
+      { text: "Marthanda Varma", correct: false },
+      { text: "Rama Varma Sakthan Thampuran", correct: true },
+      { text: "Swathi Thirunal Rama Varma", correct: false },
+      { text: "Tipu Sultan", correct: false },
+    ],
+  },
+  {
+    question: "Vallamkali, associated with Onam, refers to:",
+    answers: [
+      { text: "A traditional women’s dance", correct: false },
+      { text: "A boat race on river Pampa", correct: true },
+      { text: "A martial art form of Kerala", correct: false },
+      { text: "A ritual fire ceremony", correct: false },
+    ],
+  },
+  {
+    question: "The Onam festival is celebrated in honor of:",
+    answers: [
+      { text: "Lord Parasurama", correct: false },
+      { text: "King Mahabali", correct: true },
+      { text: "Lord Vishnu in Narasimha form", correct: false },
+      { text: "Adi Shankara", correct: false },
+    ],
+  },
+  {
+    question: "Hilsa (Tenualosa ilisha) is best described as:",
+    answers: [
+      { text: "A freshwater fish only", correct: false },
+      { text: "A marine fish only", correct: false },
+      { text: "An anadromous fish", correct: true },
+      { text: "A catadromous fish", correct: false },
+    ],
+  },
+  {
+    question: "Hilsa is the national fish of:",
+    answers: [
+      { text: "India", correct: false },
+      { text: "Bangladesh", correct: true },
+      { text: "Sri Lanka", correct: false },
+      { text: "Pakistan", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which fish species is widely used in India to control mosquito larvae?",
+    answers: [
+      { text: "Catla", correct: false },
+      { text: "Gambusia", correct: true },
+      { text: "Hilsa", correct: false },
+      { text: "Tilapia", correct: false },
+    ],
+  },
+  {
+    question: "Maternal Mortality Ratio (MMR) is expressed as:",
+    answers: [
+      { text: "Maternal deaths per 10,000 live births", correct: false },
+      { text: "Maternal deaths per 100,000 live births", correct: true },
+      { text: "Maternal deaths per 1,000 live births", correct: false },
+      { text: "Maternal deaths per 1 million live births", correct: false },
+    ],
+  },
+  {
+    question: "Primary Amoebic Meningoencephalitis (PAM) is caused by:",
+    answers: [
+      { text: "Plasmodium falciparum", correct: false },
+      { text: "Naegleria fowleri", correct: true },
+      { text: "Acanthamoeba castellanii", correct: false },
+      { text: "Entamoeba histolytica", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following is the major breeding season for Hilsa fish?",
+    answers: [
+      { text: "Winter (Dec–Feb)", correct: false },
+      { text: "Summer (Apr–May)", correct: false },
+      { text: "Monsoon (Jul–Sep)", correct: true },
+      { text: "Post-monsoon (Oct–Nov)", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are cultural elements of Onam festival?",
+    answers: [
+      { text: "Pulikkali (Tiger Dance)", correct: true },
+      { text: "Vallamkali (Snake Boat Race)", correct: true },
+      { text: "Kaikotti Kali", correct: true },
+      { text: "Bihu Dance", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following threats affect Hilsa population?",
+    answers: [
+      { text: "Overfishing of juveniles (jatka)", correct: true },
+      { text: "River pollution", correct: true },
+      { text: "Dams blocking migration routes", correct: true },
+      { text: "Marine acidification only", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following measures have been taken for Hilsa conservation?",
+    answers: [
+      { text: "Fishing bans during breeding season", correct: true },
+      { text: "Declaration of sanctuaries", correct: true },
+      { text: "Compensation to fishermen", correct: true },
+      { text: "Promotion of deep-sea fishing", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are government schemes addressing maternal health in India?",
+    answers: [
+      { text: "Janani Suraksha Yojana (JSY)", correct: true },
+      {
+        text: "Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)",
+        correct: true,
+      },
+      { text: "LaQshya Program", correct: true },
+      { text: "Ayushman Bharat Digital Mission", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are symptoms of Primary Amoebic Meningoencephalitis (PAM)?",
+    answers: [
+      { text: "Severe headache and fever", correct: true },
+      { text: "Stiff neck and confusion", correct: true },
+      { text: "Seizures and hallucinations", correct: true },
+      { text: "Chronic cough and weight loss", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Onam festival, consider the following statements:\n\n1. It marks the beginning of the Malayalam calendar month Chingam.\n2. Vallamkali refers to a traditional dance performed by women.\n3. The festival is linked to the legend of King Mahabali.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: true },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Hilsa fish, consider the following statements:\n\n1. It belongs to the herring family (Clupeidae).\n2. It exhibits anadromous migration for breeding.\n3. Bangladesh accounts for nearly 70% of world Hilsa production.\n4. It is listed as Endangered in the IUCN Red List.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Gambusia fish, consider the following statements:\n\n1. It is native to North America.\n2. It is introduced worldwide as a biological control for mosquitoes.\n3. It feeds primarily on mosquito larvae.\n4. It has no ecological risks when introduced in new habitats.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "1 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Maternal Mortality Ratio (MMR) in India, consider the following statements:\n\n1. India’s MMR declined from 384 (2000) to 80 (2023).\n2. India has outpaced global average reduction in MMR.\n3. Sub-Saharan Africa still accounts for the majority of global maternal deaths.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1 only", correct: false },
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: true },
+    ],
+  },
+  {
+    question:
+      "With reference to Primary Amoebic Meningoencephalitis (PAM), consider the following statements:\n\n1. It is caused by Naegleria fowleri.\n2. Infection occurs mainly through nasal entry while swimming in contaminated water.\n3. The disease has a mortality rate exceeding 95% globally.\n4. Drinking contaminated water is the major cause of infection.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -8043,10 +8435,10 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper36;
     } else if (selectedValue === "Paper37") {
       Questions = Paper37;
-    } else if (selectedValue === "MaterialUI") {
-      Questions = MaterialUI;
-    } else if (selectedValue === "PHP") {
-      Questions = PHP;
+    } else if (selectedValue === "Paper38") {
+      Questions = Paper38;
+    } else if (selectedValue === "Paper39") {
+      Questions = Paper39;
     } else if (selectedValue === "Analog_Electronics") {
       Questions = Analog_Electronics;
     } else if (selectedValue === "Embedded_System") {
