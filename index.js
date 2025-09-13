@@ -8335,6 +8335,621 @@ const Paper39 = [
     ],
   },
 ];
+//////////////////////////////// 10 September 2025 /////////////////////////////
+const Paper40 = [
+  {
+    question:
+      "The Tiwa (Lalung) tribe is primarily found in which Indian state?",
+    answers: [
+      { text: "Meghalaya", correct: false },
+      { text: "Assam", correct: true },
+      { text: "Nagaland", correct: false },
+      { text: "Mizoram", correct: false },
+    ],
+  },
+  {
+    question: "The Yangli festival of the Tiwa tribe is celebrated to mark:",
+    answers: [
+      { text: "End of harvest season", correct: false },
+      { text: "Beginning of sowing season", correct: true },
+      { text: "Victory in battles", correct: false },
+      { text: "New Year celebrations", correct: false },
+    ],
+  },
+  {
+    question: "The Vice President of India is elected by:",
+    answers: [
+      { text: "Only Lok Sabha members", correct: false },
+      { text: "Members of both Houses of Parliament", correct: true },
+      {
+        text: "An electoral college including State Assemblies",
+        correct: false,
+      },
+      { text: "Only Rajya Sabha members", correct: false },
+    ],
+  },
+  {
+    question:
+      "Who adjudicates disputes related to the election of the Vice President of India?",
+    answers: [
+      { text: "Election Commission of India", correct: false },
+      { text: "Supreme Court of India", correct: true },
+      { text: "Rajya Sabha Secretariat", correct: false },
+      { text: "President of India", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which article of the Indian Constitution provides for the Vice President to act as President during a vacancy?",
+    answers: [
+      { text: "Article 63", correct: false },
+      { text: "Article 65", correct: true },
+      { text: "Article 67", correct: false },
+      { text: "Article 70", correct: false },
+    ],
+  },
+  {
+    question: "The NARI 2025 Index is released by:",
+    answers: [
+      { text: "Ministry of Women and Child Development", correct: false },
+      { text: "National Commission for Women", correct: true },
+      { text: "UN Women", correct: false },
+      { text: "NITI Aayog", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which city was ranked among the least safe in the NARI 2025 Index?",
+    answers: [
+      { text: "Kohima", correct: false },
+      { text: "Visakhapatnam", correct: false },
+      { text: "Patna", correct: true },
+      { text: "Mumbai", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Grand Ethiopian Renaissance Dam (GERD) is constructed on which river?",
+    answers: [
+      { text: "White Nile", correct: false },
+      { text: "Blue Nile", correct: true },
+      { text: "Zambezi", correct: false },
+      { text: "Congo", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Saudi Arabia Jewellery Exposition (SAJEX) 2025 was recently held in:",
+    answers: [
+      { text: "Riyadh", correct: false },
+      { text: "Jeddah", correct: true },
+      { text: "Doha", correct: false },
+      { text: "Dubai", correct: false },
+    ],
+  },
+  {
+    question:
+      "India’s first indigenous malaria vaccine AdFalciVax targets which parasite?",
+    answers: [
+      { text: "Plasmodium vivax", correct: false },
+      { text: "Plasmodium falciparum", correct: true },
+      { text: "Plasmodium malariae", correct: false },
+      { text: "Plasmodium ovale", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following festivals are associated with the Tiwa tribe?",
+    answers: [
+      { text: "Khelchawa", correct: true },
+      { text: "Yangli", correct: true },
+      { text: "Langkhun", correct: true },
+      { text: "Rongker", correct: false },
+    ],
+  },
+  {
+    question: "Which are functions of the Vice President of India?",
+    answers: [
+      { text: "Acts as President in case of vacancy", correct: true },
+      { text: "Ex-officio Chairman of Rajya Sabha", correct: true },
+      { text: "Can vote in Rajya Sabha in case of tie", correct: true },
+      { text: "Can dissolve Lok Sabha", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which cities were ranked among the safest in the NARI 2025 Index?",
+    answers: [
+      { text: "Kohima", correct: true },
+      { text: "Visakhapatnam", correct: true },
+      { text: "Aizawl", correct: true },
+      { text: "Patna", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are concerns of Egypt regarding the GERD?",
+    answers: [
+      { text: "Reduced downstream water flow", correct: true },
+      { text: "Threat to agriculture and drinking water", correct: true },
+      { text: "Flooding of the Nile Delta", correct: false },
+      { text: "Violation of international law", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which Indian firms have been licensed to manufacture AdFalciVax?",
+    answers: [
+      { text: "Biological E Ltd.", correct: true },
+      { text: "Zydus Lifesciences", correct: true },
+      { text: "Panacea Biotec", correct: true },
+      { text: "Bharat Biotech", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Tiwa (Lalung) tribe, consider the following statements:\n\n1. They are recognized as a Scheduled Tribe in Assam.\n2. They speak a Tibeto-Burman language.\n3. Their Yangli festival is celebrated annually.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Vice President of India, consider the following statements:\n\n1. The electoral college for Vice President includes members of State Legislative Assemblies.\n2. The Vice President can be removed only through impeachment like the President.\n3. The Vice President is the ex-officio Chairman of the Rajya Sabha.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "3 only", correct: true },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the NARI 2025 Index, consider the following statements:\n\n1. It was released by the National Commission for Women.\n2. The survey covered women in 31 cities across India.\n3. Mumbai and Visakhapatnam were among the safest cities.\n4. Delhi was ranked among the safest cities in India.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Grand Ethiopian Renaissance Dam (GERD), consider the following statements:\n\n1. It is located on the White Nile near Egypt’s border.\n2. It is Africa’s largest hydroelectric dam.\n3. Egypt views the dam as an existential threat.\n4. Ethiopia claims the dam is meant only for power generation.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "2, 3 and 4 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to AdFalciVax, consider the following statements:\n\n1. It is India’s first indigenous malaria vaccine.\n2. It specifically targets Plasmodium falciparum.\n3. It requires strict cold-chain storage at -20°C.\n4. It has been licensed to multiple Indian manufacturers.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+];
+/////////////////////////////////  11 September 2025 /////////////////////////////
+const Paper41 = [
+  {
+    question:
+      "Which country currently controls about 85–90% of global rare earth processing?",
+    answers: [
+      { text: "India", correct: false },
+      { text: "United States", correct: false },
+      { text: "China", correct: true },
+      { text: "Australia", correct: false },
+    ],
+  },
+  {
+    question: "Neodymium (NdFeB) magnets are widely used because:",
+    answers: [
+      { text: "They are the weakest permanent magnets", correct: false },
+      {
+        text: "They are the strongest type of rare earth magnets",
+        correct: true,
+      },
+      { text: "They cannot withstand high temperature", correct: false },
+      { text: "They are corrosion-proof without coating", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which Indian PSU is responsible for expanding refining of rare earths?",
+    answers: [
+      { text: "BHEL", correct: false },
+      { text: "Indian Rare Earths Ltd. (IREL)", correct: true },
+      { text: "SAIL", correct: false },
+      { text: "HAL", correct: false },
+    ],
+  },
+  {
+    question:
+      "ISRO’s agreement with HAL to transfer SSLV technology marks the ___ technology transfer under INSPACe.",
+    answers: [
+      { text: "10th", correct: false },
+      { text: "50th", correct: false },
+      { text: "100th", correct: true },
+      { text: "150th", correct: false },
+    ],
+  },
+  {
+    question: "The SSLV is primarily designed to launch satellites into:",
+    answers: [
+      { text: "Geostationary Orbit", correct: false },
+      { text: "Low Earth Orbit (LEO)", correct: true },
+      { text: "Medium Earth Orbit", correct: false },
+      { text: "Sun–Earth Lagrange Point", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which Indian state will host ISRO’s second spaceport at Kulasekarapattinam?",
+    answers: [
+      { text: "Kerala", correct: false },
+      { text: "Andhra Pradesh", correct: false },
+      { text: "Tamil Nadu", correct: true },
+      { text: "Odisha", correct: false },
+    ],
+  },
+  {
+    question:
+      "The main advantage of Kulasekarapattinam launch site over Sriharikota is:",
+    answers: [
+      { text: "Closer to equator for GEO launches", correct: false },
+      { text: "Avoids dog-leg maneuver saving fuel and cost", correct: true },
+      { text: "Located in Western India for easier access", correct: false },
+      { text: "Exclusively for GSLV launches", correct: false },
+    ],
+  },
+  {
+    question: "India’s current share in global shipbuilding is approximately:",
+    answers: [
+      { text: "Less than 1%", correct: true },
+      { text: "5%", correct: false },
+      { text: "10%", correct: false },
+      { text: "12%", correct: false },
+    ],
+  },
+  {
+    question:
+      "By 2047, India aims to be among the top ___ shipbuilding nations.",
+    answers: [
+      { text: "10", correct: false },
+      { text: "8", correct: false },
+      { text: "5", correct: true },
+      { text: "3", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which global initiative is India engaging with for critical mineral supply chains?",
+    answers: [
+      { text: "SAARC", correct: false },
+      { text: "Quad", correct: true },
+      { text: "OPEC", correct: false },
+      { text: "ASEAN", correct: false },
+    ],
+  },
+  {
+    question: "Which of the following are applications of Rare Earth Magnets?",
+    answers: [
+      { text: "MRI machines", correct: true },
+      { text: "Missiles and radars", correct: true },
+      { text: "Smartphones and hard drives", correct: true },
+      { text: "Organic farming", correct: false },
+    ],
+  },
+  {
+    question: "Key features of SSLV include:",
+    answers: [
+      { text: "Low cost launches", correct: true },
+      { text: "Quick turnaround time", correct: true },
+      { text: "Designed for small satellites", correct: true },
+      { text: "Heavy payload capacity of >5 tons", correct: false },
+    ],
+  },
+  {
+    question: "Government measures to boost shipbuilding in India include:",
+    answers: [
+      { text: "Shipbuilding Finance Assistance Scheme", correct: true },
+      { text: "Maritime Development Fund", correct: true },
+      { text: "National Shipbuilding Mission", correct: true },
+      { text: "Abolishing subsidies for green ships", correct: false },
+    ],
+  },
+  {
+    question:
+      "Strategic importance of rare earth diversification for India includes:",
+    answers: [
+      { text: "Reducing dependence on China", correct: true },
+      { text: "Securing EV and renewable energy transition", correct: true },
+      { text: "Strengthening defence sector", correct: true },
+      { text: "Increasing dependence on fossil fuels", correct: false },
+    ],
+  },
+  {
+    question: "India’s new shipbuilding vision (2047) includes:",
+    answers: [
+      { text: "Top 10 by 2030", correct: true },
+      { text: "Top 5 by 2047", correct: true },
+      { text: "Expanding seafarers to 25% of global workforce", correct: true },
+      { text: "Reducing maritime GDP share below 2%", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Rare Earth Elements (REEs), consider the following statements:\n\n1. They include 15 lanthanides along with Scandium and Yttrium.\n2. They are truly rare and found only in a few countries.\n3. They are critical for renewable energy, electronics, and defence technologies.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "1 and 3 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to ISRO’s SSLV, consider the following statements:\n\n1. It consists of three solid propulsion stages and one liquid propulsion module.\n2. It can carry satellites up to 500 kg into Low Earth Orbit.\n3. SSLV-D1 mission was a complete success in August 2022.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India’s new spaceport at Kulasekarapattinam, consider the following statements:\n\n1. It is located in Tamil Nadu.\n2. It mainly caters to SSLV launches.\n3. It reduces the need for a dog-leg maneuver, saving fuel and cost.\n4. It will be India’s first and only launch site.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1 and 2 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India–US Trade Relations, consider the following statements:\n\n1. Trade talks had earlier stalled due to tariff disputes.\n2. The U.S. has asked India to cut down Russian oil imports.\n3. Defence and space cooperation continue despite trade frictions.\n4. India has agreed to completely stop oil imports from Russia.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India’s Maritime Vision 2047, consider the following statements:\n\n1. India aims to raise maritime GDP share from 4% to 12%.\n2. India targets to be among top 10 maritime nations by 2030.\n3. A Maritime Development Fund of $3 billion has been announced.\n4. India currently has more than 10% share in global shipbuilding.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+];
+///////////////////////////////  12 September 2025 /////////////////////////////
+const Paper42 = [
+  // ---------------- SINGLE CORRECT TYPE (Q1–Q10) ----------------
+  {
+    question:
+      "Which Article of the Constitution outlines the Governor’s options regarding assent to State Bills?",
+    answers: [
+      { text: "Article 143", correct: false },
+      { text: "Article 200", correct: true },
+      { text: "Article 212", correct: false },
+      { text: "Article 324", correct: false },
+    ],
+  },
+  {
+    question: "Who is considered the custodian of the Constitution of India?",
+    answers: [
+      { text: "President of India", correct: false },
+      { text: "Prime Minister of India", correct: false },
+      { text: "Supreme Court of India", correct: true },
+      { text: "Lok Sabha Secretariat", correct: false },
+    ],
+  },
+  {
+    question: "The wound-healing pad developed in Kerala uses which plant?",
+    answers: [
+      { text: "Neem", correct: false },
+      { text: "Red Ivy (Strobilanthes alternata)", correct: true },
+      { text: "Tulsi", correct: false },
+      { text: "Giloy", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which bioactive molecule was isolated from Red Ivy for the first time?",
+    answers: [
+      { text: "Curcumin", correct: false },
+      { text: "Acteoside", correct: true },
+      { text: "Resveratrol", correct: false },
+      { text: "Quercetin", correct: false },
+    ],
+  },
+  {
+    question:
+      "The vessel used in the Samudra Pradakshina circumnavigation expedition is named:",
+    answers: [
+      { text: "INS Tarini", correct: false },
+      { text: "IASV Triveni", correct: true },
+      { text: "INSV Mhadei", correct: false },
+      { text: "INS Sudarshini", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following Capes will be rounded during Samudra Pradakshina expedition?",
+    answers: [
+      { text: "Cape Horn", correct: true },
+      { text: "Cape Kennedy", correct: false },
+      { text: "Cape Canaveral", correct: false },
+      { text: "Cape Wrath", correct: false },
+    ],
+  },
+  {
+    question: "Aedes mosquitoes are the primary vectors for which disease?",
+    answers: [
+      { text: "Malaria", correct: false },
+      { text: "Dengue", correct: true },
+      { text: "Kala-azar", correct: false },
+      { text: "Sleeping sickness", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which method involves infecting Aedes mosquitoes with a bacterium to block disease transmission?",
+    answers: [
+      { text: "Wolbachia method", correct: true },
+      { text: "CRISPR method", correct: false },
+      { text: "Sterile insect technique", correct: false },
+      { text: "RNAi silencing method", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which institution is conducting trials of isobutanol blending with diesel?",
+    answers: [
+      { text: "IIT Delhi", correct: false },
+      {
+        text: "Automotive Research Association of India (ARAI)",
+        correct: true,
+      },
+      { text: "CSIR–IIP", correct: false },
+      { text: "IOC R&D Centre", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which crop is most linked to India’s ethanol production under the EBP?",
+    answers: [
+      { text: "Sugarcane", correct: true },
+      { text: "Wheat", correct: false },
+      { text: "Jowar", correct: false },
+      { text: "Mustard", correct: false },
+    ],
+  },
+
+  // ---------------- MULTIPLE CORRECT TYPE (Q11–Q15) ----------------
+  {
+    question: "Which options are available to a Governor under Article 200?",
+    answers: [
+      { text: "Assent to the Bill", correct: true },
+      { text: "Withhold assent", correct: true },
+      {
+        text: "Return the Bill for reconsideration (if not a Money Bill)",
+        correct: true,
+      },
+      { text: "Dissolve the State Assembly", correct: false },
+    ],
+  },
+  {
+    question: "Properties of the Kerala wound-healing pad include:",
+    answers: [
+      { text: "Made from biodegradable polymers", correct: true },
+      { text: "Incorporates Acteoside molecule", correct: true },
+      { text: "Incorporates Neomycin sulfate", correct: true },
+      {
+        text: "Made entirely from synthetic petroleum-based plastic",
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: "Key features of the Samudra Pradakshina expedition include:",
+    answers: [
+      { text: "Tri-service women crew", correct: true },
+      { text: "Indigenously built vessel", correct: true },
+      {
+        text: "Circumnavigation covering 26,000 nautical miles",
+        correct: true,
+      },
+      { text: "Completion within 3 months", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which repellents are recommended for protection against Aedes mosquitoes?",
+    answers: [
+      { text: "DEET", correct: true },
+      { text: "Picaridin", correct: true },
+      { text: "Lemon eucalyptus-derived PMD", correct: true },
+      { text: "Citronella oil as the gold standard", correct: false },
+    ],
+  },
+  {
+    question:
+      "Advantages of isobutanol over ethanol for blending with diesel include:",
+    answers: [
+      { text: "Better miscibility with diesel", correct: true },
+      { text: "Higher energy density than ethanol", correct: true },
+      { text: "Less corrosive to engines", correct: true },
+      { text: "Higher hygroscopicity than ethanol", correct: false },
+    ],
+  },
+
+  // ---------------- STATEMENT BASED TYPE (Q16–Q20) ----------------
+  {
+    question:
+      "With reference to Governor’s assent to Bills, consider the following statements:\n\n1. The Constitution specifies a strict time limit of 3 months for Governors to decide.\n2. The Supreme Court ruled that Governors cannot indefinitely delay Bills.\n3. The Governor may reserve certain Bills for the consideration of the President.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: false },
+      { text: "2 and 3 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Kerala wound-healing pad, consider the following statements:\n\n1. It is based on the Red Ivy plant (Strobilanthes alternata).\n2. The active molecule Acteoside has anti-inflammatory and antioxidant properties.\n3. The pad is designed using nanotechnology with biodegradable polymers.\n4. It is imported technology from Japan.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Samudra Pradakshina expedition, consider the following statements:\n\n1. It is the world’s first tri-service all-women circumnavigation mission.\n2. The vessel used is IASV Triveni.\n3. The crew will cross the Equator twice and round three major Capes.\n4. A similar Indian Navy-only expedition (Navika Sagar Parikrama) was done in 2017-18.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: true },
+      { text: "1 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Aedes-borne viral diseases (ABVD), consider the following statements:\n\n1. Aedes aegypti is a vector of dengue, chikungunya, and Zika.\n2. The Wolbachia method is an eco-friendly strategy to reduce transmission.\n3. DEET is considered the gold-standard personal repellent.\n4. Fogging with insecticides is the most effective long-term solution.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to Isobutanol blending with diesel, consider the following statements:\n\n1. Isobutanol has higher energy density than ethanol.\n2. It absorbs more water than ethanol, making it less suitable for storage.\n3. ARAI is conducting trials of 10% isobutanol–diesel blends.\n4. India has already achieved 20% ethanol blending with petrol (E20).\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1, 3 and 4 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1 and 2 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -8439,12 +9054,12 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper38;
     } else if (selectedValue === "Paper39") {
       Questions = Paper39;
-    } else if (selectedValue === "Analog_Electronics") {
-      Questions = Analog_Electronics;
-    } else if (selectedValue === "Embedded_System") {
-      Questions = Embedded_Systems;
-    } else if (selectedValue === "Communication_System") {
-      Questions = Communication_Systems;
+    } else if (selectedValue === "Paper40") {
+      Questions = Paper40;
+    } else if (selectedValue === "Paper41") {
+      Questions = Paper41;
+    } else if (selectedValue === "Paper42") {
+      Questions = Paper42;
     } else if (selectedValue === "Microwave_Engineering") {
       Questions = Microwave_Engineering;
     } else if (selectedValue === "Wireless_Communications") {
