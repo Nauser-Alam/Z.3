@@ -8950,6 +8950,208 @@ const Paper42 = [
     ],
   },
 ];
+//////////////////////////////  13 September 2025 /////////////////////////////
+const Paper43 = [
+  {
+    question: "Who became Nepal’s first woman Prime Minister in 2025?",
+    answers: [
+      { text: "Bidhya Devi Bhandari", correct: false },
+      { text: "Sushila Karki", correct: true },
+      { text: "Onsari Gharti", correct: false },
+      { text: "Arzu Rana Deuba", correct: false },
+    ],
+  },
+  {
+    question: "The Gen Z protest in Nepal was mainly against:",
+    answers: [
+      { text: "Foreign intervention", correct: false },
+      {
+        text: "Lavish lifestyles and corruption of politicians",
+        correct: true,
+      },
+      { text: "Military dictatorship", correct: false },
+      { text: "Religious discrimination", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which Indian mission aims to digitise and preserve over 1 crore manuscripts?",
+    answers: [
+      { text: "Digital Bharat Mission", correct: false },
+      { text: "Knowledge India Mission", correct: false },
+      { text: "Gyan Bharatam Mission", correct: true },
+      { text: "Sanskriti Samvardhan Mission", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which article of the Indian Constitution obliges the state to protect monuments and objects of historic interest?",
+    answers: [
+      { text: "Article 29", correct: false },
+      { text: "Article 49", correct: true },
+      { text: "Article 21", correct: false },
+      { text: "Article 51A(g)", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Bakhshali Manuscript, which contains the earliest recorded use of zero, was written on:",
+    answers: [
+      { text: "Palm leaf", correct: false },
+      { text: "Cloth", correct: false },
+      { text: "Birch bark", correct: true },
+      { text: "Stone tablets", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which veterinary drug caused a drastic decline in India’s vulture population?",
+    answers: [
+      { text: "Ibuprofen", correct: false },
+      { text: "Diclofenac", correct: true },
+      { text: "Paracetamol", correct: false },
+      { text: "Meloxicam", correct: false },
+    ],
+  },
+  {
+    question: "Ramadevarabetta Vulture Sanctuary is located in which state?",
+    answers: [
+      { text: "Madhya Pradesh", correct: false },
+      { text: "Karnataka", correct: true },
+      { text: "Assam", correct: false },
+      { text: "Rajasthan", correct: false },
+    ],
+  },
+  {
+    question: "Which portal was launched in Assam for vulture conservation?",
+    answers: [
+      { text: "Wildlife Connect Portal", correct: false },
+      { text: "Avian Safety Portal", correct: false },
+      { text: "Vulture Conservation Portal", correct: true },
+      { text: "Eco-Watch Portal", correct: false },
+    ],
+  },
+  {
+    question:
+      "The amendment to RTI Act through the DPDP Act, 2023 has mainly affected which section?",
+    answers: [
+      { text: "Section 4(2)", correct: false },
+      { text: "Section 6(1)", correct: false },
+      { text: "Section 8(1)(j)", correct: true },
+      { text: "Section 10(2)", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which international partners are working with India on manuscript digitisation?",
+    answers: [
+      { text: "USA and UK", correct: false },
+      { text: "Thailand, Vietnam, and Mongolia", correct: true },
+      { text: "China and Sri Lanka", correct: false },
+      { text: "France and Germany", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are challenges faced by Sushila Karki as interim PM of Nepal?",
+    answers: [
+      { text: "Maintaining law & order", correct: true },
+      { text: "Conducting fair elections", correct: true },
+      { text: "Dissolving the UN Security Council", correct: false },
+      { text: "Investigating September 8 violence", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following are features of the Gyan Bharatam Mission?",
+    answers: [
+      { text: "Survey and documentation of manuscripts", correct: true },
+      { text: "Promotion of Indian knowledge systems research", correct: true },
+      { text: "Only preservation of printed books", correct: false },
+      { text: "Centralised digital repository", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which vultures in India are listed as Critically Endangered by IUCN?",
+    answers: [
+      { text: "White-rumped vulture", correct: true },
+      { text: "Slender-billed vulture", correct: true },
+      { text: "Red-headed vulture", correct: true },
+      { text: "Egyptian vulture", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following are constitutional provisions related to preservation of culture and heritage?",
+    answers: [
+      { text: "Article 29", correct: true },
+      { text: "Article 49", correct: true },
+      { text: "Article 21 (as interpreted by SC)", correct: true },
+      { text: "Article 110", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which threats have contributed to the decline of vulture populations in India?",
+    answers: [
+      { text: "Habitat destruction", correct: true },
+      { text: "Electrocution from power lines", correct: true },
+      { text: "Global warming", correct: false },
+      { text: "Poisoning & poaching", correct: true },
+    ],
+  },
+  {
+    question:
+      "With reference to the Gen Z protest in Nepal, consider the following statements:\n\n1. The protest was triggered by corruption and misrule of politicians.\n2. The resignation of K.P. Sharma Oli followed the killing of 19 protesters.\n3. The protesters demanded dissolution of Parliament.\n4. The Nepal Army staged a coup and assumed direct rule.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1, 2 and 4 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Gyan Bharatam Mission, consider the following statements:\n\n1. It aims to digitise over 1 crore manuscripts across India.\n2. It replaces the National Manuscripts Mission launched in 2003.\n3. It involves collaboration with countries like Thailand and Vietnam.\n4. The budget allocation for manuscript preservation was increased to Rs. 60 crore.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 3 and 4 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 4 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the RTI Act amendments through the DPDP Act, consider the following statements:\n\n1. Section 8(1)(j) was altered to broaden the definition of personal information.\n2. Public Information Officers now face heavy penalties for wrongful disclosure.\n3. The amendment increases transparency and accountability.\n4. It is feared that the amendment will weaken citizens’ monitoring of government.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to vulture conservation in India, consider the following statements:\n\n1. Diclofenac was banned for veterinary use in 2006.\n2. Captive breeding centres exist in Haryana, Assam, and West Bengal.\n3. Ramadevarabetta in Karnataka is India’s first vulture sanctuary.\n4. Vultures have no significant ecological role in disease prevention.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "1 and 4 only", correct: false },
+      { text: "2 and 4 only", correct: false },
+      { text: "3 and 4 only", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to India’s manuscript heritage, consider the following statements:\n\n1. A manuscript must be at least 75 years old to be considered heritage.\n2. Manuscripts may be written on palm leaves, birch bark, cloth, or paper.\n3. Printed books and lithographs are included in the definition of manuscripts.\n4. About 75% of manuscripts are in Sanskrit, and 25% in regional languages.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1, 2 and 3 only", correct: false },
+      { text: "2, 3 and 4 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -9060,8 +9262,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper41;
     } else if (selectedValue === "Paper42") {
       Questions = Paper42;
-    } else if (selectedValue === "Microwave_Engineering") {
-      Questions = Microwave_Engineering;
+    } else if (selectedValue === "Paper43") {
+      Questions = Paper43;
     } else if (selectedValue === "Wireless_Communications") {
       Questions = Wireless_Communications;
     } else if (selectedValue === "Optical_Communications") {
