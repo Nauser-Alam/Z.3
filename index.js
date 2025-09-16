@@ -9152,6 +9152,215 @@ const Paper43 = [
     ],
   },
 ];
+///////////////////////////  14 September 2025 /////////////////////////////
+const Paper44 = [
+  {
+    question:
+      "Which state is the largest producer of apples in India, contributing nearly 70% of national output?",
+    answers: [
+      { text: "Himachal Pradesh", correct: false },
+      { text: "Jammu & Kashmir", correct: true },
+      { text: "Uttarakhand", correct: false },
+      { text: "Arunachal Pradesh", correct: false },
+    ],
+  },
+  {
+    question: "The botanical name of apple is:",
+    answers: [
+      { text: "Mangifera indica", correct: false },
+      { text: "Malus pumila", correct: true },
+      { text: "Citrus sinensis", correct: false },
+      { text: "Prunus persica", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which climatic requirement is essential for apple cultivation in India?",
+    answers: [
+      { text: "Temperature between 21–24°C", correct: true },
+      { text: "Hot and arid climate", correct: false },
+      { text: "Heavy rainfall exceeding 2000 mm", correct: false },
+      { text: "Sea-level cultivation", correct: false },
+    ],
+  },
+  {
+    question: "Which local apple variety is specific to Kashmir?",
+    answers: [
+      { text: "Ambri", correct: true },
+      { text: "Golden Delicious", correct: false },
+      { text: "McIntosh", correct: false },
+      { text: "Tydeman’s Early", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which of the following best describes Foreign Direct Investment (FDI)?",
+    answers: [
+      { text: "Short-term speculative investment", correct: false },
+      { text: "Long-term, non-debt creating capital flow", correct: true },
+      {
+        text: "Purchase of government securities by foreigners",
+        correct: false,
+      },
+      { text: "Purely portfolio-based investment", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which country receives the highest share of India’s outward FDI in recent years?",
+    answers: [
+      { text: "Mauritius", correct: false },
+      { text: "Singapore", correct: true },
+      { text: "United States", correct: false },
+      { text: "United Kingdom", correct: false },
+    ],
+  },
+  {
+    question:
+      "The Immigration and Foreigners Act, 2025 replaced how many earlier laws?",
+    answers: [
+      { text: "Two", correct: false },
+      { text: "Three", correct: false },
+      { text: "Four", correct: true },
+      { text: "Five", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which organisation is legally empowered for the first time under the Immigration and Foreigners Rules, 2025?",
+    answers: [
+      { text: "Border Security Force", correct: false },
+      { text: "Foreigners Tribunal", correct: false },
+      { text: "Bureau of Immigration", correct: true },
+      { text: "National Crime Records Bureau", correct: false },
+    ],
+  },
+  {
+    question:
+      "India’s first bamboo-based bioethanol plant was inaugurated in which state?",
+    answers: [
+      { text: "Mizoram", correct: false },
+      { text: "Assam", correct: true },
+      { text: "Meghalaya", correct: false },
+      { text: "Nagaland", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which is NOT a by-product of the bamboo-based bioethanol plant in Assam?",
+    answers: [
+      { text: "Acetic acid", correct: false },
+      { text: "Furfural", correct: false },
+      { text: "Polyvinyl chloride", correct: true },
+      { text: "Food-grade liquid CO₂", correct: false },
+    ],
+  },
+
+  // Multiple correct (Q11–Q15)
+  {
+    question:
+      "Which of the following are included in India’s Production Linked Incentive (PLI) scheme sectors?",
+    answers: [
+      { text: "Mobile phones", correct: true },
+      { text: "Pharmaceuticals", correct: true },
+      { text: "Lottery and gambling", correct: false },
+      { text: "White goods (ACs & LEDs)", correct: true },
+    ],
+  },
+  {
+    question: "Which are challenges faced in apple cultivation in India?",
+    answers: [
+      { text: "Climate change reducing chilling hours", correct: true },
+      { text: "Post-harvest losses due to poor storage", correct: true },
+      { text: "Excessive soil salinity in Kashmir valley", correct: false },
+      { text: "Competition from imported apples", correct: true },
+    ],
+  },
+  {
+    question:
+      "Which of the following are advantages of bamboo cultivation in India?",
+    answers: [
+      { text: "Acts as a carbon sink", correct: true },
+      { text: "Restores degraded land", correct: true },
+      { text: "Harvest-ready within 3–5 years", correct: true },
+      { text: "Requires Arctic-like conditions", correct: false },
+    ],
+  },
+  {
+    question:
+      "Which are major reasons Indian companies route FDI through tax havens?",
+    answers: [
+      { text: "Tax efficiency and stability", correct: true },
+      {
+        text: "Ease of fundraising through neutral jurisdictions",
+        correct: true,
+      },
+      { text: "Government-mandated requirement", correct: false },
+      { text: "Setting up Special Purpose Vehicles (SPVs)", correct: true },
+    ],
+  },
+  {
+    question: "Which factors contribute to antibiotic misuse in India?",
+    answers: [
+      { text: "Provider perception of patient demand", correct: true },
+      { text: "Financial incentives being the main driver", correct: false },
+      { text: "OTC availability of antibiotics", correct: true },
+      { text: "Knowledge gaps among rural practitioners", correct: true },
+    ],
+  },
+
+  // Statement type (Q16–Q20)
+  {
+    question:
+      "With reference to India’s outward FDI, consider the following statements:\n\n1. Over 50% of India’s outward FDI goes to tax havens like Singapore and Mauritius.\n2. Joint ventures form a large part of such investments.\n3. The ultimate destination of funds is always the first-level tax haven country.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to bamboo cultivation in India, consider the following statements:\n\n1. India ranks second in the world in bamboo resources after China.\n2. Northeast India accounts for about two-thirds of India’s bamboo resources.\n3. The Indian Forest Act 1927 still treats bamboo as a tree.\n\nWhich of the statements given above is/are correct?",
+    answers: [
+      { text: "1 and 2 only", correct: true },
+      { text: "2 and 3 only", correct: false },
+      { text: "1 and 3 only", correct: false },
+      { text: "1, 2 and 3", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Immigration and Foreigners Act, 2025, consider the following statements:\n\n1. It legally empowers the Bureau of Immigration for the first time.\n2. It replaces four earlier laws on immigration and foreigners.\n3. It makes biometric data collection mandatory for all foreigners.\n4. It provides Long Term Visa eligibility to all foreign students in India.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 3 only", correct: true },
+      { text: "2 and 4 only", correct: false },
+      { text: "1 and 4 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to antibiotic misuse in India, consider the following statements:\n\n1. Childhood diarrhoea is mostly viral but is often treated with antibiotics.\n2. Know-do gap is a larger driver of antibiotic misuse than knowledge gap.\n3. Financial incentives are the primary reason for antibiotic overuse.\n4. Patients generally value trust and care more than antibiotics.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1 and 3 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+  {
+    question:
+      "With reference to the Supreme Court pendency issue (2025), consider the following statements:\n\n1. Over 88,000 cases are pending in the Supreme Court.\n2. Despite full sanctioned strength of judges, backlog continues to rise.\n3. A permanent National Court of Appeal already exists to reduce pendency.\n4. Reforms include partial working days during summer vacations.\n\nWhich of the above statements is/are correct?",
+    answers: [
+      { text: "1, 2 and 4 only", correct: true },
+      { text: "1, 3 and 4 only", correct: false },
+      { text: "2 and 3 only", correct: false },
+      { text: "1, 2, 3 and 4", correct: false },
+    ],
+  },
+];
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -9264,8 +9473,8 @@ document.addEventListener("DOMContentLoaded", function () {
       Questions = Paper42;
     } else if (selectedValue === "Paper43") {
       Questions = Paper43;
-    } else if (selectedValue === "Wireless_Communications") {
-      Questions = Wireless_Communications;
+    } else if (selectedValue === "Paper44") {
+      Questions = Paper44;
     } else if (selectedValue === "Optical_Communications") {
       Questions = Optical_Communication;
     } else if (selectedValue === "Mobile_Communications") {
